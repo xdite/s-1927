@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <!-- 背景 -->
+  <rect width="600" height="400" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- 大脑 - 城市中心 -->
+  <ellipse cx="150" cy="100" rx="80" ry="60" fill="#f9f" stroke="#333" stroke-width="2"/>
+  <text x="150" y="105" font-family="Arial" font-size="16" text-anchor="middle">大脑</text>
+  <text x="150" y="125" font-family="Arial" font-size="12" text-anchor="middle">(城市指挥中心)</text>
+  
+  <!-- 脊髓 - 主干道 -->
+  <rect x="200" y="180" width="200" height="40" rx="5" ry="5" fill="#ccf" stroke="#333" stroke-width="2"/>
+  <text x="300" y="205" font-family="Arial" font-size="16" text-anchor="middle">脊髓</text>
+  <text x="300" y="225" font-family="Arial" font-size="12" text-anchor="middle">(城市主干道)</text>
+  
+  <!-- 连接线 - 大脑到脊髓 -->
+  <path d="M190,140 Q220,160 240,180" fill="none" stroke="#333" stroke-width="2"/>
+  <polygon points="240,180 230,172 235,165" fill="#333"/>
+  
+  <!-- 脊神经 - 分支道路 -->
+  <rect x="120" y="280" width="140" height="40" rx="5" ry="5" fill="#ccf" stroke="#333" stroke-width="2"/>
+  <text x="190" y="305" font-family="Arial" font-size="16" text-anchor="middle">脊神经</text>
+  <text x="190" y="325" font-family="Arial" font-size="12" text-anchor="middle">(分支道路)</text>
+  
+  <!-- 全身组织 - 社区 -->
+  <rect x="340" y="280" width="140" height="40" rx="5" ry="5" fill="#ccf" stroke="#333" stroke-width="2"/>
+  <text x="410" y="305" font-family="Arial" font-size="16" text-anchor="middle">全身组织细胞</text>
+  <text x="410" y="325" font-family="Arial" font-size="12" text-anchor="middle">(城市各社区)</text>
+  
+  <!-- 连接线 - 脊髓到脊神经 -->
+  <path d="M250,220 Q220,250 200,280" fill="none" stroke="#333" stroke-width="2"/>
+  <polygon points="200,280 196,270 205,270" fill="#333"/>
+  
+  <!-- 连接线 - 脊神经到全身组织 -->
+  <path d="M260,300 L340,300" fill="none" stroke="#333" stroke-width="2"/>
+  <polygon points="340,300 330,296 330,304" fill="#333"/>
+  
+  <!-- 装饰元素 - 信息流 -->
+  <circle cx="225" cy="160" r="5" fill="#ff9" stroke="#333" stroke-width="1">
+    <animate attributeName="cy" from="140" to="180" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="225" cy="250" r="5" fill="#ff9" stroke="#333" stroke-width="1">
+    <animate attributeName="cy" from="220" to="280" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="300" cy="300" r="5" fill="#ff9" stroke="#333" stroke-width="1">
+    <animate attributeName="cx" from="260" to="340" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 图例说明 -->
+  <text x="300" y="380" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic">
+    神经系统如同城市交通网络，将信息从中心传递到各个角落
+  </text>
+</svg>

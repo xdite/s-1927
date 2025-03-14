@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">脊椎调整技术的演变</text>
+  
+  <!-- 时间线 -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#666" stroke-width="3"/>
+  <circle cx="150" cy="400" r="8" fill="#5b9bd5"/>
+  <circle cx="300" cy="400" r="8" fill="#5b9bd5"/>
+  <circle cx="450" cy="400" r="8" fill="#5b9bd5"/>
+  <circle cx="600" cy="400" r="8" fill="#5b9bd5"/>
+  
+  <!-- 时间段标签 -->
+  <text x="150" y="430" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">早期</text>
+  <text x="300" y="430" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">中期</text>
+  <text x="450" y="430" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">后期</text>
+  <text x="600" y="430" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">现代</text>
+  
+  <!-- 早期阶段 -->
+  <g transform="translate(150, 250)">
+    <!-- 治疗师 -->
+    <circle cx="-30" cy="-60" r="15" fill="#5b9bd5"/> <!-- 头 -->
+    <line x1="-30" y1="-45" x2="-30" y2="0" stroke="#5b9bd5" stroke-width="5"/> <!-- 身体 -->
+    <line x1="-30" y1="-40" x2="-50" y2="-20" stroke="#5b9bd5" stroke-width="4"/> <!-- 左臂 -->
+    <line x1="-30" y1="-40" x2="0" y2="-25" stroke="#5b9bd5" stroke-width="4"/> <!-- 右臂上部 -->
+    <line x1="0" y1="-25" x2="20" y2="-15" stroke="#5b9bd5" stroke-width="4"/> <!-- 右臂下部 -->
+    <line x1="-30" y1="0" x2="-40" y2="30" stroke="#5b9bd5" stroke-width="4"/> <!-- 左腿 -->
+    <line x1="-30" y1="0" x2="-20" y2="30" stroke="#5b9bd5" stroke-width="4"/> <!-- 右腿 -->
+    
+    <!-- 患者 -->
+    <rect x="30" y="-40" width="50" height="15" fill="#f0c674" rx="2"/> <!-- 治疗台 -->
+    <circle cx="40" cy="-55" r="10" fill="#ed9d9d"/> <!-- 头 -->
+    <line x1="40" y1="-45" x2="70" y2="-45" stroke="#ed9d9d" stroke-width="4"/> <!-- 身体 -->
+    <line x1="40" y1="-45" x2="30" y2="-30" stroke="#ed9d9d" stroke-width="3"/> <!-- 左臂 -->
+    <line x1="70" y1="-45" x2="80" y2="-30" stroke="#ed9d9d" stroke-width="3"/> <!-- 右臂 -->
+    
+    <!-- 推力箭头 -->
+    <line x1="20" y1="-15" x2="35" y2="-30" stroke="#ff6b6b" stroke-width="2"/>
+    <polygon points="35,-30 28,-26 32,-22" fill="#ff6b6b"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="60" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">推</text>
+    <text x="0" y="80" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">缺乏规则</text>
+  </g>
+  
+  <!-- 中期阶段 -->
+  <g transform="translate(300, 250)">
+    <!-- 治疗师 -->
+    <circle cx="-30" cy="-60" r="15" fill="#5b9bd5"/> <!-- 头 -->
+    <line x1="-30" y1="-45" x2="-30" y2="0" stroke="#5b9bd5" stroke-width="5"/> <!-- 身体 -->
+    <line x1="-30" y1="-40" x2="-50" y2="-20" stroke="#5b9bd5" stroke-width="4"/> <!-- 左臂 -->
+    <line x1="-30" y1="-40" x2="0" y2="-25" stroke="#5b9bd5" stroke-width="4"/> <!-- 右臂上部 -->
+    <line x1="0" y1="-25" x2="20" y2="-15" stroke="#5b9bd5" stroke-width="4"/> <!-- 右臂下部 -->
+    <line x1="-30" y1="0" x2="-40" y2="30" stroke="#5b9bd5" stroke-width="4"/> <!-- 左腿 -->
+    <line x1="-30" y1="0" x2="-20" y2="30" stroke="#5b9bd5" stroke-width="4"/> <!-- 右腿 -->
+    
+    <!-- 患者 -->
+    <rect x="30" y="-40" width="50" height="15" fill="#f0c674" rx="2"/> <!-- 治疗台 -->
+    <circle cx="40" cy="-55" r="10" fill="#ed9d9d"/> <!-- 头 -->
+    <line x1="40" y1="-45" x2="70" y2="-45" stroke="#ed9d9d" stroke-width="4"/> <!-- 身体 -->
+    <line x1="40" y1="-45" x2="30" y2="-30" stroke="#ed9d9d" stroke-width="3"/> <!-- 左臂 -->
+    <line x1="70" y1="-45" x2="80" y2="-30" stroke="#ed9d9d" stroke-width="3"/> <!-- 右臂 -->
+    
+    <!-- 推拉箭头 -->
+    <line x1="20" y1="-15" x2="35" y2="-30" stroke="#ff6b6b" stroke-width="2"/>
+    <polygon points="35,-30 28,-26 32,-22" fill="#ff6b6b"/>
+    <line x1="20" y1="-15" x2="35" y2="-5" stroke="#4ecdc4" stroke-width="2"/>
+    <polygon points="35,-5 28,-9 32,-13" fill="#4ecdc4"/>
+    
+    <!-- 生物力学符号 -->
+    <path d="M-10,10 Q0,0 10,10 Q20,20 30,10" stroke="#666" stroke-width="1" fill="none"/>
+    <path d="M-10,15 Q0,5 10,15 Q20,25 30,15" stroke="#666" stroke-width="1" fill="none"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="60" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">推拉</text>
+    <text x="0" y="80" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">研究生物力学</text>
+  </g>
+  
+  <!-- 后期阶段 -->
+  <g transform="translate(450, 250)">
+    <!-- 治疗师 -->
+    <circle cx="-30" cy="-60" r="15" fill="#5b9bd5"/> <!-- 头 -->
+    <line x1="-30" y1="-45" x2="-30" y2="0" stroke="#5b9bd5" stroke-width="5"/> <!-- 身体 -->
+    <line x1="-30" y1="-40" x2="-50" y2="-20" stroke="#5b9bd5" stroke-width="4"/> <!-- 左臂 -->
+    <line x1="-30" y1="-40" x2="0" y2="-25" stroke="#5b9bd5" stroke-width="4"/> <!-- 右臂上部 -->
+    <line x1="0" y1="-25" x2="20" y2="-15" stroke="#5b9bd5" stroke-width="4"/> <!-- 右臂下部 -->
+    <line x1="-30" y1="0" x2="-40" y2="30" stroke="#5b9bd5" stroke-width="4"/> <!-- 左腿 -->
+    <line x1="-30" y1="0" x2="-20" y2="30" stroke="#5b9bd5" stroke-width="4"/> <!-- 右腿 -->
+    
+    <!-- 患者 -->
+    <rect x="30" y="-40" width="50" height="15" fill="#f0c674" rx="2"/> <!-- 治疗台 -->
+    <circle cx="40" cy="-55" r="10" fill="#ed9d9d"/> <!-- 头 -->
+    <line x1="40" y1="-45" x2="70" y2="-45" stroke="#ed9d9d" stroke-width="4"/> <!-- 身体 -->
+    <line x1="40" y1="-45" x2="30" y2="-30" stroke="#ed9d9d" stroke-width="3"/> <!-- 左臂 -->
+    <line x1="70" y1="-45" x2="80" y2="-30" stroke="#ed9d9d" stroke-width="3"/> <!-- 右臂 -->
+    
+    <!-- 回弹箭头 -->
+    <path d="M20,-15 C30,-25 40,-25 35,-15 C30,-5 20,-5 25,-15" stroke="#4ecdc4" stroke-width="2" fill="none"/>
+    <polygon points="25,-15 22,-8 28,-9" fill="#4ecdc4"/>
+    
+    <!-- X光片 -->
+    <rect x="-60" y="10" width="20" height="30" fill="white" stroke="#666"/>
+    <line x1="-55" y1="15" x2="-45" y2="15" stroke="#666" stroke-width="1"/>
+    <line x1="-55" y1="20" x2="-45" y2="20" stroke="#666" stroke-width="1"/>
+    <line x1="-55" y1="25" x2="-45" y2="25" stroke="#666" stroke-width="1"/>
+    <line x1="-55" y1="30" x2="-45" y2="30" stroke="#666" stroke-width="1"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="60" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">回弹</text>
+    <text x="0" y="80" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">结合脊椎摄影</text>
+  </g>
+  
+  <!-- 现代阶段 -->
+  <g transform="translate(600, 250)">
+    <!-- 治疗师 -->
+    <circle cx="-30" cy="-60" r="15" fill="#5b9bd5"/> <!-- 头 -->
+    <line x1="-30" y1="-45" x2="-30" y2="0" stroke="#5b9bd5" stroke-width="5"/> <!-- 身体 -->
+    <line x1="-30" y1="-40" x2="-50" y2="-20" stroke="#5b9bd5" stroke-width="4"/> <!-- 左臂 -->
+    <line x1="-30" y1="-40" x2="0" y2="-25" stroke="#5b9bd5" stroke-width="4"/> <!-- 右臂上部 -->
+    <line x1="0" y1="-25" x2="20" y2="-15" stroke="#5b9bd5" stroke-width="4"/> <!-- 右臂下部 -->
+    <line x1="-30" y1="0" x2="-40" y2="30" stroke="#5b9bd5" stroke-width="4"/> <!-- 左腿 -->
+    <line x1="-30" y1="0" x2="-20" y2="30" stroke="#5b9bd5" stroke-width="4"/> <!-- 右腿 -->
+    
+    <!-- 患者 -->
+    <rect x="30" y="-40" width="50" height="15" fill="#f0c674" rx="2"/> <!-- 治疗台 -->
+    <circle cx="40" cy="-55" r="10" fill="#ed9d9d"/> <!-- 头 -->
+    <line x1="40" y1="-45" x2="70" y2="-45" stroke="#ed9d9d" stroke-width="4"/> <!-- 身体 -->
+    <line x1="40" y1="-45" x2="30" y2="-30" stroke="#ed9d9d" stroke-width="3" transform="rotate(-10 40 -45)"/> <!-- 左臂 -->
+    <line x1="70" y1="-45" x2="80" y2="-30" stroke="#ed9d9d" stroke-width="3" transform="rotate(10 70 -45)"/> <!-- 右臂 -->
+    
+    <!-- 髋部回弹 -->
+    <circle cx="55" cy="-45" r="8" fill="none" stroke="#ff6b6b" stroke-width="1" stroke-dasharray="2"/>
+    <path d="M45,-45 C50,-55 60,-55 55,-45 C50,-35 40,-35 45,-45" stroke="#4ecdc4" stroke-width="2" fill="none"/>
+    <polygon points="45,-45 42,-38 48,-39" fill="#4ecdc4"/>
+    
+    <!-- 新姿势提示 -->
+    <line x1="55" y1="-25" x2="55" y2="-5" stroke="#666" stroke-dasharray="3" stroke-width="1"/>
+    <circle cx="55" cy="-5" r="3" fill="#666"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="60" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">髋部回弹</text>
+    <text x="0" y="80" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">结合新姿势</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="470" font-family="Arial" font-size="12" text-anchor="middle" fill="#666" font-style="italic">
+    就像舞蹈教学从简单推步到精确髋部回弹的演变，脊椎调整技术也经历了类似的精进过程
+  </text>
+</svg>

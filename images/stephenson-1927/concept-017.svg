@@ -1,0 +1,88 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">功能性神经 vs 代谢性神经</text>
+  
+  <!-- 人体轮廓 -->
+  <g transform="translate(350, 200)">
+    <!-- 头部 -->
+    <circle cx="0" cy="-60" r="30" fill="#e0e0e0" stroke="#555" stroke-width="2"/>
+    <!-- 身体 -->
+    <path d="M-30,0 Q0,-20 30,0 L30,100 Q0,120 -30,100 Z" fill="#e0e0e0" stroke="#555" stroke-width="2"/>
+    <!-- 手臂 -->
+    <path d="M-30,10 L-70,50" stroke="#555" stroke-width="2" fill="none"/>
+    <path d="M30,10 L70,50" stroke="#555" stroke-width="2" fill="none"/>
+    <!-- 腿部 -->
+    <path d="M-20,100 L-25,170" stroke="#555" stroke-width="2" fill="none"/>
+    <path d="M20,100 L25,170" stroke="#555" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- 功能性神经 - 交通管理中心 -->
+  <g transform="translate(150, 200)">
+    <rect x="-80" y="-60" width="160" height="120" rx="10" ry="10" fill="#f0e6ff" stroke="#6a4c93" stroke-width="2"/>
+    <text x="0" y="-30" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">功能性神经</text>
+    <text x="0" y="0" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">(交通管理中心)</text>
+    <text x="0" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">协调身体各部分活动</text>
+    
+    <!-- 交通灯图标 -->
+    <g transform="translate(-40, -10) scale(0.7)">
+      <rect x="-10" y="-30" width="20" height="60" rx="3" ry="3" fill="#444"/>
+      <circle cx="0" cy="-20" r="8" fill="#ff0000"/>
+      <circle cx="0" cy="0" r="8" fill="#ffff00"/>
+      <circle cx="0" cy="20" r="8" fill="#00ff00"/>
+    </g>
+    
+    <!-- 道路图标 -->
+    <g transform="translate(40, -10)">
+      <rect x="-30" y="-5" width="60" height="10" fill="#888"/>
+      <line x1="-30" y1="0" x2="30" y2="0" stroke="#fff" stroke-width="2" stroke-dasharray="5,5"/>
+    </g>
+  </g>
+  
+  <!-- 代谢性神经 - 供水电力中心 -->
+  <g transform="translate(650, 200)">
+    <rect x="-80" y="-60" width="160" height="120" rx="10" ry="10" fill="#e6f7ff" stroke="#4c93af" stroke-width="2"/>
+    <text x="0" y="-30" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">代谢性神经</text>
+    <text x="0" y="0" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">(供水电力中心)</text>
+    <text x="0" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">影响组织的生命质量</text>
+    
+    <!-- 水滴图标 -->
+    <g transform="translate(-40, -10)">
+      <path d="M0,-15 C10,-15 15,-5 15,5 C15,15 5,15 0,15 C-5,15 -15,15 -15,5 C-15,-5 -10,-15 0,-15" fill="#4c93af"/>
+      <path d="M0,-10 C5,-10 10,-5 10,0 C10,5 5,10 0,10 C-5,10 -10,5 -10,0 C-10,-5 -5,-10 0,-10" fill="#e6f7ff"/>
+    </g>
+    
+    <!-- 电力图标 -->
+    <g transform="translate(40, -10)">
+      <path d="M0,-15 L5,0 L-5,0 L0,15" fill="#ffcc00" stroke="#ffcc00" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- 连接线 - 功能性神经到人体 -->
+  <g>
+    <path d="M230,200 C280,180 280,180 320,180" stroke="#6a4c93" stroke-width="3" fill="none"/>
+    <path d="M230,220 C280,240 280,240 320,220" stroke="#6a4c93" stroke-width="3" fill="none"/>
+    <path d="M230,180 C260,150 290,150 320,150" stroke="#6a4c93" stroke-width="3" fill="none"/>
+    <!-- 箭头 -->
+    <polygon points="320,180 310,176 310,184" fill="#6a4c93"/>
+    <polygon points="320,220 310,216 310,224" fill="#6a4c93"/>
+    <polygon points="320,150 310,146 310,154" fill="#6a4c93"/>
+  </g>
+  
+  <!-- 连接线 - 代谢性神经到人体 -->
+  <g>
+    <path d="M570,200 C520,180 520,180 480,180" stroke="#4c93af" stroke-width="3" fill="none"/>
+    <path d="M570,220 C520,240 520,240 480,220" stroke="#4c93af" stroke-width="3" fill="none"/>
+    <path d="M570,180 C540,150 510,150 480,150" stroke="#4c93af" stroke-width="3" fill="none"/>
+    <!-- 箭头 -->
+    <polygon points="480,180 490,176 490,184" fill="#4c93af"/>
+    <polygon points="480,220 490,216 490,224" fill="#4c93af"/>
+    <polygon points="480,150 490,146 490,154" fill="#4c93af"/>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="420" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">功能性神经如同城市交通管理中心，协调各部分活动；</text>
+  <text x="400" y="450" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">代谢性神经如同供水电力系统，保障基本生命质量。</text>
+</svg>

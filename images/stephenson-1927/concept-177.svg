@@ -1,0 +1,50 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 上层建筑：大脑(Superior Meric System) -->
+  <rect x="150" y="80" width="500" height="150" rx="10" fill="#e1f5fe" stroke="#0288d1" stroke-width="2"/>
+  <text x="400" y="110" font-family="Arial" font-size="18" text-anchor="middle" fill="#01579b">Superior Meric System (大脑理论划分)</text>
+  
+  <!-- 下层建筑：内脏(Inferior Meric System) -->
+  <rect x="150" y="350" width="500" height="150" rx="10" fill="#e8f5e9" stroke="#388e3c" stroke-width="2"/>
+  <text x="400" y="380" font-family="Arial" font-size="18" text-anchor="middle" fill="#1b5e20">Inferior Meric System (下部内脏神经系统)</text>
+  
+  <!-- 上层分区 -->
+  <rect x="180" y="130" width="80" height="80" rx="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <rect x="280" y="130" width="80" height="80" rx="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <rect x="380" y="130" width="80" height="80" rx="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <rect x="480" y="130" width="80" height="80" rx="5" fill="#bbdefb" stroke="#1976d2" stroke-width="1"/>
+  <rect x="540" y="130" width="80" height="80" rx="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2"/>
+  <text x="580" y="175" font-family="Arial" font-size="12" text-anchor="middle" fill="#b71c1c">头痛区域</text>
+  
+  <!-- 下层分区 -->
+  <rect x="180" y="400" width="80" height="80" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <rect x="280" y="400" width="80" height="80" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <rect x="380" y="400" width="80" height="80" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <rect x="480" y="400" width="80" height="80" rx="5" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+  <rect x="540" y="400" width="80" height="80" rx="5" fill="#ffcdd2" stroke="#d32f2f" stroke-width="2"/>
+  <text x="580" y="445" font-family="Arial" font-size="12" text-anchor="middle" fill="#b71c1c">问题区域</text>
+  
+  <!-- 连接线 -->
+  <line x1="220" y1="210" x2="220" y2="400" stroke="#90caf9" stroke-width="2"/>
+  <line x1="320" y1="210" x2="320" y2="400" stroke="#90caf9" stroke-width="2"/>
+  <line x1="420" y1="210" x2="420" y2="400" stroke="#90caf9" stroke-width="2"/>
+  <line x1="520" y1="210" x2="520" y2="400" stroke="#90caf9" stroke-width="2"/>
+  
+  <!-- 问题区域到头痛区域的连接 -->
+  <line x1="580" y1="400" x2="580" y2="210" stroke="#f44336" stroke-width="3" stroke-dasharray="5,3"/>
+  <circle cx="580" cy="300" r="15" fill="#f44336"/>
+  <text x="580" y="305" font-family="Arial" font-size="16" text-anchor="middle" fill="white">!</text>
+  
+  <!-- 图例 -->
+  <rect x="620" y="280" width="20" height="20" fill="#90caf9" stroke="#1976d2" stroke-width="1"/>
+  <text x="650" y="295" font-family="Arial" font-size="14" fill="#333">神经连接</text>
+  
+  <line x1="620" y1="320" x2="640" y2="320" stroke="#f44336" stroke-width="3" stroke-dasharray="5,3"/>
+  <text x="650" y="325" font-family="Arial" font-size="14" fill="#333">不适信号传递</text>
+  
+  <!-- 标题和说明 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">内脏神经系统 (Meric System)</text>
+  <text x="400" y="550" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">当下部内脏区域出现问题时，大脑中对应区域会产生不适，就像智能房屋的下层故障会触发上层控制室警报</text>
+</svg>

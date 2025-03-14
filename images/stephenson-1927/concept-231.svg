@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">身体资源集中调整原理</text>
+  
+  <!-- 分隔线 -->
+  <line x1="400" y1="60" x2="400" y2="420" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 左侧：分散资源（低效） -->
+  <text x="200" y="80" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#c0392b">分散资源（低效）</text>
+  
+  <!-- 左侧：小镇建筑 -->
+  <rect x="100" y="100" width="60" height="60" fill="#ecf0f1" stroke="#95a5a6"/>
+  <polygon points="100,100 160,100 130,80" fill="#e74c3c" stroke="#c0392b"/>
+  <rect x="120" y="140" width="20" height="20" fill="#3498db"/>
+  
+  <rect x="180" y="120" width="70" height="50" fill="#ecf0f1" stroke="#95a5a6"/>
+  <polygon points="180,120 250,120 215,90" fill="#e74c3c" stroke="#c0392b"/>
+  <rect x="200" y="140" width="20" height="30" fill="#3498db"/>
+  
+  <rect x="270" y="110" width="80" height="70" fill="#ecf0f1" stroke="#95a5a6"/>
+  <polygon points="270,110 350,110 310,80" fill="#e74c3c" stroke="#c0392b"/>
+  <rect x="300" y="150" width="20" height="30" fill="#3498db"/>
+  
+  <!-- 左侧：小火和分散的消防车 -->
+  <circle cx="130" cy="90" r="8" fill="#e74c3c">
+    <animate attributeName="r" values="8;10;8" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="215" cy="100" r="10" fill="#e74c3c">
+    <animate attributeName="r" values="10;12;10" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="310" cy="95" r="12" fill="#e74c3c">
+    <animate attributeName="r" values="12;14;12" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 分散的消防车 -->
+  <rect x="120" y="180" width="20" height="10" fill="#c0392b"/>
+  <circle cx="125" cy="190" r="3" fill="#333"/>
+  <circle cx="135" cy="190" r="3" fill="#333"/>
+  
+  <rect x="210" y="200" width="20" height="10" fill="#c0392b"/>
+  <circle cx="215" cy="210" r="3" fill="#333"/>
+  <circle cx="225" cy="210" r="3" fill="#333"/>
+  
+  <rect x="300" y="190" width="20" height="10" fill="#c0392b"/>
+  <circle cx="305" cy="200" r="3" fill="#333"/>
+  <circle cx="315" cy="200" r="3" fill="#333"/>
+  
+  <!-- 左侧的水滴（资源少） -->
+  <path d="M125,170 Q123,165 125,160 Q127,165 125,170" fill="#3498db"/>
+  <path d="M215,190 Q213,185 215,180 Q217,185 215,190" fill="#3498db"/>
+  <path d="M305,180 Q303,175 305,170 Q307,175 305,180" fill="#3498db"/>
+  
+  <!-- 左侧结果说明 -->
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">"霰弹枪式"调整</text>
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">资源分散，修复效率低</text>
+  
+  <!-- 右侧：集中资源（高效） -->
+  <text x="600" y="80" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#27ae60">集中资源（高效）</text>
+  
+  <!-- 右侧：小镇建筑 -->
+  <rect x="500" y="100" width="60" height="60" fill="#ecf0f1" stroke="#95a5a6"/>
+  <polygon points="500,100 560,100 530,80" fill="#bdc3c7"/>
+  <rect x="520" y="140" width="20" height="20" fill="#3498db"/>
+  
+  <rect x="580" y="120" width="70" height="50" fill="#ecf0f1" stroke="#95a5a6"/>
+  <polygon points="580,120 650,120 615,90" fill="#e74c3c" stroke="#c0392b"/>
+  <polygon points="580,120 650,120 615,90" fill="#e74c3c" stroke="#c0392b"/>
+  <rect x="600" y="140" width="20" height="30" fill="#3498db"/>
+  
+  <rect x="670" y="110" width="80" height="70" fill="#ecf0f1" stroke="#95a5a6"/>
+  <polygon points="670,110 750,110 710,80" fill="#bdc3c7"/>
+  <rect x="700" y="150" width="20" height="30" fill="#3498db"/>
+  
+  <!-- 右侧：集中的消防车和水柱 -->
+  <circle cx="615" cy="100" r="15" fill="#e74c3c">
+    <animate attributeName="r" values="15;18;15" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 集中的消防车 -->
+  <rect x="590" y="180" width="50" height="15" fill="#c0392b"/>
+  <circle cx="600" cy="195" r="5" fill="#333"/>
+  <circle cx="630" cy="195" r="5" fill="#333"/>
+  
+  <!-- 右侧的水柱（资源多） -->
+  <path d="M615,170 C610,150 620,150 615,130 C610,150 620,150 615,170" fill="#3498db" opacity="0.7">
+    <animate attributeName="d" values="M615,170 C610,150 620,150 615,130 C610,150 620,150 615,170;M615,170 C605,150 625,150 615,130 C605,150 625,150 615,170;M615,170 C610,150 620,150 615,130 C610,150 620,150 615,170" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- 右侧结果说明 -->
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">集中处理主要问题</text>
+  <text x="600" y="260" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">资源高效利用，修复效果好</text>
+  
+  <!-- 箭头指向流程 -->
+  <path d="M200,280 L200,300 L400,300 L600,300 L600,280" fill="none" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">改进策略</text>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部解释性文字 -->
+  <rect x="100" y="350" width="600" height="70" rx="5" ry="5" fill="#f0f0f0" stroke="#ddd"/>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    <tspan x="400" dy="0">就像消防队集中资源扑灭主要火灾一样，</tspan>
+    <tspan x="400" dy="20">身体的修复系统也应该集中资源调整一个局部问题，</tspan>
+    <tspan x="400" dy="20">而不是分散精力同时处理多个问题，这样能提高整体修复效率。</tspan>
+  </text>
+</svg>

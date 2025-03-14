@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 建筑工地/房屋框架 -->
+  <polygon points="150,400 150,200 400,100 650,200 650,400" fill="none" stroke="#555" stroke-width="3"/>
+  <line x1="150" y1="200" x2="400" y2="300" stroke="#555" stroke-width="3"/>
+  <line x1="400" y1="300" x2="650" y2="200" stroke="#555" stroke-width="3"/>
+  <line x1="400" y1="100" x2="400" y2="300" stroke="#555" stroke-width="3"/>
+  
+  <!-- 大书本 -->
+  <g transform="translate(400, 480) rotate(-5)">
+    <rect x="-120" y="-40" width="240" height="30" fill="#d9b3ff" stroke="#333" stroke-width="2"/>
+    <rect x="-120" y="-40" width="240" height="10" fill="#c990ff" stroke="#333" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">CHIROPRACTIC TEXTBOOK</text>
+  </g>
+  
+  <!-- 系统性 - 建筑图纸 -->
+  <g transform="translate(200, 180)">
+    <rect x="-60" y="-40" width="120" height="80" fill="#ccf" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="0" y="-15" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">系统性</text>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">整理原则</text>
+    <!-- 图纸符号 -->
+    <rect x="-30" y="20" width="60" height="40" fill="none" stroke="#555" stroke-width="1"/>
+    <line x1="-20" y1="30" x2="20" y2="30" stroke="#555" stroke-width="1"/>
+    <line x1="-20" y1="40" x2="20" y2="40" stroke="#555" stroke-width="1"/>
+    <line x1="-20" y1="50" x2="10" y2="50" stroke="#555" stroke-width="1"/>
+  </g>
+  
+  <!-- 可读性 - 教学/解释 -->
+  <g transform="translate(400, 220)">
+    <rect x="-60" y="-40" width="120" height="80" fill="#ccf" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="0" y="-15" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">可读性</text>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">通俗易懂</text>
+    <!-- 文本符号 -->
+    <rect x="-30" y="20" width="60" height="40" fill="none" stroke="#555" stroke-width="1"/>
+    <line x1="-20" y1="30" x2="20" y2="30" stroke="#555" stroke-width="1"/>
+    <line x1="-20" y1="40" x2="20" y2="40" stroke="#555" stroke-width="1"/>
+    <line x1="-20" y1="50" x2="10" y2="50" stroke="#555" stroke-width="1"/>
+  </g>
+  
+  <!-- 实践性 - 工具 -->
+  <g transform="translate(600, 180)">
+    <rect x="-60" y="-40" width="120" height="80" fill="#ccf" stroke="#333" stroke-width="2" rx="5"/>
+    <text x="0" y="-15" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">实践性</text>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">课堂使用</text>
+    <!-- 工具符号 -->
+    <line x1="-20" y1="40" x2="20" y2="40" stroke="#555" stroke-width="2"/>
+    <rect x="-10" y="30" width="20" height="10" fill="#555"/>
+  </g>
+  
+  <!-- 连接线 -->
+  <line x1="400" y1="440" x2="200" y2="220" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="400" y1="440" x2="400" y2="260" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="400" y1="440" x2="600" y2="220" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- 人物 - 建筑师/老师 -->
+  <g transform="translate(320, 350)">
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="15" fill="#f5d0a9"/>
+    <!-- 身体 -->
+    <line x1="0" y1="15" x2="0" y2="60" stroke="#333" stroke-width="2"/>
+    <!-- 手臂 -->
+    <line x1="0" y1="25" x2="-25" y2="40" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="25" x2="15" y2="40" stroke="#333" stroke-width="2"/>
+    <!-- 腿 -->
+    <line x1="0" y1="60" x2="-15" y2="90" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="60" x2="15" y2="90" stroke="#333" stroke-width="2"/>
+    <!-- 安全帽 -->
+    <path d="M-15,-5 Q0,-25 15,-5" fill="none" stroke="#ffcc00" stroke-width="2"/>
+    <rect x="-15" y="-5" width="30" height="5" fill="#ffcc00"/>
+  </g>
+  
+  <!-- 人物 - 学生 -->
+  <g transform="translate(480, 370)">
+    <!-- 头 -->
+    <circle cx="0" cy="0" r="15" fill="#f5d0a9"/>
+    <!-- 身体 -->
+    <line x1="0" y1="15" x2="0" y2="60" stroke="#333" stroke-width="2"/>
+    <!-- 手臂 -->
+    <line x1="0" y1="25" x2="-20" y2="15" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="25" x2="20" y2="35" stroke="#333" stroke-width="2"/>
+    <!-- 腿 -->
+    <line x1="0" y1="60" x2="-15" y2="90" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="60" x2="15" y2="90" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333" font-weight="bold">脊骨神经医学教科书的价值</text>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    就像好的建筑手册能帮助建造坚固的房屋，这本教科书能帮助学习者建立扎实的脊骨神经医学知识体系
+  </text>
+</svg>

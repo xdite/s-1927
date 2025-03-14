@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2c3e50">病症与因素的关系模型</text>
+  
+  <!-- 城市布局背景 -->
+  <rect x="100" y="100" width="600" height="400" rx="10" fill="#e8f4f8" stroke="#a8c6d0" stroke-width="2" />
+  
+  <!-- 主干道 - Major Condition -->
+  <path d="M 150 300 L 650 300" stroke="#3498db" stroke-width="25" stroke-linecap="round" />
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">主干道 (Major Condition)</text>
+  
+  <!-- 支路 - Minor Condition -->
+  <path d="M 250 300 L 250 200" stroke="#3498db" stroke-width="12" stroke-linecap="round" />
+  <path d="M 550 300 L 550 200" stroke="#3498db" stroke-width="12" stroke-linecap="round" />
+  <text x="250" y="180" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">支路 (Minor Condition)</text>
+  <text x="550" y="180" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">支路 (Minor Condition)</text>
+  
+  <!-- 主要路障 - Major Factor -->
+  <rect x="380" y="290" width="40" height="20" fill="#e74c3c" rx="5" />
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">主要路障 (Major Factor)</text>
+  
+  <!-- 次要路障 - Minor Factor -->
+  <rect x="245" y="230" width="10" height="10" fill="#e74c3c" rx="2" />
+  <rect x="545" y="230" width="10" height="10" fill="#e74c3c" rx="2" />
+  <text x="250" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">次要路障</text>
+  <text x="250" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">(Minor Factor)</text>
+  <text x="550" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">次要路障</text>
+  <text x="550" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">(Minor Factor)</text>
+  
+  <!-- 重要建筑 -->
+  <rect x="150" y="150" width="50" height="30" fill="#3498db" rx="5" />
+  <text x="175" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">医院</text>
+  
+  <rect x="600" y="150" width="50" height="30" fill="#3498db" rx="5" />
+  <text x="625" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">商业中心</text>
+  
+  <!-- 次要建筑 -->
+  <rect x="230" y="120" width="40" height="20" fill="#95a5a6" rx="3" />
+  <rect x="530" y="120" width="40" height="20" fill="#95a5a6" rx="3" />
+  <text x="250" y="135" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">住宅区</text>
+  <text x="550" y="135" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="white">小商店</text>
+  
+  <!-- 图例 -->
+  <rect x="150" y="520" width="500" height="60" rx="5" fill="white" stroke="#ddd" stroke-width="1" />
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">城市交通系统比喻：主干道(主要病症)和支路(次要病症)上的路障(因素)影响整个系统运转</text>
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">清除主干道的障碍(主要因素)是恢复系统正常运转的关键</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 宇宙智能 - 宇宙控制室 -->
+  <circle cx="400" cy="80" r="60" fill="#e6f7ff" stroke="#4a90e2" stroke-width="2"/>
+  <text x="400" y="85" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">宇宙智能</text>
+  <text x="400" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(Universal Intelligence)</text>
+  
+  <!-- 天赋智能 - 城市指挥中心 -->
+  <rect x="320" y="200" width="160" height="100" rx="10" fill="#e6ffe6" stroke="#50b83c" stroke-width="2"/>
+  <text x="400" y="240" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">天赋智能</text>
+  <text x="400" y="260" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(Innate Intelligence)</text>
+  <path d="M400 140 L400 200" stroke="#4a90e2" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="420" y="170" font-family="Arial" font-size="12" fill="#666">赋予力量</text>
+  
+  <!-- 脑细胞 - 通信部门 -->
+  <polygon points="320,350 480,350 450,430 350,430" fill="#ffe6e6" stroke="#e24a4a" stroke-width="2"/>
+  <text x="400" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">脑细胞</text>
+  <text x="400" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(Brain Cell)</text>
+  <path d="M400 300 L400 350" stroke="#50b83c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="420" y="330" font-family="Arial" font-size="12" fill="#666">传递力量</text>
+  
+  <!-- 组织细胞 - 工作站 -->
+  <ellipse cx="400" cy="500" rx="80" ry="50" fill="#fff2e6" stroke="#f5a623" stroke-width="2"/>
+  <text x="400" y="495" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">组织细胞</text>
+  <text x="400" y="515" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(Tissue Cell)</text>
+  <path d="M400 430 L400 450" stroke="#e24a4a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="440" y="445" font-family="Arial" font-size="12" fill="#666">精神冲动</text>
+  
+  <!-- 反馈循环 -->
+  <path d="M350 500 C200 500, 200 300, 320 300" stroke="#f5a623" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="220" y="420" font-family="Arial" font-size="12" fill="#666">印象</text>
+  
+  <path d="M320 280 C200 280, 200 150, 320 150" stroke="#e24a4a" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="220" y="230" font-family="Arial" font-size="12" fill="#666">感觉</text>
+  
+  <!-- 智力适应循环 -->
+  <path d="M480 250 C550 250, 550 250, 480 250" stroke="#50b83c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="550" y="240" font-family="Arial" font-size="12" fill="#666">智力适应</text>
+  
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- 图例说明 -->
+  <text x="400" y="580" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
+    生命能量如同城市指挥系统：宇宙总部提供能量，城市指挥中心协调各部门，
+    通过通信网络发送指令并接收反馈，不断调整以维持城市平衡。
+  </text>
+</svg>

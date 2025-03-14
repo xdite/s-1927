@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f9f7f2" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#3a7563">身体适应与遗传特性</text>
+  
+  <!-- Left Section: Innate Intelligence -->
+  <g transform="translate(150, 140)">
+    <!-- Gardener (Innate Intelligence) -->
+    <circle cx="0" cy="0" r="40" fill="#e8f4ea"/>
+    <path d="M0,-15 C10,-15 10,15 0,15 C-10,15 -10,-15 0,-15" fill="#3a7563"/>
+    <circle cx="-10" cy="-5" r="3" fill="#333"/>
+    <circle cx="10" cy="-5" r="3" fill="#333"/>
+    <path d="M-5,5 C0,10 5,10 5,5" stroke="#333" fill="none" stroke-width="1.5"/>
+    
+    <!-- Gardener's Arms -->
+    <path d="M-20,0 C-40,10 -50,40 -30,50" stroke="#3a7563" fill="none" stroke-width="3"/>
+    <path d="M20,0 C40,10 50,40 30,50" stroke="#3a7563" fill="none" stroke-width="3"/>
+    
+    <!-- Watering Can -->
+    <path d="M30,50 L50,40 L60,45 L40,55 Z" fill="#a5c9ca"/>
+    <path d="M55,42 L65,30" stroke="#a5c9ca" fill="none" stroke-width="3"/>
+    <path d="M65,30 C75,32 75,28 65,26" fill="#a5c9ca"/>
+    
+    <!-- Label -->
+    <text x="0" y="70" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">天生智慧</text>
+    <text x="0" y="90" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">(Innate Intelligence)</text>
+    
+    <!-- Arrow -->
+    <path d="M60,10 L120,10" stroke="#3a7563" fill="none" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <!-- Garden/Body -->
+    <rect x="130" y="-30" width="80" height="80" rx="5" ry="5" fill="#e8f4ea" stroke="#3a7563" stroke-width="2"/>
+    <path d="M150,-10 C160,-20 180,-20 190,-10" stroke="#3a7563" fill="none" stroke-width="2"/>
+    <path d="M150,10 C160,0 180,0 190,10" stroke="#3a7563" fill="none" stroke-width="2"/>
+    <path d="M150,30 C160,20 180,20 190,30" stroke="#3a7563" fill="none" stroke-width="2"/>
+    
+    <text x="170" y="70" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">构建与维护身体</text>
+    <text x="170" y="90" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">(Builds & Maintains Body)</text>
+  </g>
+  
+  <!-- Right Section: Adaptation Process -->
+  <g transform="translate(450, 150)">
+    <!-- Initial Adaptation -->
+    <circle cx="0" cy="0" r="40" fill="#e8f4ea"/>
+    <path d="M-15,-15 C-5,-25 5,-25 15,-15 C25,-5 25,5 15,15 C5,25 -5,25 -15,15 C-25,5 -25,-5 -15,-15" stroke="#3a7563" fill="none" stroke-width="2"/>
+    <path d="M0,-15 L0,15 M-15,0 L15,0" stroke="#3a7563" fill="none" stroke-width="2"/>
+    
+    <text x="0" y="60" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">适应</text>
+    <text x="0" y="80" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">(Adaptation)</text>
+    
+    <!-- Arrow Down -->
+    <path d="M0,90 L0,130" stroke="#3a7563" fill="none" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <!-- Repeated Adaptations -->
+    <rect x="-60" y="140" width="120" height="60" rx="10" ry="10" fill="#e8f4ea" stroke="#3a7563" stroke-width="2"/>
+    <path d="M-40,160 C-30,150 -20,170 -10,160 C0,150 10,170 20,160 C30,150 40,170 50,160" stroke="#3a7563" fill="none" stroke-width="2"/>
+    
+    <text x="0" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">重复适应</text>
+    <text x="0" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">(Repeated Adaptations)</text>
+    
+    <!-- Arrows to Outcomes -->
+    <path d="M-60,170 L-120,170" stroke="#3a7563" fill="none" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M60,170 L120,170" stroke="#3a7563" fill="none" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <!-- Tissue Change -->
+    <circle cx="-160" cy="170" r="40" fill="#e8f4ea"/>
+    <path d="M-175,155 L-145,155 L-145,185 L-175,185 Z" stroke="#3a7563" fill="none" stroke-width="2"/>
+    <path d="M-175,165 L-145,165 M-175,175 L-145,175" stroke="#3a7563" fill="none" stroke-width="2"/>
+    
+    <text x="-160" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">组织变化</text>
+    <text x="-160" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">(Tissue Change)</text>
+    
+    <!-- Adaptive Improvement -->
+    <circle cx="160" cy="170" r="40" fill="#e8f4ea"/>
+    <path d="M145,155 L175,155 L175,185 L145,185 Z" stroke="#3a7563" fill="none" stroke-width="2"/>
+    <path d="M145,170 L175,170" stroke="#3a7563" fill="none" stroke-width="2"/>
+    <path d="M160,155 L160,185" stroke="#3a7563" fill="none" stroke-width="2"/>
+    <path d="M150,160 L170,180" stroke="#3a7563" fill="none" stroke-width="2"/>
+    
+    <text x="160" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">适应性改善</text>
+    <text x="160" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">(Adaptive Improvement)</text>
+    
+    <!-- Arrow to Inherited Traits -->
+    <path d="M-160,210 L-160,260" stroke="#3a7563" fill="none" stroke-width="2" marker-end="url(#arrow)"/>
+    
+    <!-- Inherited Traits -->
+    <circle cx="-160" cy="300" r="40" fill="#e8f4ea"/>
+    <path d="M-175,285 C-165,275 -155,275 -145,285 C-135,295 -135,305 -145,315 C-155,325 -165,325 -175,315 C-185,305 -185,295 -175,285" stroke="#3a7563" fill="none" stroke-width="2"/>
+    <path d="M-175,285 L-145,315 M-175,315 L-145,285" stroke="#3a7563" fill="none" stroke-width="1"/>
+    
+    <text x="-160" y="360" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">遗传特性</text>
+    <text x="-160" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">(Inherited Traits)</text>
+  </g>
+  
+  <!-- Arrow Marker Definition -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+        markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#3a7563"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom Caption -->
+  <text x="400" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
+    如同园丁照料花园，我们的身体有天生智慧维护健康。当环境变化时，植物适应干旱的方式，
+  </text>
+  <text x="400" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
+    就像我们的身体适应压力并将成功的适应传给下一代。未能适应的植物枯萎，如同身体中的"疾病"。
+  </text>
+</svg>

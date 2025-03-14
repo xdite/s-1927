@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500" viewBox="0 0 600 500">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#f9f9f9"/>
+  
+  <!-- Building Structure -->
+  <rect x="150" y="80" width="300" height="320" fill="#e6f2ff" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="150" y1="240" x2="450" y2="240" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Superior Zone (Brain) -->
+  <ellipse cx="300" cy="160" rx="100" ry="60" fill="#b3d9ff" stroke="#2c3e50" stroke-width="2"/>
+  <text x="300" y="165" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">Superior Zone</text>
+  <text x="300" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">(Educated Brain Areas)</text>
+  
+  <!-- Inferior Zone -->
+  <rect x="200" y="270" width="200" height="100" rx="10" fill="#ffcccc" stroke="#2c3e50" stroke-width="2"/>
+  <text x="300" y="320" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">Inferior Zone</text>
+  <text x="300" y="340" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">(Body Systems)</text>
+  
+  <!-- Communication Pathways -->
+  <line x1="270" y1="220" x2="270" y2="270" stroke="#2c3e50" stroke-width="3" stroke-dasharray="5,5"/>
+  <line x1="330" y1="220" x2="330" y2="270" stroke="#2c3e50" stroke-width="3" stroke-dasharray="5,5"/>
+  <polygon points="270,260 265,250 275,250" fill="#2c3e50"/>
+  <polygon points="330,260 325,250 335,250" fill="#2c3e50"/>
+  <polygon points="270,230 265,240 275,240" fill="#2c3e50"/>
+  <polygon points="330,230 325,240 335,240" fill="#2c3e50"/>
+  
+  <!-- Problem Indication -->
+  <circle cx="250" cy="310" r="15" fill="#ff6666" stroke="#2c3e50" stroke-width="2"/>
+  <text x="250" y="315" font-family="Arial" font-size="16" text-anchor="middle" fill="white">!</text>
+  
+  <!-- Discomfort in Superior Zone -->
+  <path d="M250,310 Q270,240 280,180" stroke="#ff6666" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <circle cx="280" cy="180" r="15" fill="#ff9999" stroke="#2c3e50" stroke-width="2" opacity="0.7"/>
+  <text x="280" y="185" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">?</text>
+  
+  <!-- Legend -->
+  <rect x="100" y="420" width="400" height="60" rx="5" fill="#f0f0f0" stroke="#2c3e50" stroke-width="1"/>
+  <text x="300" y="445" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">
+    "就像办公大楼：下层运营区域的问题会传递到上层管理区域，</text>
+  <text x="300" y="465" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">
+    导致即使身处舒适环境的管理层也会感到不适和压力。"</text>
+  
+  <!-- Title -->
+  <text x="300" y="40" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    Meric System: Superior-Inferior Zone Correspondence
+  </text>
+</svg>

@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" />
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">健康与不适：神经传导的城市比喻</text>
+  
+  <!-- 左侧：健康状态 -->
+  <g transform="translate(100, 100)">
+    <!-- 脊柱 - 正常排列 -->
+    <rect x="70" y="80" width="60" height="20" rx="5" fill="#a8d5ba" stroke="#333" stroke-width="1" />
+    <rect x="70" y="105" width="60" height="20" rx="5" fill="#a8d5ba" stroke="#333" stroke-width="1" />
+    <rect x="70" y="130" width="60" height="20" rx="5" fill="#a8d5ba" stroke="#333" stroke-width="1" />
+    <rect x="70" y="155" width="60" height="20" rx="5" fill="#a8d5ba" stroke="#333" stroke-width="1" />
+    <rect x="70" y="180" width="60" height="20" rx="5" fill="#a8d5ba" stroke="#333" stroke-width="1" />
+    
+    <!-- 神经通路 - 畅通 -->
+    <path d="M 140 140 C 200 140, 220 80, 280 80" stroke="#6495ED" stroke-width="6" fill="none" />
+    <path d="M 140 140 C 200 140, 220 200, 280 200" stroke="#6495ED" stroke-width="6" fill="none" />
+    
+    <!-- 城市建筑 - 健康 -->
+    <rect x="280" y="60" width="40" height="40" fill="#a8d5ba" stroke="#333" />
+    <rect x="290" y="40" width="20" height="20" fill="#a8d5ba" stroke="#333" />
+    <rect x="280" y="180" width="40" height="40" fill="#a8d5ba" stroke="#333" />
+    <rect x="290" y="160" width="20" height="20" fill="#a8d5ba" stroke="#333" />
+    
+    <!-- 信号传递图示 -->
+    <circle cx="180" cy="140" r="8" fill="#ffcc00">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="220" cy="110" r="8" fill="#ffcc00">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="260" cy="80" r="8" fill="#ffcc00">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="220" cy="170" r="8" fill="#ffcc00">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="260" cy="200" r="8" fill="#ffcc00">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- 标签 -->
+    <text x="100" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">健康脊柱</text>
+    <text x="300" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">功能正常的器官</text>
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">畅通的神经传导</text>
+  </g>
+  
+  <!-- 右侧：不适状态 -->
+  <g transform="translate(450, 100)">
+    <!-- 脊柱 - 半脱位 -->
+    <rect x="70" y="80" width="60" height="20" rx="5" fill="#a8d5ba" stroke="#333" stroke-width="1" />
+    <rect x="70" y="105" width="60" height="20" rx="5" fill="#a8d5ba" stroke="#333" stroke-width="1" />
+    <rect x="85" y="130" width="60" height="20" rx="5" fill="#e6a8a8" stroke="#333" stroke-width="1" transform="rotate(15, 115, 140)" />
+    <rect x="70" y="155" width="60" height="20" rx="5" fill="#a8d5ba" stroke="#333" stroke-width="1" />
+    <rect x="70" y="180" width="60" height="20" rx="5" fill="#a8d5ba" stroke="#333" stroke-width="1" />
+    
+    <!-- 神经通路 - 受阻 -->
+    <path d="M 140 140 C 200 140, 220 80, 280 80" stroke="#6495ED" stroke-width="6" fill="none" stroke-dasharray="5,5" />
+    <path d="M 140 140 C 200 140, 220 200, 280 200" stroke="#6495ED" stroke-width="6" fill="none" stroke-dasharray="5,5" />
+    
+    <!-- 城市建筑 - 不适 -->
+    <rect x="280" y="60" width="40" height="40" fill="#e6a8a8" stroke="#333" />
+    <rect x="290" y="40" width="20" height="20" fill="#e6a8a8" stroke="#333" />
+    <rect x="280" y="180" width="40" height="40" fill="#e6a8a8" stroke="#333" />
+    <rect x="290" y="160" width="20" height="20" fill="#e6a8a8" stroke="#333" />
+    
+    <!-- 障碍物图示 -->
+    <rect x="180" y="135" width="20" height="10" fill="#e6a8a8" stroke="#333">
+      <animate attributeName="opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite" />
+    </rect>
+    
+    <!-- 信号传递受阻图示 -->
+    <circle cx="160" cy="140" r="8" fill="#ffcc00">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="200" cy="140" r="8" fill="#ffcc00" opacity="0.4" />
+    <circle cx="240" cy="110" r="8" fill="#ffcc00" opacity="0.2" />
+    <circle cx="200" cy="170" r="8" fill="#ffcc00" opacity="0.4" />
+    <circle cx="240" cy="200" r="8" fill="#ffcc00" opacity="0.2" />
+    
+    <!-- 标签 -->
+    <text x="100" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">椎骨半脱位</text>
+    <text x="300" y="240" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">功能受损的器官</text>
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">神经传导受阻</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" width="700">
+    就像城市需要畅通的道路运输资源，身体需要无阻碍的神经传导才能维持健康。
+  </text>
+  <text x="400" y="425" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" width="700">
+    椎骨半脱位就像道路阻塞，阻碍信息和资源流动，导致身体出现"不适"状态。
+  </text>
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" width="700">
+    脊骨神经医学的目标是清除这些"交通阻塞"，恢复身体的自然协调与健康。
+  </text>
+</svg>

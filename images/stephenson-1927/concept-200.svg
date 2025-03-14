@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">
+    Innate Intelligence: Assembling and Maintaining the Body
+  </text>
+  
+  <!-- Universal Intelligence Cloud -->
+  <ellipse cx="400" cy="120" rx="150" ry="50" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0050b3">
+    Universal Intelligence
+  </text>
+  
+  <!-- Arrow down -->
+  <path d="M400,170 L400,200" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Universal Plan (Blueprint) -->
+  <rect x="325" y="200" width="150" height="80" rx="5" ry="5" fill="#f0f5ff" stroke="#adc6ff" stroke-width="2"/>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#1d39c4">
+    Universal Plan
+  </text>
+  <path d="M335,215 L365,215 M335,225 L385,225 M335,235 L375,235 M335,245 L360,245 M335,255 L380,255" stroke="#1d39c4" stroke-width="1"/>
+  
+  <!-- Arrow down -->
+  <path d="M400,280 L400,310" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Innate Intelligence (Master Builder) -->
+  <circle cx="400" cy="360" r="60" fill="#fff0f6" stroke="#333" stroke-width="2"/>
+  <text x="400" y="355" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
+    Innate
+  </text>
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
+    Intelligence
+  </text>
+  
+  <!-- Master Builder (person) -->
+  <circle cx="400" cy="330" r="15" fill="#ffd6e7" stroke="#333" stroke-width="1"/> <!-- head -->
+  <line x1="400" y1="345" x2="400" y2="360" stroke="#333" stroke-width="1"/> <!-- neck -->
+  
+  <!-- Two arrows going out -->
+  <path d="M350,400 L250,450" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M450,400 L550,450" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Assembles Matter (Building Castle) -->
+  <rect x="150" y="450" width="200" height="100" rx="5" ry="5" fill="#e6fffb" stroke="#87e8de" stroke-width="2"/>
+  <text x="250" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#006d75">
+    Assembles Matter
+  </text>
+  
+  <!-- Castle building blocks -->
+  <rect x="190" y="490" width="30" height="15" fill="#b5f5ec" stroke="#006d75" stroke-width="1"/>
+  <rect x="220" y="490" width="30" height="15" fill="#b5f5ec" stroke="#006d75" stroke-width="1"/>
+  <rect x="250" y="490" width="30" height="15" fill="#b5f5ec" stroke="#006d75" stroke-width="1"/>
+  <rect x="205" y="475" width="30" height="15" fill="#b5f5ec" stroke="#006d75" stroke-width="1"/>
+  <rect x="235" y="475" width="30" height="15" fill="#b5f5ec" stroke="#006d75" stroke-width="1"/>
+  <rect x="220" y="460" width="30" height="15" fill="#b5f5ec" stroke="#006d75" stroke-width="1"/>
+  
+  <!-- Maintains Body (Repairing Castle) -->
+  <rect x="450" y="450" width="200" height="100" rx="5" ry="5" fill="#fff2e8" stroke="#ffbb96" stroke-width="2"/>
+  <text x="550" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#873800">
+    Maintains Body
+  </text>
+  
+  <!-- Castle with repair tools -->
+  <rect x="490" y="490" width="30" height="15" fill="#ffd8bf" stroke="#873800" stroke-width="1"/>
+  <rect x="520" y="490" width="30" height="15" fill="#ffd8bf" stroke="#873800" stroke-width="1"/>
+  <rect x="550" y="490" width="30" height="15" fill="#ffd8bf" stroke="#873800" stroke-width="1"/>
+  <rect x="505" y="475" width="30" height="15" fill="#ffd8bf" stroke="#873800" stroke-width="1"/>
+  <rect x="535" y="475" width="30" height="15" fill="#ffd8bf" stroke="#873800" stroke-width="1"/>
+  <rect x="520" y="460" width="30" height="15" fill="#ffd8bf" stroke="#873800" stroke-width="1"/>
+  
+  <!-- Repair tools -->
+  <line x1="580" y1="510" x2="590" y2="500" stroke="#873800" stroke-width="2"/> <!-- hammer -->
+  <circle cx="590" cy="495" r="5" fill="#873800"/>
+  
+  <!-- Caption at bottom -->
+  <rect x="100" y="570" width="600" height="20" fill="none"/>
+  <text x="400" y="580" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">
+    Like a master Lego builder following blueprints to build and repair a castle, Innate Intelligence assembles and maintains our body
+  </text>
+  
+  <!-- Arrow definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

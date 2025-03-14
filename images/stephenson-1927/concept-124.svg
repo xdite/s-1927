@@ -1,0 +1,76 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#f9f9f9"/>
+    
+    <!-- 中央细胞 -->
+    <ellipse cx="400" cy="300" rx="100" ry="80" fill="#e6f7ff" stroke="#3498db" stroke-width="2"/>
+    <ellipse cx="400" cy="280" rx="30" ry="25" fill="#b3e0ff" stroke="#3498db" stroke-width="1.5"/>
+    
+    <!-- 循环路径 -->
+    <path d="M 400 150 C 550 150, 650 250, 550 400 C 450 550, 250 550, 150 400 C 50 250, 250 150, 400 150" fill="none" stroke="#7cb342" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <!-- 四个阶段 -->
+    <!-- 接收 -->
+    <circle cx="400" cy="150" r="50" fill="#e1f5fe" stroke="#29b6f6" stroke-width="2"/>
+    <text x="400" y="155" font-family="Arial" font-size="16" text-anchor="middle" fill="#01579b">接收</text>
+    <path d="M 400 200 L 400 220" stroke="#29b6f6" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- 物理体现 -->
+    <circle cx="600" cy="300" r="50" fill="#e8f5e9" stroke="#66bb6a" stroke-width="2"/>
+    <text x="600" y="305" font-family="Arial" font-size="16" text-anchor="middle" fill="#1b5e20">物理体现</text>
+    <path d="M 550 300 L 500 300" stroke="#66bb6a" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- 表达 -->
+    <circle cx="400" cy="450" r="50" fill="#fff3e0" stroke="#ffa726" stroke-width="2"/>
+    <text x="400" y="455" font-family="Arial" font-size="16" text-anchor="middle" fill="#e65100">表达</text>
+    <path d="M 400 400 L 400 380" stroke="#ffa726" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- 功能 -->
+    <circle cx="200" cy="300" r="50" fill="#e0f2f1" stroke="#26a69a" stroke-width="2"/>
+    <text x="200" y="305" font-family="Arial" font-size="16" text-anchor="middle" fill="#004d40">功能</text>
+    <path d="M 250 300 L 300 300" stroke="#26a69a" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- 连接箭头 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+        </marker>
+    </defs>
+    <path d="M 435 175 L 550 250" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 550 350 L 435 425" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 365 425 L 250 350" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M 250 250 L 365 175" stroke="#555" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- 城市场景图标 -->
+    <!-- 接收站 -->
+    <rect x="375" y="110" width="50" height="30" fill="#b3e5fc" stroke="#0288d1" stroke-width="1"/>
+    <path d="M 400 110 L 400 95 L 415 110 Z" fill="#0288d1"/>
+    <circle cx="400" cy="120" r="8" fill="#0288d1"/>
+    <path d="M 392 130 L 408 130" stroke="#0288d1" stroke-width="2"/>
+    
+    <!-- 建设场景 -->
+    <rect x="585" y="260" width="30" height="40" fill="#c8e6c9" stroke="#388e3c" stroke-width="1"/>
+    <rect x="590" y="270" width="8" height="12" fill="#388e3c"/>
+    <rect x="602" y="270" width="8" height="12" fill="#388e3c"/>
+    <path d="M 585 260 L 600 245 L 615 260 Z" fill="#388e3c"/>
+    
+    <!-- 社区活动 -->
+    <circle cx="385" cy="450" r="5" fill="#ffcc80"/>
+    <circle cx="400" cy="445" r="5" fill="#ffcc80"/>
+    <circle cx="415" cy="450" r="5" fill="#ffcc80"/>
+    <path d="M 385 455 C 390 465, 410 465, 415 455" fill="none" stroke="#ffcc80" stroke-width="1.5"/>
+    
+    <!-- 功能实现 -->
+    <rect x="185" y="280" width="30" height="20" fill="#b2dfdb" stroke="#00796b" stroke-width="1"/>
+    <path d="M 185 280 L 200 270 L 215 280 Z" fill="#00796b"/>
+    <rect x="195" y="290" width="10" height="10" fill="#00796b"/>
+    
+    <!-- 标题和说明 -->
+    <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">细胞循环过程</text>
+    <text x="400" y="530" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" width="600">
+        细胞循环如同城市系统：接收信息、进行物理调整、表达新行为，最终产生功能，
+    </text>
+    <text x="400" y="550" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" width="600">
+        而这些功能又会引发新的信息接收，形成持续不断的循环过程。
+    </text>
+</svg>

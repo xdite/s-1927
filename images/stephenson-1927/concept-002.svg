@@ -1,0 +1,64 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#f9f9f9"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">血清毒素的四种可能性</text>
+    
+    <!-- 城市背景 -->
+    <rect x="100" y="100" width="600" height="400" rx="10" fill="#eef6ff" stroke="#ccc" stroke-width="1"/>
+    
+    <!-- 中心节点：毒素可能性 -->
+    <circle cx="400" cy="170" r="50" fill="#ff9999" stroke="#ff6666" stroke-width="2"/>
+    <text x="400" y="175" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">毒素可能性</text>
+    
+    <!-- 四个区域 -->
+    <!-- 1. 错位腺体产物 - 图书馆里的消防水枪 -->
+    <rect x="130" y="250" width="150" height="100" rx="5" fill="#ffffcc" stroke="#e6e6b8" stroke-width="1"/>
+    <text x="205" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">图书馆</text>
+    <path d="M 180 310 l 10 -20 h 30 l 10 20 z" fill="#3399ff" stroke="#0066cc" stroke-width="1"/> <!-- 水枪 -->
+    <line x1="205" y1="310" x2="205" y2="330" stroke="#0066cc" stroke-width="2"/> <!-- 水枪柄 -->
+    <text x="205" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">错位腺体产物</text>
+    
+    <!-- 2. 过量腺体产物 - 消防站堆满水枪 -->
+    <rect x="320" y="250" width="150" height="100" rx="5" fill="#ccffcc" stroke="#b8e6b8" stroke-width="1"/>
+    <text x="395" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">消防站</text>
+    <!-- 多个水枪 -->
+    <path d="M 350 300 l 10 -20 h 30 l 10 20 z" fill="#3399ff" stroke="#0066cc" stroke-width="1"/>
+    <line x1="375" y1="300" x2="375" y2="320" stroke="#0066cc" stroke-width="2"/>
+    <path d="M 370 290 l 10 -20 h 30 l 10 20 z" fill="#3399ff" stroke="#0066cc" stroke-width="1"/>
+    <line x1="395" y1="290" x2="395" y2="310" stroke="#0066cc" stroke-width="2"/>
+    <path d="M 390 280 l 10 -20 h 30 l 10 20 z" fill="#3399ff" stroke="#0066cc" stroke-width="1"/>
+    <line x1="415" y1="280" x2="415" y2="300" stroke="#0066cc" stroke-width="2"/>
+    <text x="395" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">过量腺体产物</text>
+    
+    <!-- 3. 运输腺体产物 - 外来的水枪 -->
+    <rect x="510" y="250" width="150" height="100" rx="5" fill="#ffccff" stroke="#e6b8e6" stroke-width="1"/>
+    <text x="585" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">配送中心</text>
+    <path d="M 560 310 l 10 -20 h 30 l 10 20 z" fill="#ff9933" stroke="#cc6600" stroke-width="1"/> <!-- 不同颜色的水枪 -->
+    <line x1="585" y1="310" x2="585" y2="330" stroke="#cc6600" stroke-width="2"/>
+    <text x="585" y="305" font-family="Arial" font-size="8" text-anchor="middle" fill="#333">外来</text>
+    <text x="585" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">运输腺体产物</text>
+    
+    <!-- 4. 无法代谢的物质 - 生锈的水枪 -->
+    <rect x="320" y="380" width="150" height="100" rx="5" fill="#ffcccc" stroke="#e6b8b8" stroke-width="1"/>
+    <text x="395" y="400" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">废品站</text>
+    <path d="M 370 440 l 10 -20 h 30 l 10 20 z" fill="#999999" stroke="#666666" stroke-width="1"/> <!-- 生锈的水枪 -->
+    <line x1="395" y1="440" x2="395" y2="460" stroke="#666666" stroke-width="2"/>
+    <text x="395" y="435" font-family="Arial" font-size="8" text-anchor="middle" fill="#333">生锈</text>
+    <text x="395" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">无法代谢的物质</text>
+    
+    <!-- 连接线 -->
+    <line x1="400" y1="220" x2="205" y2="250" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+    <line x1="400" y1="220" x2="395" y2="250" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+    <line x1="400" y1="220" x2="585" y2="250" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+    <line x1="400" y1="220" x2="395" y2="380" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- 说明文字 -->
+    <text x="400" y="530" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic" fill="#666">
+        身体就像一座城市，腺体产物只有在正确位置、适当数量才能发挥作用，
+    </text>
+    <text x="400" y="550" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic" fill="#666">
+        否则就会变成"毒素"，干扰身体的正常运作。
+    </text>
+</svg>

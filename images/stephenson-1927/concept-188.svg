@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">药物依赖与戒断过程</text>
+  
+  <!-- 左侧部分：形成依赖 -->
+  <g transform="translate(100, 120)">
+    <!-- 楼梯和电梯 -->
+    <rect x="20" y="50" width="100" height="300" fill="#e6e6e6" stroke="#666" stroke-width="2" />
+    <rect x="150" y="50" width="80" height="300" fill="#d4e6f1" stroke="#3498db" stroke-width="2" />
+    <text x="190" y="200" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#3498db">药物</text>
+    
+    <!-- 楼梯 -->
+    <path d="M 30 340 L 110 340 L 110 320 L 30 320 L 30 300 L 110 300 L 110 280 L 30 280 L 30 260 L 110 260 L 110 240 L 30 240 L 30 220 L 110 220 L 110 200 L 30 200 L 30 180 L 110 180 L 110 160 L 30 160 L 30 140 L 110 140 L 110 120 L 30 120 L 30 100 L 110 100 L 110 80 L 30 80 L 30 60 L 110 60 L 110 50 L 30 50 Z" fill="#f5f5f5" stroke="#666" stroke-width="1" />
+    
+    <!-- 阶段1：正常状态 -->
+    <g transform="translate(0, 0)">
+      <circle cx="70" cy="30" r="15" fill="#f9d5e5" stroke="#333" stroke-width="1" /> <!-- 头 -->
+      <line x1="70" y1="45" x2="70" y2="75" stroke="#333" stroke-width="2" /> <!-- 身体 -->
+      <line x1="70" y1="55" x2="55" y2="70" stroke="#333" stroke-width="2" /> <!-- 左臂 -->
+      <line x1="70" y1="55" x2="85" y2="70" stroke="#333" stroke-width="2" /> <!-- 右臂 -->
+      <line x1="70" y1="75" x2="60" y2="95" stroke="#333" stroke-width="2" /> <!-- 左腿 -->
+      <line x1="70" y1="75" x2="80" y2="95" stroke="#333" stroke-width="2" /> <!-- 右腿 -->
+      <text x="70" y="25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">:)</text>
+      <text x="120" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">正常状态</text>
+    </g>
+    
+    <!-- 阶段2：初次使用 -->
+    <g transform="translate(150, 30)">
+      <circle cx="40" cy="30" r="15" fill="#f9d5e5" stroke="#333" stroke-width="1" /> <!-- 头 -->
+      <line x1="40" y1="45" x2="40" y2="75" stroke="#333" stroke-width="2" /> <!-- 身体 -->
+      <line x1="40" y1="55" x2="25" y2="70" stroke="#333" stroke-width="2" /> <!-- 左臂 -->
+      <line x1="40" y1="55" x2="55" y2="70" stroke="#333" stroke-width="2" /> <!-- 右臂 -->
+      <line x1="40" y1="75" x2="30" y2="95" stroke="#333" stroke-width="2" /> <!-- 左腿 -->
+      <line x1="40" y1="75" x2="50" y2="95" stroke="#333" stroke-width="2" /> <!-- 右腿 -->
+      <text x="40" y="25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">:D</text>
+      <text x="90" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">初次使用药物</text>
+    </g>
+    
+    <!-- 阶段3：形成依赖 -->
+    <g transform="translate(150, 150)">
+      <circle cx="40" cy="30" r="15" fill="#f9d5e5" stroke="#333" stroke-width="1" /> <!-- 头 -->
+      <line x1="40" y1="45" x2="40" y2="75" stroke="#333" stroke-width="2" /> <!-- 身体 -->
+      <line x1="40" y1="55" x2="25" y2="70" stroke="#333" stroke-width="2" /> <!-- 左臂 -->
+      <line x1="40" y1="55" x2="55" y2="70" stroke="#333" stroke-width="2" /> <!-- 右臂 -->
+      <line x1="40" y1="75" x2="30" y2="95" stroke="#333" stroke-width="2" /> <!-- 左腿 -->
+      <line x1="40" y1="75" x2="50" y2="95" stroke="#333" stroke-width="2" /> <!-- 右腿 -->
+      <text x="40" y="25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">:|</text>
+      <text x="90" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">形成依赖</text>
+    </g>
+    
+    <!-- 循环箭头 -->
+    <path d="M 190 100 C 220 100, 220 140, 190 140" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="5,3" />
+    <polygon points="190,140 195,135 195,145" fill="#666" />
+    <text x="230" y="120" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#666">重复使用</text>
+    
+    <!-- 阶段说明 -->
+    <text x="125" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">依赖形成阶段</text>
+  </g>
+  
+  <!-- 右侧部分：戒断与恢复 -->
+  <g transform="translate(450, 120)">
+    <!-- 楼梯和电梯 -->
+    <rect x="20" y="50" width="100" height="300" fill="#e6e6e6" stroke="#666" stroke-width="2" />
+    <rect x="150" y="50" width="80" height="300" fill="#f2d7d5" stroke="#e74c3c" stroke-width="2" />
+    <line x1="150" y1="50" x2="230" y2="350" stroke="#e74c3c" stroke-width="3" />
+    <line x1="150" y1="350" x2="230" y2="50" stroke="#e74c3c" stroke-width="3" />
+    <text x="190" y="200" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#e74c3c">停止用药</text>
+    
+    <!-- 楼梯 -->
+    <path d="M 30 340 L 110 340 L 110 320 L 30 320 L 30 300 L 110 300 L 110 280 L 30 280 L 30 260 L 110 260 L 110 240 L 30 240 L 30 220 L 110 220 L 110 200 L 30 200 L 30 180 L 110 180 L 110 160 L 30 160 L 30 140 L 110 140 L 110 120 L 30 120 L 30 100 L 110 100 L 110 80 L 30 80 L 30 60 L 110 60 L 110 50 L 30 50 Z" fill="#f5f5f5" stroke="#666" stroke-width="1" />
+    
+    <!-- 阶段4：戒断反应 -->
+    <g transform="translate(0, 150)">
+      <circle cx="70" cy="30" r="15" fill="#f9d5e5" stroke="#333" stroke-width="1" /> <!-- 头 -->
+      <line x1="70" y1="45" x2="70" y2="75" stroke="#333" stroke-width="2" /> <!-- 身体 -->
+      <line x1="70" y1="55" x2="55" y2="70" stroke="#333" stroke-width="2" /> <!-- 左臂 -->
+      <line x1="70" y1="55" x2="85" y2="70" stroke="#333" stroke-width="2" /> <!-- 右臂 -->
+      <line x1="70" y1="75" x2="60" y2="95" stroke="#333" stroke-width="2" /> <!-- 左腿 -->
+      <line x1="70" y1="75" x2="80" y2="95" stroke="#333" stroke-width="2" /> <!-- 右腿 -->
+      <text x="70" y="25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">:(</text>
+      <text x="120" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">戒断反应</text>
+      <!-- 汗水 -->
+      <line x1="60" y1="25" x2="55" y2="20" stroke="#3498db" stroke-width="1" />
+      <line x1="80" y1="25" x2="85" y2="20" stroke="#3498db" stroke-width="1" />
+      <line x1="60" y1="35" x2="55" y2="40" stroke="#3498db" stroke-width="1" />
+    </g>
+    
+    <!-- 阶段5：恢复中 -->
+    <g transform="translate(0, 250)">
+      <circle cx="70" cy="30" r="15" fill="#f9d5e5" stroke="#333" stroke-width="1" /> <!-- 头 -->
+      <line x1="70" y1="45" x2="70" y2="75" stroke="#333" stroke-width="2" /> <!-- 身体 -->
+      <line x1="70" y1="55" x2="55" y2="70" stroke="#333" stroke-width="2" /> <!-- 左臂 -->
+      <line x1="70" y1="55" x2="85" y2="70" stroke="#333" stroke-width="2" /> <!-- 右臂 -->
+      <line x1="70" y1="75" x2="60" y2="95" stroke="#333" stroke-width="2" /> <!-- 左腿 -->
+      <line x1="70" y1="75" x2="80" y2="95" stroke="#333" stroke-width="2" /> <!-- 右腿 -->
+      <text x="70" y="25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">:|</text>
+      <text x="120" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">恢复中</text>
+    </g>
+    
+    <!-- 阶段6：完全恢复 -->
+    <g transform="translate(150, 250)">
+      <circle cx="40" cy="30" r="15" fill="#f9d5e5" stroke="#333" stroke-width="1" /> <!-- 头 -->
+      <line x1="40" y1="45" x2="40" y2="75" stroke="#333" stroke-width="2" /> <!-- 身体 -->
+      <line x1="40" y1="55" x2="25" y2="70" stroke="#333" stroke-width="2" /> <!-- 左臂 -->
+      <line x1="40" y1="55" x2="55" y2="70" stroke="#333" stroke-width="2" /> <!-- 右臂 -->
+      <line x1="40" y1="75" x2="30" y2="95" stroke="#333" stroke-width="2" /> <!-- 左腿 -->
+      <line x1="40" y1="75" x2="50" y2="95" stroke="#333" stroke-width="2" /> <!-- 右腿 -->
+      <text x="40" y="25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#333">:)</text>
+      <text x="90" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">完全恢复</text>
+    </g>
+    
+    <!-- 恢复过程箭头 -->
+    <path d="M 70 200 C 100 200, 130 230, 170 250" fill="none" stroke="#27ae60" stroke-width="2" />
+    <polygon points="170,250 165,245 162,255" fill="#27ae60" />
+    <text x="100" y="220" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#27ae60">恢复过程</text>
+    
+    <!-- 阶段说明 -->
+    <text x="125" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">戒断与恢复阶段</text>
+  </g>
+  
+  <!-- 中间连接箭头 -->
+  <path d="M 350 300 L 450 300" fill="none" stroke="#333" stroke-width="3" />
+  <polygon points="450,300 440,295 440,305" fill="#333" />
+  
+  <!-- 底部说明 -->
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    药物依赖就像习惯乘电梯：身体逐渐丧失爬楼能力，停用后需要时间和努力重建自然平衡
+  </text>
+  
+  <!-- 关键要素说明 -->
+  <g transform="translate(100, 450)">
+    <rect x="0" y="0" width="600" height="60" fill="#f1f8e9" stroke="#aed581" stroke-width="1" rx="5" ry="5" />
+    <text x="10" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333" font-weight="bold">克服药物依赖的关键要素：</text>
+    <text x="20" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333">1. 意志力</text>
+    <text x="200" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333">2. 身体调整</text>
+    <text x="400" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333">3. 重建化学平衡</text>
+  </g>
+</svg>

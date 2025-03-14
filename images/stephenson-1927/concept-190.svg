@@ -1,0 +1,45 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+    
+    <!-- 大脑/交通管理中心 -->
+    <circle cx="400" cy="100" r="70" fill="#f9e6ff" stroke="#6a4c93" stroke-width="3"/>
+    <text x="400" y="100" font-family="Arial" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#333">大脑</text>
+    <text x="400" y="125" font-family="Arial" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">(交通管理中心)</text>
+    
+    <!-- 脊髓神经/主干道 -->
+    <rect x="250" y="220" width="300" height="60" rx="10" ry="10" fill="#e6f2ff" stroke="#4c6a93" stroke-width="3"/>
+    <text x="400" y="250" font-family="Arial" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#333">脊髓神经</text>
+    <text x="400" y="275" font-family="Arial" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">(城市主干道)</text>
+    
+    <!-- 椎骨区域组织/社区 -->
+    <rect x="250" y="380" width="300" height="60" rx="10" ry="10" fill="#e6fff2" stroke="#4c936a" stroke-width="3"/>
+    <text x="400" y="410" font-family="Arial" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#333">椎骨区域组织</text>
+    <text x="400" y="435" font-family="Arial" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">(城市社区)</text>
+    
+    <!-- 连接箭头 -->
+    <!-- 大脑到脊髓 -->
+    <path d="M350,150 Q320,185 320,220" fill="none" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="300" y="185" font-family="Arial" font-size="12" fill="#555" text-anchor="middle">指令传递</text>
+    
+    <!-- 脊髓到组织 -->
+    <path d="M350,280 Q320,330 320,380" fill="none" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="300" y="330" font-family="Arial" font-size="12" fill="#555" text-anchor="middle">信号传导</text>
+    
+    <!-- 组织到大脑 -->
+    <path d="M480,380 Q520,250 450,150" fill="none" stroke="#666" stroke-width="3" marker-end="url(#arrowhead)"/>
+    <text x="520" y="260" font-family="Arial" font-size="12" fill="#555" text-anchor="middle">反馈信息</text>
+    
+    <!-- 箭头标记定义 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    
+    <!-- 图例说明 -->
+    <rect x="100" y="440" width="600" height="40" rx="5" ry="5" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="400" y="465" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">
+        正常椎节周期如同城市交通系统：管理中心(大脑)通过主干道(脊髓)与社区(椎骨组织)保持双向沟通
+    </text>
+</svg>

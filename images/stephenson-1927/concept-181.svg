@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">神经信息传递通路</text>
+  
+  <!-- 连接线 -->
+  <path d="M100,200 C150,200 150,200 200,200 C250,200 250,200 300,200 C350,200 350,200 400,200 C450,200 450,200 500,200 C550,200 550,200 600,200 C650,200 650,200 700,200 C750,200 750,250 700,300 C650,350 550,350 500,300 C450,250 450,250 400,300 C350,350 350,350 300,300 C250,250 250,250 200,300" 
+        fill="none" stroke="#aaa" stroke-width="3" stroke-linecap="round" stroke-dasharray="5,5"/>
+  
+  <!-- 光线 -->
+  <g transform="translate(80,200)">
+    <circle cx="0" cy="0" r="25" fill="#FFD700" opacity="0.8"/>
+    <path d="M-20,-20 L20,20 M-20,20 L20,-20" stroke="#FF8C00" stroke-width="3"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">光线</text>
+  </g>
+  
+  <!-- 眼睛 -->
+  <g transform="translate(180,200)">
+    <circle cx="0" cy="0" r="25" fill="#fff" stroke="#555" stroke-width="2"/>
+    <circle cx="0" cy="0" r="10" fill="#3366CC"/>
+    <circle cx="0" cy="0" r="5" fill="#000"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">眼睛</text>
+  </g>
+  
+  <!-- 视网膜 -->
+  <g transform="translate(280,200)">
+    <rect x="-25" y="-25" width="50" height="50" rx="5" fill="#A7C7E7" stroke="#555" stroke-width="2"/>
+    <line x1="-15" y1="-10" x2="15" y2="-10" stroke="#555" stroke-width="1.5"/>
+    <line x1="-15" y1="0" x2="15" y2="0" stroke="#555" stroke-width="1.5"/>
+    <line x1="-15" y1="10" x2="15" y2="10" stroke="#555" stroke-width="1.5"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">视网膜</text>
+  </g>
+  
+  <!-- 视神经 -->
+  <g transform="translate(380,200)">
+    <path d="M-20,-15 C-10,-25 10,-25 20,-15 C30,-5 30,5 20,15 C10,25 -10,25 -20,15 C-30,5 -30,-5 -20,-15 Z" fill="#B19CD9" stroke="#555" stroke-width="2"/>
+    <path d="M-10,-5 L10,-5 M-10,5 L10,5" stroke="#fff" stroke-width="1.5"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">视神经</text>
+  </g>
+  
+  <!-- 脑细胞 -->
+  <g transform="translate(480,200)">
+    <path d="M0,-25 C30,-25 30,25 0,25 C-30,25 -30,-25 0,-25 Z" fill="#98FB98" stroke="#555" stroke-width="2"/>
+    <path d="M-10,-10 C0,-15 10,-15 15,-5 C20,5 15,15 5,15 C-5,15 -15,10 -15,0 C-15,-10 -5,-15 0,-10" fill="none" stroke="#555" stroke-width="1.5"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">脑细胞</text>
+  </g>
+  
+  <!-- 先天智能 -->
+  <g transform="translate(580,200)">
+    <circle cx="0" cy="0" r="25" fill="#FFC0CB" stroke="#555" stroke-width="2"/>
+    <path d="M-10,-10 L10,10 M-10,10 L10,-10" stroke="#fff" stroke-width="2"/>
+    <path d="M0,-15 L0,15" stroke="#fff" stroke-width="2"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">先天智能</text>
+  </g>
+  
+  <!-- 传出脑细胞 -->
+  <g transform="translate(680,200)">
+    <path d="M0,-25 C30,-25 30,25 0,25 C-30,25 -30,-25 0,-25 Z" fill="#ADD8E6" stroke="#555" stroke-width="2"/>
+    <circle cx="-5" cy="-5" r="5" fill="#fff"/>
+    <circle cx="5" cy="5" r="5" fill="#fff"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">传出脑细胞</text>
+  </g>
+  
+  <!-- 传出神经 -->
+  <g transform="translate(700,300)">
+    <path d="M-20,-15 C-10,-25 10,-25 20,-15 C30,-5 30,5 20,15 C10,25 -10,25 -20,15 C-30,5 -30,-5 -20,-15 Z" fill="#B19CD9" stroke="#555" stroke-width="2"/>
+    <path d="M-10,-5 L10,-5 M-10,5 L10,5" stroke="#fff" stroke-width="1.5"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">传出神经</text>
+  </g>
+  
+  <!-- 组织细胞 -->
+  <g transform="translate(600,300)">
+    <rect x="-25" y="-25" width="50" height="50" rx="10" fill="#FFDAB9" stroke="#555" stroke-width="2"/>
+    <circle cx="-10" cy="-10" r="5" fill="#fff"/>
+    <circle cx="10" cy="10" r="5" fill="#fff"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">组织细胞</text>
+  </g>
+  
+  <!-- 协调 -->
+  <g transform="translate(500,300)">
+    <path d="M-20,-20 C-10,-25 10,-25 20,-20 C25,-15 25,15 20,20 C10,25 -10,25 -20,20 C-25,15 -25,-15 -20,-20 Z" fill="#90EE90" stroke="#555" stroke-width="2"/>
+    <path d="M-10,-5 C-5,-10 5,-10 10,-5 C15,0 15,5 10,10 C5,15 -5,15 -10,10 C-15,5 -15,0 -10,-5 Z" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <text x="0" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">协调</text>
+  </g>
+  
+  <!-- 说明文字 -->
+  <rect x="100" y="380" width="600" height="80" rx="10" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="400" y="410" font-family="Arial" font-size="12" text-anchor="middle" fill="#555" width="580">
+    就像智能工厂中的信息流：光线被眼睛捕捉，通过视网膜转换为信号，经视神经传递至大脑，
+  </text>
+  <text x="400" y="430" font-family="Arial" font-size="12" text-anchor="middle" fill="#555" width="580">
+    由先天智能处理后，通过传出脑细胞和传出神经向组织细胞发出指令，最终实现身体的协调反应。
+  </text>
+</svg>

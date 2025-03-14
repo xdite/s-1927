@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">神经系统：能量与信息的双向通道</text>
+  
+  <!-- 大脑 - 控制塔 -->
+  <circle cx="150" cy="150" r="70" fill="#b3e0ff" stroke="#4da6ff" stroke-width="3"/>
+  <path d="M150,100 Q170,90 180,110 Q200,130 170,150 Q190,170 160,180 Q140,200 120,170 Q100,180 110,150 Q90,130 120,110 Q130,90 150,100" fill="#80c1ff" stroke="#4da6ff" stroke-width="2"/>
+  <text x="150" y="155" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">大脑</text>
+  <text x="150" y="175" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">(中央控制塔)</text>
+  
+  <!-- 神经系统 - 高速公路 -->
+  <rect x="300" cy="150" width="200" height="200" rx="15" ry="15" fill="#e6f2ff" stroke="#4da6ff" stroke-width="3"/>
+  <path d="M320,180 Q350,160 380,190 Q410,220 440,200 Q470,180 480,220" fill="none" stroke="#4da6ff" stroke-width="3" stroke-dasharray="5,3"/>
+  <path d="M320,220 Q350,240 380,210 Q410,180 440,200 Q470,220 480,180" fill="none" stroke="#4da6ff" stroke-width="3" stroke-dasharray="5,3"/>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">神经系统</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">(高速公路网络)</text>
+  
+  <!-- 身体 - 城市区域 -->
+  <rect x="600" y="150" width="140" height="200" rx="15" ry="15" fill="#d9f2e6" stroke="#66cc99" stroke-width="3"/>
+  <rect x="620" y="180" width="30" height="40" fill="#b3e6cc" stroke="#66cc99" stroke-width="1"/>
+  <rect x="660" y="180" width="60" height="30" fill="#b3e6cc" stroke="#66cc99" stroke-width="1"/>
+  <rect x="620" y="230" width="40" height="30" fill="#b3e6cc" stroke="#66cc99" stroke-width="1"/>
+  <rect x="670" y="220" width="50" height="50" fill="#b3e6cc" stroke="#66cc99" stroke-width="1"/>
+  <rect x="630" y="280" width="80" height="20" fill="#b3e6cc" stroke="#66cc99" stroke-width="1"/>
+  <text x="670" y="250" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">身体</text>
+  <text x="670" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">(城市各区域)</text>
+  
+  <!-- 连接箭头 - 能量传递 -->
+  <path d="M220,130 C260,130 260,180 300,180" fill="none" stroke="#ff9966" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M500,180 C540,180 560,180 600,180" fill="none" stroke="#ff9966" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 连接箭头 - 信息反馈 -->
+  <path d="M600,220 C560,220 540,220 500,220" fill="none" stroke="#6699cc" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M300,220 C260,220 260,170 220,170" fill="none" stroke="#6699cc" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- 标签 -->
+  <text x="240" y="120" font-family="Arial, sans-serif" font-size="14" fill="#ff6633">传递能量</text>
+  <text x="240" y="135" font-family="Arial, sans-serif" font-size="12" fill="#ff6633">(Mental Impulses)</text>
+  
+  <text x="540" y="170" font-family="Arial, sans-serif" font-size="14" fill="#ff6633">分配能量</text>
+  
+  <text x="540" y="240" font-family="Arial, sans-serif" font-size="14" fill="#3366cc">反馈信息</text>
+  
+  <text x="240" y="240" font-family="Arial, sans-serif" font-size="14" fill="#3366cc">传递信息</text>
+  
+  <!-- 图例 -->
+  <rect x="250" y="380" width="300" height="80" rx="5" ry="5" fill="white" stroke="#ccc" stroke-width="1"/>
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">图例</text>
+  
+  <line x1="270" y1="420" x2="300" y2="420" stroke="#ff9966" stroke-width="3"/>
+  <text x="380" y="425" font-family="Arial, sans-serif" font-size="12" fill="#333">能量流动 (传出神经)</text>
+  
+  <line x1="270" y1="450" x2="300" y2="450" stroke="#6699cc" stroke-width="3"/>
+  <text x="380" y="455" font-family="Arial, sans-serif" font-size="12" fill="#333">信息流动 (传入神经)</text>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="490" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#666">
+    如同城市交通系统，神经系统是大脑与身体间能量和信息的双向通道
+  </text>
+</svg>

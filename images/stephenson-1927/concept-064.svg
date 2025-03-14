@@ -1,0 +1,70 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 左侧山坡（疾病动量） -->
+  <path d="M0,350 Q200,200 400,350" fill="#e6e6e6" stroke="#cccccc" stroke-width="2"/>
+  
+  <!-- 右侧山坡（健康动量） -->
+  <path d="M400,350 Q600,500 800,350" fill="#e8f4ea" stroke="#cccccc" stroke-width="2"/>
+  
+  <!-- 中央分隔线 -->
+  <line x1="400" y1="100" x2="400" y2="350" stroke="#dddddd" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 左侧人物（努力改变疾病动量） -->
+  <circle cx="200" cy="300" r="30" fill="#ffcccc"/>
+  <circle cx="150" cy="260" r="50" fill="#ff9999"/>
+  <line x1="200" y1="300" x2="240" y2="330" stroke="#333" stroke-width="3"/>
+  <line x1="200" y1="300" x2="160" y2="330" stroke="#333" stroke-width="3"/>
+  
+  <!-- 右侧人物（维持健康动量） -->
+  <circle cx="600" cy="300" r="30" fill="#ccffcc"/>
+  <circle cx="650" cy="260" r="50" fill="#99ff99"/>
+  <line x1="600" y1="300" x2="640" y2="330" stroke="#333" stroke-width="3"/>
+  <line x1="600" y1="300" x2="560" y2="330" stroke="#333" stroke-width="3"/>
+  
+  <!-- 天平（生存价值） -->
+  <rect x="350" y="100" width="100" height="30" fill="#f0f0f0" stroke="#999" stroke-width="2" rx="5"/>
+  <line x1="400" y1="130" x2="400" y2="150" stroke="#999" stroke-width="2"/>
+  <path d="M350,150 L450,150" stroke="#999" stroke-width="3"/>
+  <text x="400" y="120" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">生存价值</text>
+  
+  <!-- 箭头（疾病动量） -->
+  <path d="M150,230 C180,190 220,190 250,230" stroke="#ff6666" stroke-width="3" fill="none" marker-end="url(#arrowRed)"/>
+  <defs>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#ff6666"/>
+    </marker>
+  </defs>
+  
+  <!-- 箭头（健康动量） -->
+  <path d="M650,230 C620,190 580,190 550,230" stroke="#66cc66" stroke-width="3" fill="none" marker-end="url(#arrowGreen)"/>
+  <defs>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#66cc66"/>
+    </marker>
+  </defs>
+  
+  <!-- 时钟符号（需要时间） -->
+  <circle cx="400" cy="420" r="30" fill="white" stroke="#999" stroke-width="2"/>
+  <line x1="400" y1="420" x2="400" y2="400" stroke="#333" stroke-width="2"/>
+  <line x1="400" y1="420" x2="415" y2="420" stroke="#333" stroke-width="2"/>
+  <text x="400" y="470" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">需要时间改变</text>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">健康与疾病的动量</text>
+  
+  <!-- 左侧标签 -->
+  <text x="150" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#cc3333">疾病动量</text>
+  
+  <!-- 右侧标签 -->
+  <text x="650" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#339933">健康动量</text>
+  
+  <!-- 底部解释文字 -->
+  <rect x="100" y="380" width="600" height="100" rx="10" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="400" y="405" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">
+    <tspan x="400" dy="0">就像一辆下坡的自行车需要时间和力量才能停下并改变方向，</tspan>
+    <tspan x="400" dy="20">健康和疾病的习惯也形成了自己的动量，需要持续的努力才能改变。</tspan>
+    <tspan x="400" dy="20">生存价值决定了我们倾向于哪种动量，而任何改变都需要时间。</tspan>
+  </text>
+</svg>

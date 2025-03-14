@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">脊椎调整的四种方法</text>
+  
+  <!-- 分割线 -->
+  <line x1="50" y1="70" x2="750" y2="70" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- 四个方法区域 -->
+  <!-- 1. 随意调整 -->
+  <rect x="60" y="100" width="320" height="200" rx="10" fill="#e6f2ff" stroke="#b3d9ff" stroke-width="2"/>
+  <text x="220" y="125" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">随意调整</text>
+  
+  <!-- 随意调整的图示 - 园丁随意浇水 -->
+  <g transform="translate(100, 150)">
+    <!-- 园丁 -->
+    <circle cx="80" cy="40" r="15" fill="#95b8d1"/>
+    <line x1="80" y1="55" x2="80" y2="90" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="65" x2="60" y2="80" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="65" x2="100" y2="80" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="90" x2="70" y2="120" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="90" x2="90" y2="120" stroke="#95b8d1" stroke-width="4"/>
+    
+    <!-- 浇水壶 -->
+    <path d="M100 80 L120 75 L125 85 L115 95 Z" fill="#95b8d1"/>
+    <path d="M125 85 L140 75 L145 80" stroke="#95b8d1" stroke-width="2" fill="none"/>
+    
+    <!-- 水滴 -->
+    <path d="M145 80 Q150 90 155 80" stroke="#b3d9ff" stroke-width="2" fill="none"/>
+    <path d="M148 85 Q153 95 158 85" stroke="#b3d9ff" stroke-width="2" fill="none"/>
+    <path d="M151 90 Q156 100 161 90" stroke="#b3d9ff" stroke-width="2" fill="none"/>
+    
+    <!-- 各种花 -->
+    <path d="M160 110 L160 90 M155 95 L165 95" stroke="#7fad71" stroke-width="2"/>
+    <circle cx="160" cy="90" r="5" fill="#ffcc99"/>
+    
+    <path d="M190 110 L190 90 M185 95 L195 95" stroke="#7fad71" stroke-width="2"/>
+    <circle cx="190" cy="90" r="5" fill="#ff9999"/>
+    
+    <path d="M220 110 L220 90 M215 95 L225 95" stroke="#7fad71" stroke-width="2"/>
+    <circle cx="220" cy="90" r="5" fill="#cc99ff"/>
+  </g>
+  
+  <!-- 2. 全脊椎调整 -->
+  <rect x="420" y="100" width="320" height="200" rx="10" fill="#e6ffe6" stroke="#b3ffb3" stroke-width="2"/>
+  <text x="580" y="125" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">全脊椎调整</text>
+  
+  <!-- 全脊椎调整的图示 - 园丁按计划照料所有植物 -->
+  <g transform="translate(460, 150)">
+    <!-- 园丁 -->
+    <circle cx="80" cy="40" r="15" fill="#95b8d1"/>
+    <line x1="80" y1="55" x2="80" y2="90" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="65" x2="60" y2="80" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="65" x2="100" y2="80" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="90" x2="70" y2="120" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="90" x2="90" y2="120" stroke="#95b8d1" stroke-width="4"/>
+    
+    <!-- 园丁拿着时间表 -->
+    <rect x="50" y="75" width="20" height="25" fill="#fff" stroke="#666" stroke-width="1"/>
+    <line x1="55" y1="85" x2="65" y2="85" stroke="#666" stroke-width="1"/>
+    <line x1="55" y1="90" x2="65" y2="90" stroke="#666" stroke-width="1"/>
+    <line x1="55" y1="95" x2="65" y2="95" stroke="#666" stroke-width="1"/>
+    
+    <!-- 整齐排列的花 -->
+    <g transform="translate(120, 0)">
+      <path d="M0 110 L0 90 M-5 95 L5 95" stroke="#7fad71" stroke-width="2"/>
+      <circle cx="0" cy="90" r="5" fill="#ffcc99"/>
+      
+      <path d="M30 110 L30 90 M25 95 L35 95" stroke="#7fad71" stroke-width="2"/>
+      <circle cx="30" cy="90" r="5" fill="#ff9999"/>
+      
+      <path d="M60 110 L60 90 M55 95 L65 95" stroke="#7fad71" stroke-width="2"/>
+      <circle cx="60" cy="90" r="5" fill="#cc99ff"/>
+      
+      <path d="M90 110 L90 90 M85 95 L95 95" stroke="#7fad71" stroke-width="2"/>
+      <circle cx="90" cy="90" r="5" fill="#99ccff"/>
+      
+      <!-- 箭头指示顺序 -->
+      <path d="M10 100 L20 100" stroke="#666" stroke-width="1" marker-end="url(#arrow)"/>
+      <path d="M40 100 L50 100" stroke="#666" stroke-width="1" marker-end="url(#arrow)"/>
+      <path d="M70 100 L80 100" stroke="#666" stroke-width="1" marker-end="url(#arrow)"/>
+    </g>
+  </g>
+  
+  <!-- 3. 特定调整 -->
+  <rect x="60" y="330" width="320" height="200" rx="10" fill="#fff2e6" stroke="#ffd9b3" stroke-width="2"/>
+  <text x="220" y="355" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">特定调整</text>
+  
+  <!-- 特定调整的图示 - 园丁只照料有问题的植物 -->
+  <g transform="translate(100, 380)">
+    <!-- 园丁 -->
+    <circle cx="80" cy="40" r="15" fill="#95b8d1"/>
+    <line x1="80" y1="55" x2="80" y2="90" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="65" x2="60" y2="80" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="65" x2="100" y2="80" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="90" x2="70" y2="120" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="90" x2="90" y2="120" stroke="#95b8d1" stroke-width="4"/>
+    
+    <!-- 园丁关注生病的花 -->
+    <path d="M160 110 L160 90 M155 95 L165 95" stroke="#7fad71" stroke-width="2"/>
+    <circle cx="160" cy="90" r="5" fill="#ffcc99"/>
+    
+    <path d="M190 110 L190 90 M185 95 L195 95" stroke="#7fad71" stroke-width="2"/>
+    <circle cx="190" cy="90" r="5" fill="#ff9999"/>
+    <path d="M185 80 L195 100 M185 100 L195 80" stroke="#ff3333" stroke-width="1"/>
+    <circle cx="190" cy="70" r="10" fill="none" stroke="#ff3333" stroke-width="1" stroke-dasharray="2"/>
+    
+    <path d="M220 110 L220 90 M215 95 L225 95" stroke="#7fad71" stroke-width="2"/>
+    <circle cx="220" cy="90" r="5" fill="#cc99ff"/>
+    
+    <!-- 放大镜指向有问题的花 -->
+    <circle cx="130" cy="85" r="15" fill="none" stroke="#666" stroke-width="2"/>
+    <line x1="140" y1="95" x2="160" y2="110" stroke="#666" stroke-width="2"/>
+    <line x1="120" y1="75" x2="110" y2="65" stroke="#666" stroke-width="2"/>
+  </g>
+  
+  <!-- 4. 主要与次要调整 -->
+  <rect x="420" y="330" width="320" height="200" rx="10" fill="#f2e6ff" stroke="#d9b3ff" stroke-width="2"/>
+  <text x="580" y="355" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">主要与次要调整</text>
+  
+  <!-- 主要与次要调整的图示 - 园丁先处理严重问题再处理次要问题 -->
+  <g transform="translate(460, 380)">
+    <!-- 园丁 -->
+    <circle cx="80" cy="40" r="15" fill="#95b8d1"/>
+    <line x1="80" y1="55" x2="80" y2="90" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="65" x2="60" y2="80" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="65" x2="100" y2="80" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="90" x2="70" y2="120" stroke="#95b8d1" stroke-width="4"/>
+    <line x1="80" y1="90" x2="90" y2="120" stroke="#95b8d1" stroke-width="4"/>
+    
+    <!-- 园丁的优先级列表 -->
+    <rect x="50" y="75" width="20" height="25" fill="#fff" stroke="#666" stroke-width="1"/>
+    <text x="55" y="85" font-family="Arial, sans-serif" font-size="6" fill="#ff3333">1</text>
+    <text x="55" y="95" font-family="Arial, sans-serif" font-size="6" fill="#ff9933">2</text>
+    <text x="55" y="105" font-family="Arial, sans-serif" font-size="6" fill="#999999">3</text>
+    
+    <!-- 三种不同状态的花 -->
+    <g transform="translate(120, 0)">
+      <!-- 严重问题的花 -->
+      <path d="M0 110 L0 90 M-5 95 L5 95" stroke="#7fad71" stroke-width="2"/>
+      <circle cx="0" cy="90" r="5" fill="#ff9999"/>
+      <path d="M-5 80 L5 100 M-5 100 L5 80" stroke="#ff3333" stroke-width="2"/>
+      <text x="0" y="75" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#ff3333">1</text>
+      
+      <!-- 次要问题的花 -->
+      <path d="M50 110 L50 90 M45 95 L55 95" stroke="#7fad71" stroke-width="2"/>
+      <circle cx="50" cy="90" r="5" fill="#ffcc99"/>
+      <path d="M45 85 L55 95" stroke="#ff9933" stroke-width="1"/>
+      <text x="50" y="75" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#ff9933">2</text>
+      
+      <!-- 健康的花 -->
+      <path d="M100 110 L100 90 M95 95 L105 95" stroke="#7fad71" stroke-width="2"/>
+      <circle cx="100" cy="90" r="5" fill="#cc99ff"/>
+      <text x="100" y="75" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#999999">3</text>
+    </g>
+  </g>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666" font-style="italic">
+    脊椎调整的四种方法就像园丁照料花园的不同策略，从随意照料到有优先级的精准干预。
+  </text>
+</svg>

@@ -1,0 +1,61 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 大脑 -->
+  <ellipse cx="400" cy="120" rx="180" ry="90" fill="#f2e6ff" stroke="#6b4c9a" stroke-width="3"/>
+  <path d="M350,100 C370,80 430,80 450,100 S460,140 430,150 S370,140 350,100" fill="#e6ccff" stroke="#6b4c9a" stroke-width="1"/>
+  <path d="M320,120 C340,100 360,110 370,130 S360,160 340,150 S310,140 320,120" fill="#e6ccff" stroke="#6b4c9a" stroke-width="1"/>
+  <path d="M430,120 C450,100 470,110 480,130 S470,160 450,150 S420,140 430,120" fill="#e6ccff" stroke="#6b4c9a" stroke-width="1"/>
+  <text x="400" y="125" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">大脑总部</text>
+  
+  <!-- 脊髓 -->
+  <path d="M400,210 L400,350" stroke="#6b4c9a" stroke-width="30" stroke-linecap="round"/>
+  <path d="M400,210 L400,350" stroke="#d9c3f7" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- 保护层标识 -->
+  <path d="M430,250 L480,230" stroke="#333" stroke-width="1"/>
+  <text x="490" y="230" font-family="Arial" font-size="14" fill="#333">保护层</text>
+  
+  <!-- 信号传输箭头：向下 -->
+  <path d="M390,240 L380,280 L390,270 L370,310 L380,300 L360,340" stroke="#ff7f50" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <polygon points="360,350 355,335 365,335" fill="#ff7f50"/>
+  
+  <!-- 信号传输箭头：向上 -->
+  <path d="M410,340 L420,300 L410,310 L430,270 L420,280 L440,240" stroke="#4682b4" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <polygon points="440,230 435,245 445,245" fill="#4682b4"/>
+  
+  <!-- 身体各部分 -->
+  <rect x="200" y="400" width="100" height="80" rx="10" ry="10" fill="#e6f2ff" stroke="#4682b4" stroke-width="2"/>
+  <text x="250" y="445" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">手臂部门</text>
+  
+  <rect x="350" y="400" width="100" height="80" rx="10" ry="10" fill="#e6f2ff" stroke="#4682b4" stroke-width="2"/>
+  <text x="400" y="445" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">腿部部门</text>
+  
+  <rect x="500" y="400" width="100" height="80" rx="10" ry="10" fill="#e6f2ff" stroke="#4682b4" stroke-width="2"/>
+  <text x="550" y="445" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">感觉部门</text>
+  
+  <!-- 连接线 -->
+  <path d="M400,350 L250,400" stroke="#6b4c9a" stroke-width="3" fill="none"/>
+  <path d="M400,350 L400,400" stroke="#6b4c9a" stroke-width="3" fill="none"/>
+  <path d="M400,350 L550,400" stroke="#6b4c9a" stroke-width="3" fill="none"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">脊髓：大脑与身体的通信高速公路</text>
+  
+  <!-- 图例 -->
+  <rect x="600" y="130" width="160" height="100" rx="5" ry="5" fill="white" stroke="#ccc" stroke-width="1"/>
+  <text x="680" y="150" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">信号传输</text>
+  <line x1="620" y1="170" x2="650" y2="170" stroke="#ff7f50" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="655,170 645,165 645,175" fill="#ff7f50"/>
+  <text x="700" y="175" font-family="Arial" font-size="12" fill="#333">指令信号</text>
+  <line x1="620" y1="200" x2="650" y2="200" stroke="#4682b4" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="655,200 645,195 645,205" fill="#4682b4"/>
+  <text x="700" y="205" font-family="Arial" font-size="12" fill="#333">反馈信号</text>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="520" width="600" height="60" rx="5" ry="5" fill="white" stroke="#ccc" stroke-width="1"/>
+  <text x="400" y="550" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">
+    脊髓就像一条通信电缆，连接大脑总部与身体各部门，双向传递指令与反馈
+  </text>
+</svg>

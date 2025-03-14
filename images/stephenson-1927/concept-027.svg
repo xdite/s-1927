@@ -1,0 +1,64 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 生命之树 -->
+  <path d="M400,500 C400,500 380,400 400,350 C420,300 410,250 400,200 C390,150 400,100 400,100" 
+        fill="none" stroke="#5d8c7b" stroke-width="15" stroke-linecap="round"/>
+  
+  <!-- 树根 -->
+  <path d="M400,500 C380,520 360,510 340,520" fill="none" stroke="#5d8c7b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M400,500 C420,520 440,510 460,520" fill="none" stroke="#5d8c7b" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- 组织分支 -->
+  <path d="M400,250 C350,230 300,240 250,220" fill="none" stroke="#5d8c7b" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- 适应性分支 -->
+  <path d="M400,200 C430,180 450,190 500,170" fill="none" stroke="#5d8c7b" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- 繁殖分支 -->
+  <path d="M400,300 C450,290 480,300 530,290" fill="none" stroke="#5d8c7b" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- 组织图示 -->
+  <circle cx="220" cy="220" r="60" fill="#e0f0e3" stroke="#5d8c7b" stroke-width="2"/>
+  <rect x="190" y="190" width="20" height="20" fill="#81b29a" rx="2" ry="2"/>
+  <rect x="220" y="190" width="20" height="20" fill="#81b29a" rx="2" ry="2"/>
+  <rect x="190" y="220" width="20" height="20" fill="#81b29a" rx="2" ry="2"/>
+  <rect x="220" y="220" width="20" height="20" fill="#81b29a" rx="2" ry="2"/>
+  <line x1="200" y1="190" x2="200" y2="240" stroke="#5d8c7b" stroke-width="1"/>
+  <line x1="230" y1="190" x2="230" y2="240" stroke="#5d8c7b" stroke-width="1"/>
+  <line x1="190" y1="200" x2="240" y2="200" stroke="#5d8c7b" stroke-width="1"/>
+  <line x1="190" y1="230" x2="240" y2="230" stroke="#5d8c7b" stroke-width="1"/>
+  
+  <!-- 适应性图示 -->
+  <circle cx="530" cy="170" r="60" fill="#e0f0e3" stroke="#5d8c7b" stroke-width="2"/>
+  <path d="M530,170 C510,150 490,180 510,200 C530,220 550,190 530,170" fill="#81b29a" stroke="#5d8c7b" stroke-width="1"/>
+  <path d="M530,170 C550,150 570,180 550,200 C530,220 510,190 530,170" fill="#5d8c7b" stroke="#5d8c7b" stroke-width="1" opacity="0.7"/>
+  
+  <!-- 繁殖图示 -->
+  <circle cx="560" cy="290" r="60" fill="#e0f0e3" stroke="#5d8c7b" stroke-width="2"/>
+  <circle cx="540" cy="280" r="15" fill="#81b29a"/>
+  <circle cx="580" cy="280" r="10" fill="#81b29a"/>
+  <circle cx="560" cy="310" r="8" fill="#81b29a"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="60" font-family="Arial" font-size="24" text-anchor="middle" fill="#3d5a80" font-weight="bold">生命迹象：Signs of Life</text>
+  
+  <!-- 组织标签 -->
+  <text x="220" y="150" font-family="Arial" font-size="18" text-anchor="middle" fill="#3d5a80" font-weight="bold">组织</text>
+  <text x="220" y="170" font-family="Arial" font-size="16" text-anchor="middle" fill="#3d5a80">Organization</text>
+  
+  <!-- 适应性标签 -->
+  <text x="530" y="100" font-family="Arial" font-size="18" text-anchor="middle" fill="#3d5a80" font-weight="bold">适应性</text>
+  <text x="530" y="120" font-family="Arial" font-size="16" text-anchor="middle" fill="#3d5a80">Adaptation</text>
+  
+  <!-- 繁殖标签 -->
+  <text x="560" y="370" font-family="Arial" font-size="18" text-anchor="middle" fill="#3d5a80" font-weight="bold">繁殖</text>
+  <text x="560" y="390" font-family="Arial" font-size="16" text-anchor="middle" fill="#3d5a80">Reproduction</text>
+  
+  <!-- 比喻说明 -->
+  <rect x="100" y="520" width="600" height="60" fill="#e0f0e3" rx="5" ry="5" opacity="0.8"/>
+  <text x="400" y="545" font-family="Arial" font-size="14" text-anchor="middle" fill="#3d5a80">
+    生命的基本特征如同一座城市：组织是城市结构，适应性是应对变化的能力，繁殖是城市的扩展与更新
+  </text>
+</svg>

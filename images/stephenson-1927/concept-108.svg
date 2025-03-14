@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 水库（宇宙智能） -->
+  <rect x="150" y="50" width="500" height="150" rx="10" ry="10" fill="#a8d5e5" stroke="#5aa9ce" stroke-width="3"/>
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#2c3e50" font-weight="bold">宇宙智能</text>
+  <text x="400" y="160" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50" font-style="italic">(无限、普遍存在的智能)</text>
+  
+  <!-- 管道 -->
+  <path d="M400,200 L400,250" stroke="#5aa9ce" stroke-width="10" fill="none"/>
+  <path d="M400,250 L200,300 L400,300 L600,300" stroke="#5aa9ce" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M200,300 L200,350 M400,300 L400,350 M600,300 L600,350" stroke="#5aa9ce" stroke-width="10" fill="none"/>
+  
+  <!-- 水龙头/内在智能 -->
+  <g transform="translate(200,350)">
+    <rect x="-75" y="0" width="150" height="100" rx="10" ry="10" fill="#c9e4d6" stroke="#68b88e" stroke-width="2"/>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">内在智能</text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">(植物生命)</text>
+    <!-- 水滴 -->
+    <path d="M0,100 L0,120 Q0,130 -5,135 Q-10,140 0,145 Q10,140 5,135 Q0,130 0,120" fill="#a8d5e5"/>
+  </g>
+  
+  <g transform="translate(400,350)">
+    <rect x="-75" y="0" width="150" height="100" rx="10" ry="10" fill="#c9e4d6" stroke="#68b88e" stroke-width="2"/>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">内在智能</text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">(动物生命)</text>
+    <!-- 水滴 -->
+    <path d="M0,100 L0,120 Q0,130 -5,135 Q-10,140 0,145 Q10,140 5,135 Q0,130 0,120" fill="#a8d5e5"/>
+  </g>
+  
+  <g transform="translate(600,350)">
+    <rect x="-75" y="0" width="150" height="100" rx="10" ry="10" fill="#c9e4d6" stroke="#68b88e" stroke-width="2"/>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">内在智能</text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">(人类生命)</text>
+    <!-- 水滴 -->
+    <path d="M0,100 L0,120 Q0,130 -5,135 Q-10,140 0,145 Q10,140 5,135 Q0,130 0,120" fill="#a8d5e5"/>
+  </g>
+  
+  <!-- 箭头 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  <line x1="450" y1="180" x2="500" y2="180" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="470" y="170" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">赋予局部力量</text>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    宇宙智能就像一个巨大的水库，通过管道网络将生命能量传递给各种生命形式中的内在智能，
+  </text>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    就像水库通过管道将水输送到每个家庭的水龙头一样。
+  </text>
+</svg>

@@ -1,0 +1,88 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">正常与异常脊椎状态</text>
+  
+  <!-- 左侧正常脊椎区域 -->
+  <rect x="100" y="100" width="250" height="350" rx="10" fill="#e6f7ff" stroke="#4da6ff" stroke-width="2"/>
+  <text x="225" y="130" font-family="Arial" font-size="20" text-anchor="middle" fill="#333">正常脊椎</text>
+  
+  <!-- 正常脊椎图示 -->
+  <g transform="translate(175, 200)">
+    <!-- 脊椎骨 -->
+    <rect x="-40" y="-30" width="80" height="20" rx="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    <rect x="-40" y="0" width="80" height="20" rx="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    <rect x="-40" y="30" width="80" height="20" rx="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    <rect x="-40" y="60" width="80" height="20" rx="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    <rect x="-40" y="90" width="80" height="20" rx="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    
+    <!-- 椎间盘 -->
+    <ellipse cx="0" cy="-5" rx="25" ry="5" fill="#b3e6cc" stroke="#333" stroke-width="1"/>
+    <ellipse cx="0" cy="25" rx="25" ry="5" fill="#b3e6cc" stroke="#333" stroke-width="1"/>
+    <ellipse cx="0" cy="55" rx="25" ry="5" fill="#b3e6cc" stroke="#333" stroke-width="1"/>
+    <ellipse cx="0" cy="85" rx="25" ry="5" fill="#b3e6cc" stroke="#333" stroke-width="1"/>
+    
+    <!-- 神经 -->
+    <line x1="50" y1="-30" x2="50" y2="110" stroke="#ff9999" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- 正常特征说明 -->
+    <text x="0" y="150" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">正常位置</text>
+    <text x="0" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">关节良好</text>
+    <text x="0" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">无神经压迫</text>
+  </g>
+  
+  <!-- 右侧异常脊椎区域 -->
+  <rect x="450" y="100" width="250" height="350" rx="10" fill="#fff0f0" stroke="#ff8080" stroke-width="2"/>
+  <text x="575" y="130" font-family="Arial" font-size="20" text-anchor="middle" fill="#333">异常脊椎</text>
+  
+  <!-- 异常脊椎图示 -->
+  <g transform="translate(575, 200)">
+    <!-- 脊椎骨 (异常) -->
+    <rect x="-40" y="-30" width="80" height="20" rx="5" fill="#ffffff" stroke="#333" stroke-width="2" transform="rotate(-10)"/>
+    <rect x="-50" y="0" width="90" height="20" rx="5" fill="#ffffff" stroke="#333" stroke-width="2" transform="rotate(5)"/> <!-- 发育不良 -->
+    <rect x="-40" y="30" width="70" height="20" rx="5" fill="#ffcccc" stroke="#333" stroke-width="2"/> <!-- 病变 -->
+    <rect x="-30" y="60" width="80" height="20" rx="5" fill="#ffffff" stroke="#333" stroke-width="2" transform="rotate(-15)"/> <!-- 位置不正 -->
+    <rect x="-40" y="90" width="80" height="20" rx="5" fill="#ffffff" stroke="#333" stroke-width="2"/>
+    
+    <!-- 椎间盘 (异常) -->
+    <ellipse cx="-5" cy="-5" rx="20" ry="5" fill="#b3e6cc" stroke="#333" stroke-width="1" transform="rotate(-10)"/>
+    <ellipse cx="5" cy="25" rx="25" ry="3" fill="#b3e6cc" stroke="#333" stroke-width="1"/> <!-- 变薄 -->
+    <ellipse cx="0" cy="55" rx="25" ry="5" fill="#ffcccc" stroke="#333" stroke-width="1"/> <!-- 发炎 -->
+    <ellipse cx="-10" cy="85" rx="20" ry="5" fill="#b3e6cc" stroke="#333" stroke-width="1" transform="rotate(-15)"/>
+    
+    <!-- 神经 (受压) -->
+    <path d="M50,-30 Q55,20 45,50 Q40,70 50,110" stroke="#ff9999" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="45" cy="50" r="8" fill="#ff6666"/> <!-- 压迫点 -->
+    
+    <!-- 异常特征说明 -->
+    <text x="0" y="150" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">发育不良</text>
+    <text x="0" y="170" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">病变</text>
+    <text x="0" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">位置不正</text>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <g>
+    <path d="M350,200 L450,200" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="400" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">受到外力或疾病影响</text>
+    
+    <path d="M450,250 L350,250" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="400" y="265" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">矫正后</text>
+  </g>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="500" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    就像城市中的桥梁系统，正常脊椎让"交通"(神经信号)顺畅通行，
+  </text>
+  <text x="400" y="520" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    而异常脊椎则如同受损桥梁，导致"交通阻塞"(健康问题)
+  </text>
+</svg>

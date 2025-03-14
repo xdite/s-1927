@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">宇宙功能与一般功能</text>
+  
+  <!-- City Skyline -->
+  <g transform="translate(100, 150)">
+    <!-- Buildings (representing specialized organs) -->
+    <rect x="50" y="100" width="80" height="150" fill="#b3d9ff" stroke="#4d94ff" stroke-width="2"/>
+    <rect x="55" y="70" width="70" height="30" fill="#b3d9ff" stroke="#4d94ff" stroke-width="2"/>
+    <text x="90" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">医院</text>
+    
+    <rect x="150" y="130" width="70" height="120" fill="#ffcccc" stroke="#ff8080" stroke-width="2"/>
+    <polygon points="150,130 185,100 220,130" fill="#ffcccc" stroke="#ff8080" stroke-width="2"/>
+    <text x="185" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">学校</text>
+    
+    <rect x="240" y="110" width="100" height="140" fill="#d9f2d9" stroke="#80c080" stroke-width="2"/>
+    <rect x="260" y="150" width="20" height="30" fill="#ffffff" stroke="#80c080" stroke-width="2"/>
+    <rect x="300" y="150" width="20" height="30" fill="#ffffff" stroke="#80c080" stroke-width="2"/>
+    <text x="290" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">商场</text>
+    
+    <rect x="360" y="90" width="60" height="160" fill="#e6ccff" stroke="#b366ff" stroke-width="2"/>
+    <rect x="370" y="120" width="40" height="40" fill="#ffffff" stroke="#b366ff" stroke-width="2"/>
+    <text x="390" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">办公楼</text>
+    
+    <rect x="440" y="140" width="90" height="110" fill="#ffe6cc" stroke="#ffb366" stroke-width="2"/>
+    <rect x="460" y="170" width="20" height="30" fill="#ffffff" stroke="#ffb366" stroke-width="2"/>
+    <rect x="490" y="170" width="20" height="30" fill="#ffffff" stroke="#ffb366" stroke-width="2"/>
+    <text x="485" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">工厂</text>
+    
+    <!-- Ground -->
+    <line x1="0" y1="250" x2="600" y2="250" stroke="#333" stroke-width="2"/>
+    
+    <!-- Universal Function (Electricity) -->
+    <g>
+      <text x="300" y="-30" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">宇宙功能 (Universal Life)</text>
+      <text x="300" y="-10" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">如同城市的电力系统</text>
+      
+      <!-- Power lines -->
+      <line x1="50" y1="0" x2="550" y2="0" stroke="#666" stroke-width="2"/>
+      
+      <!-- Power poles and connections to buildings -->
+      <line x1="90" y1="0" x2="90" y2="70" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+      <line x1="185" y1="0" x2="185" y2="100" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+      <line x1="290" y1="0" x2="290" y2="110" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+      <line x1="390" y1="0" x2="390" y2="90" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+      <line x1="485" y1="0" x2="485" y2="140" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+      
+      <!-- Power poles -->
+      <rect x="85" y="-15" width="10" height="15" fill="#999"/>
+      <rect x="180" y="-15" width="10" height="15" fill="#999"/>
+      <rect x="285" y="-15" width="10" height="15" fill="#999"/>
+      <rect x="385" y="-15" width="10" height="15" fill="#999"/>
+      <rect x="480" y="-15" width="10" height="15" fill="#999"/>
+      
+      <!-- Vibration symbols -->
+      <path d="M70,0 Q75,-5 80,0 Q85,5 90,0 Q95,-5 100,0" fill="none" stroke="#ff6600" stroke-width="1.5"/>
+      <path d="M170,0 Q175,-5 180,0 Q185,5 190,0 Q195,-5 200,0" fill="none" stroke="#ff6600" stroke-width="1.5"/>
+      <path d="M270,0 Q275,-5 280,0 Q285,5 290,0 Q295,-5 300,0" fill="none" stroke="#ff6600" stroke-width="1.5"/>
+      <path d="M370,0 Q375,-5 380,0 Q385,5 390,0 Q395,-5 400,0" fill="none" stroke="#ff6600" stroke-width="1.5"/>
+      <path d="M470,0 Q475,-5 480,0 Q485,5 490,0 Q495,-5 500,0" fill="none" stroke="#ff6600" stroke-width="1.5"/>
+    </g>
+    
+    <!-- General Function (Public Transport) -->
+    <g>
+      <text x="300" y="320" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">一般功能 (General Sense)</text>
+      <text x="300" y="340" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">如同城市的公共交通系统</text>
+      
+      <!-- Road -->
+      <rect x="30" y="290" width="540" height="10" fill="#aaa"/>
+      
+      <!-- Bus stops -->
+      <rect x="90" y="280" width="10" height="20" fill="#4d94ff"/>
+      <rect x="185" y="280" width="10" height="20" fill="#4d94ff"/>
+      <rect x="290" y="280" width="10" height="20" fill="#4d94ff"/>
+      <rect x="390" y="280" width="10" height="20" fill="#4d94ff"/>
+      <rect x="485" y="280" width="10" height="20" fill="#4d94ff"/>
+      
+      <!-- Bus -->
+      <rect x="200" y="275" width="80" height="25" rx="5" fill="#ffcc00" stroke="#ff9900" stroke-width="1.5"/>
+      <rect x="210" y="260" width="60" height="15" rx="3" fill="#ffcc00" stroke="#ff9900" stroke-width="1.5"/>
+      <circle cx="215" cy="300" r="5" fill="#333"/>
+      <circle cx="265" cy="300" r="5" fill="#333"/>
+      
+      <!-- People/connections -->
+      <line x1="90" y1="280" x2="90" y2="250" stroke="#333" stroke-width="1" stroke-dasharray="3,2"/>
+      <line x1="185" y1="280" x2="185" y2="250" stroke="#333" stroke-width="1" stroke-dasharray="3,2"/>
+      <line x1="290" y1="280" x2="290" y2="250" stroke="#333" stroke-width="1" stroke-dasharray="3,2"/>
+      <line x1="390" y1="280" x2="390" y2="250" stroke="#333" stroke-width="1" stroke-dasharray="3,2"/>
+      <line x1="485" y1="280" x2="485" y2="250" stroke="#333" stroke-width="1" stroke-dasharray="3,2"/>
+    </g>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(650, 150)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">图例</text>
+    
+    <rect x="0" y="20" width="15" height="15" fill="#999"/>
+    <text x="25" y="33" font-family="Arial, sans-serif" font-size="12" fill="#333">电力系统 (原子振动)</text>
+    
+    <path d="M0,55 Q5,50 10,55 Q15,60 20,55" fill="none" stroke="#ff6600" stroke-width="1.5"/>
+    <text x="25" y="58" font-family="Arial, sans-serif" font-size="12" fill="#333">持续运动</text>
+    
+    <rect x="0" y="75" width="15" height="15" fill="#4d94ff"/>
+    <text x="25" y="88" font-family="Arial, sans-serif" font-size="12" fill="#333">公交站 (协调服务)</text>
+    
+    <rect x="0" y="105" width="15" height="15" fill="#ffcc00"/>
+    <text x="25" y="118" font-family="Arial, sans-serif" font-size="12" fill="#333">公交车 (功能连接)</text>
+    
+    <rect x="0" y="135" width="15" height="15" fill="#b3d9ff" stroke="#4d94ff" stroke-width="1"/>
+    <text x="25" y="148" font-family="Arial, sans-serif" font-size="12" fill="#333">专业化建筑 (器官)</text>
+  </g>
+  
+  <!-- Explanation -->
+  <text x="400" y="530" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666" font-style="italic">就像城市需要电力系统（宇宙功能）和公共交通（一般功能）作为基础设施，</text>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666" font-style="italic">身体也需要这些基本功能来协调所有专业化器官的工作。</text>
+</svg>

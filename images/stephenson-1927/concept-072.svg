@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f7"/>
+  
+  <!-- 花园布局 -->
+  <path d="M100,300 Q400,200 700,300 Q400,450 100,300" fill="#e8f4ea" stroke="#aad2b3" stroke-width="2"/>
+  
+  <!-- 花园区域 - 主题分区 -->
+  <circle cx="250" cy="300" r="80" fill="#f5e1e4" stroke="#d4a5ab" stroke-width="2"/>
+  <text x="250" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">玫瑰园区</text>
+  
+  <circle cx="450" cy="320" r="70" fill="#e1e9f5" stroke="#a5b7d4" stroke-width="2"/>
+  <text x="450" y="320" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">水景区</text>
+  
+  <circle cx="600" cy="280" r="60" fill="#f2f5e1" stroke="#c2d4a5" stroke-width="2"/>
+  <text x="600" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">岩石花园</text>
+  
+  <!-- 园丁 -->
+  <g transform="translate(350,220)">
+    <!-- 头部 -->
+    <circle cx="0" cy="-40" r="15" fill="#f8d5b2"/>
+    <!-- 身体 -->
+    <path d="M0,-25 L0,20" stroke="#70a0c0" stroke-width="10"/>
+    <!-- 手臂 -->
+    <path d="M0,-15 L-25,0" stroke="#70a0c0" stroke-width="5"/>
+    <path d="M0,-15 L25,10" stroke="#70a0c0" stroke-width="5"/>
+    <!-- 腿 -->
+    <path d="M0,20 L-15,50" stroke="#6b8e9f" stroke-width="7"/>
+    <path d="M0,20 L15,50" stroke="#6b8e9f" stroke-width="7"/>
+    <!-- 帽子 -->
+    <path d="M-15,-45 Q0,-55 15,-45" stroke="#8d6e63" stroke-width="3" fill="none"/>
+    <ellipse cx="0" cy="-42" rx="18" ry="7" fill="#a1887f"/>
+  </g>
+  
+  <!-- 园丁的工具 - 剪刀（代表删除无关内容） -->
+  <g transform="translate(375,230)">
+    <path d="M0,0 L20,-15" stroke="#888" stroke-width="2"/>
+    <path d="M0,0 L20,15" stroke="#888" stroke-width="2"/>
+    <circle cx="0" cy="0" r="5" fill="#aaa"/>
+  </g>
+  
+  <!-- 不合适的植物（被移除） -->
+  <g transform="translate(500,200)">
+    <path d="M0,0 Q5,-10 10,0 Q15,-10 20,0" fill="none" stroke="#c9c9c9" stroke-width="1.5"/>
+    <path d="M10,0 L10,15" fill="none" stroke="#c9c9c9" stroke-width="1.5"/>
+    <line x1="5" y1="5" x2="15" y2="5" stroke="#c9c9c9" stroke-width="1.5"/>
+    <line x1="5" y1="10" x2="15" y2="10" stroke="#c9c9c9" stroke-width="1.5"/>
+    <line x1="25" y1="-5" x2="5" y2="15" stroke="#e74c3c" stroke-width="2"/>
+    <line x1="5" y1="-5" x2="25" y2="15" stroke="#e74c3c" stroke-width="2"/>
+  </g>
+  
+  <!-- 规划图纸（代表大纲） -->
+  <g transform="translate(170,180)">
+    <rect x="0" y="0" width="40" height="30" fill="white" stroke="#aaa" stroke-width="1"/>
+    <line x1="5" y1="7" x2="35" y2="7" stroke="#aaa" stroke-width="1"/>
+    <line x1="5" y1="15" x2="35" y2="15" stroke="#aaa" stroke-width="1"/>
+    <line x1="5" y1="23" x2="35" y2="23" stroke="#aaa" stroke-width="1"/>
+  </g>
+  
+  <!-- 观察视角（鸟瞰全局） -->
+  <path d="M50,100 Q400,50 750,100" fill="none" stroke="#bbb" stroke-dasharray="5,5" stroke-width="2"/>
+  <text x="400" y="70" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">鸟瞰全局视角</text>
+  
+  <!-- 图例和说明 -->
+  <g transform="translate(400,520)">
+    <text x="0" y="0" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#333">学术写作如同园艺：精心规划，保持主题，去除无关</text>
+    <text x="0" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">就像园丁打造完美花园，作者需规划布局、维护主题一致性、果断删除无关内容</text>
+  </g>
+  
+  <!-- 装饰元素 - 小花和植物 -->
+  <g transform="translate(150,350)">
+    <path d="M0,0 C3,-5 7,-5 10,0 C13,5 17,5 20,0" stroke="#a5d6a7" stroke-width="1.5" fill="none"/>
+    <line x1="10" y1="0" x2="10" y2="15" stroke="#a5d6a7" stroke-width="1.5"/>
+  </g>
+  
+  <g transform="translate(650,350)">
+    <path d="M0,0 C3,-5 7,-5 10,0 C13,5 17,5 20,0" stroke="#a5d6a7" stroke-width="1.5" fill="none"/>
+    <line x1="10" y1="0" x2="10" y2="15" stroke="#a5d6a7" stroke-width="1.5"/>
+  </g>
+  
+  <g transform="translate(350,400)">
+    <circle cx="0" cy="0" r="5" fill="#ffcc80"/>
+    <circle cx="0" cy="0" r="2" fill="#e65100"/>
+    <path d="M0,5 C-5,8 -5,12 0,15" stroke="#a5d6a7" stroke-width="1.5" fill="none"/>
+    <line x1="0" y1="5" x2="0" y2="20" stroke="#a5d6a7" stroke-width="1.5"/>
+  </g>
+  
+  <g transform="translate(550,380)">
+    <circle cx="0" cy="0" r="5" fill="#b39ddb"/>
+    <circle cx="0" cy="0" r="2" fill="#4527a0"/>
+    <path d="M0,5 C-5,8 -5,12 0,15" stroke="#a5d6a7" stroke-width="1.5" fill="none"/>
+    <line x1="0" y1="5" x2="0" y2="20" stroke="#a5d6a7" stroke-width="1.5"/>
+  </g>
+</svg>

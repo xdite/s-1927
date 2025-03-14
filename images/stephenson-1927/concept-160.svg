@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" viewBox="0 0 700 500">
+  <!-- 背景 -->
+  <rect width="700" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 左侧：组织细胞（居民） -->
+  <circle cx="180" cy="250" r="100" fill="#e6f2ff" stroke="#4682b4" stroke-width="2"/>
+  <text x="180" y="250" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">组织细胞</text>
+  <text x="180" y="275" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">(居民)</text>
+  
+  <!-- 人物图标 -->
+  <circle cx="180" cy="200" r="20" fill="#4682b4"/>
+  <path d="M180 230 L180 280 M180 250 L155 270 M180 250 L205 270" stroke="#4682b4" stroke-width="3" fill="none"/>
+  
+  <!-- 右侧：内在智能（管理员） -->
+  <circle cx="520" cy="250" r="100" fill="#f0e6ff" stroke="#8a2be2" stroke-width="2"/>
+  <text x="520" y="250" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">内在智能</text>
+  <text x="520" y="275" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">(管理员)</text>
+  
+  <!-- 管理员图标 -->
+  <circle cx="520" cy="200" r="20" fill="#8a2be2"/>
+  <path d="M520 230 L520 280 M520 250 L495 270 M520 250 L545 270" stroke="#8a2be2" stroke-width="3" fill="none"/>
+  <path d="M510 190 Q520 180 530 190" stroke="#8a2be2" stroke-width="2" fill="none"/>
+  
+  <!-- 信息传递路径 1: 接收精神冲动 -->
+  <path d="M230 200 C300 150, 400 150, 470 200" stroke="#ff7f50" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="350" y="140" font-family="Arial" font-size="14" text-anchor="middle" fill="#ff7f50">1. 接收精神冲动</text>
+  <text x="350" y="160" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(邮件送达)</text>
+  
+  <!-- 信息传递路径 2: 传递信息 -->
+  <path d="M230 250 C300 250, 400 250, 470 250" stroke="#3cb371" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="350" y="235" font-family="Arial" font-size="14" text-anchor="middle" fill="#3cb371">2. 传递信息</text>
+  <text x="350" y="255" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(通过对讲系统)</text>
+  
+  <!-- 信息传递路径 3: 解释信息 -->
+  <path d="M470 300 C400 350, 300 350, 230 300" stroke="#4169e1" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="350" y="375" font-family="Arial" font-size="14" text-anchor="middle" fill="#4169e1">3. 解释信息</text>
+  <text x="350" y="395" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(通过广播系统回应)</text>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- 标题 -->
+  <text x="350" y="50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">正常完整周期</text>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="430" width="600" height="50" rx="5" ry="5" fill="#f0f0f0" stroke="#ccc" stroke-width="1"/>
+  <text x="350" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
+    就像小区居民接收邮件并通过对讲系统传递给管理员，管理员解读后通过广播系统回应
+  </text>
+</svg>

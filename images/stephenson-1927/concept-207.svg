@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 城市轮廓装饰 -->
+  <path d="M50,400 Q200,350 400,380 Q600,410 750,380" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  <path d="M100,420 L120,380 L140,420 L160,370 L180,420 L200,390 L220,420 L240,370 L260,420 L280,380 L300,420 L320,370 L340,420 L360,390 L380,420 L400,370 L420,420 L440,380 L460,420 L480,370 L500,420 L520,390 L540,420 L560,370 L580,420 L600,380 L620,420 L640,370 L660,420 L680,390 L700,420" fill="none" stroke="#e0e0e0" stroke-width="2"/>
+  
+  <!-- 中央节点：一般功能 -->
+  <circle cx="400" cy="200" r="50" fill="#6a89cc" stroke="#4a69bd" stroke-width="2"/>
+  <text x="400" y="190" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="bold">一般功能</text>
+  <text x="400" y="210" font-family="Arial" font-size="14" fill="white" text-anchor="middle">(城市总部)</text>
+  
+  <!-- 连接线 -->
+  <g stroke="#b8c2cc" stroke-width="2">
+    <!-- 主要功能节点 -->
+    <line x1="400" y1="250" x2="400" y2="290"/>
+    <circle cx="400" cy="320" r="30" fill="#82ccdd" stroke="#60a3bc" stroke-width="2"/>
+    <text x="400" y="325" font-family="Arial" font-size="12" fill="white" text-anchor="middle">主要功能</text>
+    
+    <!-- 连接到各个功能 -->
+    <line x1="400" y1="350" x2="150" y2="450"/>
+    <line x1="400" y1="350" x2="250" y2="450"/>
+    <line x1="400" y1="350" x2="350" y2="450"/>
+    <line x1="400" y1="350" x2="450" y2="450"/>
+    <line x1="400" y1="350" x2="550" y2="450"/>
+    <line x1="400" y1="350" x2="650" y2="450"/>
+    <line x1="400" y1="350" x2="200" y2="520"/>
+    <line x1="400" y1="350" x2="350" y2="520"/>
+    <line x1="400" y1="350" x2="450" y2="520"/>
+    <line x1="400" y1="350" x2="600" y2="520"/>
+    <line x1="400" y1="350" x2="550" y2="520"/>
+  </g>
+  
+  <!-- 功能节点 -->
+  <!-- 第一行 -->
+  <g>
+    <circle cx="150" cy="450" r="30" fill="#f8c291" stroke="#e55039" stroke-width="2"/>
+    <text x="150" y="445" font-family="Arial" font-size="12" fill="white" text-anchor="middle">运动 (M)</text>
+    <text x="150" y="460" font-family="Arial" font-size="10" fill="white" text-anchor="middle">交通部门</text>
+  </g>
+  
+  <g>
+    <circle cx="250" cy="450" r="30" fill="#ff6b6b" stroke="#c0392b" stroke-width="2"/>
+    <text x="250" y="445" font-family="Arial" font-size="12" fill="white" text-anchor="middle">生热 (C)</text>
+    <text x="250" y="460" font-family="Arial" font-size="10" fill="white" text-anchor="middle">能源部门</text>
+  </g>
+  
+  <g>
+    <circle cx="350" cy="450" r="30" fill="#a29bfe" stroke="#6c5ce7" stroke-width="2"/>
+    <text x="350" y="445" font-family="Arial" font-size="12" fill="white" text-anchor="middle">感觉 (S)</text>
+    <text x="350" y="460" font-family="Arial" font-size="10" fill="white" text-anchor="middle">信息中心</text>
+  </g>
+  
+  <g>
+    <circle cx="450" cy="450" r="30" fill="#55efc4" stroke="#00b894" stroke-width="2"/>
+    <text x="450" y="445" font-family="Arial" font-size="12" fill="white" text-anchor="middle">分泌 (T)</text>
+    <text x="450" y="460" font-family="Arial" font-size="10" fill="white" text-anchor="middle">水务局</text>
+  </g>
+  
+  <g>
+    <circle cx="550" cy="450" r="30" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="2"/>
+    <text x="550" y="445" font-family="Arial" font-size="12" fill="white" text-anchor="middle">排泄 (E)</text>
+    <text x="550" y="460" font-family="Arial" font-size="10" fill="white" text-anchor="middle">环卫部门</text>
+  </g>
+  
+  <g>
+    <circle cx="650" cy="450" r="30" fill="#fab1a0" stroke="#e17055" stroke-width="2"/>
+    <text x="650" y="445" font-family="Arial" font-size="12" fill="white" text-anchor="middle">营养 (N)</text>
+    <text x="650" y="460" font-family="Arial" font-size="10" fill="white" text-anchor="middle">食品供应</text>
+  </g>
+  
+  <!-- 第二行 -->
+  <g>
+    <circle cx="200" cy="520" r="30" fill="#74b9ff" stroke="#0984e3" stroke-width="2"/>
+    <text x="200" y="515" font-family="Arial" font-size="12" fill="white" text-anchor="middle">修复 (R)</text>
+    <text x="200" y="530" font-family="Arial" font-size="10" fill="white" text-anchor="middle">维修队</text>
+  </g>
+  
+  <g>
+    <circle cx="350" cy="520" r="30" fill="#81ecec" stroke="#00cec9" stroke-width="2"/>
+    <text x="350" y="515" font-family="Arial" font-size="12" fill="white" text-anchor="middle">扩张 (X)</text>
+    <text x="350" y="530" font-family="Arial" font-size="10" fill="white" text-anchor="middle">规划局</text>
+  </g>
+  
+  <g>
+    <circle cx="450" cy="520" r="30" fill="#fd79a8" stroke="#e84393" stroke-width="2"/>
+    <text x="450" y="515" font-family="Arial" font-size="12" fill="white" text-anchor="middle">生殖 (Y)</text>
+    <text x="450" y="530" font-family="Arial" font-size="10" fill="white" text-anchor="middle">人口服务</text>
+  </g>
+  
+  <g>
+    <circle cx="550" cy="520" r="30" fill="#a3cb38" stroke="#009432" stroke-width="2"/>
+    <text x="550" y="515" font-family="Arial" font-size="12" fill="white" text-anchor="middle">传输</text>
+    <text x="550" y="530" font-family="Arial" font-size="10" fill="white" text-anchor="middle">物流系统</text>
+  </g>
+  
+  <g>
+    <circle cx="600" cy="520" r="30" fill="#dff9fb" stroke="#c7ecee" stroke-width="2"/>
+    <text x="600" y="515" font-family="Arial" font-size="12" fill="#34495e" text-anchor="middle">连接</text>
+    <text x="600" y="530" font-family="Arial" font-size="10" fill="#34495e" text-anchor="middle">社区中心</text>
+  </g>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" fill="#2c3e50" text-anchor="middle" font-weight="bold">人体功能系统</text>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="570" font-family="Arial" font-size="12" fill="#7f8c8d" text-anchor="middle" font-style="italic">
+    人体功能系统就像一座城市，各个专门部门协同工作，维持整体运转
+  </text>
+</svg>

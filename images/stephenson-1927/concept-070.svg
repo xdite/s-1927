@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">下位分区系统 (Inferior Meric System)</text>
+  
+  <!-- 公寓楼轮廓 -->
+  <rect x="100" y="100" width="600" height="400" fill="#e6f2ff" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- 脊柱/主电源箱 -->
+  <rect x="150" y="150" width="80" height="300" fill="#f9e6ff" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <text x="190" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">脊柱</text>
+  <text x="190" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">(主电源箱)</text>
+  
+  <!-- 脊神经/主要电缆 -->
+  <path d="M 230 200 L 350 200" stroke="#6699cc" stroke-width="4" fill="none"/>
+  <path d="M 230 250 L 350 250" stroke="#6699cc" stroke-width="4" fill="none"/>
+  <path d="M 230 300 L 350 300" stroke="#6699cc" stroke-width="4" fill="none"/>
+  <path d="M 230 350 L 350 350" stroke="#6699cc" stroke-width="4" fill="none"/>
+  <path d="M 230 400 L 350 400" stroke="#6699cc" stroke-width="4" fill="none"/>
+  
+  <text x="290" y="180" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">脊神经</text>
+  <text x="290" y="195" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">(主要电缆)</text>
+  
+  <!-- 区域/楼层 -->
+  <rect x="350" y="160" width="300" height="80" fill="#e6ffee" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="350" y="260" width="300" height="80" fill="#fff2e6" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="350" y="360" width="300" height="80" fill="#ffe6e6" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  
+  <text x="500" y="180" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Zone 1</text>
+  <text x="500" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">(一楼区域)</text>
+  
+  <text x="500" y="280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Zone 2</text>
+  <text x="500" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">(二楼区域)</text>
+  
+  <text x="500" y="380" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Zone 3</text>
+  <text x="500" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">(三楼区域)</text>
+  
+  <!-- 组织组分/电器设备 -->
+  <circle cx="400" y="190" r="15" fill="#ffcc99" stroke="#333" stroke-width="1.5"/>
+  <circle cx="450" y="190" r="15" fill="#99ccff" stroke="#333" stroke-width="1.5"/>
+  <circle cx="500" y="190" r="15" fill="#cc99ff" stroke="#333" stroke-width="1.5"/>
+  
+  <circle cx="400" y="290" r="15" fill="#ffcc99" stroke="#333" stroke-width="1.5"/>
+  <circle cx="450" y="290" r="15" fill="#99ccff" stroke="#333" stroke-width="1.5"/>
+  <circle cx="500" y="290" r="15" fill="#cc99ff" stroke="#333" stroke-width="1.5"/>
+  
+  <circle cx="400" y="390" r="15" fill="#ffcc99" stroke="#333" stroke-width="1.5"/>
+  <circle cx="450" y="390" r="15" fill="#99ccff" stroke="#333" stroke-width="1.5"/>
+  <circle cx="500" y="390" r="15" fill="#cc99ff" stroke="#333" stroke-width="1.5"/>
+  
+  <text x="570" y="190" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">Mere (组织组分)</text>
+  <text x="570" y="205" font-family="Arial, sans-serif" font-size="10" text-anchor="start" fill="#666">(不同类型的电器)</text>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="520" width="600" height="60" fill="#f0f0f0" stroke="#ccc" stroke-width="1" rx="5" ry="5"/>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" width="580">
+    下位分区系统就像公寓楼的电力系统：脊柱如同主电源箱，脊神经如同主要电缆，
+  </text>
+  <text x="400" y="565" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" width="580">
+    身体区域如同楼层，组织组分如同不同类型的电器，便于精确定位和解决问题。
+  </text>
+</svg>

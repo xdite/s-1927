@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" />
+  
+  <!-- 脑细胞（市政厅） -->
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="120" height="100" rx="5" fill="#f9e6ff" stroke="#6a4775" stroke-width="2" />
+    <rect x="30" y="-20" width="60" height="20" rx="5" fill="#f9e6ff" stroke="#6a4775" stroke-width="2" />
+    <rect x="45" y="-30" width="30" height="10" rx="2" fill="#f9e6ff" stroke="#6a4775" stroke-width="2" />
+    <text x="60" y="55" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">脑细胞</text>
+    <text x="60" y="75" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(市政厅)</text>
+  </g>
+  
+  <!-- 传出神经（专用通道） -->
+  <g transform="translate(280, 180)">
+    <rect x="0" y="0" width="120" height="60" rx="30" fill="#e6e6ff" stroke="#4a5568" stroke-width="2" />
+    <text x="60" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">传出神经</text>
+    <text x="60" y="45" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(专用通道)</text>
+  </g>
+  
+  <!-- 传输（快递员） -->
+  <g transform="translate(460, 180)">
+    <rect x="0" y="0" width="120" height="60" rx="30" fill="#ffe6f9" stroke="#6a4775" stroke-width="2" />
+    <text x="60" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">传输</text>
+    <text x="60" y="45" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(快递员)</text>
+  </g>
+  
+  <!-- 组织细胞（工厂） -->
+  <g transform="translate(640, 150)">
+    <polygon points="0,50 60,0 120,50 60,100" fill="#f9e6ff" stroke="#6a4775" stroke-width="2" />
+    <text x="60" y="45" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">组织细胞</text>
+    <text x="60" y="65" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(工厂)</text>
+  </g>
+  
+  <!-- 连接线 -->
+  <g stroke="#555" stroke-width="2">
+    <path d="M 220,190 L 280,190" fill="none" marker-end="url(#arrowhead)" />
+    <path d="M 400,190 L 460,190" fill="none" marker-end="url(#arrowhead)" />
+    <path d="M 580,190 L 640,190" fill="none" marker-end="url(#arrowhead)" />
+  </g>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555" />
+    </marker>
+  </defs>
+  
+  <!-- 干扰示意 -->
+  <g transform="translate(420, 210)">
+    <path d="M 10,10 L 30,30 M 10,30 L 30,10" stroke="#e53e3e" stroke-width="2" />
+    <text x="20" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="#e53e3e">可能的干扰</text>
+  </g>
+  
+  <!-- 辐射形式的示意（被淡化处理） -->
+  <g transform="translate(220, 100)" opacity="0.3">
+    <circle cx="0" cy="0" r="5" fill="#f9e6ff" />
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#6a4775" stroke-width="1" stroke-dasharray="2" />
+    <circle cx="0" cy="0" r="25" fill="none" stroke="#6a4775" stroke-width="1" stroke-dasharray="2" />
+    <text x="0" y="-35" font-family="Arial" font-size="12" text-anchor="middle" fill="#6a4775">辐射形式</text>
+  </g>
+  
+  <!-- 概念说明 -->
+  <rect x="50" y="300" width="700" height="150" rx="10" fill="#fff" stroke="#ddd" stroke-width="1" />
+  <text x="400" y="330" font-family="Arial" font-size="16" text-anchor="middle" fill="#333" font-weight="bold">神经系统中的信息传递</text>
+  <text x="75" y="360" font-family="Arial" font-size="14" fill="#555" width="650">
+    <tspan x="75" y="360">就像城市通信系统：市政厅（脑细胞）通过专用通道（传出神经）派出快递员（传输</tspan>
+    <tspan x="75" y="385">过程）将指令送达各个工厂（组织细胞）。虽然无线电广播（辐射形式）理论上可行，</tspan>
+    <tspan x="75" y="410">但专用通道更可靠，尽管它们有时会遇到障碍（干扰）。每个工厂接收到指令后，</tspan>
+    <tspan x="75" y="435">即使只是一条简单指示，也能完成一项完整的生产任务。</tspan>
+  </text>
+</svg>

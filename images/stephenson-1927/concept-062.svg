@@ -1,0 +1,89 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f6f2" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2c3e50" font-weight="bold">生存价值：进化中的积累与传承</text>
+  
+  <!-- 中央的食谱 -->
+  <g transform="translate(400, 300)">
+    <!-- 食谱本身 -->
+    <rect x="-80" y="-100" width="160" height="200" fill="#e8d0a9" stroke="#7d5a3c" stroke-width="3" rx="5" ry="5"/>
+    <rect x="-75" y="-95" width="150" height="190" fill="#f5e9d1" stroke="#7d5a3c" stroke-width="1" rx="3" ry="3"/>
+    
+    <!-- 食谱内页线条 -->
+    <line x1="-70" y1="-70" x2="70" y2="-70" stroke="#7d5a3c" stroke-width="1" opacity="0.5"/>
+    <line x1="-70" y1="-40" x2="70" y2="-40" stroke="#7d5a3c" stroke-width="1" opacity="0.5"/>
+    <line x1="-70" y1="-10" x2="70" y2="-10" stroke="#7d5a3c" stroke-width="1" opacity="0.5"/>
+    <line x1="-70" y1="20" x2="70" y2="20" stroke="#7d5a3c" stroke-width="1" opacity="0.5"/>
+    <line x1="-70" y1="50" x2="70" y2="50" stroke="#7d5a3c" stroke-width="1" opacity="0.5"/>
+    
+    <!-- 食谱中的文字 -->
+    <text x="0" y="-80" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7d5a3c" font-weight="bold">家族食谱</text>
+    <text x="0" y="-55" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7d5a3c">成功适应</text>
+    <text x="0" y="-25" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7d5a3c">代代相传</text>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7d5a3c">积累改良</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7d5a3c">资源基础</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="8" text-anchor="middle" fill="#7d5a3c">生存智慧</text>
+  </g>
+  
+  <!-- 多代家庭成员 -->
+  <!-- 第一代（祖父母） -->
+  <g transform="translate(180, 180)">
+    <circle cx="0" cy="0" r="30" fill="#a1c5e7" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="-8" cy="-5" r="5" fill="#2c3e50"/> <!-- 眼睛 -->
+    <circle cx="8" cy="-5" r="5" fill="#2c3e50"/> <!-- 眼睛 -->
+    <path d="M-10,10 Q0,20 10,10" stroke="#2c3e50" stroke-width="2" fill="none"/> <!-- 微笑 -->
+    <path d="M-20,-20 Q-10,-30 0,-25 Q10,-30 20,-20" stroke="#2c3e50" stroke-width="2" fill="none"/> <!-- 头发 -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">祖辈</text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">初始适应</text>
+  </g>
+  
+  <!-- 第二代（父母） -->
+  <g transform="translate(620, 180)">
+    <circle cx="0" cy="0" r="30" fill="#f0c3a9" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="-8" cy="-5" r="5" fill="#2c3e50"/> <!-- 眼睛 -->
+    <circle cx="8" cy="-5" r="5" fill="#2c3e50"/> <!-- 眼睛 -->
+    <path d="M-10,10 Q0,20 10,10" stroke="#2c3e50" stroke-width="2" fill="none"/> <!-- 微笑 -->
+    <path d="M-20,-20 Q-10,-30 0,-25 Q10,-30 20,-20" stroke="#2c3e50" stroke-width="2" fill="none"/> <!-- 头发 -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">父辈</text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">传递改良</text>
+  </g>
+  
+  <!-- 第三代（子女） -->
+  <g transform="translate(400, 460)">
+    <circle cx="0" cy="0" r="30" fill="#b8d8ba" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="-8" cy="-5" r="5" fill="#2c3e50"/> <!-- 眼睛 -->
+    <circle cx="8" cy="-5" r="5" fill="#2c3e50"/> <!-- 眼睛 -->
+    <path d="M-10,10 Q0,20 10,10" stroke="#2c3e50" stroke-width="2" fill="none"/> <!-- 微笑 -->
+    <path d="M-20,-20 Q-10,-30 0,-25 Q10,-30 20,-20" stroke="#2c3e50" stroke-width="2" fill="none"/> <!-- 头发 -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">子辈</text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">获得资源</text>
+  </g>
+  
+  <!-- 连接线 -->
+  <path d="M220,180 Q310,220 400,300" stroke="#2c3e50" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M580,180 Q490,220 400,300" stroke="#2c3e50" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M400,400 L400,460" stroke="#2c3e50" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- 物质资源符号 -->
+  <!-- 香料和工具 -->
+  <g transform="translate(250, 350)">
+    <!-- 香料瓶 -->
+    <rect x="-15" y="-25" width="30" height="40" fill="#d77a61" rx="5" ry="5"/>
+    <rect x="-10" y="-30" width="20" height="10" fill="#b25d4c" rx="2" ry="2"/>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">香料</text>
+  </g>
+  
+  <g transform="translate(550, 350)">
+    <!-- 厨具 -->
+    <circle cx="0" cy="-10" r="20" fill="#a7a7a7" stroke="#2c3e50" stroke-width="1"/>
+    <rect x="-5" y="-10" width="10" height="40" fill="#8c8c8c"/>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">工具</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    生存价值如同代代相传的家族食谱，每次成功的改良都增加其价值，并作为资源传递给下一代
+  </text>
+</svg>

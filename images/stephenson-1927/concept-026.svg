@@ -1,0 +1,85 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 中央脊柱轮廓 -->
+  <path d="M400,100 C410,130 390,160 400,190 C410,220 390,250 400,280 C410,310 390,340 400,370 C410,400 390,430 400,460 C410,490 390,520 400,550" 
+        stroke="#8a8acb" stroke-width="8" fill="none" stroke-linecap="round"/>
+  
+  <!-- 正常脊椎：书架比喻 -->
+  <g transform="translate(150,150)">
+    <rect width="180" height="120" rx="5" ry="5" fill="#e6e6fa" stroke="#6b6b9e" stroke-width="2"/>
+    <text x="90" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">正常脊椎</text>
+    <text x="90" y="45" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Normal Vertebra</text>
+    
+    <!-- 书架和书 -->
+    <rect x="20" y="55" width="140" height="5" fill="#8a8acb"/>
+    <rect x="30" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="50" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="70" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="90" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="110" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="130" y="60" width="15" height="50" fill="#9370db"/>
+  </g>
+  
+  <!-- 后侧半脱位：书架比喻 -->
+  <g transform="translate(550,150)">
+    <rect width="180" height="120" rx="5" ry="5" fill="#e6e6fa" stroke="#6b6b9e" stroke-width="2"/>
+    <text x="90" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">后侧半脱位</text>
+    <text x="90" y="45" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Posterior Subluxations</text>
+    
+    <!-- 书架和书 -->
+    <rect x="20" y="55" width="140" height="5" fill="#8a8acb"/>
+    <rect x="30" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="50" y="60" width="15" height="50" fill="#9370db" transform="skewX(15)"/>
+    <rect x="70" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="90" y="60" width="15" height="50" fill="#9370db" transform="skewX(20)"/>
+    <rect x="110" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="130" y="60" width="15" height="50" fill="#9370db"/>
+  </g>
+  
+  <!-- 旋转：书架比喻 -->
+  <g transform="translate(150,350)">
+    <rect width="180" height="120" rx="5" ry="5" fill="#e6e6fa" stroke="#6b6b9e" stroke-width="2"/>
+    <text x="90" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">旋转</text>
+    <text x="90" y="45" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Rotations</text>
+    
+    <!-- 书架和书 -->
+    <rect x="20" y="55" width="140" height="5" fill="#8a8acb"/>
+    <rect x="30" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="50" y="60" width="15" height="50" fill="#9370db" transform="rotate(15 57.5 60)"/>
+    <rect x="70" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="90" y="60" width="15" height="50" fill="#9370db" transform="rotate(-10 97.5 60)"/>
+    <rect x="110" y="60" width="15" height="50" fill="#9370db"/>
+    <rect x="130" y="60" width="15" height="50" fill="#9370db" transform="rotate(8 137.5 60)"/>
+  </g>
+  
+  <!-- 倾斜：书架比喻 -->
+  <g transform="translate(550,350)">
+    <rect width="180" height="120" rx="5" ry="5" fill="#e6e6fa" stroke="#6b6b9e" stroke-width="2"/>
+    <text x="90" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">倾斜</text>
+    <text x="90" y="45" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">Tilted Vertebra</text>
+    
+    <!-- 书架和书，整体倾斜 -->
+    <g transform="rotate(8 90 85)">
+      <rect x="20" y="55" width="140" height="5" fill="#8a8acb"/>
+      <rect x="30" y="60" width="15" height="50" fill="#9370db"/>
+      <rect x="50" y="60" width="15" height="50" fill="#9370db"/>
+      <rect x="70" y="60" width="15" height="50" fill="#9370db"/>
+      <rect x="90" y="60" width="15" height="50" fill="#9370db"/>
+      <rect x="110" y="60" width="15" height="50" fill="#9370db"/>
+      <rect x="130" y="60" width="15" height="50" fill="#9370db"/>
+    </g>
+  </g>
+  
+  <!-- 连接线 -->
+  <line x1="240" y1="210" x2="350" y2="280" stroke="#8a8acb" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="550" y1="210" x2="450" y2="280" stroke="#8a8acb" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="240" y1="410" x2="350" y2="340" stroke="#8a8acb" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="550" y1="410" x2="450" y2="340" stroke="#8a8acb" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="580" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">
+    脊椎半脱位就像书架上歪斜的书籍，阻碍了神经信号的正常传递
+  </text>
+</svg>

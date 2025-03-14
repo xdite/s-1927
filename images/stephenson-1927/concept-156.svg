@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- 城市轮廓 -->
+  <g>
+    <!-- 道路 -->
+    <path d="M50,350 H750" stroke="#888" stroke-width="15" fill="none"/>
+    <path d="M200,350 V200" stroke="#888" stroke-width="10" fill="none"/>
+    <path d="M400,350 V150" stroke="#888" stroke-width="10" fill="none"/>
+    <path d="M600,350 V250" stroke="#888" stroke-width="10" fill="none"/>
+    
+    <!-- 医院 -->
+    <rect x="120" y="200" width="160" height="150" fill="#e1f5fe" stroke="#0277bd" stroke-width="2"/>
+    <rect x="170" y="250" width="60" height="100" fill="#b3e5fc"/>
+    <path d="M180,200 V150 H220 V200" fill="#b3e5fc" stroke="#0277bd" stroke-width="2"/>
+    <text x="200" y="330" font-family="Arial" font-size="16" text-anchor="middle" fill="#0277bd">医院</text>
+    <text x="200" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#0277bd">结构适合急救</text>
+    <!-- 红十字 -->
+    <rect x="190" y="220" width="20" height="40" fill="#f44336"/>
+    <rect x="180" y="230" width="40" height="20" fill="#f44336"/>
+    
+    <!-- 学校 -->
+    <rect x="320" y="150" width="160" height="200" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
+    <rect x="340" y="190" width="40" height="60" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1"/>
+    <rect x="420" y="190" width="40" height="60" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1"/>
+    <rect x="340" y="270" width="40" height="60" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1"/>
+    <rect x="420" y="270" width="40" height="60" fill="#c8e6c9" stroke="#2e7d32" stroke-width="1"/>
+    <path d="M320,170 H480" stroke="#2e7d32" stroke-width="4" fill="none"/>
+    <text x="400" y="330" font-family="Arial" font-size="16" text-anchor="middle" fill="#2e7d32">学校</text>
+    <text x="400" y="140" font-family="Arial" font-size="12" text-anchor="middle" fill="#2e7d32">结构促进学习</text>
+    
+    <!-- 消防站 -->
+    <rect x="520" y="230" width="160" height="120" fill="#ffebee" stroke="#c62828" stroke-width="2"/>
+    <rect x="570" y="290" width="60" height="60" fill="#ffcdd2" stroke="#c62828" stroke-width="1"/>
+    <path d="M550,230 V180 H650 V230" fill="#ffcdd2" stroke="#c62828" stroke-width="2"/>
+    <rect x="580" y="180" width="40" height="50" fill="#ef9a9a"/>
+    <text x="600" y="330" font-family="Arial" font-size="16" text-anchor="middle" fill="#c62828">消防站</text>
+    <text x="600" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="#c62828">结构支持快速响应</text>
+    
+    <!-- 连接线和通信 -->
+    <path d="M230,250 C280,230 320,230 370,250" stroke="#888" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+    <path d="M430,250 C480,230 520,230 570,250" stroke="#888" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+    
+    <!-- 小车 -->
+    <circle cx="300" cy="350" r="8" fill="#333"/>
+    <circle cx="330" cy="350" r="8" fill="#333"/>
+    <rect x="290" y="330" width="50" height="20" rx="5" fill="#4527a0"/>
+    
+    <!-- 标题和说明 -->
+    <text x="400" y="50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">功能决定结构，协调创造整体</text>
+    <text x="400" y="80" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">如同城市中的建筑各有用途，身体中的细胞结构也匹配其功能</text>
+    
+    <!-- 图例 -->
+    <rect x="100" y="400" width="600" height="60" rx="10" fill="#fff" stroke="#ddd" stroke-width="1"/>
+    <text x="400" y="430" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">
+      正如城市中的建筑因功能而存在并以特定方式设计，身体中的每个细胞结构也完美匹配其目的，
+      它们的协调合作使整个系统能够有效运作。
+    </text>
+  </g>
+</svg>

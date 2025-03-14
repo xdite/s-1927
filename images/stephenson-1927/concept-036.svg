@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">免疫: 组织细胞的适应性抵抗力</text>
+  
+  <!-- 城市轮廓 -->
+  <g transform="translate(100, 150)">
+    <!-- 大脑/指挥中心 -->
+    <ellipse cx="300" cy="80" rx="70" ry="50" fill="#e8f4f8" stroke="#5d9cec" stroke-width="2"/>
+    <path d="M300,80 C320,70 330,90 340,80 C350,70 340,60 330,50 C320,40 310,30 300,40 C290,30 280,40 270,50 C260,60 250,70 260,80 C270,90 280,70 300,80" fill="#5d9cec" opacity="0.7"/>
+    <text x="300" y="85" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">中枢神经系统</text>
+    
+    <!-- 脊椎/通讯干线 -->
+    <rect x="290" y="130" width="20" height="200" fill="#e8f4f8" stroke="#5d9cec" stroke-width="2" rx="5" ry="5"/>
+    <text x="360" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">脊椎</text>
+    <text x="360" y="250" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">(通讯枢纽)</text>
+    
+    <!-- 城市建筑群 -->
+    <g transform="translate(0, 350)">
+      <!-- 左侧建筑 -->
+      <rect x="50" y="0" width="40" height="60" fill="#f8e9d6" stroke="#e67e22" stroke-width="1" rx="2" ry="2"/>
+      <rect x="100" y="-20" width="50" height="80" fill="#f8e9d6" stroke="#e67e22" stroke-width="1" rx="2" ry="2"/>
+      <rect x="160" y="-10" width="45" height="70" fill="#f8e9d6" stroke="#e67e22" stroke-width="1" rx="2" ry="2"/>
+      
+      <!-- 右侧建筑 -->
+      <rect x="400" y="0" width="40" height="60" fill="#f8e9d6" stroke="#e67e22" stroke-width="1" rx="2" ry="2"/>
+      <rect x="450" y="-20" width="50" height="80" fill="#f8e9d6" stroke="#e67e22" stroke-width="1" rx="2" ry="2"/>
+      <rect x="510" y="-10" width="45" height="70" fill="#f8e9d6" stroke="#e67e22" stroke-width="1" rx="2" ry="2"/>
+      
+      <!-- 中央建筑 -->
+      <rect x="240" y="-30" width="60" height="90" fill="#f8e9d6" stroke="#e67e22" stroke-width="1" rx="2" ry="2"/>
+      <rect x="310" y="-15" width="55" height="75" fill="#f8e9d6" stroke="#e67e22" stroke-width="1" rx="2" ry="2"/>
+      
+      <text x="300" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">组织细胞(城市建筑)</text>
+    </g>
+    
+    <!-- 神经冲动/信号传递 -->
+    <g>
+      <!-- 从大脑到脊椎的信号 -->
+      <path d="M300,130 Q310,120 320,130 Q330,140 340,130" stroke="#5d9cec" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+      <path d="M300,150 Q310,140 320,150 Q330,160 340,150" stroke="#5d9cec" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+      
+      <!-- 从脊椎到各个细胞的信号 -->
+      <path d="M290,230 Q250,250 200,300 Q150,350 120,350" stroke="#5d9cec" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+      <path d="M290,250 Q260,280 240,320" stroke="#5d9cec" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+      <path d="M310,230 Q350,250 400,300 Q450,350 480,350" stroke="#5d9cec" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+      <path d="M310,250 Q340,280 360,320" stroke="#5d9cec" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+    </g>
+    
+    <!-- 防御细胞/安保人员 -->
+    <g>
+      <circle cx="120" cy="330" r="10" fill="#3498db" opacity="0.8"/>
+      <circle cx="240" cy="300" r="10" fill="#3498db" opacity="0.8"/>
+      <circle cx="360" cy="300" r="10" fill="#3498db" opacity="0.8"/>
+      <circle cx="480" cy="330" r="10" fill="#3498db" opacity="0.8"/>
+      
+      <text x="120" y="315" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">免疫</text>
+      <text x="240" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">免疫</text>
+      <text x="360" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">免疫</text>
+      <text x="480" y="315" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">免疫</text>
+    </g>
+    
+    <!-- 入侵者/病原体 -->
+    <g>
+      <path d="M50,280 Q60,270 70,280 Q80,290 90,280 Q100,270 110,280" stroke="#e74c3c" stroke-width="2" fill="none"/>
+      <circle cx="50" cy="280" r="5" fill="#e74c3c"/>
+      <circle cx="110" cy="280" r="5" fill="#e74c3c"/>
+      
+      <path d="M520,280 Q530,270 540,280 Q550,290 560,280 Q570,270 580,280" stroke="#e74c3c" stroke-width="2" fill="none"/>
+      <circle cx="520" cy="280" r="5" fill="#e74c3c"/>
+      <circle cx="580" cy="280" r="5" fill="#e74c3c"/>
+      
+      <text x="80" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e74c3c">病原体</text>
+      <text x="550" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e74c3c">病原体</text>
+    </g>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    免疫系统如同城市安保网络，依靠神经系统(通讯网络)的有效传导来协调防御反应
+  </text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f7f2" />
+  
+  <!-- 标题 -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#2c3e50">文章的组成结构</text>
+  
+  <!-- 餐桌 -->
+  <rect x="150" y="120" width="500" height="300" rx="10" fill="#e6d2b5" stroke="#a57c52" stroke-width="4" />
+  
+  <!-- 餐盘和食物 -->
+  <!-- 引言/开胃菜 -->
+  <circle cx="250" cy="200" r="60" fill="#ffffff" stroke="#a57c52" stroke-width="3" />
+  <circle cx="250" cy="200" r="40" fill="#f8d568" />
+  <text x="250" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">引言</text>
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">(开胃菜)</text>
+  
+  <!-- 正文/主菜 -->
+  <circle cx="400" cy="200" r="80" fill="#ffffff" stroke="#a57c52" stroke-width="3" />
+  <rect x="350" y="170" width="100" height="60" rx="5" fill="#b3876f" />
+  <rect x="370" y="160" width="60" height="10" rx="2" fill="#7fb069" />
+  <circle cx="400" cy="200" r="15" fill="#e74c3c" />
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">正文</text>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">(主菜)</text>
+  
+  <!-- 结论/甜点 -->
+  <circle cx="550" cy="200" r="60" fill="#ffffff" stroke="#a57c52" stroke-width="3" />
+  <path d="M520,180 Q550,150 580,180 L560,220 L540,220 Z" fill="#e57e9e" />
+  <circle cx="550" cy="170" r="10" fill="#c0392b" />
+  <text x="550" y="290" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c3e50">结论</text>
+  <text x="550" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">(甜点)</text>
+  
+  <!-- 说明文字 -->
+  <text x="250" y="370" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" width="120">简短引入主题，吸引读者</text>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" width="120">详细阐述中心思想</text>
+  <text x="550" y="370" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" width="120">总结强调主要论点</text>
+  
+  <!-- 箭头指示流程 -->
+  <path d="M310,200 L340,200" stroke="#2c3e50" stroke-width="2" fill="none" />
+  <polygon points="345,200 337,196 337,204" fill="#2c3e50" />
+  
+  <path d="M480,200 L510,200" stroke="#2c3e50" stroke-width="2" fill="none" />
+  <polygon points="515,200 507,196 507,204" fill="#2c3e50" />
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="420" width="600" height="120" rx="10" fill="#e8e8e8" />
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">文章结构如同一顿三道菜晚餐</text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">引言如开胃菜，激发兴趣；正文如主菜，提供核心内容；</text>
+  <text x="400" y="505" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">结论如甜点，为阅读体验画上圆满句号。</text>
+  <text x="400" y="530" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">好文章各部分相互呼应，形成完整体验。</text>
+</svg>

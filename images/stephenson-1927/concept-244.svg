@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2c3e50">枕骨-寰椎-枢椎区域：身体的关键通信通道</text>
+  
+  <!-- 左侧：正常状态 -->
+  <g transform="translate(200, 100)">
+    <!-- 大脑 - 控制塔 -->
+    <circle cx="0" cy="0" r="50" fill="#e0f7fa" stroke="#26c6da" stroke-width="2"/>
+    <path d="M-20,-10 C-15,-25 15,-25 20,-10 C30,0 30,15 0,25 C-30,15 -30,0 -20,-10" fill="#26c6da" stroke="#0097a7" stroke-width="1"/>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#01579b">大脑（控制塔）</text>
+    
+    <!-- 枕骨-寰椎-枢椎区域 - 高速公路 -->
+    <rect x="-40" y="80" width="80" height="120" rx="10" ry="10" fill="#e8f5e9" stroke="#66bb6a" stroke-width="2"/>
+    <path d="M-25,110 L25,110 M-25,140 L25,140 M-25,170 L25,170" stroke="#43a047" stroke-width="4" stroke-linecap="round"/>
+    <text x="0" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1b5e20">枕骨-寰椎-枢椎区域</text>
+    <text x="0" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1b5e20">（畅通的高速公路）</text>
+    
+    <!-- 身体各部位 - 城市各区域 -->
+    <g transform="translate(0, 300)">
+      <circle cx="0" cy="0" r="60" fill="#fff3e0" stroke="#ffb74d" stroke-width="2"/>
+      <rect x="-40" y="-30" width="20" height="20" fill="#ff9800" rx="2" ry="2"/>
+      <rect x="-10" y="-40" width="20" height="20" fill="#ff9800" rx="2" ry="2"/>
+      <rect x="20" y="-25" width="20" height="20" fill="#ff9800" rx="2" ry="2"/>
+      <rect x="-30" y="5" width="20" height="20" fill="#ff9800" rx="2" ry="2"/>
+      <rect x="0" y="15" width="20" height="20" fill="#ff9800" rx="2" ry="2"/>
+      <rect x="25" y="0" width="20" height="20" fill="#ff9800" rx="2" ry="2"/>
+      <text x="0" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#e65100">身体各部位</text>
+      <text x="0" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#e65100">（城市各区域）</text>
+    </g>
+    
+    <!-- 神经能量传递 - 正常的信息流 -->
+    <g>
+      <!-- 从大脑到脊柱 -->
+      <path d="M0,50 L0,80" stroke="#3f51b5" stroke-width="3" stroke-dasharray="0">
+        <animate attributeName="stroke-dashoffset" from="100" to="0" dur="3s" repeatCount="indefinite"/>
+      </path>
+      <polygon points="-5,75 0,85 5,75" fill="#3f51b5"/>
+      
+      <!-- 从脊柱到身体 -->
+      <path d="M0,200 L0,240" stroke="#3f51b5" stroke-width="3" stroke-dasharray="0">
+        <animate attributeName="stroke-dashoffset" from="100" to="0" dur="3s" repeatCount="indefinite"/>
+      </path>
+      <polygon points="-5,235 0,245 5,235" fill="#3f51b5"/>
+      
+      <text x="-60" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#3f51b5">神经能量</text>
+      <text x="-60" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#3f51b5">正常传递</text>
+    </g>
+  </g>
+  
+  <!-- 右侧：异常状态 -->
+  <g transform="translate(600, 100)">
+    <!-- 大脑 - 控制塔 -->
+    <circle cx="0" cy="0" r="50" fill="#e0f7fa" stroke="#26c6da" stroke-width="2"/>
+    <path d="M-20,-10 C-15,-25 15,-25 20,-10 C30,0 30,15 0,25 C-30,15 -30,0 -20,-10" fill="#26c6da" stroke="#0097a7" stroke-width="1"/>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#01579b">大脑（控制塔）</text>
+    
+    <!-- 枕骨-寰椎-枢椎区域 - 堵塞的高速公路 -->
+    <rect x="-40" y="80" width="80" height="120" rx="10" ry="10" fill="#e8f5e9" stroke="#66bb6a" stroke-width="2"/>
+    <path d="M-25,110 L25,110 M-25,140 L-5,140 M5,140 L25,140 M-25,170 L25,170" stroke="#43a047" stroke-width="4" stroke-linecap="round"/>
+    <!-- 堵塞点 -->
+    <circle cx="0" cy="140" r="15" fill="#ffcdd2" stroke="#e53935" stroke-width="2"/>
+    <path d="M-8,132 L8,148 M8,132 L-8,148" stroke="#c62828" stroke-width="2"/>
+    <text x="0" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1b5e20">枕骨-寰椎-枢椎区域</text>
+    <text x="0" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1b5e20">（受阻的高速公路）</text>
+    
+    <!-- 身体各部位 - 受影响的城市区域 -->
+    <g transform="translate(0, 300)">
+      <circle cx="0" cy="0" r="60" fill="#fff3e0" stroke="#ffb74d" stroke-width="2"/>
+      <rect x="-40" y="-30" width="20" height="20" fill="#ff9800" rx="2" ry="2" opacity="0.5"/>
+      <rect x="-10" y="-40" width="20" height="20" fill="#ff9800" rx="2" ry="2" opacity="0.7"/>
+      <rect x="20" y="-25" width="20" height="20" fill="#ff9800" rx="2" ry="2" opacity="0.3"/>
+      <rect x="-30" y="5" width="20" height="20" fill="#ff9800" rx="2" ry="2" opacity="0.6"/>
+      <rect x="0" y="15" width="20" height="20" fill="#ff9800" rx="2" ry="2" opacity="0.4"/>
+      <rect x="25" y="0" width="20" height="20" fill="#ff9800" rx="2" ry="2" opacity="0.2"/>
+      <text x="0" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#e65100">身体各部位</text>
+      <text x="0" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#e65100">（功能受损的区域）</text>
+    </g>
+    
+    <!-- 神经能量传递 - 受阻的信息流 -->
+    <g>
+      <!-- 从大脑到脊柱 -->
+      <path d="M0,50 L0,80" stroke="#3f51b5" stroke-width="3" stroke-dasharray="5,3">
+        <animate attributeName="stroke-dashoffset" from="100" to="0" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <polygon points="-5,75 0,85 5,75" fill="#3f51b5"/>
+      
+      <!-- 从脊柱到身体 - 减弱的信号 -->
+      <path d="M0,200 L0,240" stroke="#3f51b5" stroke-width="2" stroke-dasharray="2,4">
+        <animate attributeName="stroke-dashoffset" from="100" to="0" dur="8s" repeatCount="indefinite"/>
+      </path>
+      <polygon points="-4,235 0,243 4,235" fill="#3f51b5" opacity="0.5"/>
+      
+      <text x="-60" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c62828">神经能量</text>
+      <text x="-60" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#c62828">传递受阻</text>
+    </g>
+  </g>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="520" width="600" height="60" rx="5" ry="5" fill="#e3f2fd" stroke="#90caf9" stroke-width="1"/>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0d47a1">
+    就像城市的交通依赖唯一的中央高速公路，身体的健康依赖枕骨-寰椎-枢椎区域的神经传递。
+  </text>
+  <text x="400" y="565" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0d47a1">
+    当这个区域出现问题时，就如同高速公路堵塞，会影响整个身体的功能。
+  </text>
+</svg>

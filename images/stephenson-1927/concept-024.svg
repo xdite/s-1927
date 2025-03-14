@@ -1,0 +1,75 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+    
+    <!-- Sun (Universal Intelligence) -->
+    <circle cx="400" cy="100" r="60" fill="#ffeb99" stroke="#f5b342" stroke-width="2"/>
+    <g stroke="#f5b342" stroke-width="2">
+        <line x1="400" y1="25" x2="400" y2="5" />
+        <line x1="460" y1="40" x2="475" y2="25" />
+        <line x1="475" y1="100" x2="495" y2="100" />
+        <line x1="460" y1="160" x2="475" y2="175" />
+        <line x1="400" y1="175" x2="400" y2="195" />
+        <line x1="340" y1="160" x2="325" y2="175" />
+        <line x1="325" y1="100" x2="305" y2="100" />
+        <line x1="340" y1="40" x2="325" y2="25" />
+    </g>
+    <text x="400" y="105" font-family="Arial" font-size="14" text-anchor="middle" fill="#8b4513">普遍智能</text>
+    <text x="400" y="125" font-family="Arial" font-size="12" text-anchor="middle" fill="#8b4513">Universal Intelligence</text>
+    
+    <!-- Tree trunk (Innate Intelligence) -->
+    <path d="M380 200 C380 250, 370 300, 370 350 C370 400, 380 450, 380 500" fill="none" stroke="#8b4513" stroke-width="25"/>
+    <path d="M420 200 C420 250, 430 300, 430 350 C430 400, 420 450, 420 500" fill="none" stroke="#8b4513" stroke-width="25"/>
+    
+    <!-- Text for Innate Intelligence -->
+    <rect x="300" y="300" width="200" height="50" rx="10" ry="10" fill="#b0c4de" stroke="#4682b4" stroke-width="2" opacity="0.9"/>
+    <text x="400" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">身体智能</text>
+    <text x="400" y="345" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Innate Intelligence</text>
+    
+    <!-- Roots (Innate Mind) -->
+    <path d="M360 500 C320 520, 280 530, 240 550" fill="none" stroke="#8b4513" stroke-width="10"/>
+    <path d="M380 500 C350 530, 320 550, 290 570" fill="none" stroke="#8b4513" stroke-width="8"/>
+    <path d="M400 500 C410 530, 420 550, 430 570" fill="none" stroke="#8b4513" stroke-width="8"/>
+    <path d="M420 500 C450 520, 480 530, 510 550" fill="none" stroke="#8b4513" stroke-width="10"/>
+    
+    <!-- Text for Innate Mind -->
+    <rect x="150" y="520" width="180" height="50" rx="10" ry="10" fill="#b0c4de" stroke="#4682b4" stroke-width="2" opacity="0.9"/>
+    <text x="240" y="545" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">先天心智</text>
+    <text x="240" y="565" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Innate Mind</text>
+    
+    <!-- Gardener (Educated Mind) -->
+    <circle cx="600" cy="400" r="25" fill="#f9d5e5" stroke="#eeac99" stroke-width="2"/> <!-- Head -->
+    <path d="M600 425 L600 475 M580 445 L620 445 M600 475 L580 525 M600 475 L620 525" fill="none" stroke="#eeac99" stroke-width="3"/> <!-- Body and legs -->
+    <path d="M580 445 L540 425 L500 440" fill="none" stroke="#eeac99" stroke-width="3"/> <!-- Arms with pruning shears -->
+    
+    <!-- Pruning shears -->
+    <path d="M500 440 L490 430 L500 420" fill="none" stroke="#666" stroke-width="2"/>
+    
+    <!-- Branches being pruned (Educated Mind) -->
+    <path d="M430 350 C460 340, 490 330, 520 335" fill="none" stroke="#8b4513" stroke-width="6"/>
+    <path d="M520 335 L530 325" fill="none" stroke="#8b4513" stroke-width="4" stroke-dasharray="4,4"/>
+    <circle cx="490" cy="430" r="5" fill="#8b4513"/>
+    
+    <!-- Text for Educated Mind -->
+    <rect x="470" y="520" width="180" height="50" rx="10" ry="10" fill="#b0c4de" stroke="#4682b4" stroke-width="2" opacity="0.9"/>
+    <text x="560" y="545" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">后天心智</text>
+    <text x="560" y="565" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">Educated Mind</text>
+    
+    <!-- Connecting arrows -->
+    <path d="M400 170 L400 200" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M300 350 L240 520" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <path d="M500 350 L560 520" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <!-- Arrow marker definition -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- Caption -->
+    <rect x="100" y="40" width="600" height="40" rx="5" ry="5" fill="#fff" opacity="0.8"/>
+    <text x="400" y="65" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">
+        普遍智能像阳光，身体智能如树干，先天心智如根系自然生长，后天心智如园丁的修剪引导
+    </text>
+</svg>

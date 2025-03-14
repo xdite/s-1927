@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500" viewBox="0 0 600 500">
+  <!-- 背景 -->
+  <rect width="600" height="500" fill="#f9f9f9"/>
+  
+  <!-- 房子轮廓 -->
+  <polygon points="150,200 450,200 450,450 150,450" fill="#e6f2ff" stroke="#333" stroke-width="2"/>
+  <polygon points="150,200 300,100 450,200" fill="#d1e7dd" stroke="#333" stroke-width="2"/>
+  
+  <!-- 地板分隔线 -->
+  <line x1="150" y1="325" x2="450" y2="325" stroke="#333" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 房子标题 -->
+  <text x="300" y="80" font-family="Arial, sans-serif" font-size="22" fill="#333" text-anchor="middle" font-weight="bold">感觉分类系统</text>
+  
+  <!-- 一楼标题 -->
+  <text x="300" y="350" font-family="Arial, sans-serif" font-size="18" fill="#333" text-anchor="middle" font-weight="bold">一般感觉</text>
+  
+  <!-- 二楼标题 -->
+  <text x="300" y="225" font-family="Arial, sans-serif" font-size="18" fill="#333" text-anchor="middle" font-weight="bold">特殊感觉</text>
+  
+  <!-- 一楼房间 - 饥饿 -->
+  <circle cx="225" cy="390" r="35" fill="#ffd580" stroke="#333" stroke-width="1.5"/>
+  <circle cx="225" cy="390" r="25" fill="#ffb347" stroke="#333" stroke-width="1"/>
+  <line x1="225" y1="370" x2="225" y2="410" stroke="#333" stroke-width="1.5"/>
+  <line x1="205" y1="390" x2="245" y2="390" stroke="#333" stroke-width="1.5"/>
+  <text x="225" y="440" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">饥饿</text>
+  
+  <!-- 一楼房间 - 口渴 -->
+  <rect x="350" y="365" width="25" height="40" fill="#a8d1ff" stroke="#333" stroke-width="1.5" rx="2" ry="2"/>
+  <path d="M350,375 C355,373 370,373 375,375" stroke="#333" fill="none" stroke-width="1"/>
+  <text x="363" y="440" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">口渴</text>
+  
+  <!-- 二楼房间 - 视觉 -->
+  <circle cx="225" cy="270" r="25" fill="#ffffff" stroke="#333" stroke-width="1.5"/>
+  <circle cx="225" cy="270" r="10" fill="#6c757d" stroke="#333" stroke-width="1"/>
+  <circle cx="225" cy="270" r="5" fill="#000000"/>
+  <text x="225" y="310" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">视觉</text>
+  
+  <!-- 二楼房间 - 听觉 -->
+  <path d="M363,245 C383,235 383,285 363,275 Z" fill="#ffcccb" stroke="#333" stroke-width="1.5"/>
+  <path d="M363,255 C368,252 368,268 363,265" fill="none" stroke="#333" stroke-width="1"/>
+  <text x="363" y="310" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">听觉</text>
+  
+  <!-- 感觉神经连接线 -->
+  <path d="M300,450 C300,475 100,475 100,300 C100,150 250,150 300,100" fill="none" stroke="#5d8aa8" stroke-width="2.5" stroke-dasharray="5,3"/>
+  <text x="100" y="300" font-family="Arial, sans-serif" font-size="12" fill="#5d8aa8" text-anchor="middle" transform="rotate(-90,100,300)">感觉神经传递</text>
+  
+  <!-- 图例说明 -->
+  <text x="300" y="485" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle" font-style="italic">感觉系统就像一栋房子，不同区域负责不同类型的感觉信息处理</text>
+</svg>

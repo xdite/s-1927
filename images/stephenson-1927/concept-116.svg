@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- 地图背景 -->
+  <rect x="100" y="80" width="600" height="400" rx="10" ry="10" fill="#e6e9ed" stroke="#aab2bd" stroke-width="2" />
+  <path d="M150,150 C200,120 250,180 300,150 C350,120 400,180 450,150 C500,120 550,180 600,150" fill="none" stroke="#aab2bd" stroke-width="1" stroke-dasharray="5,5" />
+  <path d="M150,250 C200,220 250,280 300,250 C350,220 400,280 450,250 C500,220 550,280 600,250" fill="none" stroke="#aab2bd" stroke-width="1" stroke-dasharray="5,5" />
+  <path d="M150,350 C200,320 250,380 300,350 C350,320 400,380 450,350 C500,320 550,380 600,350" fill="none" stroke="#aab2bd" stroke-width="1" stroke-dasharray="5,5" />
+  
+  <!-- 主题岛屿 -->
+  <ellipse cx="200" cy="180" rx="50" ry="30" fill="#a0d468" stroke="#8cc152" stroke-width="2" />
+  <text x="200" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#434a54">感兴趣主题</text>
+  
+  <ellipse cx="350" cy="280" rx="50" ry="30" fill="#ed5565" stroke="#da4453" stroke-width="2" />
+  <text x="350" y="285" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">困难主题</text>
+  
+  <ellipse cx="500" cy="180" rx="50" ry="30" fill="#5d9cec" stroke="#4a89dc" stroke-width="2" />
+  <text x="500" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">合适主题</text>
+  
+  <ellipse cx="650" cy="280" rx="50" ry="30" fill="#ffce54" stroke="#f6bb42" stroke-width="2" />
+  <text x="650" y="285" font-family="Arial" font-size="12" text-anchor="middle" fill="#434a54">备选主题</text>
+  
+  <!-- 决策路径 -->
+  <path d="M200,210 C250,240 300,230 350,250" fill="none" stroke="#434a54" stroke-width="2" stroke-dasharray="5,5" />
+  <path d="M350,250 C400,270 450,240 500,210" fill="none" stroke="#434a54" stroke-width="2" stroke-dasharray="5,5" />
+  <path d="M200,210 C300,240 400,230 500,210" fill="none" stroke="#4a89dc" stroke-width="2" />
+  
+  <!-- 学者人物 -->
+  <circle cx="120" cy="400" r="25" fill="#aab2bd" />
+  <rect x="110" y="425" width="20" height="50" fill="#aab2bd" />
+  <rect x="95" y="435" width="15" height="30" fill="#aab2bd" />
+  <rect x="130" y="435" width="15" height="30" fill="#aab2bd" />
+  
+  <!-- 指南针 -->
+  <circle cx="170" cy="380" r="15" fill="#ffffff" stroke="#434a54" stroke-width="2" />
+  <circle cx="170" cy="380" r="2" fill="#434a54" />
+  <line x1="170" y1="380" x2="170" y2="368" stroke="#ed5565" stroke-width="2" />
+  <line x1="170" y1="380" x2="178" y2="388" stroke="#434a54" stroke-width="2" />
+  
+  <!-- 行李/书籍 -->
+  <rect x="70" cy="480" width="30" height="25" rx="5" ry="5" fill="#5d9cec" stroke="#4a89dc" stroke-width="2" />
+  <rect x="75" cy="475" width="20" height="5" rx="2" ry="2" fill="#4a89dc" stroke="#4a89dc" stroke-width="1" />
+  
+  <!-- 路线图/论文框架 -->
+  <rect x="150" y="470" width="30" height="40" fill="#ffffff" stroke="#434a54" stroke-width="1" />
+  <line x1="155" y1="480" x2="175" y2="480" stroke="#434a54" stroke-width="1" />
+  <line x1="155" y1="490" x2="175" y2="490" stroke="#434a54" stroke-width="1" />
+  <line x1="155" y1="500" x2="175" y2="500" stroke="#434a54" stroke-width="1" />
+  
+  <!-- 流程图对应的步骤标签 -->
+  <rect x="150" y="120" width="100" height="30" rx="15" ry="15" fill="#ffffff" stroke="#434a54" stroke-width="1" />
+  <text x="200" y="140" font-family="Arial" font-size="12" text-anchor="middle" fill="#434a54">选择主题</text>
+  
+  <rect x="300" y="220" width="100" height="30" rx="15" ry="15" fill="#ffffff" stroke="#434a54" stroke-width="1" />
+  <text x="350" y="240" font-family="Arial" font-size="12" text-anchor="middle" fill="#434a54">评估难度</text>
+  
+  <rect x="450" y="120" width="100" height="30" rx="15" ry="15" fill="#ffffff" stroke="#434a54" stroke-width="1" />
+  <text x="500" y="140" font-family="Arial" font-size="12" text-anchor="middle" fill="#434a54">审查适合性</text>
+  
+  <rect x="600" y="220" width="100" height="30" rx="15" ry="15" fill="#ffffff" stroke="#434a54" stroke-width="1" />
+  <text x="650" y="240" font-family="Arial" font-size="12" text-anchor="middle" fill="#434a54">重新选择</text>
+  
+  <!-- 箭头指示 -->
+  <polygon points="250,140 270,140 260,155" fill="#434a54" />
+  <polygon points="400,235 420,235 410,220" fill="#434a54" />
+  <polygon points="550,140 570,140 560,155" fill="#434a54" />
+  
+  <!-- 标题和说明 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#434a54">论文主题选择之旅</text>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="520" width="600" height="60" rx="10" ry="10" fill="#ffffff" stroke="#aab2bd" stroke-width="1" />
+  <text x="400" y="545" font-family="Arial" font-size="14" text-anchor="middle" fill="#434a54">
+    选择论文主题如同规划旅行：选择感兴趣的目的地，评估难度和条件，
+  </text>
+  <text x="400" y="565" font-family="Arial" font-size="14" text-anchor="middle" fill="#434a54">
+    确认符合要求后才能开始愉快的学术旅程。
+  </text>
+</svg>

@@ -1,0 +1,98 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">神经节：身体的电话交换中心</text>
+  
+  <!-- 六边形交换中心（神经节） -->
+  <polygon points="400,120 500,170 500,270 400,320 300,270 300,170" 
+           fill="#e6e6fa" stroke="#6a5acd" stroke-width="3"/>
+  
+  <!-- 灰质区域 -->
+  <path d="M380,150 Q400,140 420,150 Q440,170 440,200 Q430,230 400,240 Q370,230 360,200 Q360,170 380,150" 
+        fill="#b0b0b0" stroke="#808080" stroke-width="1" opacity="0.6">
+    <title>灰质区域</title>
+  </path>
+  
+  <!-- 神经细胞体（接线员） -->
+  <circle cx="370" cy="180" r="15" fill="#9370db" stroke="#483d8b" stroke-width="2"/>
+  <circle cx="410" cy="200" r="18" fill="#9370db" stroke="#483d8b" stroke-width="2"/>
+  <circle cx="440" cy="230" r="13" fill="#9370db" stroke="#483d8b" stroke-width="2"/>
+  <circle cx="350" cy="220" r="16" fill="#9370db" stroke="#483d8b" stroke-width="2"/>
+  
+  <!-- 内部神经纤维连接（内部电话线） -->
+  <line x1="370" y1="180" x2="410" y2="200" stroke="#6a5acd" stroke-width="2" stroke-dasharray="2,2"/>
+  <line x1="410" y1="200" x2="440" y2="230" stroke="#6a5acd" stroke-width="2" stroke-dasharray="2,2"/>
+  <line x1="410" y1="200" x2="350" y2="220" stroke="#6a5acd" stroke-width="2" stroke-dasharray="2,2"/>
+  
+  <!-- 突触连接点 -->
+  <circle cx="390" cy="190" r="4" fill="#ff6347" stroke="#8b0000" stroke-width="1"/>
+  <circle cx="425" cy="215" r="4" fill="#ff6347" stroke="#8b0000" stroke-width="1"/>
+  <circle cx="380" cy="210" r="4" fill="#ff6347" stroke="#8b0000" stroke-width="1"/>
+  
+  <!-- 外部神经纤维（外部电话线） -->
+  <path d="M300,170 C250,150 200,180 150,160" stroke="#6a5acd" stroke-width="3" fill="none"/>
+  <path d="M300,270 C250,290 200,260 150,280" stroke="#6a5acd" stroke-width="3" fill="none"/>
+  <path d="M500,170 C550,150 600,180 650,160" stroke="#6a5acd" stroke-width="3" fill="none"/>
+  <path d="M500,270 C550,290 600,260 650,280" stroke="#6a5acd" stroke-width="3" fill="none"/>
+  
+  <!-- 电话/信号图标 -->
+  <g transform="translate(150,160) scale(0.6)">
+    <circle cx="0" cy="0" r="20" fill="#f0f8ff" stroke="#4682b4" stroke-width="2"/>
+    <path d="M-10,-5 Q0,15 10,-5" stroke="#4682b4" stroke-width="2" fill="none"/>
+    <circle cx="-5" cy="-10" r="3" fill="#4682b4"/>
+    <circle cx="5" cy="-10" r="3" fill="#4682b4"/>
+  </g>
+  
+  <g transform="translate(150,280) scale(0.6)">
+    <circle cx="0" cy="0" r="20" fill="#f0f8ff" stroke="#4682b4" stroke-width="2"/>
+    <path d="M-10,-5 Q0,15 10,-5" stroke="#4682b4" stroke-width="2" fill="none"/>
+    <circle cx="-5" cy="-10" r="3" fill="#4682b4"/>
+    <circle cx="5" cy="-10" r="3" fill="#4682b4"/>
+  </g>
+  
+  <g transform="translate(650,160) scale(0.6)">
+    <circle cx="0" cy="0" r="20" fill="#f0f8ff" stroke="#4682b4" stroke-width="2"/>
+    <path d="M-10,-5 Q0,15 10,-5" stroke="#4682b4" stroke-width="2" fill="none"/>
+    <circle cx="-5" cy="-10" r="3" fill="#4682b4"/>
+    <circle cx="5" cy="-10" r="3" fill="#4682b4"/>
+  </g>
+  
+  <g transform="translate(650,280) scale(0.6)">
+    <circle cx="0" cy="0" r="20" fill="#f0f8ff" stroke="#4682b4" stroke-width="2"/>
+    <path d="M-10,-5 Q0,15 10,-5" stroke="#4682b4" stroke-width="2" fill="none"/>
+    <circle cx="-5" cy="-10" r="3" fill="#4682b4"/>
+    <circle cx="5" cy="-10" r="3" fill="#4682b4"/>
+  </g>
+  
+  <!-- 信号传递动画效果 -->
+  <circle cx="250" cy="150" r="5" fill="#ff6347">
+    <animate attributeName="cx" from="150" to="300" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="cy" from="160" to="170" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="450" cy="280" r="5" fill="#ff6347">
+    <animate attributeName="cx" from="500" to="650" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="cy" from="270" to="280" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 标签 -->
+  <text x="400" y="100" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">神经节</text>
+  <text x="385" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">神经细胞体</text>
+  <text x="450" y="200" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">灰质</text>
+  <text x="390" y="230" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">突触</text>
+  <text x="225" y="140" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">神经纤维</text>
+  <text x="575" y="140" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">神经信号传出</text>
+  
+  <!-- 说明文字 -->
+  <rect x="100" y="350" width="600" height="180" rx="10" ry="10" fill="white" stroke="#ddd" stroke-width="2"/>
+  <text x="400" y="380" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">神经节：身体的电话交换中心</text>
+  <text x="120" y="410" font-family="Arial" font-size="14" fill="#555">
+    <tspan x="120" dy="0">神经节就像一个繁忙的城市电话交换中心。里面坐满了接线员（神经细胞体），他们通过</tspan>
+    <tspan x="120" dy="20">电话线（神经纤维）接收和转发来自身体各处的信息。这些接线员能够决定哪些信息需要</tspan>
+    <tspan x="120" dy="20">优先处理，哪些可以等待。交换中心内部的会议室（突触）是接线员们交换信息的场所，</tspan>
+    <tspan x="120" dy="20">即使两个接线员没有直接面对面，他们也能通过特殊的内部连接系统实现信息的无缝传递，</tspan>
+    <tspan x="120" dy="20">确保整个身体的通信网络高效运转。</tspan>
+  </text>
+</svg>

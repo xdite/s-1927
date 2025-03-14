@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f8f8" rx="10" ry="10"/>
+  
+  <!-- 分隔线 -->
+  <line x1="400" y1="50" x2="400" y2="450" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 标题 -->
+  <text x="200" y="40" font-family="Arial" font-size="22" text-anchor="middle" fill="#555">D.C. 学位</text>
+  <text x="600" y="40" font-family="Arial" font-size="22" text-anchor="middle" fill="#555">Ph.C. 学位</text>
+  
+  <!-- 左侧：D.C. 厨师 -->
+  <circle cx="200" cy="150" r="60" fill="#f9f9ff" stroke="#ccc"/>
+  <path d="M180,120 C190,110 210,110 220,120" stroke="#555" fill="none" stroke-width="2"/>
+  <circle cx="190" cy="140" r="3" fill="#555"/>
+  <circle cx="210" cy="140" r="3" fill="#555"/>
+  
+  <!-- 厨师帽 -->
+  <path d="M160,110 L240,110 C240,90 160,90 160,110" fill="#f9f" stroke="#555"/>
+  
+  <!-- 食谱 -->
+  <rect x="120" y="220" width="70" height="90" fill="#fff" stroke="#888"/>
+  <line x1="130" y1="240" x2="180" y2="240" stroke="#888" stroke-width="1"/>
+  <line x1="130" y1="250" x2="170" y2="250" stroke="#888" stroke-width="1"/>
+  <line x1="130" y1="260" x2="175" y2="260" stroke="#888" stroke-width="1"/>
+  <line x1="130" y1="270" x2="160" y2="270" stroke="#888" stroke-width="1"/>
+  <text x="155" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">食谱</text>
+  
+  <!-- 简单的菜肴 -->
+  <circle cx="250" cy="250" r="40" fill="#fff" stroke="#888"/>
+  <path d="M230,250 C240,230 260,230 270,250" stroke="#888" fill="none"/>
+  <line x1="235" y1="265" x2="265" y2="265" stroke="#888" stroke-width="1"/>
+  
+  <!-- D.C. 知识结构 -->
+  <rect x="120" y="340" width="160" height="30" rx="5" ry="5" fill="#f9f" stroke="#555"/>
+  <text x="200" y="360" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">实践技能</text>
+  
+  <rect x="120" y="380" width="160" height="30" rx="5" ry="5" fill="#f9f" stroke="#555"/>
+  <text x="200" y="400" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">基础理论</text>
+  
+  <!-- 右侧：Ph.C. 厨师 -->
+  <circle cx="600" cy="150" r="60" fill="#f9f9ff" stroke="#ccc"/>
+  <path d="M580,120 C590,110 610,110 620,120" stroke="#555" fill="none" stroke-width="2"/>
+  <circle cx="590" cy="140" r="3" fill="#555"/>
+  <circle cx="610" cy="140" r="3" fill="#555"/>
+  
+  <!-- 厨师帽 -->
+  <path d="M560,110 L640,110 C640,90 560,90 560,110" fill="#ccf" stroke="#555"/>
+  
+  <!-- 科学书籍 -->
+  <rect x="520" y="220" width="70" height="90" fill="#fff" stroke="#888"/>
+  <text x="555" y="255" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">烹饪科学</text>
+  <text x="555" y="270" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">与原理</text>
+  
+  <!-- 创新菜肴 -->
+  <circle cx="650" cy="250" r="40" fill="#fff" stroke="#888"/>
+  <path d="M630,250 C640,230 660,230 670,250" stroke="#888" fill="none"/>
+  <line x1="635" y1="265" x2="665" y2="265" stroke="#888" stroke-width="1"/>
+  <path d="M640,240 L660,240 M650,230 L650,250" stroke="#888" stroke-width="1"/>
+  
+  <!-- 思考泡泡 -->
+  <ellipse cx="680" cy="180" rx="25" ry="15" fill="#fff" stroke="#888"/>
+  <ellipse cx="700" cy="160" rx="20" ry="12" fill="#fff" stroke="#888"/>
+  <ellipse cx="715" cy="145" rx="15" ry="10" fill="#fff" stroke="#888"/>
+  
+  <!-- Ph.C. 知识结构 -->
+  <rect x="520" y="340" width="160" height="30" rx="5" ry="5" fill="#ccf" stroke="#555"/>
+  <text x="600" y="360" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">实践技能</text>
+  
+  <rect x="520" y="380" width="160" height="30" rx="5" ry="5" fill="#ccf" stroke="#555"/>
+  <text x="600" y="400" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">高级理论</text>
+  
+  <rect x="520" y="420" width="160" height="30" rx="5" ry="5" fill="#ccf" stroke="#555"/>
+  <text x="600" y="440" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">科学理解</text>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="485" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
+    就像一位按食谱烹饪的厨师与理解烹饪科学并能创新的厨师之间的区别
+  </text>
+</svg>

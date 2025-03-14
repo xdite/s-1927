@@ -1,0 +1,73 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 中央环境圆圈 -->
+  <circle cx="400" cy="300" r="120" fill="#e6f2ff" stroke="#6699cc" stroke-width="3"/>
+  <text x="400" y="300" font-family="Arial" font-size="22" text-anchor="middle" fill="#336699" font-weight="bold">外周/环境</text>
+  <text x="400" y="330" font-family="Arial" font-size="16" text-anchor="middle" fill="#336699">每个感觉周期的起点</text>
+  
+  <!-- 感觉周期路径 -->
+  <path d="M 400 180 C 500 100, 650 200, 520 300" fill="none" stroke="#88aadd" stroke-width="3" stroke-dasharray="8,4"/>
+  <path d="M 520 300 C 650 400, 500 500, 400 420" fill="none" stroke="#6699cc" stroke-width="3" stroke-dasharray="8,4"/>
+  <path d="M 400 420 C 300 500, 150 400, 280 300" fill="none" stroke="#4477aa" stroke-width="3" stroke-dasharray="8,4"/>
+  <path d="M 280 300 C 150 200, 300 100, 400 180" fill="none" stroke="#336699" stroke-width="3" stroke-dasharray="8,4"/>
+  
+  <!-- 感觉器官 -->
+  <circle cx="400" cy="180" r="50" fill="#ffeecc" stroke="#ffaa44" stroke-width="2"/>
+  <text x="400" y="175" font-family="Arial" font-size="16" text-anchor="middle" fill="#663300">感觉器官</text>
+  <text x="400" y="195" font-family="Arial" font-size="14" text-anchor="middle" fill="#663300">接收外部刺激</text>
+  
+  <!-- 大脑细胞 -->
+  <circle cx="520" cy="300" r="50" fill="#ffddee" stroke="#ff77aa" stroke-width="2"/>
+  <text x="520" y="295" font-family="Arial" font-size="16" text-anchor="middle" fill="#993366">大脑细胞</text>
+  <text x="520" y="315" font-family="Arial" font-size="14" text-anchor="middle" fill="#993366">处理感觉信息</text>
+  
+  <!-- 返回外周 -->
+  <circle cx="400" cy="420" r="50" fill="#ddeeff" stroke="#4488cc" stroke-width="2"/>
+  <text x="400" y="415" font-family="Arial" font-size="16" text-anchor="middle" fill="#224466">信息处理</text>
+  <text x="400" y="435" font-family="Arial" font-size="14" text-anchor="middle" fill="#224466">形成感知体验</text>
+  
+  <!-- 感觉反馈 -->
+  <circle cx="280" cy="300" r="50" fill="#ddffee" stroke="#44ccaa" stroke-width="2"/>
+  <text x="280" y="295" font-family="Arial" font-size="16" text-anchor="middle" fill="#226644">反馈回应</text>
+  <text x="280" y="315" font-family="Arial" font-size="14" text-anchor="middle" fill="#226644">返回外周环境</text>
+  
+  <!-- 五种特殊感觉图标 -->
+  <!-- 视觉 -->
+  <circle cx="140" cy="140" r="40" fill="#e6f2ff" stroke="#6699cc" stroke-width="2"/>
+  <path d="M 140 130 C 120 130, 120 150, 140 150 C 160 150, 160 130, 140 130" fill="none" stroke="#336699" stroke-width="2"/>
+  <circle cx="140" cy="140" r="8" fill="#336699"/>
+  <text x="140" y="195" font-family="Arial" font-size="16" text-anchor="middle" fill="#336699">视觉</text>
+  
+  <!-- 听觉 -->
+  <circle cx="140" cy="460" r="40" fill="#fff2e6" stroke="#ffaa66" stroke-width="2"/>
+  <path d="M 130 440 C 120 445, 120 475, 130 480 M 150 440 C 160 445, 160 475, 150 480" fill="none" stroke="#cc6622" stroke-width="2"/>
+  <path d="M 130 445 L 150 445 L 150 475 L 130 475 Z" fill="none" stroke="#cc6622" stroke-width="2"/>
+  <text x="140" y="515" font-family="Arial" font-size="16" text-anchor="middle" fill="#cc6622">听觉</text>
+  
+  <!-- 嗅觉 -->
+  <circle cx="660" cy="140" r="40" fill="#ffe6f2" stroke="#ff66aa" stroke-width="2"/>
+  <path d="M 660 130 C 650 120, 645 150, 655 160 M 660 130 C 670 120, 675 150, 665 160" fill="none" stroke="#cc2266" stroke-width="2"/>
+  <path d="M 655 145 C 660 155, 665 145, 660 135" fill="none" stroke="#cc2266" stroke-width="2"/>
+  <text x="660" y="195" font-family="Arial" font-size="16" text-anchor="middle" fill="#cc2266">嗅觉</text>
+  
+  <!-- 味觉 -->
+  <circle cx="660" cy="460" r="40" fill="#f2ffe6" stroke="#aaff66" stroke-width="2"/>
+  <path d="M 645 460 C 655 445, 665 445, 675 460 C 670 470, 650 470, 645 460" fill="#66cc22" stroke="#66cc22" stroke-width="1"/>
+  <text x="660" y="515" font-family="Arial" font-size="16" text-anchor="middle" fill="#66cc22">味觉</text>
+  
+  <!-- 触觉 -->
+  <circle cx="400" cy="60" r="40" fill="#e6fff2" stroke="#66ffaa" stroke-width="2"/>
+  <path d="M 385 50 L 415 50 M 385 60 L 415 60 M 385 70 L 415 70" stroke="#22cc66" stroke-width="2"/>
+  <text x="400" y="115" font-family="Arial" font-size="16" text-anchor="middle" fill="#22cc66">触觉</text>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333" font-weight="bold">特殊感觉周期</text>
+  
+  <!-- 图例说明 -->
+  <rect x="100" y="540" width="600" height="40" rx="10" fill="#f0f0f0" stroke="#cccccc" stroke-width="1"/>
+  <text x="400" y="565" font-family="Arial" font-size="14" text-anchor="middle" fill="#666666">
+    特殊感觉周期就像城市观光巴士系统，从环境出发，经过专门的感觉器官和大脑处理，再返回环境
+  </text>
+</svg>

@@ -1,0 +1,69 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 流程箭头背景 -->
+  <path d="M150,250 L400,250 L650,250" stroke="#e0e0e0" stroke-width="8" fill="none"/>
+  
+  <!-- Innate持续指导（建筑师） -->
+  <circle cx="150" cy="250" r="100" fill="#e6f2ff" stroke="#a3c6ff" stroke-width="3"/>
+  <g transform="translate(100, 210)">
+    <!-- 建筑师 -->
+    <circle cx="50" cy="20" r="20" fill="#6699cc"/>
+    <path d="M50,40 L50,80" stroke="#6699cc" stroke-width="4"/>
+    <path d="M30,50 L70,50" stroke="#6699cc" stroke-width="4"/>
+    <path d="M35,80 L50,60 L65,80" stroke="#6699cc" stroke-width="4"/>
+    <!-- 图纸 -->
+    <rect x="70" y="40" width="20" height="25" fill="#d9e6ff" stroke="#6699cc"/>
+    <line x1="75" y1="45" x2="85" y2="45" stroke="#6699cc"/>
+    <line x1="75" y1="50" x2="85" y2="50" stroke="#6699cc"/>
+    <line x1="75" y1="55" x2="85" y2="55" stroke="#6699cc"/>
+  </g>
+  <text x="150" y="330" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">Innate持续指导</text>
+  <text x="150" y="350" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">(智慧的建筑师)</text>
+  
+  <!-- 组织细胞的健康结构（城墙） -->
+  <circle cx="400" cy="250" r="100" fill="#e6f2ff" stroke="#a3c6ff" stroke-width="3"/>
+  <g transform="translate(350, 200)">
+    <!-- 城墙 -->
+    <rect x="0" y="0" width="100" height="60" fill="#d9e6ff" stroke="#6699cc" stroke-width="2"/>
+    <rect x="10" y="-10" width="15" height="10" fill="#d9e6ff" stroke="#6699cc"/>
+    <rect x="35" y="-10" width="15" height="10" fill="#d9e6ff" stroke="#6699cc"/>
+    <rect x="60" y="-10" width="15" height="10" fill="#d9e6ff" stroke="#6699cc"/>
+    <rect x="85" y="-10" width="15" height="10" fill="#d9e6ff" stroke="#6699cc"/>
+    <rect x="10" y="60" width="10" height="20" fill="#d9e6ff" stroke="#6699cc"/>
+    <rect x="30" y="60" width="10" height="20" fill="#d9e6ff" stroke="#6699cc"/>
+    <rect x="50" y="60" width="10" height="20" fill="#d9e6ff" stroke="#6699cc"/>
+    <rect x="70" y="60" width="10" height="20" fill="#d9e6ff" stroke="#6699cc"/>
+    <rect x="90" y="60" width="10" height="20" fill="#d9e6ff" stroke="#6699cc"/>
+  </g>
+  <text x="400" y="330" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">组织细胞的健康结构</text>
+  <text x="400" y="350" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">(坚固的城墙)</text>
+  
+  <!-- 抵抗力（防御系统） -->
+  <circle cx="650" cy="250" r="100" fill="#ccf" stroke="#333" stroke-width="3"/>
+  <g transform="translate(600, 200)">
+    <!-- 盾牌 -->
+    <path d="M50,0 L90,20 L90,70 L50,100 L10,70 L10,20 Z" fill="#a3c6ff" stroke="#6699cc" stroke-width="2"/>
+    <circle cx="50" cy="45" r="25" fill="#d9e6ff" stroke="#6699cc" stroke-width="2"/>
+    <path d="M40,45 L60,45 M50,35 L50,55" stroke="#6699cc" stroke-width="4"/>
+  </g>
+  <text x="650" y="330" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">抵抗力</text>
+  <text x="650" y="350" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">(城堡防御系统)</text>
+  
+  <!-- 流程箭头 -->
+  <path d="M260,250 L330,250" stroke="#6699cc" stroke-width="3" fill="none"/>
+  <polygon points="330,250 320,245 320,255" fill="#6699cc"/>
+  
+  <path d="M510,250 L580,250" stroke="#6699cc" stroke-width="3" fill="none"/>
+  <polygon points="580,250 570,245 570,255" fill="#6699cc"/>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="400" width="600" height="60" rx="10" fill="#e6f2ff" stroke="#a3c6ff" stroke-width="2"/>
+  <text x="400" y="425" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">
+    抵抗力如同城堡的防御系统，由智慧的建筑师(Innate)指导城墙(组织细胞)的建造，
+  </text>
+  <text x="400" y="445" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">
+    使其能够适应外部环境变化，形成强大的防御能力抵御外敌入侵。
+  </text>
+</svg>

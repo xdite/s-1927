@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">环境毒素的影响</text>
+  
+  <!-- 左侧：环境毒素来源 -->
+  <g transform="translate(100, 120)">
+    <rect x="0" y="0" width="150" height="200" fill="#d1e7dd" rx="8" ry="8" stroke="#5a8c7b" stroke-width="2"/>
+    <text x="75" y="30" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">恶劣环境</text>
+    
+    <g transform="translate(20, 50)">
+      <circle cx="10" cy="10" r="5" fill="#5a8c7b"/>
+      <text x="25" y="15" font-family="Arial" font-size="14" fill="#2c3e50">污染的空气</text>
+      
+      <circle cx="10" cy="40" r="5" fill="#5a8c7b"/>
+      <text x="25" y="45" font-family="Arial" font-size="14" fill="#2c3e50">不纯净的水</text>
+      
+      <circle cx="10" cy="70" r="5" fill="#5a8c7b"/>
+      <text x="25" y="75" font-family="Arial" font-size="14" fill="#2c3e50">有害食品</text>
+      
+      <circle cx="10" cy="100" r="5" fill="#5a8c7b"/>
+      <text x="25" y="105" font-family="Arial" font-size="14" fill="#2c3e50">恶劣气候</text>
+      
+      <circle cx="10" cy="130" r="5" fill="#5a8c7b"/>
+      <text x="25" y="135" font-family="Arial" font-size="14" fill="#2c3e50">细菌病毒</text>
+    </g>
+  </g>
+  
+  <!-- 中间：适应过程图示 -->
+  <g transform="translate(300, 120)">
+    <!-- 桥梁比喻 -->
+    <text x="100" y="-20" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">适应过程</text>
+    
+    <!-- 健康的桥 -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="200" height="80" rx="5" ry="5" fill="#e2e3e5" stroke="#6c757d" stroke-width="1"/>
+      <text x="100" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">健康的身体</text>
+      
+      <!-- 桥梁示意图 -->
+      <line x1="30" y1="60" x2="170" y2="60" stroke="#6c757d" stroke-width="3"/>
+      <line x1="30" y1="40" x2="30" y2="60" stroke="#6c757d" stroke-width="3"/>
+      <line x1="170" y1="40" x2="170" y2="60" stroke="#6c757d" stroke-width="3"/>
+      <path d="M30,40 Q100,30 170,40" stroke="#6c757d" stroke-width="3" fill="none"/>
+      
+      <!-- 压力箭头（小） -->
+      <path d="M100,35 L100,50" stroke="#dc3545" stroke-width="2" fill="none"/>
+      <path d="M95,45 L100,50 L105,45" fill="#dc3545" stroke="none"/>
+    </g>
+    
+    <!-- 虚弱的桥 -->
+    <g transform="translate(0, 140)">
+      <rect x="0" y="0" width="200" height="80" rx="5" ry="5" fill="#f8d7da" stroke="#842029" stroke-width="1"/>
+      <text x="100" y="20" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">虚弱的身体</text>
+      
+      <!-- 桥梁示意图（有裂缝） -->
+      <line x1="30" y1="60" x2="170" y2="60" stroke="#842029" stroke-width="3"/>
+      <line x1="30" y1="40" x2="30" y2="60" stroke="#842029" stroke-width="3"/>
+      <line x1="170" y1="40" x2="170" y2="60" stroke="#842029" stroke-width="3"/>
+      <path d="M30,40 Q100,50 170,40" stroke="#842029" stroke-width="3" fill="none" stroke-dasharray="5,2"/>
+      
+      <!-- 压力箭头（大） -->
+      <path d="M100,25 L100,50" stroke="#dc3545" stroke-width="4" fill="none"/>
+      <path d="M92,42 L100,50 L108,42" fill="#dc3545" stroke="none"/>
+    </g>
+  </g>
+  
+  <!-- 右侧：影响结果 -->
+  <g transform="translate(550, 120)">
+    <rect x="0" y="0" width="150" height="80" fill="#cfe2ff" rx="8" ry="8" stroke="#0d6efd" stroke-width="2"/>
+    <text x="75" y="30" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">影响较小</text>
+    <text x="75" y="55" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">成功适应</text>
+    
+    <rect x="0" y="140" width="150" height="80" fill="#f8d7da" rx="8" ry="8" stroke="#dc3545" stroke-width="2"/>
+    <text x="75" y="170" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">影响较大</text>
+    <text x="75" y="195" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">适应困难/失败</text>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <g>
+    <!-- 左到中 -->
+    <path d="M250,220 L300,220" stroke="#2c3e50" stroke-width="2" fill="none"/>
+    <polygon points="295,215 300,220 295,225" fill="#2c3e50"/>
+    
+    <!-- 中到右（健康） -->
+    <path d="M500,170 L550,170" stroke="#2c3e50" stroke-width="2" fill="none"/>
+    <polygon points="545,165 550,170 545,175" fill="#2c3e50"/>
+    
+    <!-- 中到右（虚弱） -->
+    <path d="M500,280 L550,280" stroke="#2c3e50" stroke-width="2" fill="none"/>
+    <polygon points="545,275 550,280 545,285" fill="#2c3e50"/>
+  </g>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="380" width="600" height="80" fill="#e9ecef" rx="8" ry="8"/>
+  <text x="400" y="410" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    环境毒素就像极端天气对桥梁的考验：结构良好的桥梁（健康的身体）能够适应并
+  </text>
+  <text x="400" y="435" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    继续发挥功能，而有结构缺陷的桥梁（虚弱的身体）则可能难以承受同样的压力。
+  </text>
+</svg>

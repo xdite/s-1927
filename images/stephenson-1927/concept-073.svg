@@ -1,0 +1,81 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f7" rx="10" ry="10"/>
+  
+  <!-- 左侧：规划图 -->
+  <rect x="50" y="80" width="200" height="300" fill="#e6eef4" stroke="#b8c9d9" stroke-width="2" rx="5" ry="5"/>
+  <text x="150" y="60" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">大纲规划</text>
+  
+  <!-- 规划图内的线条 -->
+  <line x1="80" y1="120" x2="220" y2="120" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="80" y1="160" x2="220" y2="160" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="80" y1="200" x2="220" y2="200" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="80" y1="240" x2="220" y2="240" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="80" y1="280" x2="220" y2="280" stroke="#5d8aa8" stroke-width="2"/>
+  <line x1="80" y1="320" x2="220" y2="320" stroke="#5d8aa8" stroke-width="2"/>
+  
+  <!-- 规划图内的文字 -->
+  <text x="150" y="110" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">主题 A</text>
+  <text x="150" y="150" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">子主题 1</text>
+  <text x="150" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">子主题 2</text>
+  <text x="150" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">主题 B</text>
+  <text x="150" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">子主题 3</text>
+  <text x="150" y="310" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">子主题 4</text>
+  
+  <!-- 中间：转化过程 -->
+  <g transform="translate(300, 230)">
+    <path d="M0,0 L100,0" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <g transform="translate(50, -40)">
+      <rect x="-40" y="-20" width="80" height="40" fill="#f0e6f4" stroke="#d8b9e3" stroke-width="2" rx="5" ry="5"/>
+      <text x="0" y="5" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">展开与调整</text>
+    </g>
+  </g>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+            refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- 右侧：花园实现 -->
+  <rect x="550" y="80" width="200" height="300" fill="#edf7ed" stroke="#b9d9b9" stroke-width="2" rx="5" ry="5"/>
+  <text x="650" y="60" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">充分写作</text>
+  
+  <!-- 花园实现内的内容 -->
+  <!-- 区域A (主题A) -->
+  <rect x="570" y="100" width="160" height="80" fill="#d1e7dd" stroke="#90c2a8" stroke-width="1" rx="3" ry="3"/>
+  <text x="650" y="120" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">主题 A</text>
+  <line x1="590" y1="135" x2="710" y2="135" stroke="#2c3e50" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="650" y="150" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">子主题1作为主旨</text>
+  <text x="650" y="170" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">配合修饰句构成段落</text>
+  
+  <!-- 区域B (合并了子主题3和4) -->
+  <rect x="570" y="200" width="160" height="80" fill="#d1e7dd" stroke="#90c2a8" stroke-width="1" rx="3" ry="3"/>
+  <text x="650" y="220" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">主题 B (合并)</text>
+  <line x1="590" y1="235" x2="710" y2="235" stroke="#2c3e50" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="650" y="250" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">子主题3+4灵活合并</text>
+  <text x="650" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">根据实际需要调整</text>
+  
+  <!-- 小标注 -->
+  <text x="650" y="330" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">注：子主题2被取消</text>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="420" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic" fill="#2c3e50">
+    "就像园艺师设计花园，先有规划图，再按区域实施，根据需要灵活调整"
+  </text>
+  
+  <!-- 装饰元素 -->
+  <!-- 左侧笔 -->
+  <g transform="translate(30, 70) rotate(-30)">
+    <rect x="0" y="0" width="2" height="30" fill="#2c3e50"/>
+    <polygon points="0,0 2,0 1,-15" fill="#2c3e50"/>
+  </g>
+  
+  <!-- 右侧小植物 -->
+  <g transform="translate(760, 70)">
+    <path d="M0,0 C-5,-10 -10,-5 -8,0 C-15,-8 -18,-3 -15,2 C-20,-3 -25,2 -20,5 L0,5 Z" fill="#90c2a8"/>
+    <rect x="-2" y="5" width="4" height="15" fill="#5d8aa8"/>
+  </g>
+</svg>

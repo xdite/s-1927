@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 左侧：内在智能/指挥家 -->
+  <g transform="translate(150, 250)">
+    <!-- 指挥家身体 -->
+    <ellipse cx="0" cy="-40" rx="25" ry="30" fill="#e6f2ff" stroke="#4d7cc7" stroke-width="2"/>
+    <path d="M0,-10 L0,60" stroke="#4d7cc7" stroke-width="3" fill="none"/>
+    <!-- 手臂 -->
+    <path d="M0,0 L-45,-30" stroke="#4d7cc7" stroke-width="3" fill="none"/>
+    <path d="M0,0 L45,-35" stroke="#4d7cc7" stroke-width="3" fill="none"/>
+    <!-- 指挥棒 -->
+    <path d="M45,-35 L65,-20" stroke="#4d7cc7" stroke-width="2" fill="none"/>
+    <!-- 腿 -->
+    <path d="M0,60 L-20,110" stroke="#4d7cc7" stroke-width="3" fill="none"/>
+    <path d="M0,60 L20,110" stroke="#4d7cc7" stroke-width="3" fill="none"/>
+    <!-- 指挥台 -->
+    <rect x="-40" y="110" width="80" height="10" fill="#d0d0d0" stroke="#333" stroke-width="1"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="150" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">内在智能</text>
+    <text x="0" y="175" font-family="Arial" font-size="16" text-anchor="middle" fill="#666">(指挥家)</text>
+  </g>
+
+  <!-- 中央：协调概念 -->
+  <g transform="translate(400, 250)">
+    <ellipse cx="0" cy="0" rx="80" ry="60" fill="#f0e6ff" stroke="#9370db" stroke-width="2.5"/>
+    <text x="0" y="10" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">协调</text>
+  </g>
+  
+  <!-- 右侧：组织细胞/乐团成员 -->
+  <g transform="translate(600, 180)">
+    <!-- 小提琴手 -->
+    <ellipse cx="0" cy="-40" rx="20" ry="25" fill="#ffe6e6" stroke="#c77b7b" stroke-width="2"/>
+    <path d="M0,-15 L0,40" stroke="#c77b7b" stroke-width="2.5" fill="none"/>
+    <path d="M0,0 L-30,20" stroke="#c77b7b" stroke-width="2.5" fill="none"/> <!-- 手臂 -->
+    <path d="M-30,20 L-50,0" stroke="#c77b7b" stroke-width="2" fill="none"/> <!-- 小提琴 -->
+    <path d="M0,0 L20,25" stroke="#c77b7b" stroke-width="2.5" fill="none"/> <!-- 另一手臂 -->
+    <path d="M0,40 L-15,80" stroke="#c77b7b" stroke-width="2.5" fill="none"/> <!-- 腿 -->
+    <path d="M0,40 L15,80" stroke="#c77b7b" stroke-width="2.5" fill="none"/> <!-- 腿 -->
+    <text x="0" y="100" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">小提琴手</text>
+  </g>
+  
+  <g transform="translate(650, 250)">
+    <!-- 长笛手 -->
+    <ellipse cx="0" cy="-40" rx="20" ry="25" fill="#e6ffe6" stroke="#7bc77b" stroke-width="2"/>
+    <path d="M0,-15 L0,40" stroke="#7bc77b" stroke-width="2.5" fill="none"/>
+    <path d="M0,0 L-35,0" stroke="#7bc77b" stroke-width="2.5" fill="none"/> <!-- 手臂 -->
+    <path d="M0,0 L25,5" stroke="#7bc77b" stroke-width="2.5" fill="none"/> <!-- 另一手臂 -->
+    <path d="M-35,0 L-35,-10 L25,-10 L25,5" stroke="#7bc77b" stroke-width="2" fill="none"/> <!-- 长笛 -->
+    <path d="M0,40 L-15,80" stroke="#7bc77b" stroke-width="2.5" fill="none"/> <!-- 腿 -->
+    <path d="M0,40 L15,80" stroke="#7bc77b" stroke-width="2.5" fill="none"/> <!-- 腿 -->
+    <text x="0" y="100" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">长笛手</text>
+  </g>
+  
+  <g transform="translate(700, 320)">
+    <!-- 大提琴手 -->
+    <ellipse cx="0" cy="-40" rx="20" ry="25" fill="#fff2e6" stroke="#c7a27b" stroke-width="2"/>
+    <path d="M0,-15 L0,30" stroke="#c7a27b" stroke-width="2.5" fill="none"/>
+    <path d="M0,0 L-20,20" stroke="#c7a27b" stroke-width="2.5" fill="none"/> <!-- 手臂 -->
+    <path d="M0,0 L20,20" stroke="#c7a27b" stroke-width="2.5" fill="none"/> <!-- 另一手臂 -->
+    <ellipse cx="0" cy="60" rx="25" ry="40" fill="none" stroke="#c7a27b" stroke-width="2"/> <!-- 大提琴 -->
+    <path d="M0,20 L0,100" stroke="#c7a27b" stroke-width="2" fill="none"/> <!-- 大提琴颈 -->
+    <text x="0" y="120" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">大提琴手</text>
+  </g>
+  
+  <g transform="translate(600, 330)">
+    <!-- 小号手 -->
+    <ellipse cx="0" cy="-40" rx="20" ry="25" fill="#e6f2ff" stroke="#7b9ec7" stroke-width="2"/>
+    <path d="M0,-15 L0,40" stroke="#7b9ec7" stroke-width="2.5" fill="none"/>
+    <path d="M0,0 L-20,10" stroke="#7b9ec7" stroke-width="2.5" fill="none"/> <!-- 手臂 -->
+    <path d="M0,0 L20,10" stroke="#7b9ec7" stroke-width="2.5" fill="none"/> <!-- 另一手臂 -->
+    <path d="M-15,10 C-15,0 15,0 15,10 L25,20 C25,25 -25,25 -25,20 Z" fill="none" stroke="#7b9ec7" stroke-width="2"/> <!-- 小号 -->
+    <path d="M0,40 L-15,80" stroke="#7b9ec7" stroke-width="2.5" fill="none"/> <!-- 腿 -->
+    <path d="M0,40 L15,80" stroke="#7b9ec7" stroke-width="2.5" fill="none"/> <!-- 腿 -->
+    <text x="0" y="100" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">小号手</text>
+  </g>
+  
+  <!-- 连接线 -->
+  <path d="M230,250 L320,250" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M480,250 L550,250" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 总标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">协调: 组织细胞的和谐合作</text>
+  
+  <!-- 比喻说明 -->
+  <rect x="50" y="400" width="700" height="70" rx="10" ry="10" fill="#f0f0f0" stroke="#ccc" stroke-width="1"/>
+  <text x="400" y="425" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">
+    协调就像一场交响乐演奏：指挥家(内在智能)引导各种乐器演奏者(组织细胞)
+  </text>
+  <text x="400" y="450" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">
+    通过精确的时机和默契配合，创造出和谐完美的整体表现。
+  </text>
+</svg>

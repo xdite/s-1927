@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">身体的供需平衡系统</text>
+  
+  <!-- 循环箭头背景 -->
+  <ellipse cx="400" cy="300" rx="280" ry="200" fill="#f0f7ff" stroke="#a0c8e0" stroke-width="2"/>
+  
+  <!-- 组织细胞 (左侧) -->
+  <g transform="translate(150, 300)">
+    <circle cx="0" cy="0" r="70" fill="#e1f5fe" stroke="#4fc3f7" stroke-width="2"/>
+    <text x="0" y="-20" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">组织细胞</text>
+    <text x="0" y="10" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">发送需求信号</text>
+    <g transform="translate(-30, -10)">
+      <!-- 简化的细胞图形 -->
+      <circle cx="0" cy="30" r="15" fill="#b3e5fc" stroke="#29b6f6" stroke-width="1"/>
+      <circle cx="30" cy="40" r="12" fill="#b3e5fc" stroke="#29b6f6" stroke-width="1"/>
+      <circle cx="50" cy="20" r="10" fill="#b3e5fc" stroke="#29b6f6" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- 大脑 (上方) -->
+  <g transform="translate(400, 150)">
+    <circle cx="0" cy="0" r="70" fill="#e8f5e9" stroke="#66bb6a" stroke-width="2"/>
+    <text x="0" y="-20" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">大脑</text>
+    <text x="0" y="10" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">"清算中心"</text>
+    <path d="M-30,-5 C-20,15 20,15 30,-5" stroke="#388e3c" stroke-width="2" fill="none"/>
+    <path d="M-35,0 C-25,25 25,25 35,0" stroke="#388e3c" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- 先天智能 (右侧) -->
+  <g transform="translate(650, 300)">
+    <circle cx="0" cy="0" r="70" fill="#fff3e0" stroke="#ffa726" stroke-width="2"/>
+    <text x="0" y="-20" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">先天智能</text>
+    <text x="0" y="10" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">"银行家"</text>
+    <g transform="translate(-20, 20)">
+      <!-- 简化的齿轮图形 -->
+      <circle cx="0" cy="0" r="20" fill="#ffe0b2" stroke="#ff9800" stroke-width="1.5"/>
+      <circle cx="0" cy="0" r="10" fill="#fff3e0" stroke="#ff9800" stroke-width="1.5"/>
+      <line x1="0" y1="-20" x2="0" y2="-30" stroke="#ff9800" stroke-width="1.5"/>
+      <line x1="14" y1="-14" x2="21" y2="-21" stroke="#ff9800" stroke-width="1.5"/>
+      <line x1="20" y1="0" x2="30" y2="0" stroke="#ff9800" stroke-width="1.5"/>
+      <line x1="14" y1="14" x2="21" y2="21" stroke="#ff9800" stroke-width="1.5"/>
+      <line x1="0" y1="20" x2="0" y2="30" stroke="#ff9800" stroke-width="1.5"/>
+      <line x1="-14" y1="14" x2="-21" y2="21" stroke="#ff9800" stroke-width="1.5"/>
+      <line x1="-20" y1="0" x2="-30" y2="0" stroke="#ff9800" stroke-width="1.5"/>
+      <line x1="-14" y1="-14" x2="-21" y2="-21" stroke="#ff9800" stroke-width="1.5"/>
+    </g>
+  </g>
+  
+  <!-- 能量和物质供给 (下方) -->
+  <g transform="translate(400, 450)">
+    <circle cx="0" cy="0" r="70" fill="#f3e5f5" stroke="#ab47bc" stroke-width="2"/>
+    <text x="0" y="-20" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">能量和物质</text>
+    <text x="0" y="10" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">供给资源</text>
+    <g transform="translate(-30, 15)">
+      <!-- 简化的资源图形 -->
+      <rect x="0" y="0" width="15" height="15" fill="#e1bee7" stroke="#8e24aa" stroke-width="1"/>
+      <rect x="20" y="0" width="15" height="15" fill="#e1bee7" stroke="#8e24aa" stroke-width="1"/>
+      <rect x="40" y="0" width="15" height="15" fill="#e1bee7" stroke="#8e24aa" stroke-width="1"/>
+      <circle cx="7.5" cy="7.5" r="3" fill="#8e24aa"/>
+      <circle cx="27.5" cy="7.5" r="3" fill="#8e24aa"/>
+      <circle cx="47.5" cy="7.5" r="3" fill="#8e24aa"/>
+    </g>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <!-- 组织细胞 -> 大脑 -->
+  <path d="M220,240 C270,200 330,180 380,180" stroke="#666" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 大脑 -> 先天智能 -->
+  <path d="M460,180 C510,200 570,240 620,240" stroke="#666" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 先天智能 -> 能量和物质 -->
+  <path d="M620,360 C570,400 510,420 460,420" stroke="#666" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 能量和物质 -> 组织细胞 -->
+  <path d="M330,420 C270,400 220,360 180,360" stroke="#666" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 神经细胞信使描述 -->
+  <g transform="translate(300, 210)">
+    <text x="0" y="0" font-family="Arial" font-size="14" fill="#555">神经细胞</text>
+    <text x="0" y="20" font-family="Arial" font-size="14" fill="#555">"信使"</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="530" width="600" height="50" rx="10" fill="#f0f7ff" stroke="#a0c8e0" stroke-width="1"/>
+  <text x="400" y="560" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">
+    就像城市配送系统，组织细胞通过"信使"报告需求，先天智能直接调配资源以维持身体平衡
+  </text>
+</svg>

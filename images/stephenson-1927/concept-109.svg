@@ -1,0 +1,58 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 中心圆 - 代表完整生命 -->
+  <circle cx="400" cy="280" r="150" fill="#e6f7ff" stroke="#4a90e2" stroke-width="3"/>
+  <text x="400" y="280" font-family="Arial" font-size="24" text-anchor="middle" fill="#2c3e50">100% Life</text>
+  <text x="400" y="310" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">(Triunity)</text>
+  
+  <!-- 三个组成部分 -->
+  <!-- 智能 - 厨师 -->
+  <circle cx="250" cy="150" r="80" fill="#fff8e1" stroke="#ffb74d" stroke-width="2"/>
+  <text x="250" y="145" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">Intelligence</text>
+  <text x="250" y="170" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">100%</text>
+  
+  <!-- 厨师图标 -->
+  <path d="M250,110 C240,95 230,100 230,110 C230,120 240,125 250,110" fill="#2c3e50"/>
+  <circle cx="250" cy="125" r="15" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  <path d="M240,135 C245,140 255,140 260,135" fill="none" stroke="#2c3e50" stroke-width="1.5"/>
+  
+  <!-- 力量 - 厨具 -->
+  <circle cx="550" cy="150" r="80" fill="#e8f5e9" stroke="#66bb6a" stroke-width="2"/>
+  <text x="550" y="145" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">Force</text>
+  <text x="550" y="170" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">100%</text>
+  
+  <!-- 厨具图标 -->
+  <path d="M530,110 L570,110 C575,110 575,115 570,115 L530,115 C525,115 525,110 530,110 Z" fill="#2c3e50"/>
+  <path d="M540,115 L540,130" stroke="#2c3e50" stroke-width="2"/>
+  <path d="M560,115 L560,130" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- 物质 - 食材 -->
+  <circle cx="400" cy="450" r="80" fill="#e3f2fd" stroke="#42a5f5" stroke-width="2"/>
+  <text x="400" y="445" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">Matter</text>
+  <text x="400" y="470" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">100%</text>
+  
+  <!-- 食材图标 -->
+  <ellipse cx="385" cy="410" rx="15" ry="10" fill="#2c3e50"/>
+  <ellipse cx="415" cy="410" rx="12" ry="8" fill="#2c3e50"/>
+  <path d="M390,425 C395,420 405,420 410,425" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- 连接线 -->
+  <path d="M320,180 L330,230" stroke="#4a90e2" stroke-width="2" fill="none"/>
+  <path d="M470,230 L480,180" stroke="#4a90e2" stroke-width="2" fill="none"/>
+  <path d="M400,330 L400,370" stroke="#4a90e2" stroke-width="2" fill="none"/>
+  
+  <!-- 时间元素 - 时钟 -->
+  <circle cx="400" cy="70" r="40" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <circle cx="400" cy="70" r="35" fill="none" stroke="#9c27b0" stroke-width="1"/>
+  <line x1="400" y1="70" x2="400" y2="45" stroke="#2c3e50" stroke-width="2"/>
+  <line x1="400" y1="70" x2="415" y2="85" stroke="#2c3e50" stroke-width="2"/>
+  <text x="400" y="120" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">Time</text>
+  
+  <!-- 说明文本 -->
+  <text x="400" y="540" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">
+    <tspan x="400" dy="0">就像厨师需要技艺、工具和食材才能烹饪完美菜肴，</tspan>
+    <tspan x="400" dy="20">生命需要智能、力量和物质三位一体，并在时间中和谐运作。</tspan>
+  </text>
+</svg>

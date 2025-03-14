@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9ff" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">协调原则: 身体的管弦乐队</text>
+  
+  <!-- 指挥家（先天智能） -->
+  <g transform="translate(400, 200)">
+    <!-- 指挥家身体 -->
+    <path d="M0,0 L-15,60 L15,60 Z" fill="#6c63ff" opacity="0.8"/>
+    <!-- 指挥家头部 -->
+    <circle cx="0" cy="-15" r="20" fill="#6c63ff"/>
+    <!-- 指挥棒和手臂 -->
+    <path d="M0,10 L-40,30" stroke="#333" stroke-width="2" fill="none"/>
+    <path d="M0,10 L40,-20" stroke="#333" stroke-width="2" fill="none"/>
+    <circle cx="40" cy="-20" r="5" fill="#333"/>
+    <!-- 标签 -->
+    <text x="0" y="-50" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">先天智能</text>
+    <text x="0" y="-35" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">(指挥家)</text>
+  </g>
+  
+  <!-- 乐队成员（身体各部分） -->
+  <g transform="translate(200, 320)">
+    <!-- 小提琴手 -->
+    <circle cx="0" cy="0" r="15" fill="#ff6b6b" opacity="0.8"/>
+    <rect x="-5" y="15" width="10" height="40" fill="#ff6b6b" opacity="0.8"/>
+    <path d="M-5,25 L-30,40" stroke="#555" stroke-width="2"/>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">神经系统</text>
+  </g>
+  
+  <g transform="translate(300, 340)">
+    <!-- 长笛手 -->
+    <circle cx="0" cy="0" r="15" fill="#48dbfb" opacity="0.8"/>
+    <rect x="-5" y="15" width="10" height="40" fill="#48dbfb" opacity="0.8"/>
+    <path d="M-5,25 L-20,15" stroke="#555" stroke-width="2"/>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">循环系统</text>
+  </g>
+  
+  <g transform="translate(400, 350)">
+    <!-- 鼓手 -->
+    <circle cx="0" cy="0" r="15" fill="#1dd1a1" opacity="0.8"/>
+    <rect x="-5" y="15" width="10" height="40" fill="#1dd1a1" opacity="0.8"/>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">消化系统</text>
+  </g>
+  
+  <g transform="translate(500, 340)">
+    <!-- 大提琴手 -->
+    <circle cx="0" cy="0" r="15" fill="#feca57" opacity="0.8"/>
+    <rect x="-5" y="15" width="10" height="40" fill="#feca57" opacity="0.8"/>
+    <path d="M-5,25 L-25,50" stroke="#555" stroke-width="2"/>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">肌肉系统</text>
+  </g>
+  
+  <g transform="translate(600, 320)">
+    <!-- 小号手 -->
+    <circle cx="0" cy="0" r="15" fill="#c56cf0" opacity="0.8"/>
+    <rect x="-5" y="15" width="10" height="40" fill="#c56cf0" opacity="0.8"/>
+    <path d="M-5,25 L20,30" stroke="#555" stroke-width="2"/>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">内分泌系统</text>
+  </g>
+  
+  <!-- 神经冲动（指挥手势） -->
+  <g stroke="#6c63ff" stroke-width="1.5" stroke-dasharray="5,3" fill="none">
+    <path d="M400,200 C350,230 300,260 200,320" />
+    <path d="M400,200 C380,230 350,270 300,340" />
+    <path d="M400,200 C400,250 400,300 400,350" />
+    <path d="M400,200 C430,230 470,270 500,340" />
+    <path d="M400,200 C450,230 500,260 600,320" />
+  </g>
+  
+  <!-- 音符（功能实现） -->
+  <g fill="#6c63ff" opacity="0.7">
+    <path d="M220,280 C225,270 235,270 240,280 L235,300 L225,300 Z" />
+    <circle cx="225" cy="300" r="5" />
+    
+    <path d="M330,290 C335,280 345,280 350,290 L345,310 L335,310 Z" />
+    <circle cx="335" cy="310" r="5" />
+    
+    <path d="M420,300 C425,290 435,290 440,300 L435,320 L425,320 Z" />
+    <circle cx="425" cy="320" r="5" />
+    
+    <path d="M520,290 C525,280 535,280 540,290 L535,310 L525,310 Z" />
+    <circle cx="525" cy="310" r="5" />
+    
+    <path d="M580,280 C585,270 595,270 600,280 L595,300 L585,300 Z" />
+    <circle cx="585" cy="300" r="5" />
+  </g>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="450" width="600" height="120" rx="10" ry="10" fill="#f0f0ff" stroke="#ccc" stroke-width="1"/>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
+    <tspan x="400" dy="0">就像管弦乐队需要指挥家通过手势协调各乐器演奏，</tspan>
+    <tspan x="400" dy="25">身体也需要先天智能通过神经冲动协调各系统运作。</tspan>
+    <tspan x="400" dy="25">当所有部分和谐配合时，才能奏出生命的美妙乐章。</tspan>
+  </text>
+</svg>

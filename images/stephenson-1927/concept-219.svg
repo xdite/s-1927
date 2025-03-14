@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">营养功能 (Nutritive Function)</text>
+  
+  <!-- 左侧：特定细胞准备营养物质 -->
+  <g transform="translate(150, 200)">
+    <!-- 细胞轮廓 -->
+    <circle cx="0" cy="0" r="70" fill="#d1e7dd" stroke="#20c997" stroke-width="2"/>
+    
+    <!-- 细胞核 -->
+    <circle cx="-10" cy="5" r="20" fill="#a2d5c6" stroke="#20c997" stroke-width="1.5"/>
+    
+    <!-- 厨师帽 -->
+    <path d="M-40,-40 L40,-40 L30,-20 L-30,-20 Z" fill="white" stroke="#495057" stroke-width="1.5"/>
+    <path d="M-15,-20 C-15,-40 15,-40 15,-20" fill="none" stroke="#495057" stroke-width="1.5"/>
+    
+    <!-- 食物符号 -->
+    <circle cx="20" cy="20" r="8" fill="#fd7e14" stroke="#495057" stroke-width="1"/>
+    <circle cx="-25" cy="30" r="6" fill="#20c997" stroke="#495057" stroke-width="1"/>
+    <circle cx="0" cy="35" r="7" fill="#ffc107" stroke="#495057" stroke-width="1"/>
+    
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#495057">特定细胞准备营养物质</text>
+    <text x="0" y="110" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#495057">（"厨师细胞"）</text>
+  </g>
+  
+  <!-- 中间：消化过程 -->
+  <g transform="translate(400, 200)">
+    <!-- 消化管道 -->
+    <path d="M-100,0 C-70,40 70,40 100,0" fill="none" stroke="#6c757d" stroke-width="4" stroke-linecap="round"/>
+    <path d="M-100,0 C-70,-40 70,-40 100,0" fill="none" stroke="#6c757d" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- 箭头和流动的营养物质 -->
+    <circle cx="-50" cy="0" r="6" fill="#fd7e14" stroke="#495057" stroke-width="1">
+      <animate attributeName="cx" from="-70" to="70" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="-20" cy="0" r="5" fill="#20c997" stroke="#495057" stroke-width="1">
+      <animate attributeName="cx" from="-50" to="90" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="10" cy="0" r="7" fill="#ffc107" stroke="#495057" stroke-width="1">
+      <animate attributeName="cx" from="-90" to="50" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#495057">消化系统输送营养物质</text>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#495057">（"服务员"）</text>
+  </g>
+  
+  <!-- 右侧：身体各细胞吸收 -->
+  <g transform="translate(650, 200)">
+    <!-- 各种细胞群 -->
+    <circle cx="-20" cy="-30" r="25" fill="#e9ecef" stroke="#6c757d" stroke-width="1.5"/>
+    <circle cx="30" cy="-15" r="20" fill="#e9ecef" stroke="#6c757d" stroke-width="1.5"/>
+    <circle cx="-30" cy="20" r="22" fill="#e9ecef" stroke="#6c757d" stroke-width="1.5"/>
+    <circle cx="25" cy="25" r="28" fill="#e9ecef" stroke="#6c757d" stroke-width="1.5"/>
+    
+    <!-- 细胞核 -->
+    <circle cx="-20" cy="-30" r="8" fill="#ced4da" stroke="#6c757d" stroke-width="1"/>
+    <circle cx="30" cy="-15" r="6" fill="#ced4da" stroke="#6c757d" stroke-width="1"/>
+    <circle cx="-30" cy="20" r="7" fill="#ced4da" stroke="#6c757d" stroke-width="1"/>
+    <circle cx="25" cy="25" r="9" fill="#ced4da" stroke="#6c757d" stroke-width="1"/>
+    
+    <!-- 吸收符号 -->
+    <path d="M-20,-30 L-20,-45 M-30,-30 L-10,-30" stroke="#495057" stroke-width="1.5"/>
+    <path d="M30,-15 L30,-30 M20,-15 L40,-15" stroke="#495057" stroke-width="1.5"/>
+    <path d="M-30,20 L-30,5 M-40,20 L-20,20" stroke="#495057" stroke-width="1.5"/>
+    <path d="M25,25 L25,10 M15,25 L35,25" stroke="#495057" stroke-width="1.5"/>
+    
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#495057">所有细胞吸收营养</text>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#495057">（"餐厅客人"）</text>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <g>
+    <path d="M220,200 L300,200" fill="none" stroke="#495057" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="300,200 290,195 290,205" fill="#495057"/>
+    
+    <path d="M500,200 L580,200" fill="none" stroke="#495057" stroke-width="2" stroke-dasharray="5,3"/>
+    <polygon points="580,200 570,195 570,205" fill="#495057"/>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#495057" font-style="italic">
+    就像餐厅里的厨师准备食物、服务员配送、客人享用，
+  </text>
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#495057" font-style="italic">
+    身体中特定细胞准备营养物质，通过消化系统输送，供所有细胞吸收利用。
+  </text>
+</svg>

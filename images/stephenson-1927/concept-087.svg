@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 左侧部分：小镇隐喻 -->
+  <g transform="translate(50, 50)">
+    <!-- 小镇轮廓 -->
+    <rect x="0" y="0" width="300" height="400" fill="#e6f2ff" rx="8" ry="8" stroke="#aacce6" stroke-width="2"/>
+    <text x="150" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c5282">小镇功能隐喻</text>
+    
+    <!-- 肌肉组织：工人 -->
+    <g transform="translate(30, 70)">
+      <rect x="0" y="0" width="240" height="140" fill="#fff" rx="6" ry="6" stroke="#ddd" stroke-width="1"/>
+      <text x="120" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c5282">肌肉组织：镇上的工人</text>
+      
+      <!-- 工人形象 -->
+      <g transform="translate(50, 60)">
+        <!-- 工人1 -->
+        <circle cx="0" cy="0" r="12" fill="#ff9966"/>
+        <line x1="0" y1="12" x2="0" y2="40" stroke="#ff9966" stroke-width="4"/>
+        <line x1="0" y1="20" x2="-15" y2="35" stroke="#ff9966" stroke-width="4"/>
+        <line x1="0" y1="20" x2="15" y2="35" stroke="#ff9966" stroke-width="4"/>
+        <line x1="0" y1="40" x2="-10" y2="65" stroke="#ff9966" stroke-width="4"/>
+        <line x1="0" y1="40" x2="10" y2="65" stroke="#ff9966" stroke-width="4"/>
+        
+        <!-- 搬运箱子 -->
+        <rect x="20" y="15" width="20" height="20" fill="#d4a276" stroke="#8b4513" stroke-width="1"/>
+        
+        <!-- 工人2 -->
+        <circle cx="70" cy="0" r="12" fill="#ff9966"/>
+        <line x1="70" y1="12" x2="70" y2="40" stroke="#ff9966" stroke-width="4"/>
+        <line x1="70" y1="20" x2="55" y2="35" stroke="#ff9966" stroke-width="4"/>
+        <line x1="70" y1="20" x2="85" y2="35" stroke="#ff9966" stroke-width="4"/>
+        <line x1="70" y1="40" x2="60" y2="65" stroke="#ff9966" stroke-width="4"/>
+        <line x1="70" y1="40" x2="80" y2="65" stroke="#ff9966" stroke-width="4"/>
+        
+        <!-- 工具 -->
+        <rect x="85" y="25" width="5" height="25" fill="#777" stroke="#555" stroke-width="1"/>
+        <circle cx="87.5" cy="20" r="8" fill="#aaa" stroke="#777" stroke-width="1"/>
+      </g>
+      
+      <text x="120" y="130" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">功能：提供机械服务与运动</text>
+    </g>
+    
+    <!-- 神经组织：通讯系统 -->
+    <g transform="translate(30, 230)">
+      <rect x="0" y="0" width="240" height="140" fill="#fff" rx="6" ry="6" stroke="#ddd" stroke-width="1"/>
+      <text x="120" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c5282">神经组织：通讯系统</text>
+      
+      <!-- 通讯塔和线路 -->
+      <g transform="translate(60, 60)">
+        <!-- 通讯塔 -->
+        <line x1="0" y1="0" x2="0" y2="50" stroke="#666" stroke-width="3"/>
+        <polygon points="0,0 -10,15 10,15" fill="#888" stroke="#666" stroke-width="1"/>
+        <polygon points="0,0 -7,10 7,10" fill="#888" stroke="#666" stroke-width="1" transform="translate(0,15)"/>
+        <polygon points="0,0 -5,7 5,7" fill="#888" stroke="#666" stroke-width="1" transform="translate(0,25)"/>
+        
+        <!-- 信号波 -->
+        <path d="M 5,5 Q 15,-5 25,5 Q 35,-5 45,5" fill="none" stroke="#6495ED" stroke-width="1.5" stroke-dasharray="2"/>
+        <path d="M 5,10 Q 20,-5 35,10 Q 50,-5 65,10" fill="none" stroke="#6495ED" stroke-width="1.5" stroke-dasharray="2"/>
+        
+        <!-- 监控摄像头 -->
+        <rect x="100" y="10" width="15" height="10" fill="#555" rx="2" ry="2"/>
+        <rect x="105" y="20" width="5" height="8" fill="#777"/>
+        <line x1="107.5" y1="28" x2="107.5" y2="40" stroke="#777" stroke-width="2"/>
+        
+        <!-- 连接线 -->
+        <line x1="10" y1="40" x2="100" y2="40" stroke="#6495ED" stroke-width="1.5" stroke-dasharray="4"/>
+      </g>
+      
+      <text x="120" y="130" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">功能：传递信息与感知</text>
+    </g>
+  </g>
+  
+  <!-- 右侧部分：概念图表 -->
+  <g transform="translate(400, 50)">
+    <!-- 图表背景 -->
+    <rect x="0" y="0" width="350" height="400" fill="#f0f7ff" rx="8" ry="8" stroke="#aacce6" stroke-width="2"/>
+    <text x="175" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c5282">功能与目的概念图</text>
+    
+    <!-- 图表内容 -->
+    <g transform="translate(30, 70)">
+      <!-- 节点：功能 -->
+      <rect x="0" y="50" width="80" height="40" rx="5" ry="5" fill="#4299e1" stroke="#2b6cb0" stroke-width="2"/>
+      <text x="40" y="75" font-family="Arial" font-size="14" text-anchor="middle" fill="white">功能</text>
+      
+      <!-- 节点：职责 -->
+      <rect x="150" y="0" width="80" height="40" rx="5" ry="5" fill="#ed8936" stroke="#c05621" stroke-width="2"/>
+      <text x="190" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="white">职责</text>
+      
+      <!-- 节点：目的 -->
+      <rect x="150" y="100" width="80" height="40" rx="5" ry="5" fill="#ed8936" stroke="#c05621" stroke-width="2"/>
+      <text x="190" y="125" font-family="Arial" font-size="14" text-anchor="middle" fill="white">目的</text>
+      
+      <!-- 节点：宇宙中任何事物 -->
+      <rect x="120" y="200" width="140" height="40" rx="5" ry="5" fill="#68d391" stroke="#2f855a" stroke-width="2"/>
+      <text x="190" y="225" font-family="Arial" font-size="14" text-anchor="middle" fill="white">宇宙中任何事物</text>
+      
+      <!-- 节点：运作 -->
+      <rect x="0" y="250" width="80" height="40" rx="5" ry="5" fill="#4299e1" stroke="#2b6cb0" stroke-width="2"/>
+      <text x="40" y="275" font-family="Arial" font-size="14" text-anchor="middle" fill="white">运作</text>
+      
+      <!-- 节点：实现目的的过程 -->
+      <rect x="120" y="300" width="140" height="40" rx="5" ry="5" fill="#ed8936" stroke="#c05621" stroke-width="2"/>
+      <text x="190" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="white">实现目的的过程</text>
+      
+      <!-- 连接线 -->
+      <line x1="80" y1="70" x2="150" y2="20" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+      <line x1="80" y1="70" x2="150" y2="120" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+      <line x1="190" y1="40" x2="190" y2="200" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+      <line x1="190" y1="140" x2="190" y2="200" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+      <line x1="80" y1="270" x2="120" y2="320" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+      <line x1="190" y1="240" x2="190" y2="300" stroke="#666" stroke-width="1.5" stroke-dasharray="4" marker-end="url(#arrowhead)"/>
+    </g>
+  </g>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="460" width="700" height="30" fill="#e2e8f0" rx="5" ry="5"/>
+  <text x="400" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#4a5568">
+    如同小镇中的工人和通讯系统各有职责，宇宙中的每个事物都有其功能和目的，通过特定运作实现其存在意义
+  </text>
+</svg>

@@ -1,0 +1,71 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 人体轮廓 -->
+  <path d="M400,100 C420,100 430,110 430,130 C430,150 420,170 420,190 C420,210 430,220 430,240 C430,260 420,280 410,300 C400,320 400,340 400,360 C400,380 390,400 390,420 C390,440 400,460 400,480 C400,500 390,520 380,540" 
+        stroke="#888" fill="none" stroke-width="2" opacity="0.3"/>
+  <path d="M400,100 C380,100 370,110 370,130 C370,150 380,170 380,190 C380,210 370,220 370,240 C370,260 380,280 390,300 C400,320 400,340 400,360 C400,380 410,400 410,420 C410,440 400,460 400,480 C400,500 410,520 420,540" 
+        stroke="#888" fill="none" stroke-width="2" opacity="0.3"/>
+  
+  <!-- 中央神经系统示意 -->
+  <ellipse cx="400" cy="140" rx="25" ry="40" fill="#f9f0ff" stroke="#9966cc" stroke-width="2"/>
+  <path d="M400,180 L400,300" stroke="#9966cc" stroke-width="4" fill="none"/>
+  
+  <!-- 主标题 -->
+  <text x="400" y="60" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">周围神经系统</text>
+  
+  <!-- 中心节点 -->
+  <circle cx="400" cy="220" r="40" fill="#f9f0ff" stroke="#9966cc" stroke-width="2"/>
+  <text x="400" y="220" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">周围神经系统</text>
+  <text x="400" y="240" font-family="Arial" font-size="12" text-anchor="middle">Peripheral</text>
+  <text x="400" y="255" font-family="Arial" font-size="12" text-anchor="middle">Nervous System</text>
+  
+  <!-- 浅层神经系统 -->
+  <circle cx="200" cy="320" r="35" fill="#e6f0ff" stroke="#3377cc" stroke-width="2"/>
+  <text x="200" y="315" font-family="Arial" font-size="13" text-anchor="middle" font-weight="bold">浅层神经系统</text>
+  <text x="200" y="335" font-family="Arial" font-size="10" text-anchor="middle">Superficial Nervous System</text>
+  
+  <!-- 颅神经系统 -->
+  <circle cx="400" cy="400" r="35" fill="#e6f0ff" stroke="#3377cc" stroke-width="2"/>
+  <text x="400" y="395" font-family="Arial" font-size="13" text-anchor="middle" font-weight="bold">颅神经系统</text>
+  <text x="400" y="415" font-family="Arial" font-size="10" text-anchor="middle">Cranial System</text>
+  
+  <!-- 内脏神经系统 -->
+  <circle cx="600" cy="320" r="35" fill="#e6f0ff" stroke="#3377cc" stroke-width="2"/>
+  <text x="600" y="315" font-family="Arial" font-size="13" text-anchor="middle" font-weight="bold">内脏神经系统</text>
+  <text x="600" y="335" font-family="Arial" font-size="10" text-anchor="middle">Visceral Nervous System</text>
+  
+  <!-- 连接线 -->
+  <path d="M370,245 C320,260 250,280 220,305" stroke="#3377cc" stroke-width="2" fill="none"/>
+  <path d="M400,260 C400,300 400,350 400,365" stroke="#3377cc" stroke-width="2" fill="none"/>
+  <path d="M430,245 C480,260 550,280 580,305" stroke="#3377cc" stroke-width="2" fill="none"/>
+  
+  <!-- 浅层神经系统图示 -->
+  <path d="M170,320 C150,350 140,380 130,420" stroke="#3377cc" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+  <path d="M170,320 C160,360 150,400 150,450" stroke="#3377cc" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+  <path d="M190,350 C180,380 175,410 170,440" stroke="#3377cc" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+  <circle cx="130" cy="420" r="5" fill="#e6f0ff" stroke="#3377cc"/>
+  <circle cx="150" cy="450" r="5" fill="#e6f0ff" stroke="#3377cc"/>
+  <circle cx="170" cy="440" r="5" fill="#e6f0ff" stroke="#3377cc"/>
+  
+  <!-- 颅神经系统图示 -->
+  <path d="M400,140 C380,160 370,180 370,200" stroke="#3377cc" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+  <path d="M400,140 C420,160 430,180 430,200" stroke="#3377cc" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+  <text x="340" y="180" font-family="Arial" font-size="10" text-anchor="middle">12对颅神经</text>
+  
+  <!-- 内脏神经系统图示 -->
+  <ellipse cx="600" cy="380" rx="20" ry="15" fill="none" stroke="#3377cc" stroke-width="1.5"/>
+  <path d="M600,350 C600,360 600,370 600,365" stroke="#3377cc" stroke-width="1.5" fill="none"/>
+  <path d="M620,320 C640,340 650,360 650,380" stroke="#3377cc" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+  <path d="M620,320 C630,350 635,380 640,410" stroke="#3377cc" stroke-width="1.5" fill="none" stroke-dasharray="2,2"/>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="500" width="700" height="70" rx="10" ry="10" fill="#f0f0f0" stroke="#cccccc"/>
+  <text x="400" y="525" font-family="Arial" font-size="12" text-anchor="middle" font-style="italic">
+    周围神经系统如同城市通信网络：浅层神经系统连接居民区（皮肤、肌肉），
+  </text>
+  <text x="400" y="545" font-family="Arial" font-size="12" text-anchor="middle" font-style="italic">
+    颅神经系统如12条专线连接行政中心，内脏神经系统则自动维持城市基础运作。
+  </text>
+</svg>

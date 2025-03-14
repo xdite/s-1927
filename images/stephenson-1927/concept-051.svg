@@ -1,0 +1,88 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">运动的平衡：自然疲劳与过度疲劳</text>
+  
+  <!-- 左侧：适度运动 -->
+  <g transform="translate(180, 200)">
+    <!-- 健康的树 -->
+    <line x1="0" y1="100" x2="0" y2="0" stroke="#7D5A4F" stroke-width="10"/>
+    <path d="M0,0 C-30,-30 -50,-40 -70,-30 C-40,-40 -30,-70 0,-80 C30,-70 40,-40 70,-30 C50,-40 30,-30 0,0" fill="#7FB069"/>
+    <!-- 园丁 -->
+    <circle cx="-50" cy="90" r="15" fill="#FFD699"/>
+    <line x1="-50" y1="105" x2="-50" y2="140" stroke="#333" stroke-width="2"/>
+    <line x1="-50" y1="115" x2="-70" y2="130" stroke="#333" stroke-width="2"/>
+    <line x1="-50" y1="115" x2="-30" y2="125" stroke="#333" stroke-width="2"/>
+    <line x1="-50" y1="140" x2="-60" y2="170" stroke="#333" stroke-width="2"/>
+    <line x1="-50" y1="140" x2="-40" y2="170" stroke="#333" stroke-width="2"/>
+    <!-- 水壶 -->
+    <path d="M-30,125 C-25,123 -22,130 -25,135" stroke="#333" fill="none" stroke-width="1"/>
+    <path d="M-25,135 C-23,137 -20,137 -18,135" stroke="#333" fill="#6AAFE6" stroke-width="1"/>
+    <path d="M-18,135 L-15,125" stroke="#333" fill="none" stroke-width="1"/>
+    <path d="M-15,125 C-13,123 -10,122 -8,125" stroke="#333" fill="none" stroke-width="1"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="190" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">适度运动</text>
+    <text x="0" y="210" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">自然疲劳</text>
+    <text x="0" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#4A8C2E">有益健康</text>
+  </g>
+  
+  <!-- 右侧：过度运动 -->
+  <g transform="translate(620, 200)">
+    <!-- 受损的树 -->
+    <line x1="0" y1="100" x2="0" y2="0" stroke="#7D5A4F" stroke-width="8"/>
+    <path d="M0,0 C-30,-20 -40,-25 -50,-20 C-30,-25 -20,-40 0,-45 C20,-40 30,-25 50,-20 C40,-25 30,-20 0,0" fill="#A7BC5B"/>
+    <path d="M-30,-15 L-40,-5 M10,-30 L0,-20 M30,-15 L40,-5" stroke="#A52A2A" stroke-width="1"/>
+    <!-- 园丁过度修剪 -->
+    <circle cx="50" cy="90" r="15" fill="#FFD699"/>
+    <line x1="50" y1="105" x2="50" y2="140" stroke="#333" stroke-width="2"/>
+    <line x1="50" y1="115" x2="20" y2="120" stroke="#333" stroke-width="2"/>
+    <line x1="50" y1="115" x2="70" y2="125" stroke="#333" stroke-width="2"/>
+    <line x1="50" y1="140" x2="40" y2="170" stroke="#333" stroke-width="2"/>
+    <line x1="50" y1="140" x2="60" y2="170" stroke="#333" stroke-width="2"/>
+    <!-- 大剪刀 -->
+    <path d="M20,120 L-10,100" stroke="#333" fill="none" stroke-width="2"/>
+    <path d="M25,125 L-5,105" stroke="#333" fill="none" stroke-width="2"/>
+    <path d="M-10,100 C-12,98 -12,96 -10,94 C-8,92 -6,92 -4,94 L-5,105 C-7,103 -9,103 -11,105 C-13,107 -13,109 -11,111 Z" fill="#888"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="190" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">过度运动</text>
+    <text x="0" y="210" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">过度疲劳</text>
+    <text x="0" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#A52A2A">有害健康</text>
+  </g>
+  
+  <!-- 中间决策点 -->
+  <g transform="translate(400, 200)">
+    <circle cx="0" cy="0" r="40" fill="#E6E6FA" stroke="#333" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">适度?</text>
+    
+    <!-- 左箭头 -->
+    <line x1="-40" y1="0" x2="-100" y2="0" stroke="#4A8C2E" stroke-width="3"/>
+    <polygon points="-100,0 -90,-5 -90,5" fill="#4A8C2E"/>
+    <text x="-70" y="-10" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">是</text>
+    
+    <!-- 右箭头 -->
+    <line x1="40" y1="0" x2="100" y2="0" stroke="#A52A2A" stroke-width="3"/>
+    <polygon points="100,0 90,-5 90,5" fill="#A52A2A"/>
+    <text x="70" y="-10" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">否</text>
+  </g>
+  
+  <!-- 顶部进入箭头 -->
+  <line x1="400" y1="80" x2="400" y2="140" stroke="#333" stroke-width="3"/>
+  <polygon points="400,160 395,150 405,150" fill="#333"/>
+  <text x="400" y="110" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">运动</text>
+  
+  <!-- 底部说明 -->
+  <rect x="150" y="380" width="500" height="80" rx="10" fill="#F0F0F0" stroke="#CCC"/>
+  <text x="400" y="405" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">
+    如同园丁照料果树，适度的运动如同恰到好处的修剪和锻炼，
+  </text>
+  <text x="400" y="425" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">
+    带来"自然疲劳"，促进健康成长；而过度运动则像粗暴的过度修剪，
+  </text>
+  <text x="400" y="445" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">
+    导致"有害疲劳"，最终削弱而非增强生命力。
+  </text>
+</svg>

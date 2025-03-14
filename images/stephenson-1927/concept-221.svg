@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">
+    寰枢关节半脱位对神经管的影响
+  </text>
+  
+  <!-- 中央车站/脊柱结构 -->
+  <rect x="300" y="100" width="200" height="160" rx="10" fill="#e0e0e0" stroke="#666" stroke-width="2" />
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">寰枢关节区域</text>
+  
+  <!-- 神经管通道 -->
+  <path d="M400,160 L400,500" stroke="#888" stroke-width="4" stroke-dasharray="5,5" />
+  
+  <!-- 四种闭塞类型 -->
+  <!-- 1. 周向收缩 -->
+  <circle cx="250" cy="280" r="70" fill="#91c7b1" opacity="0.8" />
+  <text x="250" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">周向收缩</text>
+  <text x="250" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">25%</text>
+  <path d="M250,320 L320,380" stroke="#333" stroke-width="1" />
+  <circle cx="340" cy="390" r="20" fill="#91c7b1" />
+  <path d="M330,390 C340,380 350,380 360,390 C350,400 340,400 330,390" fill="none" stroke="#333" stroke-width="2" />
+  
+  <!-- 2. 扭转脑膜闭塞 -->
+  <circle cx="550" cy="280" r="70" fill="#b0c4de" opacity="0.8" />
+  <text x="550" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">扭转脑膜闭塞</text>
+  <text x="550" y="290" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">25%</text>
+  <path d="M550,320 L480,380" stroke="#333" stroke-width="1" />
+  <circle cx="460" cy="390" r="20" fill="#b0c4de" />
+  <path d="M450,390 C455,380 465,400 470,390" fill="none" stroke="#333" stroke-width="2" />
+  
+  <!-- 3. 热膨胀脑膜闭塞 -->
+  <circle cx="250" cy="430" r="70" fill="#ffb6c1" opacity="0.8" />
+  <text x="250" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">热膨胀脑膜闭塞</text>
+  <text x="250" y="440" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">25%</text>
+  <path d="M250,390 L320,420" stroke="#333" stroke-width="1" />
+  <circle cx="340" cy="430" r="20" fill="#ffb6c1" />
+  <path d="M330,430 L350,430" fill="none" stroke="#333" stroke-width="2" />
+  <path d="M335,425 L345,425" fill="none" stroke="#333" stroke-width="1" />
+  <path d="M335,435 L345,435" fill="none" stroke="#333" stroke-width="1" />
+  
+  <!-- 4. 瘢痕组织闭塞 -->
+  <circle cx="550" cy="430" r="70" fill="#d8bfd8" opacity="0.8" />
+  <text x="550" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">瘢痕组织闭塞</text>
+  <text x="550" y="440" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">25%</text>
+  <path d="M550,390 L480,420" stroke="#333" stroke-width="1" />
+  <circle cx="460" cy="430" r="20" fill="#d8bfd8" />
+  <path d="M450,430 C455,425 465,425 470,430 C465,435 455,435 450,430" fill="none" stroke="#333" stroke-width="2" />
+  
+  <!-- 图例 -->
+  <text x="400" y="490" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-style="italic" fill="#555">
+    寰枢关节半脱位如同中央车站结构偏移，导致神经通道以不同方式阻塞，
+  </text>
+  <text x="400" y="510" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-style="italic" fill="#555">
+    影响信息传递，就像城市交通中断影响各区域功能
+  </text>
+  
+  <!-- 装饰元素 -->
+  <path d="M150,50 Q400,30 650,50" fill="none" stroke="#ccc" stroke-width="2" />
+  <path d="M150,550 Q400,570 650,550" fill="none" stroke="#ccc" stroke-width="2" />
+</svg>

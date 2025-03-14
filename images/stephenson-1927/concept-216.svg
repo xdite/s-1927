@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">排泄功能：智能选择与分离过程</text>
+  
+  <!-- 细胞区域 -->
+  <g transform="translate(100, 150)">
+    <circle cx="0" cy="0" r="60" fill="#e1f5fe" stroke="#29b6f6" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">细胞</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle">产生废物</text>
+    
+    <!-- 废物示意 -->
+    <circle cx="30" cy="-20" r="8" fill="#ffccbc"/>
+    <circle cx="-20" cy="15" r="6" fill="#ffab91"/>
+    <circle cx="15" cy="30" r="7" fill="#ff8a65"/>
+  </g>
+  
+  <!-- 箭头 -->
+  <path d="M180,150 L320,150" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 选择过程 -->
+  <g transform="translate(400, 150)">
+    <rect x="-80" y="-60" width="160" height="120" rx="10" ry="10" fill="#e8f5e9" stroke="#66bb6a" stroke-width="2"/>
+    <text x="0" y="-30" font-family="Arial, sans-serif" font-size="18" fill="#333" text-anchor="middle" font-weight="bold">选择过程</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle">由先天智能执行</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle">分离可用物质与废物</text>
+    
+    <!-- 智能系统图标 -->
+    <circle cx="0" cy="-60" r="20" fill="#c8e6c9" stroke="#43a047" stroke-width="2"/>
+    <text x="0" y="-55" font-family="Arial, sans-serif" font-size="20" fill="#1b5e20" text-anchor="middle">✓</text>
+  </g>
+  
+  <!-- 排泄器官 -->
+  <g transform="translate(400, 280)">
+    <path d="M-60,-30 C-70,0 -70,30 -60,60 C-20,80 20,80 60,60 C70,30 70,0 60,-30 C20,-50 -20,-50 -60,-30 Z" fill="#ede7f6" stroke="#7e57c2" stroke-width="2"/>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">排泄器官</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle">(肝脏、肾脏等)</text>
+  </g>
+  
+  <!-- 箭头连接 -->
+  <path d="M400,210 L400,250" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 结果箭头 -->
+  <path d="M480,150 L600,100" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M480,150 L600,200" stroke="#555" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 可用物质 -->
+  <g transform="translate(650, 100)">
+    <rect x="-50" y="-30" width="100" height="60" rx="5" ry="5" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">可用物质</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">回收利用</text>
+  </g>
+  
+  <!-- 废物 -->
+  <g transform="translate(650, 200)">
+    <rect x="-50" y="-30" width="100" height="60" rx="5" ry="5" fill="#ffebee" stroke="#e53935" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle">废物/毒素</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" fill="#555" text-anchor="middle">排出体外</text>
+  </g>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="16" fill="#555" text-anchor="middle" font-style="italic">排泄功能就像城市垃圾处理系统：每个细胞产生废物，</text>
+  <text x="400" y="435" font-family="Arial, sans-serif" font-size="16" fill="#555" text-anchor="middle" font-style="italic">而专门的排泄器官则像垃圾处理厂一样，通过智能判断分离有用物质和废物。</text>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#555"/>
+    </marker>
+  </defs>
+</svg>

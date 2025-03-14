@@ -1,0 +1,83 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#2c3e50">人体毒素适应周期</text>
+  
+  <!-- 流程图元素 -->
+  <!-- 毒素 -->
+  <circle cx="100" cy="150" r="40" fill="#48c9b0" opacity="0.8"/>
+  <text x="100" y="155" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">毒素</text>
+  
+  <!-- 组织细胞 -->
+  <rect x="190" y="130" width="80" height="40" rx="5" ry="5" fill="#5dade2" opacity="0.8"/>
+  <text x="230" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">组织细胞</text>
+  
+  <!-- 化学振动 -->
+  <polygon points="330,130 370,150 330,170" fill="#9b59b6" opacity="0.8"/>
+  <text x="350" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#34495e">化学振动</text>
+  
+  <!-- 传入神经 -->
+  <rect x="400" y="130" width="80" height="40" rx="5" ry="5" fill="#5dade2" opacity="0.8"/>
+  <text x="440" y="155" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">传入神经</text>
+  
+  <!-- 脑细胞 -->
+  <circle cx="550" cy="150" r="40" fill="#48c9b0" opacity="0.8"/>
+  <text x="550" y="155" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">脑细胞</text>
+  
+  <!-- 内在智慧 -->
+  <polygon points="550,210 590,230 550,250 510,230" fill="#9b59b6" opacity="0.8"/>
+  <text x="550" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#34495e">内在智慧</text>
+  
+  <!-- 智力适应 -->
+  <rect x="510" y="300" width="80" height="40" rx="5" ry="5" fill="#5dade2" opacity="0.8"/>
+  <text x="550" y="325" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">智力适应</text>
+  
+  <!-- 传出神经 -->
+  <rect x="400" y="300" width="80" height="40" rx="5" ry="5" fill="#5dade2" opacity="0.8"/>
+  <text x="440" y="325" font-family="Arial" font-size="12" text-anchor="middle" fill="#fff">传出神经</text>
+  
+  <!-- 肌肉细胞 -->
+  <polygon points="330,300 370,320 330,340" fill="#9b59b6" opacity="0.8"/>
+  <text x="350" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#34495e">肌肉细胞</text>
+  
+  <!-- 毒素排出 -->
+  <circle cx="230" cy="320" r="40" fill="#48c9b0" opacity="0.8"/>
+  <text x="230" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">毒素排出</text>
+  
+  <!-- 脊椎半脱位示意 -->
+  <path d="M 440 220 C 440 220, 420 240, 440 260" stroke="#e74c3c" stroke-width="3" fill="none" stroke-dasharray="5,3"/>
+  <text x="400" y="240" font-family="Arial" font-size="12" text-anchor="middle" fill="#e74c3c">脊椎半脱位</text>
+  <text x="400" y="255" font-family="Arial" font-size="12" text-anchor="middle" fill="#e74c3c">干扰传导</text>
+  
+  <!-- 连接线 -->
+  <line x1="140" y1="150" x2="190" y2="150" stroke="#34495e" stroke-width="2"/>
+  <line x1="270" y1="150" x2="330" y2="150" stroke="#34495e" stroke-width="2"/>
+  <line x1="370" y1="150" x2="400" y2="150" stroke="#34495e" stroke-width="2"/>
+  <line x1="480" y1="150" x2="510" y2="150" stroke="#34495e" stroke-width="2"/>
+  <line x1="550" y1="190" x2="550" y2="210" stroke="#34495e" stroke-width="2"/>
+  <line x1="550" y1="250" x2="550" y2="300" stroke="#34495e" stroke-width="2"/>
+  <line x1="510" y1="320" x2="480" y2="320" stroke="#34495e" stroke-width="2"/>
+  <line x1="400" y1="320" x2="370" y2="320" stroke="#34495e" stroke-width="2"/>
+  <line x1="330" y1="320" x2="270" y2="320" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- 箭头 -->
+  <polygon points="185,150 190,146 190,154" fill="#34495e"/>
+  <polygon points="325,150 330,146 330,154" fill="#34495e"/>
+  <polygon points="395,150 400,146 400,154" fill="#34495e"/>
+  <polygon points="505,150 510,146 510,154" fill="#34495e"/>
+  <polygon points="550,205 546,210 554,210" fill="#34495e"/>
+  <polygon points="550,295 546,300 554,300" fill="#34495e"/>
+  <polygon points="485,320 480,316 480,324" fill="#34495e"/>
+  <polygon points="375,320 370,316 370,324" fill="#34495e"/>
+  <polygon points="275,320 270,316 270,324" fill="#34495e"/>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="430" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    就像城市的垃圾处理系统，人体有一套完整的毒素处理流程。
+  </text>
+  <text x="400" y="455" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    当"道路堵塞"(脊椎半脱位)时，"清洁队伍"无法到达，导致"垃圾"(毒素)堆积。
+  </text>
+</svg>

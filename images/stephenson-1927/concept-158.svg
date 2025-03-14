@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 中心城市规划图 -->
+  <circle cx="400" cy="300" r="80" fill="#e6e6fa" stroke="#9370db" stroke-width="2"/>
+  <text x="400" y="305" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">主要功能</text>
+  <path d="M370,280 L380,290 L390,275 L400,290 L410,270 L420,285 L430,280" stroke="#9370db" stroke-width="1.5" fill="none"/>
+  <path d="M380,320 C390,310 410,310 420,320" stroke="#9370db" stroke-width="1.5" fill="none"/>
+  
+  <!-- 九大功能图标和连接线 -->
+  <!-- 1. 运动 -->
+  <circle cx="200" cy="150" r="40" fill="#dce7ff" stroke="#6495ed" stroke-width="1.5"/>
+  <path d="M400,300 L200,150" stroke="#6495ed" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="200" y="155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">运动</text>
+  <path d="M185,140 L215,160" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M185,160 L215,140" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 2. 营养 -->
+  <circle cx="150" cy="300" r="40" fill="#dce7ff" stroke="#6495ed" stroke-width="1.5"/>
+  <path d="M400,300 L150,300" stroke="#6495ed" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="150" y="305" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">营养</text>
+  <path d="M135,290 C140,280 160,280 165,290 C165,300 135,300 135,290" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 3. 生热 -->
+  <circle cx="200" cy="450" r="40" fill="#dce7ff" stroke="#6495ed" stroke-width="1.5"/>
+  <path d="M400,300 L200,450" stroke="#6495ed" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="200" y="455" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">生热</text>
+  <path d="M190,435 C195,425 205,425 210,435 C200,445 190,435 190,435" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 4. 修复 -->
+  <circle cx="350" cy="500" r="40" fill="#dce7ff" stroke="#6495ed" stroke-width="1.5"/>
+  <path d="M400,300 L350,500" stroke="#6495ed" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="350" y="505" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">修复</text>
+  <path d="M335,490 L365,490" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M350,475 L350,505" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 5. 感觉 -->
+  <circle cx="500" cy="500" r="40" fill="#dce7ff" stroke="#6495ed" stroke-width="1.5"/>
+  <path d="M400,300 L500,500" stroke="#6495ed" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="500" y="505" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">感觉</text>
+  <circle cx="500" cy="485" r="10" fill="none" stroke="#333" stroke-width="1.5"/>
+  <path d="M485,500 L515,500" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 6. 扩张 -->
+  <circle cx="650" cy="450" r="40" fill="#dce7ff" stroke="#6495ed" stroke-width="1.5"/>
+  <path d="M400,300 L650,450" stroke="#6495ed" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="650" y="455" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">扩张</text>
+  <path d="M630,440 L670,440" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M640,430 L660,450" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M640,450 L660,430" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 7. 分泌 -->
+  <circle cx="700" cy="300" r="40" fill="#dce7ff" stroke="#6495ed" stroke-width="1.5"/>
+  <path d="M400,300 L700,300" stroke="#6495ed" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="700" y="305" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">分泌</text>
+  <path d="M685,290 C695,280 705,280 715,290" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M685,290 L685,300" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M715,290 L715,300" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M685,300 L715,300" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 8. 生殖 -->
+  <circle cx="650" cy="150" r="40" fill="#dce7ff" stroke="#6495ed" stroke-width="1.5"/>
+  <path d="M400,300 L650,150" stroke="#6495ed" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="650" y="155" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">生殖</text>
+  <circle cx="640" cy="140" r="8" fill="none" stroke="#333" stroke-width="1.5"/>
+  <circle cx="660" cy="140" r="8" fill="none" stroke="#333" stroke-width="1.5"/>
+  
+  <!-- 9. 排泄 -->
+  <circle cx="500" cy="100" r="40" fill="#dce7ff" stroke="#6495ed" stroke-width="1.5"/>
+  <path d="M400,300 L500,100" stroke="#6495ed" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <text x="500" y="105" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">排泄</text>
+  <path d="M485,90 L515,90" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M485,90 L485,110" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M515,90 L515,110" stroke="#333" stroke-width="1.5" fill="none"/>
+  <path d="M485,110 L515,110" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">九大主要功能</text>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555" font-style="italic">
+    就像一座城市需要各部门协调运作才能繁荣，身体的九大功能也需要协同合作以维持健康
+  </text>
+</svg>

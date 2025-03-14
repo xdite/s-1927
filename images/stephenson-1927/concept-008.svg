@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2c3e50">食物的定义与作用</text>
+  
+  <!-- 主要流程图 -->
+  <g transform="translate(50, 80)">
+    <!-- 食物图标 -->
+    <circle cx="100" cy="150" r="60" fill="#a8d5ba" stroke="#2c3e50" stroke-width="2"/>
+    <g transform="translate(70, 130)">
+      <rect width="20" height="15" fill="#e67e22" rx="2" ry="2"/>
+      <rect x="25" width="15" height="10" fill="#3498db" rx="2" ry="2"/>
+      <rect x="10" y="20" width="25" height="12" fill="#9b59b6" rx="2" ry="2"/>
+      <rect x="40" y="15" width="18" height="18" fill="#2ecc71" rx="2" ry="2"/>
+    </g>
+    <text x="100" y="230" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">食物</text>
+    
+    <!-- 消化和准备 -->
+    <rect x="210" y="120" width="120" height="60" rx="10" ry="10" fill="#fef9e7" stroke="#2c3e50" stroke-width="2"/>
+    <path d="M220,140 C230,130 240,150 250,140 C260,130 270,150 280,140 C290,130 300,150 310,140" stroke="#e67e22" stroke-width="2" fill="none"/>
+    <text x="270" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">消化和准备</text>
+    
+    <!-- 营养素 -->
+    <circle cx="400" cy="150" r="50" fill="#d6eaf8" stroke="#2c3e50" stroke-width="2"/>
+    <g transform="translate(380, 140)">
+      <circle cx="0" cy="0" r="5" fill="#e74c3c"/>
+      <circle cx="15" cy="-10" r="4" fill="#f1c40f"/>
+      <circle cx="10" cy="15" r="6" fill="#2ecc71"/>
+      <circle cx="25" cy="5" r="3" fill="#9b59b6"/>
+    </g>
+    <text x="400" y="220" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">健康营养</text>
+    
+    <!-- 身体/细胞 -->
+    <rect x="520" y="90" width="180" height="120" rx="15" ry="15" fill="#ebf5fb" stroke="#2c3e50" stroke-width="2"/>
+    <g transform="translate(550, 110)">
+      <!-- 细胞群 -->
+      <circle cx="10" cy="10" r="8" fill="#aed6f1" stroke="#2c3e50" stroke-width="1"/>
+      <circle cx="30" cy="15" r="10" fill="#aed6f1" stroke="#2c3e50" stroke-width="1"/>
+      <circle cx="50" cy="8" r="7" fill="#aed6f1" stroke="#2c3e50" stroke-width="1"/>
+      <circle cx="15" cy="35" r="9" fill="#aed6f1" stroke="#2c3e50" stroke-width="1"/>
+      <circle cx="40" cy="40" r="11" fill="#aed6f1" stroke="#2c3e50" stroke-width="1"/>
+      <circle cx="65" cy="30" r="8" fill="#aed6f1" stroke="#2c3e50" stroke-width="1"/>
+      <circle cx="85" cy="15" r="10" fill="#aed6f1" stroke="#2c3e50" stroke-width="1"/>
+      <circle cx="100" cy="40" r="9" fill="#aed6f1" stroke="#2c3e50" stroke-width="1"/>
+      <circle cx="120" cy="25" r="7" fill="#aed6f1" stroke="#2c3e50" stroke-width="1"/>
+    </g>
+    <text x="610" y="230" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">组织细胞</text>
+    
+    <!-- 连接箭头 -->
+    <path d="M160,150 H200" stroke="#2c3e50" stroke-width="2" fill="none"/>
+    <polygon points="200,150 190,145 190,155" fill="#2c3e50"/>
+    
+    <path d="M330,150 H340" stroke="#2c3e50" stroke-width="2" fill="none"/>
+    <polygon points="350,150 340,145 340,155" fill="#2c3e50"/>
+    
+    <path d="M450,150 H510" stroke="#2c3e50" stroke-width="2" fill="none"/>
+    <polygon points="510,150 500,145 500,155" fill="#2c3e50"/>
+  </g>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="350" width="700" height="120" rx="10" ry="10" fill="#eaeded" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">食物就像城市的运输系统</text>
+  <text x="75" y="400" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">食物如同运输卡车，通过城市检查站（口腔）进入，沿着专门路线（消化系统）</text>
+  <text x="75" y="425" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">运送货物，经过处理后转化为城市所需资源（营养素），最终通过配送网络（血液循环）</text>
+  <text x="75" y="450" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">送达每个社区（组织）和居民（细胞），维持城市的正常运转和发展。</text>
+</svg>

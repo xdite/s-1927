@@ -1,0 +1,99 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">脊骨神经医学的饮食观</text>
+  
+  <!-- 人体轮廓 -->
+  <g transform="translate(400, 300) scale(1.2)">
+    <!-- 头部 -->
+    <circle cx="0" cy="-100" r="30" fill="#e8f4f8" stroke="#5a9bd5" stroke-width="2"/>
+    <!-- 躯干 -->
+    <path d="M0,-70 L0,50 M-40,0 L40,0" stroke="#5a9bd5" stroke-width="3" fill="none"/>
+    <!-- 手臂 -->
+    <path d="M-40,0 Q-60,30 -55,60" stroke="#5a9bd5" stroke-width="2" fill="none"/>
+    <path d="M40,0 Q60,30 55,60" stroke="#5a9bd5" stroke-width="2" fill="none"/>
+    <!-- 腿部 -->
+    <path d="M0,50 L-20,120" stroke="#5a9bd5" stroke-width="2" fill="none"/>
+    <path d="M0,50 L20,120" stroke="#5a9bd5" stroke-width="2" fill="none"/>
+    
+    <!-- 脊椎 -->
+    <path d="M0,-70 C5,-50 -5,-30 0,-10 C5,10 -5,30 0,50" stroke="#70ad47" stroke-width="4" fill="none"/>
+    
+    <!-- 身体信号图标 -->
+    <!-- 饥饿信号 - 胃部 -->
+    <circle cx="0" cy="15" r="15" fill="#f9ebaa" stroke="#70ad47" stroke-width="1.5"/>
+    <path d="M-7,15 L7,15 M0,8 L0,22" stroke="#70ad47" stroke-width="1.5"/>
+    
+    <!-- 口渴信号 - 喉部 -->
+    <circle cx="0" cy="-50" r="8" fill="#aae1f9" stroke="#5a9bd5" stroke-width="1.5"/>
+    <path d="M-3,-53 C0,-48 3,-53 6,-48" stroke="#5a9bd5" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- 食物元素 -->
+  <g transform="translate(180, 280)">
+    <circle cx="0" cy="0" r="70" fill="#f0f7ee" stroke="#70ad47" stroke-width="2"/>
+    
+    <!-- 各种食物图标 -->
+    <g transform="translate(-35, -20)">
+      <!-- 水果 -->
+      <circle cx="0" cy="0" r="15" fill="#ff9999"/>
+      <path d="M0,-15 C10,-25 15,-10 0,0" stroke="#70ad47" stroke-width="1.5" fill="none"/>
+    </g>
+    
+    <g transform="translate(25, -30)">
+      <!-- 蔬菜 -->
+      <path d="M0,0 C5,-10 10,-5 15,0 C10,5 5,10 0,0 Z" fill="#9cc677" stroke="#70ad47" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(20, 20)">
+      <!-- 谷物 -->
+      <ellipse cx="0" cy="0" rx="15" ry="10" fill="#f4d03f" stroke="#d4ac0d" stroke-width="1"/>
+    </g>
+    
+    <g transform="translate(-30, 30)">
+      <!-- 水 -->
+      <path d="M0,0 C5,-5 10,0 10,5 C10,10 0,15 -5,10 C-10,5 -5,0 0,0 Z" fill="#aad5f9" stroke="#5a9bd5" stroke-width="1"/>
+    </g>
+    
+    <!-- 标签 -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">提供所需元素</text>
+  </g>
+  
+  <!-- 身体智慧系统 -->
+  <g transform="translate(620, 280)">
+    <circle cx="0" cy="0" r="70" fill="#f0f7ee" stroke="#70ad47" stroke-width="2"/>
+    
+    <!-- 大脑/神经系统图标 -->
+    <path d="M0,-30 C30,-30 30,0 0,0 C-30,0 -30,30 0,30 C30,30 30,0 0,0" fill="#e8f4f8" stroke="#5a9bd5" stroke-width="2"/>
+    <path d="M0,-15 L0,15 M-15,0 L15,0" stroke="#5a9bd5" stroke-width="1.5" fill="none"/>
+    
+    <!-- 信号图标 -->
+    <g transform="translate(-20, -20)">
+      <circle cx="0" cy="0" r="8" fill="#f9ebaa" stroke="#70ad47" stroke-width="1"/>
+      <text x="0" y="3" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">!</text>
+    </g>
+    
+    <g transform="translate(20, 20)">
+      <circle cx="0" cy="0" r="8" fill="#aae1f9" stroke="#5a9bd5" stroke-width="1"/>
+      <text x="0" y="3" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#555">?</text>
+    </g>
+    
+    <!-- 标签 -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">自然信号表达</text>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <path d="M250,280 L550,280" stroke="#70ad47" stroke-width="2" fill="none"/>
+  <polygon points="550,280 540,275 540,285" fill="#70ad47"/>
+  
+  <!-- 图例说明 -->
+  <rect x="100" y="450" width="600" height="80" rx="10" ry="10" fill="#f0f7ee" stroke="#70ad47" stroke-width="1"/>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">
+    就像园丁信任植物能表达自身需求，我们的身体也有先天智慧，
+  </text>
+  <text x="400" y="505" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">
+    能通过饥饿和口渴等自然信号告诉我们需要什么营养、何时需要，以及需要多少。
+  </text>
+</svg>

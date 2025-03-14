@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">健康与疾病的自然循环</text>
+  
+  <!-- 分隔线 -->
+  <line x1="400" y1="70" x2="400" y2="450" stroke="#ddd" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 左侧：健康状态 -->
+  <text x="200" y="80" font-family="Arial" font-size="18" text-anchor="middle" fill="#2a9d8f">健康状态</text>
+  
+  <!-- 大脑 - 健康 -->
+  <ellipse cx="200" cy="130" rx="40" ry="30" fill="#a8dadc" stroke="#2a9d8f" stroke-width="2"/>
+  <path d="M180,130 C190,115 210,115 220,130" fill="none" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="200" y="135" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">大脑</text>
+  
+  <!-- 脊柱 - 健康 -->
+  <rect x="190" y="170" width="20" height="150" rx="5" ry="5" fill="#a8dadc" stroke="#2a9d8f" stroke-width="2"/>
+  <line x1="190" y1="190" x2="210" y2="190" stroke="#2a9d8f" stroke-width="1"/>
+  <line x1="190" y1="210" x2="210" y2="210" stroke="#2a9d8f" stroke-width="1"/>
+  <line x1="190" y1="230" x2="210" y2="230" stroke="#2a9d8f" stroke-width="1"/>
+  <line x1="190" y1="250" x2="210" y2="250" stroke="#2a9d8f" stroke-width="1"/>
+  <line x1="190" y1="270" x2="210" y2="270" stroke="#2a9d8f" stroke-width="1"/>
+  <line x1="190" y1="290" x2="210" y2="290" stroke="#2a9d8f" stroke-width="1"/>
+  <text x="150" y="245" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">健康脊柱</text>
+  
+  <!-- 神经传导 - 健康 -->
+  <path d="M200,160 L200,170" stroke="#2a9d8f" stroke-width="2"/>
+  <path d="M210,220 L250,220 L250,280" stroke="#2a9d8f" stroke-width="2" stroke-dasharray="0,0"/>
+  <text x="260" y="200" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">正常神经传导</text>
+  
+  <!-- 器官/组织 - 健康 -->
+  <circle cx="250" cy="310" r="30" fill="#a8dadc" stroke="#2a9d8f" stroke-width="2"/>
+  <path d="M240,310 C240,305 260,305 260,310" fill="none" stroke="#2a9d8f" stroke-width="1"/>
+  <text x="250" y="315" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">组织</text>
+  
+  <!-- 花园比喻 - 健康 -->
+  <rect x="120" y="350" width="160" height="80" rx="5" ry="5" fill="#e8f4ea" stroke="#2a9d8f" stroke-width="2"/>
+  <!-- 花朵 -->
+  <circle cx="150" cy="380" r="10" fill="#81b29a" stroke="#2a9d8f" stroke-width="1"/>
+  <circle cx="180" cy="390" r="10" fill="#81b29a" stroke="#2a9d8f" stroke-width="1"/>
+  <circle cx="210" cy="370" r="10" fill="#81b29a" stroke="#2a9d8f" stroke-width="1"/>
+  <circle cx="240" cy="385" r="10" fill="#81b29a" stroke="#2a9d8f" stroke-width="1"/>
+  <!-- 灌溉管道 -->
+  <path d="M150,350 L150,370" stroke="#2a9d8f" stroke-width="1"/>
+  <path d="M180,350 L180,380" stroke="#2a9d8f" stroke-width="1"/>
+  <path d="M210,350 L210,360" stroke="#2a9d8f" stroke-width="1"/>
+  <path d="M240,350 L240,375" stroke="#2a9d8f" stroke-width="1"/>
+  <text x="200" y="420" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">健康的花园与通畅的灌溉系统</text>
+  
+  <!-- 右侧：疾病状态 -->
+  <text x="600" y="80" font-family="Arial" font-size="18" text-anchor="middle" fill="#e76f51">疾病状态 (Dis-ease)</text>
+  
+  <!-- 大脑 - 疾病 -->
+  <ellipse cx="600" cy="130" rx="40" ry="30" fill="#f4a261" stroke="#e76f51" stroke-width="2"/>
+  <path d="M580,135 C590,145 610,145 620,135" fill="none" stroke="#e76f51" stroke-width="2"/>
+  <text x="600" y="135" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">大脑</text>
+  
+  <!-- 脊柱 - 疾病 -->
+  <rect x="590" y="170" width="20" height="150" rx="5" ry="5" fill="#f4a261" stroke="#e76f51" stroke-width="2"/>
+  <line x1="590" y1="190" x2="610" y2="190" stroke="#e76f51" stroke-width="1"/>
+  <line x1="590" y1="210" x2="610" y2="210" stroke="#e76f51" stroke-width="1"/>
+  <line x1="590" y1="230" x2="625" y2="230" stroke="#e76f51" stroke-width="3"/>
+  <line x1="590" y1="250" x2="610" y2="250" stroke="#e76f51" stroke-width="1"/>
+  <line x1="590" y1="270" x2="610" y2="270" stroke="#e76f51" stroke-width="1"/>
+  <line x1="590" y1="290" x2="610" y2="290" stroke="#e76f51" stroke-width="1"/>
+  <text x="670" y="230" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">椎骨半脱位</text>
+  <text x="670" y="245" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">(Subluxation)</text>
+  
+  <!-- 神经传导 - 受阻 -->
+  <path d="M600,160 L600,170" stroke="#e76f51" stroke-width="2"/>
+  <path d="M610,220 L650,220 L650,280" stroke="#e76f51" stroke-width="2" stroke-dasharray="4,4"/>
+  <text x="675" y="200" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">神经脉冲传递受阻</text>
+  
+  <!-- 器官/组织 - 疾病 -->
+  <circle cx="650" cy="310" r="30" fill="#f4a261" stroke="#e76f51" stroke-width="2"/>
+  <path d="M640,315 C640,320 660,320 660,315" fill="none" stroke="#e76f51" stroke-width="1"/>
+  <text x="650" y="315" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">组织</text>
+  
+  <!-- 花园比喻 - 疾病 -->
+  <rect x="520" y="350" width="160" height="80" rx="5" ry="5" fill="#fae9e0" stroke="#e76f51" stroke-width="2"/>
+  <!-- 花朵枯萎 -->
+  <circle cx="550" cy="380" r="10" fill="#e9c46a" stroke="#e76f51" stroke-width="1"/>
+  <circle cx="580" cy="390" r="10" fill="#e9c46a" stroke="#e76f51" stroke-width="1"/>
+  <circle cx="610" cy="370" r="10" fill="#e9c46a" stroke="#e76f51" stroke-width="1"/>
+  <circle cx="640" cy="385" r="10" fill="#e9c46a" stroke="#e76f51" stroke-width="1"/>
+  <!-- 灌溉管道堵塞 -->
+  <path d="M550,350 L550,370" stroke="#e76f51" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M580,350 L580,380" stroke="#e76f51" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M610,350 L610,360" stroke="#e76f51" stroke-width="1" stroke-dasharray="3,3"/>
+  <path d="M640,350 L640,375" stroke="#e76f51" stroke-width="1" stroke-dasharray="3,3"/>
+  <circle cx="580" cy="350" r="7" fill="#e76f51" stroke="#333" stroke-width="1"/>
+  <text x="600" y="420" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">管道受阻导致植物枯萎</text>
+  
+  <!-- 连接箭头 -->
+  <path d="M300,250 L500,250" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="470" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">
+    就像花园需要通畅的灌溉系统，身体健康需要无阻碍的神经传导
+  </text>
+</svg>

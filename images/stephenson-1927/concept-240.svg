@@ -1,0 +1,67 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">神经系统的信息传递</text>
+  
+  <!-- 大脑 -->
+  <ellipse cx="400" cy="120" rx="80" ry="60" fill="#e6f2ff" stroke="#6699cc" stroke-width="2"/>
+  <path d="M380,100 C390,90 410,90 420,100 M370,130 C385,145 415,145 430,130" stroke="#6699cc" stroke-width="2" fill="none"/>
+  <text x="400" y="125" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">大脑</text>
+  <text x="400" y="145" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(市政中心)</text>
+  
+  <!-- 左侧组织细胞 -->
+  <circle cx="150" cy="300" r="50" fill="#ffebf3" stroke="#cc6699" stroke-width="2"/>
+  <text x="150" y="295" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">组织细胞</text>
+  <text x="150" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(社区)</text>
+  
+  <!-- 右侧组织细胞 -->
+  <circle cx="650" cy="300" r="50" fill="#ffebf3" stroke="#cc6699" stroke-width="2"/>
+  <text x="650" y="295" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">组织细胞</text>
+  <text x="650" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(社区)</text>
+  
+  <!-- 传出神经路径 -->
+  <path d="M330,140 Q240,200 180,270" stroke="#66cc99" stroke-width="3" fill="none" stroke-dasharray="5,3"/>
+  <text x="240" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#333" transform="rotate(-30 240 200)">传出神经</text>
+  <text x="240" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="#666" transform="rotate(-30 240 220)">(指令传递)</text>
+  
+  <!-- 传入神经路径 -->
+  <path d="M620,270 Q560,200 470,140" stroke="#ff9966" stroke-width="3" fill="none" stroke-dasharray="5,3"/>
+  <text x="560" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#333" transform="rotate(30 560 200)">传入神经</text>
+  <text x="560" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="#666" transform="rotate(30 560 220)">(信息反馈)</text>
+  
+  <!-- 传出神经邮递员 -->
+  <circle cx="270" cy="210" r="15" fill="#66cc99" stroke="#339966" stroke-width="1"/>
+  <path d="M270,205 L265,200 M270,205 L275,200 M270,205 L270,215" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="260" cy="230" rx="10" ry="5" fill="#333" stroke="none"/>
+  <ellipse cx="280" cy="230" rx="10" ry="5" fill="#333" stroke="none"/>
+  <rect x="260" cy="195" width="20" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
+  
+  <!-- 传入神经邮递员 -->
+  <circle cx="530" cy="210" r="15" fill="#ff9966" stroke="#cc6633" stroke-width="1"/>
+  <path d="M530,205 L525,200 M530,205 L535,200 M530,205 L530,215" stroke="#333" stroke-width="1.5"/>
+  <ellipse cx="520" cy="230" rx="10" ry="5" fill="#333" stroke="none"/>
+  <ellipse cx="540" cy="230" rx="10" ry="5" fill="#333" stroke="none"/>
+  <rect x="520" cy="195" width="20" height="15" fill="#fff" stroke="#333" stroke-width="1"/>
+  
+  <!-- 突触标记 -->
+  <circle cx="220" cy="240" r="8" fill="#fff" stroke="#6666cc" stroke-width="2"/>
+  <text x="220" y="260" font-family="Arial" font-size="12" text-anchor="middle" fill="#6666cc">突触</text>
+  <circle cx="580" cy="240" r="8" fill="#fff" stroke="#6666cc" stroke-width="2"/>
+  <text x="580" y="260" font-family="Arial" font-size="12" text-anchor="middle" fill="#6666cc">突触</text>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="400" font-family="Arial" font-size="14" text-anchor="middle" fill="#333" font-style="italic">神经系统就像城市的邮政系统：邮递员通过特定路线在市政中心与社区间</text>
+  <text x="400" y="420" font-family="Arial" font-size="14" text-anchor="middle" fill="#333" font-style="italic">双向传递信息，确保指令和反馈能够及时准确地到达目的地。</text>
+  
+  <!-- 图例 -->
+  <rect x="280" y="450" width="15" height="5" fill="#66cc99" stroke="none"/>
+  <text x="305" y="455" font-family="Arial" font-size="12" text-anchor="start" fill="#333">传出神经</text>
+  
+  <rect x="380" y="450" width="15" height="5" fill="#ff9966" stroke="none"/>
+  <text x="405" y="455" font-family="Arial" font-size="12" text-anchor="start" fill="#333">传入神经</text>
+  
+  <circle cx="480" y="453" r="3" fill="#fff" stroke="#6666cc" stroke-width="1"/>
+  <text x="490" y="455" font-family="Arial" font-size="12" text-anchor="start" fill="#333">突触</text>
+</svg>

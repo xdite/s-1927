@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 天空和雨云 -->
+  <rect x="0" y="0" width="800" height="150" fill="#e0e8f0"/>
+  
+  <!-- 雨云 -->
+  <g>
+    <ellipse cx="200" cy="80" rx="60" ry="40" fill="#9eaec1"/>
+    <ellipse cx="250" cy="70" rx="70" ry="45" fill="#9eaec1"/>
+    <ellipse cx="320" cy="85" rx="65" ry="40" fill="#9eaec1"/>
+    <ellipse cx="390" cy="75" rx="55" ry="35" fill="#9eaec1"/>
+    <ellipse cx="450" cy="90" rx="60" ry="40" fill="#9eaec1"/>
+    <ellipse cx="520" cy="75" rx="70" ry="45" fill="#9eaec1"/>
+    <ellipse cx="590" cy="85" rx="60" ry="40" fill="#9eaec1"/>
+  </g>
+  
+  <!-- 雨滴 -->
+  <g stroke="#6b8eb3" stroke-width="1.5">
+    <line x1="180" y1="120" x2="170" y2="170" />
+    <line x1="220" y1="110" x2="210" y2="180" />
+    <line x1="260" y1="120" x2="250" y2="190" />
+    <line x1="300" y1="115" x2="290" y2="175" />
+    <line x1="340" y1="125" x2="330" y2="185" />
+    <line x1="380" y1="110" x2="370" y2="170" />
+    <line x1="420" y1="120" x2="410" y2="180" />
+    <line x1="460" y1="115" x2="450" y2="175" />
+    <line x1="500" y1="125" x2="490" y2="185" />
+    <line x1="540" y1="110" x2="530" y2="170" />
+    <line x1="580" y1="120" x2="570" y2="180" />
+    <line x1="620" y1="115" x2="610" y2="175" />
+  </g>
+  
+  <!-- 地面 -->
+  <rect x="0" y="450" width="800" height="150" fill="#a9c0a6"/>
+  
+  <!-- 健康的房子（左边） -->
+  <g>
+    <!-- 地基 - 健康的脊椎 -->
+    <rect x="150" y="420" width="150" height="30" fill="#8b7355" stroke="#5d4d38" stroke-width="2"/>
+    <text x="225" y="440" font-family="Arial" font-size="12" text-anchor="middle" fill="white">健康的脊椎（坚固地基）</text>
+    
+    <!-- 房屋主体 -->
+    <rect x="160" y="340" width="130" height="80" fill="#e8d0aa" stroke="#b5a484" stroke-width="2"/>
+    
+    <!-- 门 -->
+    <rect x="210" y="380" width="30" height="40" fill="#8b7355" stroke="#5d4d38" stroke-width="1"/>
+    
+    <!-- 窗户 -->
+    <rect x="175" y="360" width="25" height="25" fill="#add8e6" stroke="#5d4d38" stroke-width="1"/>
+    <rect x="250" y="360" width="25" height="25" fill="#add8e6" stroke="#5d4d38" stroke-width="1"/>
+    
+    <!-- 屋顶 -->
+    <polygon points="150,340 225,290 300,340" fill="#cd5c5c" stroke="#8b3a3a" stroke-width="2"/>
+    
+    <!-- 标签 -->
+    <text x="225" y="270" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">健康人（坚固房屋）</text>
+    
+    <!-- 保护盾 - 表示免疫系统强大 -->
+    <path d="M225,320 Q285,300 285,350 Q285,400 225,380 Q165,400 165,350 Q165,300 225,320" fill="none" stroke="#4682b4" stroke-width="2" stroke-dasharray="5,3" opacity="0.7"/>
+  </g>
+  
+  <!-- 抵抗力差的房子（右边） -->
+  <g>
+    <!-- 损坏的地基 - 脊椎问题 -->
+    <rect x="500" y="420" width="150" height="30" fill="#8b7355" stroke="#5d4d38" stroke-width="2"/>
+    <path d="M525,420 L525,450 M560,420 L570,450 M600,420 L590,450" stroke="#5d4d38" stroke-width="2"/>
+    <text x="575" y="440" font-family="Arial" font-size="12" text-anchor="middle" fill="white">脊椎问题（损坏地基）</text>
+    
+    <!-- 倾斜的房屋主体 -->
+    <g transform="rotate(5, 575, 380)">
+      <rect x="510" y="340" width="130" height="80" fill="#e8d0aa" stroke="#b5a484" stroke-width="2"/>
+      
+      <!-- 门 -->
+      <rect x="560" y="380" width="30" height="40" fill="#8b7355" stroke="#5d4d38" stroke-width="1"/>
+      
+      <!-- 破损的窗户 -->
+      <rect x="525" y="360" width="25" height="25" fill="#add8e6" stroke="#5d4d38" stroke-width="1"/>
+      <line x1="525" y1="360" x2="550" y2="385" stroke="#5d4d38" stroke-width="1"/>
+      <rect x="600" y="360" width="25" height="25" fill="#add8e6" stroke="#5d4d38" stroke-width="1"/>
+      
+      <!-- 损坏的屋顶 -->
+      <polygon points="500,340 575,290 650,340" fill="#cd5c5c" stroke="#8b3a3a" stroke-width="2"/>
+      <line x1="575" y1="290" x2="575" y2="310" stroke="#8b3a3a" stroke-width="2"/>
+    </g>
+    
+    <!-- 标签 -->
+    <text x="575" y="270" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle">抵抗力差的人（脆弱房屋）</text>
+  </g>
+  
+  <!-- 雨水流动（传染/感染途径） -->
+  <path d="M350,450 C400,460 450,440 500,450" fill="none" stroke="#6b8eb3" stroke-width="3" stroke-dasharray="10,5"/>
+  <text x="425" y="480" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">传染/感染途径</text>
+  
+  <!-- 脊骨神经医学专家 -->
+  <g transform="translate(50, 500)">
+    <!-- 医生 -->
+    <circle cx="40" cy="30" r="20" fill="#f4a582"/>
+    <rect x="30" y="50" width="20" height="30" fill="#92c5de"/>
+    <line x1="30" y1="60" x2="15" y2="75" stroke="#2c3e50" stroke-width="2"/>
+    <line x1="50" y1="60" x2="65" y2="75" stroke="#2c3e50" stroke-width="2"/>
+    <line x1="40" y1="80" x2="30" y2="110" stroke="#2c3e50" stroke-width="2"/>
+    <line x1="40" y1="80" x2="50" y2="110" stroke="#2c3e50" stroke-width="2"/>
+    <text x="100" y="50" font-family="Arial" font-size="14" text-anchor="start" fill="#2c3e50">脊骨神经医学专家:</text>
+    <text x="100" y="70" font-family="Arial" font-size="12" text-anchor="start" fill="#2c3e50">关注地基(脊椎)问题,</text>
+    <text x="100" y="90" font-family="Arial" font-size="12" text-anchor="start" fill="#2c3e50">而非仅仅阻止雨水(传染)</text>
+  </g>
+  
+  <!-- 图例和解释 -->
+  <g transform="translate(400, 520)">
+    <circle cx="10" cy="10" r="8" fill="#9eaec1"/>
+    <text x="25" y="15" font-family="Arial" font-size="12" text-anchor="start" fill="#2c3e50">流行病(不利环境因素)</text>
+    
+    <line x1="200" y1="10" x2="220" y2="10" stroke="#6b8eb3" stroke-width="3" stroke-dasharray="10,5"/>
+    <text x="225" y="15" font-family="Arial" font-size="12" text-anchor="start" fill="#2c3e50">传染/感染途径</text>
+  </g>
+  
+  <!-- 底部标题 -->
+  <text x="400" y="580" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">
+    城市中的房屋面对大雨：健康的脊椎如同坚固的地基，是抵御疾病的关键
+  </text>
+</svg>

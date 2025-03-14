@@ -1,0 +1,77 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Castle -->
+  <path d="M300 150 L500 150 L500 250 L300 250 Z" fill="#e6e6fa" stroke="#6a5acd" stroke-width="2"/>
+  <path d="M280 150 L520 150 L520 170 L280 170 Z" fill="#d8bfd8" stroke="#6a5acd" stroke-width="2"/>
+  <path d="M350 250 L450 250 L450 300 L350 300 Z" fill="#e6e6fa" stroke="#6a5acd" stroke-width="2"/>
+  
+  <!-- Castle towers -->
+  <path d="M280 120 L300 120 L300 150 L280 150 Z" fill="#e6e6fa" stroke="#6a5acd" stroke-width="2"/>
+  <path d="M500 120 L520 120 L520 150 L500 150 Z" fill="#e6e6fa" stroke="#6a5acd" stroke-width="2"/>
+  <path d="M275 100 L305 100 L305 120 L275 120 Z" fill="#d8bfd8" stroke="#6a5acd" stroke-width="2"/>
+  <path d="M495 100 L525 100 L525 120 L495 120 Z" fill="#d8bfd8" stroke="#6a5acd" stroke-width="2"/>
+  
+  <!-- Wise person (Innate Intelligence) -->
+  <circle cx="400" cy="100" r="30" fill="#f9f" stroke="#333" stroke-width="2"/>
+  <path d="M390 90 L410 90" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <path d="M385 100 C395 110, 405 110, 415 100" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M400 120 L400 200" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Left Garden (Innate Mind) -->
+  <ellipse cx="200" cy="400" rx="150" ry="100" fill="#e6f7ff" stroke="#6a5acd" stroke-width="2"/>
+  
+  <!-- Wild flowers and butterflies -->
+  <circle cx="150" cy="380" r="10" fill="#ffcccc" stroke="#ff9999" stroke-width="1"/>
+  <circle cx="150" cy="380" r="5" fill="#ffff99"/>
+  <circle cx="190" cy="410" r="8" fill="#ccffcc" stroke="#99ff99" stroke-width="1"/>
+  <circle cx="190" cy="410" r="4" fill="#ffff99"/>
+  <circle cx="230" cy="370" r="9" fill="#ffccff" stroke="#ff99ff" stroke-width="1"/>
+  <circle cx="230" cy="370" r="4" fill="#ffff99"/>
+  
+  <!-- Butterflies -->
+  <path d="M160 350 C170 340, 180 340, 190 350 C180 360, 170 360, 160 350 Z" fill="#ffccff" stroke="#6a5acd" stroke-width="1"/>
+  <path d="M160 350 L170 360" stroke="#6a5acd" stroke-width="1"/>
+  <path d="M240 390 C250 380, 260 380, 270 390 C260 400, 250 400, 240 390 Z" fill="#ccffff" stroke="#6a5acd" stroke-width="1"/>
+  <path d="M240 390 L250 400" stroke="#6a5acd" stroke-width="1"/>
+  
+  <!-- Right Garden (Educated Mind) -->
+  <ellipse cx="600" cy="400" rx="150" ry="100" fill="#fff0f5" stroke="#6a5acd" stroke-width="2"/>
+  
+  <!-- Formal garden pattern -->
+  <rect x="550" y="370" width="100" height="60" fill="none" stroke="#6a5acd" stroke-width="1"/>
+  <line x1="550" y1="400" x2="650" y2="400" stroke="#6a5acd" stroke-width="1"/>
+  <line x1="600" y1="370" x2="600" y2="430" stroke="#6a5acd" stroke-width="1"/>
+  
+  <!-- Trimmed bushes -->
+  <circle cx="550" cy="370" r="10" fill="#ccffcc" stroke="#99ff99" stroke-width="1"/>
+  <circle cx="650" cy="370" r="10" fill="#ccffcc" stroke="#99ff99" stroke-width="1"/>
+  <circle cx="550" cy="430" r="10" fill="#ccffcc" stroke="#99ff99" stroke-width="1"/>
+  <circle cx="650" cy="430" r="10" fill="#ccffcc" stroke="#99ff99" stroke-width="1"/>
+  <circle cx="600" cy="400" r="15" fill="#ccffcc" stroke="#99ff99" stroke-width="1"/>
+  
+  <!-- Gardener -->
+  <circle cx="620" cy="350" r="10" fill="#ffe4c4" stroke="#6a5acd" stroke-width="1"/>
+  <line x1="620" y1="360" x2="620" y2="380" stroke="#6a5acd" stroke-width="2"/>
+  <line x1="610" y1="370" x2="630" y2="370" stroke="#6a5acd" stroke-width="2"/>
+  <line x1="620" y1="380" x2="610" y2="400" stroke="#6a5acd" stroke-width="2"/>
+  <line x1="620" y1="380" x2="630" y2="400" stroke="#6a5acd" stroke-width="2"/>
+  
+  <!-- Connecting lines -->
+  <path d="M370 150 C300 250, 250 300, 200 320" stroke="#6a5acd" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <path d="M430 150 C500 250, 550 300, 600 320" stroke="#6a5acd" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  
+  <!-- Labels -->
+  <text x="400" cy="70" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">Innate Intelligence</text>
+  <text x="200" y="460" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">Innate Mind</text>
+  <text x="600" y="460" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">Educated Mind</text>
+  
+  <!-- Caption -->
+  <text x="400" y="530" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    天赋智能就像城堡的主人，同时看顾着两个花园：自然生长的野生花园（天赋心智）
+  </text>
+  <text x="400" y="550" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    和精心设计的正式花园（后天心智）
+  </text>
+</svg>

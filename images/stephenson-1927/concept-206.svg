@@ -1,0 +1,65 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">转化过程：从精神力量到物质领域</text>
+  
+  <!-- Mental Realm -->
+  <circle cx="150" cy="200" r="80" fill="#e6f2ff" stroke="#4d94ff" stroke-width="2"/>
+  <text x="150" y="190" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">精神力量</text>
+  <text x="150" y="210" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">(Foruns)</text>
+  
+  <!-- Energy waves from mental realm -->
+  <path d="M230,200 C250,180 270,220 290,200" stroke="#4d94ff" stroke-width="3" fill="none"/>
+  <path d="M230,180 C250,160 270,200 290,180" stroke="#4d94ff" stroke-width="2" fill="none"/>
+  <path d="M230,220 C250,200 270,240 290,220" stroke="#4d94ff" stroke-width="2" fill="none"/>
+  
+  <!-- Transformation Unit -->
+  <polygon points="320,150 380,150 400,200 380,250 320,250 300,200" fill="#f9f" stroke="#333" stroke-width="2"/>
+  <text x="350" y="205" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">转化</text>
+  
+  <!-- Transformed Energy -->
+  <path d="M400,200 C420,180 440,220 460,200" stroke="#9966cc" stroke-width="3" fill="none"/>
+  <path d="M400,180 C420,160 440,200 460,180" stroke="#9966cc" stroke-width="2" fill="none"/>
+  <path d="M400,220 C420,200 440,240 460,220" stroke="#9966cc" stroke-width="2" fill="none"/>
+  
+  <!-- Specific Unit -->
+  <rect x="480" y="150" width="120" height="100" rx="10" ry="10" fill="#e6e6fa" stroke="#9966cc" stroke-width="2"/>
+  <text x="540" y="185" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">特定单位</text>
+  <text x="540" y="205" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">(精神冲动)</text>
+  
+  <!-- Material Realm -->
+  <path d="M600,200 C620,180 640,220 660,200" stroke="#9966cc" stroke-width="2" fill="none"/>
+  <path d="M600,180 C620,160 640,200 660,180" stroke="#9966cc" stroke-width="2" fill="none"/>
+  <path d="M600,220 C620,200 640,240 660,220" stroke="#9966cc" stroke-width="2" fill="none"/>
+  
+  <rect x="680" y="140" width="100" height="120" rx="5" ry="5" fill="#f0e6ff" stroke="#663399" stroke-width="2"/>
+  <text x="730" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">物质领域</text>
+  
+  <!-- Physical elements in material realm -->
+  <circle cx="700" cy="170" r="10" fill="#663399" opacity="0.7"/>
+  <circle cx="720" cy="190" r="8" fill="#663399" opacity="0.7"/>
+  <circle cx="740" cy="160" r="12" fill="#663399" opacity="0.7"/>
+  <circle cx="760" cy="180" r="9" fill="#663399" opacity="0.7"/>
+  <circle cx="710" cy="210" r="11" fill="#663399" opacity="0.7"/>
+  <circle cx="730" cy="230" r="10" fill="#663399" opacity="0.7"/>
+  <circle cx="750" cy="210" r="8" fill="#663399" opacity="0.7"/>
+  
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <line x1="230" y1="200" x2="290" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="410" y1="200" x2="470" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="610" y1="200" x2="670" y2="200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Explanation -->
+  <rect x="100" y="320" width="600" height="130" rx="10" ry="10" fill="#fff" stroke="#ddd" stroke-width="1"/>
+  <text x="120" y="350" font-family="Arial" font-size="14" fill="#333">转化过程比喻：</text>
+  <text x="120" y="380" font-family="Arial" font-size="12" fill="#555">转化就像一座能源转换站，由工程师李明操作。他将高空云层中难以驾驭的闪电能量</text>
+  <text x="120" y="400" font-family="Arial" font-size="12" fill="#555">(精神力量)捕获并通过特殊装置转换成标准电力(特定单位)，使其能够为家用电器</text>
+  <text x="120" y="420" font-family="Arial" font-size="12" fill="#555">(物质领域)提供动力。没有这个转换过程，原始能量将无法被人类社会利用。</text>
+</svg>

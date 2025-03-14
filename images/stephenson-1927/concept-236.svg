@@ -1,0 +1,55 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">先天智能与力量传递</text>
+  
+  <!-- 指挥家（先天智能） -->
+  <circle cx="150" cy="200" r="80" fill="#f9f0ff" stroke="#6a0dad" stroke-width="2"/>
+  <text x="150" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">先天智能</text>
+  <text x="150" y="210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">始终完美无缺</text>
+  
+  <!-- 人物图示 -->
+  <circle cx="150" cy="150" r="20" fill="#e6e6fa" stroke="#6a0dad" stroke-width="1.5"/> <!-- 头 -->
+  <line x1="150" y1="170" x2="150" y2="220" stroke="#6a0dad" stroke-width="2"/> <!-- 身体 -->
+  <line x1="150" y1="185" x2="180" y2="200" stroke="#6a0dad" stroke-width="2"/> <!-- 右臂 -->
+  <line x1="180" y1="200" x2="190" y2="170" stroke="#6a0dad" stroke-width="2"/> <!-- 指挥棒 -->
+  <line x1="150" y1="185" x2="120" y2="200" stroke="#6a0dad" stroke-width="2"/> <!-- 左臂 -->
+  
+  <!-- 传递通道 -->
+  <path d="M230,200 C300,180 350,220 400,200" stroke="#6a0dad" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  <path d="M400,200 C450,180 500,220 550,200" stroke="#6a0dad" stroke-width="3" fill="none"/>
+  
+  <!-- 物质局限性 -->
+  <rect x="370" y="160" width="60" height="60" rx="10" ry="10" fill="#e6e6fa" stroke="#555" stroke-width="2"/>
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">物质</text>
+  <text x="400" y="210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">局限性</text>
+  
+  <!-- 障碍物示意 -->
+  <line x1="385" y1="175" x2="415" y2="205" stroke="#cc0000" stroke-width="2"/>
+  <line x1="415" y1="175" x2="385" y2="205" stroke="#cc0000" stroke-width="2"/>
+  
+  <!-- 组织细胞 -->
+  <circle cx="650" cy="200" r="80" fill="#f9f0ff" stroke="#6a0dad" stroke-width="2"/>
+  <text x="650" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">组织细胞</text>
+  <text x="650" y="210" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">接收力量</text>
+  
+  <!-- 细胞图示 -->
+  <ellipse cx="650" cy="180" rx="40" ry="30" fill="#e6e6fa" stroke="#6a0dad" stroke-width="1.5"/>
+  <circle cx="635" cy="175" r="8" fill="#d8bfd8" stroke="#6a0dad" stroke-width="1"/>
+  <ellipse cx="665" cy="185" rx="10" ry="8" fill="#d8bfd8" stroke="#6a0dad" stroke-width="1"/>
+  
+  <!-- 箭头指示 -->
+  <polygon points="230,200 245,195 245,205" fill="#6a0dad"/>
+  <polygon points="550,200 565,195 565,205" fill="#6a0dad"/>
+  
+  <!-- 图例 -->
+  <rect x="100" y="320" width="600" height="120" rx="10" ry="10" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-style="italic" fill="#555">比喻：音乐指挥与乐团</text>
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" width="580">
+    <tspan x="400" dy="0">就像完美的指挥家（先天智能）发出正确的指令，</tspan>
+    <tspan x="400" dy="20">但乐器损坏（物质局限性）可能阻碍音乐的完美表达，</tspan>
+    <tspan x="400" dy="20">问题不在指挥家的指令，而在传递的媒介。</tspan>
+  </text>
+</svg>

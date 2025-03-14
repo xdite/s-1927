@@ -1,0 +1,53 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#2c3e50">脊椎曲度异常</text>
+  
+  <!-- 正常脊椎 -->
+  <g transform="translate(100, 150)">
+    <text x="75" y="-30" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">正常脊椎曲度</text>
+    <path d="M 75,0 C 85,40 65,80 75,120 C 85,160 65,200 75,240" stroke="#3498db" stroke-width="10" fill="none" />
+    <rect x="45" y="0" width="60" height="240" fill="#f8f9fa" opacity="0.7" rx="5" />
+    <text x="75" y="260" font-family="Arial" font-size="14" text-anchor="middle" fill="#34495e">均衡分散压力</text>
+  </g>
+  
+  <!-- 前凸异常 -->
+  <g transform="translate(300, 150)">
+    <text x="75" y="-30" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">前凸异常</text>
+    <path d="M 75,0 C 85,40 65,80 95,120 C 115,160 65,200 75,240" stroke="#e74c3c" stroke-width="10" fill="none" />
+    <path d="M 75,120 L 95,120" stroke="#e74c3c" stroke-width="2" fill="none" />
+    <text x="115" y="125" font-family="Arial" font-size="12" fill="#e74c3c">过度前弯</text>
+    <rect x="45" y="0" width="60" height="240" fill="#f8f9fa" opacity="0.7" rx="5" />
+    <text x="75" y="260" font-family="Arial" font-size="14" text-anchor="middle" fill="#34495e">腰背疼痛</text>
+  </g>
+  
+  <!-- 后凸异常 -->
+  <g transform="translate(500, 150)">
+    <text x="75" y="-30" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">后凸异常</text>
+    <path d="M 75,0 C 85,40 35,80 75,120 C 85,160 65,200 75,240" stroke="#e67e22" stroke-width="10" fill="none" />
+    <path d="M 75,80 L 35,80" stroke="#e67e22" stroke-width="2" fill="none" />
+    <text x="25" y="85" font-family="Arial" font-size="12" fill="#e67e22">过度后弯</text>
+    <rect x="45" y="0" width="60" height="240" fill="#f8f9fa" opacity="0.7" rx="5" />
+    <text x="75" y="260" font-family="Arial" font-size="14" text-anchor="middle" fill="#34495e">驼背姿势</text>
+  </g>
+  
+  <!-- 侧弯异常 -->
+  <g transform="translate(700, 150)">
+    <text x="0" y="-30" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">侧弯异常</text>
+    <path d="M 0,0 C 20,40 -20,80 20,120 C 40,160 -20,200 0,240" stroke="#9b59b6" stroke-width="10" fill="none" />
+    <path d="M 0,120 L 20,120" stroke="#9b59b6" stroke-width="2" fill="none" />
+    <text x="30" y="125" font-family="Arial" font-size="12" fill="#9b59b6">侧向弯曲</text>
+    <rect x="-30" y="0" width="60" height="240" fill="#f8f9fa" opacity="0.7" rx="5" />
+    <text x="0" y="260" font-family="Arial" font-size="14" text-anchor="middle" fill="#34495e">身体不平衡</text>
+  </g>
+  
+  <!-- 桥梁比喻 -->
+  <g transform="translate(400, 450)">
+    <rect x="-350" y="0" width="700" height="100" rx="10" fill="#eaecee" />
+    <text x="0" y="25" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">脊椎如同一座桥梁：</text>
+    <text x="0" y="55" font-family="Arial" font-size="14" text-anchor="middle" fill="#34495e">正常的曲度使桥梁坚固稳定，能均匀分散压力</text>
+    <text x="0" y="80" font-family="Arial" font-size="14" text-anchor="middle" fill="#34495e">异常的曲度会导致桥梁结构受损，无法正常承重和平衡</text>
+  </g>
+</svg>

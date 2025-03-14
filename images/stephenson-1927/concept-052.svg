@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 左侧：文明生活 -->
+  <g transform="translate(100, 100)">
+    <rect width="150" height="300" fill="#e9ecef" rx="5" ry="5" stroke="#ced4da" stroke-width="1"/>
+    <rect x="20" y="40" width="50" height="70" fill="#dee2e6" stroke="#ced4da" stroke-width="1"/>
+    <rect x="80" y="40" width="50" height="70" fill="#dee2e6" stroke="#ced4da" stroke-width="1"/>
+    <rect x="20" y="130" width="50" height="70" fill="#dee2e6" stroke="#ced4da" stroke-width="1"/>
+    <rect x="80" y="130" width="50" height="70" fill="#dee2e6" stroke="#ced4da" stroke-width="1"/>
+    <rect x="20" y="220" width="110" height="20" fill="#dee2e6" stroke="#ced4da" stroke-width="1"/>
+    <rect x="20" y="250" width="110" height="30" fill="#dee2e6" stroke="#ced4da" stroke-width="1"/>
+    <text x="75" y="330" font-family="Arial" font-size="14" text-anchor="middle" fill="#495057">文明生活</text>
+    
+    <!-- 人物 -->
+    <circle cx="45" cy="180" r="5" fill="#6c757d"/>
+    <line x1="45" y1="185" x2="45" y2="200" stroke="#6c757d" stroke-width="2"/>
+    <line x1="45" y1="190" x2="35" y2="195" stroke="#6c757d" stroke-width="2"/>
+    <line x1="45" y1="190" x2="55" y2="195" stroke="#6c757d" stroke-width="2"/>
+    <line x1="45" y1="200" x2="40" y2="215" stroke="#6c757d" stroke-width="2"/>
+    <line x1="45" y1="200" x2="50" y2="215" stroke="#6c757d" stroke-width="2"/>
+    
+    <!-- 电子设备 -->
+    <rect x="95" y="175" width="15" height="25" fill="#adb5bd" rx="2" ry="2"/>
+    <line x1="98" y1="180" x2="107" y2="180" stroke="#f8f9fa" stroke-width="1"/>
+    <line x1="98" y1="183" x2="107" y2="183" stroke="#f8f9fa" stroke-width="1"/>
+    <line x1="98" y1="186" x2="107" y2="186" stroke="#f8f9fa" stroke-width="1"/>
+  </g>
+  
+  <!-- 中间：选择点 -->
+  <g transform="translate(350, 250)">
+    <circle cx="0" cy="0" r="50" fill="#fff" stroke="#6c757d" stroke-width="2"/>
+    <text x="0" y="-15" font-family="Arial" font-size="14" text-anchor="middle" fill="#495057">卫生：</text>
+    <text x="0" y="10" font-family="Arial" font-size="14" text-anchor="middle" fill="#495057">恢复自然</text>
+    <text x="0" y="35" font-family="Arial" font-size="14" text-anchor="middle" fill="#495057">平衡</text>
+    
+    <!-- 连接线 -->
+    <line x1="-100" y1="0" x2="-60" y2="0" stroke="#6c757d" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="-60,0 -70,5 -70,-5" fill="#6c757d"/>
+  </g>
+  
+  <!-- 右上：完全恢复自然 -->
+  <g transform="translate(550, 150)">
+    <rect width="150" height="130" fill="#d8f3dc" rx="5" ry="5" stroke="#95d5b2" stroke-width="1"/>
+    
+    <!-- 树木 -->
+    <line x1="30" y1="90" x2="30" y2="60" stroke="#40916c" stroke-width="3"/>
+    <circle cx="30" cy="45" r="20" fill="#52b788"/>
+    
+    <line x1="70" y1="90" x2="70" y2="50" stroke="#40916c" stroke-width="3"/>
+    <circle cx="70" cy="35" r="25" fill="#52b788"/>
+    
+    <line x1="110" y1="90" x2="110" y2="65" stroke="#40916c" stroke-width="3"/>
+    <circle cx="110" cy="50" r="18" fill="#52b788"/>
+    
+    <!-- 太阳 -->
+    <circle cx="125" cy="25" r="15" fill="#ffba08"/>
+    <line x1="125" y1="5" x2="125" y2="0" stroke="#ffba08" stroke-width="2"/>
+    <line x1="125" y1="45" x2="125" y2="50" stroke="#ffba08" stroke-width="2"/>
+    <line x1="105" y1="25" x2="100" y2="25" stroke="#ffba08" stroke-width="2"/>
+    <line x1="145" y1="25" x2="150" y2="25" stroke="#ffba08" stroke-width="2"/>
+    <line x1="110" y1="10" x2="105" y2="5" stroke="#ffba08" stroke-width="2"/>
+    <line x1="140" y1="40" x2="145" y2="45" stroke="#ffba08" stroke-width="2"/>
+    <line x1="110" y1="40" x2="105" y2="45" stroke="#ffba08" stroke-width="2"/>
+    <line x1="140" y1="10" x2="145" y2="5" stroke="#ffba08" stroke-width="2"/>
+    
+    <text x="75" y="115" font-family="Arial" font-size="14" text-anchor="middle" fill="#2d6a4f">完全恢复自然</text>
+    
+    <!-- 连接线 -->
+    <line x1="-150" y1="100" x2="-100" y2="30" stroke="#6c757d" stroke-width="2"/>
+    <polygon points="-100,30 -105,40 -95,40" fill="#6c757d"/>
+    <text x="-125" y="50" font-family="Arial" font-size="12" text-anchor="middle" fill="#495057">否</text>
+  </g>
+  
+  <!-- 右下：补偿措施 -->
+  <g transform="translate(550, 320)">
+    <rect width="150" height="130" fill="#f8edeb" rx="5" ry="5" stroke="#fec5bb" stroke-width="1"/>
+    
+    <!-- 人物 -->
+    <circle cx="40" cy="50" r="10" fill="#6c757d"/>
+    <line x1="40" y1="60" x2="40" y2="85" stroke="#6c757d" stroke-width="3"/>
+    <line x1="40" y1="70" x2="25" y2="80" stroke="#6c757d" stroke-width="3"/>
+    <line x1="40" y1="70" x2="55" y2="80" stroke="#6c757d" stroke-width="3"/>
+    <line x1="40" y1="85" x2="30" y2="105" stroke="#6c757d" stroke-width="3"/>
+    <line x1="40" y1="85" x2="50" y2="105" stroke="#6c757d" stroke-width="3"/>
+    
+    <!-- 植物和健康元素 -->
+    <rect x="80" y="40" width="30" height="50" fill="#fff" stroke="#ced4da" stroke-width="1"/>
+    <path d="M90,40 C85,30 95,25 100,35 C105,25 115,30 110,40" fill="#52b788"/>
+    <line x1="95" y1="40" x2="95" y2="80" stroke="#40916c" stroke-width="2"/>
+    
+    <circle cx="125" cy="50" r="15" fill="#ffba08" opacity="0.5"/>
+    
+    <rect x="80" y="100" width="50" height="8" rx="4" ry="4" fill="#6c757d"/>
+    <rect x="85" y="95" width="40" height="5" rx="2" ry="2" fill="#ced4da"/>
+    
+    <text x="75" y="125" font-family="Arial" font-size="14" text-anchor="middle" fill="#495057">补偿措施</text>
+    
+    <!-- 连接线 -->
+    <line x1="-150" y1="-70" x2="-100" y2="-20" stroke="#6c757d" stroke-width="2"/>
+    <polygon points="-100,-20 -110,-20 -105,-10" fill="#6c757d"/>
+    <text x="-125" y="-30" font-family="Arial" font-size="12" text-anchor="middle" fill="#495057">是</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="430" width="600" height="50" fill="#e9ecef" rx="5" ry="5"/>
+  <text x="400" y="460" font-family="Arial" font-size="12" text-anchor="middle" fill="#495057">
+    文明生活如同城市公寓，虽便利但远离自然。卫生理念就像在城市中创造"室内花园"，
+    在无法完全回归自然时，通过补偿措施重建健康平衡。
+  </text>
+</svg>

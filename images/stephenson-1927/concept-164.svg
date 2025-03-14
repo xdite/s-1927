@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">
+    Reproductive Function: From Blastoderm to New Life
+  </text>
+  
+  <!-- Stage 1: Blastoderm (Music Score) -->
+  <circle cx="150" cy="200" r="80" fill="#e6f7ff" stroke="#2196F3" stroke-width="2"/>
+  <text x="150" y="140" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">Blastoderm</text>
+  <text x="150" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">(Complete Potential)</text>
+  
+  <!-- Music notes in the blastoderm -->
+  <path d="M120,180 Q130,170 140,180" stroke="#555" fill="none" stroke-width="1.5"/>
+  <circle cx="120" cy="180" r="4" fill="#555"/>
+  <path d="M130,200 Q140,190 150,200" stroke="#555" fill="none" stroke-width="1.5"/>
+  <circle cx="130" cy="200" r="4" fill="#555"/>
+  <path d="M160,190 Q170,180 180,190" stroke="#555" fill="none" stroke-width="1.5"/>
+  <circle cx="160" cy="190" r="4" fill="#555"/>
+  <path d="M140,210 Q150,200 160,210" stroke="#555" fill="none" stroke-width="1.5"/>
+  <circle cx="140" cy="210" r="4" fill="#555"/>
+  <path d="M110,200 Q120,190 130,200" stroke="#555" fill="none" stroke-width="1.5"/>
+  <circle cx="110" cy="200" r="4" fill="#555"/>
+  
+  <!-- Stage 2: Cell Differentiation (Orchestra) -->
+  <circle cx="400" cy="200" r="100" fill="#f0f0f0" stroke="#555" stroke-width="2"/>
+  <text x="400" y="120" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">Cell Differentiation</text>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">(Specialized Functions)</text>
+  
+  <!-- Different cell types -->
+  <circle cx="350" cy="170" r="15" fill="#ffcccc" stroke="#e57373" stroke-width="1.5"/>
+  <circle cx="390" cy="190" r="15" fill="#e6ffcc" stroke="#aed581" stroke-width="1.5"/>
+  <circle cx="430" cy="170" r="15" fill="#cce6ff" stroke="#64b5f6" stroke-width="1.5"/>
+  <circle cx="370" cy="220" r="15" fill="#ffe0cc" stroke="#ffb74d" stroke-width="1.5"/>
+  <circle cx="410" cy="230" r="15" fill="#e6ccff" stroke="#ba68c8" stroke-width="1.5"/>
+  
+  <!-- Arrows pointing to germ cells -->
+  <path d="M430,170 Q500,120 550,170" stroke="#333" fill="none" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  <path d="M410,230 Q500,280 550,230" stroke="#333" fill="none" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+  
+  <!-- Stage 3: Germ Cells (Male and Female Musicians) -->
+  <circle cx="600" cy="170" r="40" fill="#cce6ff" stroke="#2196F3" stroke-width="2"/>
+  <text x="600" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">♂</text>
+  <text x="600" y="130" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">Male Germ Cell</text>
+  
+  <circle cx="600" cy="270" r="40" fill="#ffcce6" stroke="#e91e63" stroke-width="2"/>
+  <text x="600" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">♀</text>
+  <text x="600" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">Female Germ Cell</text>
+  
+  <!-- New Life Creation -->
+  <path d="M630,190 Q670,220 630,250" stroke="#333" fill="none" stroke-width="1.5"/>
+  <circle cx="700" cy="220" r="50" fill="#fffde7" stroke="#ffd54f" stroke-width="2"/>
+  <text x="700" y="220" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">New Life</text>
+  <text x="700" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">(New Symphony)</text>
+  
+  <!-- Flow arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <path d="M240,200 L290,200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M510,200 L550,200" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Metaphor explanation -->
+  <rect x="50" y="380" width="700" height="80" fill="#f0f0f0" rx="5" ry="5" stroke="#ddd" stroke-width="1"/>
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    Like a symphony orchestra where the complete score (blastoderm) contains all musical possibilities,
+  </text>
+  <text x="400" y="430" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    the body differentiates cells like musicians specializing in different instruments,
+  </text>
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    ultimately creating male and female germ cells that together compose a new symphony of life.
+  </text>
+</svg>

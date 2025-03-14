@@ -1,0 +1,66 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 左侧：实际经验区域 -->
+  <rect x="50" y="50" width="300" height="400" rx="10" fill="#e6f2ff" stroke="#aac8e6" stroke-width="2"/>
+  <text x="200" y="85" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#2c5aa0">实际经验 (Actuality)</text>
+  
+  <!-- 右侧：理论区域 -->
+  <rect x="450" y="50" width="300" height="400" rx="10" fill="#fff0e6" stroke="#e6ccb3" stroke-width="2"/>
+  <text x="600" y="85" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#a05a2c">理论 (Theory)</text>
+  
+  <!-- 左侧：厨师场景 -->
+  <circle cx="200" cy="160" r="40" fill="#d4e6f7"/> <!-- 厨师头部 -->
+  <rect x="180" y="200" width="40" height="60" fill="#d4e6f7"/> <!-- 厨师身体 -->
+  <rect x="160" y="200" width="20" height="40" fill="#d4e6f7"/> <!-- 左臂 -->
+  <rect x="220" y="200" width="20" height="40" fill="#d4e6f7"/> <!-- 右臂 -->
+  <rect x="170" y="260" width="20" height="40" fill="#d4e6f7"/> <!-- 左腿 -->
+  <rect x="210" y="260" width="20" height="40" fill="#d4e6f7"/> <!-- 右腿 -->
+  <circle cx="200" cy="160" r="25" fill="#ffffff"/> <!-- 厨师脸 -->
+  <circle cx="190" cy="155" r="3" fill="#2c5aa0"/> <!-- 左眼 -->
+  <circle cx="210" cy="155" r="3" fill="#2c5aa0"/> <!-- 右眼 -->
+  <path d="M190,170 Q200,180 210,170" fill="none" stroke="#2c5aa0" stroke-width="2"/> <!-- 微笑 -->
+  <rect x="180" y="130" width="40" height="20" fill="#ffffff" rx="5"/> <!-- 厨师帽 -->
+  
+  <!-- 锅和食物 -->
+  <circle cx="130" cy="220" r="30" fill="#a0a0a0"/> <!-- 锅 -->
+  <circle cx="130" cy="220" r="25" fill="#f0d0a0"/> <!-- 食物 -->
+  <path d="M100,220 L80,230" stroke="#a0a0a0" stroke-width="4"/> <!-- 锅柄 -->
+  
+  <!-- 实际证据：成品菜 -->
+  <circle cx="200" cy="350" r="40" fill="#a0e6a0"/> <!-- 盘子 -->
+  <circle cx="200" cy="350" r="30" fill="#f0d0a0"/> <!-- 食物 -->
+  <path d="M190,340 L210,360 M190,360 L210,340" stroke="#8b4513" stroke-width="2"/> <!-- 装饰 -->
+  
+  <!-- 右侧：食谱场景 -->
+  <rect x="500" y="140" width="80" height="100" fill="#ffffff" stroke="#a05a2c" stroke-width="2"/> <!-- 食谱 -->
+  <rect x="510" y="150" width="60" height="5" fill="#a05a2c"/> <!-- 文字行1 -->
+  <rect x="510" y="160" width="50" height="5" fill="#a05a2c"/> <!-- 文字行2 -->
+  <rect x="510" y="170" width="55" height="5" fill="#a05a2c"/> <!-- 文字行3 -->
+  <rect x="510" y="180" width="40" height="5" fill="#a05a2c"/> <!-- 文字行4 -->
+  <rect x="510" y="200" width="60" height="30" fill="#f0d0a0"/> <!-- 食谱图片 -->
+  
+  <!-- 原理说明 -->
+  <circle cx="600" cy="220" r="25" fill="#ffe6cc" stroke="#a05a2c" stroke-width="1"/> <!-- 原理圆圈 -->
+  <text x="600" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="#a05a2c">原理</text>
+  
+  <!-- 证据验证 -->
+  <rect x="570" y="300" width="60" height="60" rx="5" fill="#ffe6cc" stroke="#a05a2c" stroke-width="1"/> <!-- 证据框 -->
+  <path d="M580,330 L600,350 L620,310" stroke="#a05a2c" stroke-width="2" fill="none"/> <!-- 对勾 -->
+  
+  <!-- 连接线 -->
+  <path d="M200,200 C200,250 200,270 200,300" stroke="#2c5aa0" stroke-width="2" fill="none" stroke-dasharray="5,3"/> <!-- 厨师到成品的线 -->
+  <path d="M540,200 C570,210 590,210 600,220" stroke="#a05a2c" stroke-width="2" fill="none" stroke-dasharray="5,3"/> <!-- 食谱到原理的线 -->
+  <path d="M600,245 C600,270 600,280 600,300" stroke="#a05a2c" stroke-width="2" fill="none" stroke-dasharray="5,3"/> <!-- 原理到证据的线 -->
+  
+  <!-- 标签 -->
+  <text x="200" y="120" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c5aa0">实际经验</text>
+  <text x="200" y="410" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c5aa0">实际证据</text>
+  <text x="540" y="130" font-family="Arial" font-size="14" text-anchor="middle" fill="#a05a2c">一般原则</text>
+  <text x="650" y="220" font-family="Arial" font-size="14" text-anchor="middle" fill="#a05a2c">解释现象</text>
+  <text x="600" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#a05a2c">经证据证实</text>
+  
+  <!-- 说明文本 -->
+  <text x="400" y="470" font-family="Arial" font-size="12" text-anchor="middle" fill="#505050" font-style="italic">实际经验如同厨师亲手烹饪，产生可感知的结果；而理论则像食谱，提供原则并经验证</text>
+</svg>

@@ -1,0 +1,74 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="300" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#333">神经作为多轴突通路</text>
+  
+  <!-- 主神经(高速公路) -->
+  <path d="M 100,200 C 150,200 200,180 250,180" stroke="#6c5ce7" stroke-width="40" fill="none" stroke-linecap="round"/>
+  
+  <!-- 第一分支 -->
+  <path d="M 250,180 C 300,180 320,150 350,120" stroke="#6c5ce7" stroke-width="30" fill="none" stroke-linecap="round"/>
+  
+  <!-- 第二分支 -->
+  <path d="M 250,180 C 300,180 320,200 350,200" stroke="#6c5ce7" stroke-width="25" fill="none" stroke-linecap="round"/>
+  
+  <!-- 第三分支 -->
+  <path d="M 250,180 C 300,180 320,230 350,260" stroke="#6c5ce7" stroke-width="30" fill="none" stroke-linecap="round"/>
+  
+  <!-- 轴突(车辆) -->
+  <!-- 第一分支的轴突 -->
+  <circle cx="280" cy="160" r="5" fill="#ff7675"/>
+  <circle cx="290" cy="155" r="5" fill="#74b9ff"/>
+  <circle cx="300" cy="150" r="5" fill="#55efc4"/>
+  <circle cx="310" cy="140" r="5" fill="#ffeaa7"/>
+  <circle cx="320" cy="130" r="5" fill="#fd79a8"/>
+  <circle cx="330" cy="125" r="5" fill="#a29bfe"/>
+  <circle cx="340" cy="120" r="5" fill="#ff7675"/>
+  
+  <!-- 第二分支的轴突 -->
+  <circle cx="280" cy="180" r="5" fill="#ff7675"/>
+  <circle cx="290" cy="185" r="5" fill="#74b9ff"/>
+  <circle cx="300" cy="190" r="5" fill="#55efc4"/>
+  <circle cx="310" cy="195" r="5" fill="#ffeaa7"/>
+  <circle cx="320" cy="198" r="5" fill="#fd79a8"/>
+  <circle cx="330" cy="200" r="5" fill="#a29bfe"/>
+  <circle cx="340" cy="200" r="5" fill="#ff7675"/>
+  
+  <!-- 第三分支的轴突 -->
+  <circle cx="280" cy="195" r="5" fill="#ff7675"/>
+  <circle cx="290" cy="205" r="5" fill="#74b9ff"/>
+  <circle cx="300" cy="215" r="5" fill="#55efc4"/>
+  <circle cx="310" cy="225" r="5" fill="#ffeaa7"/>
+  <circle cx="320" cy="235" r="5" fill="#fd79a8"/>
+  <circle cx="330" cy="245" r="5" fill="#a29bfe"/>
+  <circle cx="340" cy="255" r="5" fill="#ff7675"/>
+  
+  <!-- 目的地(组织区域) -->
+  <rect x="380" y="90" width="150" height="60" rx="10" ry="10" fill="#dfe6e9" stroke="#636e72" stroke-width="2"/>
+  <text x="455" y="125" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">组织区域 A</text>
+  
+  <rect x="380" y="170" width="150" height="60" rx="10" ry="10" fill="#dfe6e9" stroke="#636e72" stroke-width="2"/>
+  <text x="455" y="205" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">组织区域 B</text>
+  
+  <rect x="380" y="250" width="150" height="60" rx="10" ry="10" fill="#dfe6e9" stroke="#636e72" stroke-width="2"/>
+  <text x="455" y="285" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">组织区域 C</text>
+  
+  <!-- 连接线 -->
+  <line x1="350" y1="120" x2="380" y2="120" stroke="#636e72" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="350" y1="200" x2="380" y2="200" stroke="#636e72" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="350" y1="260" x2="380" y2="260" stroke="#636e72" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- 图例 -->
+  <circle cx="100" cy="320" r="8" fill="#6c5ce7"/>
+  <text x="120" y="325" font-family="Arial, sans-serif" font-size="14">神经</text>
+  
+  <circle cx="100" cy="350" r="5" fill="#ff7675"/>
+  <text x="120" y="355" font-family="Arial, sans-serif" font-size="14">轴突</text>
+  
+  <!-- 比喻说明 -->
+  <text x="300" y="390" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-style="italic" fill="#2d3436">
+    神经就像城市的高速公路，包含多条轴突传递信息到不同的目的地
+  </text>
+</svg>

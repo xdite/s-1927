@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">传统医学对毒素的认知局限</text>
+  
+  <!-- Doctor representing "Educated" traditional medicine -->
+  <g transform="translate(200, 200)">
+    <!-- Head -->
+    <circle cx="0" cy="0" r="40" fill="#e6f2ff" stroke="#333" stroke-width="2"/>
+    <!-- Glasses -->
+    <path d="M-20,-5 L-10,-5 M10,-5 L20,-5 M-15,-5 C-15,-10 -25,-10 -25,-5 C-25,0 -15,0 -15,-5 M15,-5 C15,-10 25,-10 25,-5 C25,0 15,0 15,-5" fill="none" stroke="#333" stroke-width="1.5"/>
+    <!-- Face -->
+    <path d="M-10,10 C0,15 10,15 10,10" fill="none" stroke="#333" stroke-width="1.5"/>
+    <!-- Body -->
+    <path d="M0,40 L0,120" stroke="#333" stroke-width="2"/>
+    <!-- Arms -->
+    <path d="M0,60 L-60,40 L-70,60" stroke="#333" stroke-width="2"/>
+    <path d="M0,60 L60,80" stroke="#333" stroke-width="2"/>
+    <!-- Lab coat -->
+    <path d="M0,40 L-30,120 M0,40 L30,120" stroke="#333" stroke-width="2" fill="none"/>
+    <!-- Book of known toxins -->
+    <rect x="-70" y="60" width="50" height="60" fill="#d4e6f1" stroke="#333" stroke-width="2"/>
+    <path d="M-70,70 L-20,70 M-70,80 L-20,80 M-70,90 L-20,90 M-70,100 L-20,100 M-70,110 L-20,110" stroke="#333" stroke-width="1"/>
+    <text x="-45" y="90" font-family="Arial, sans-serif" font-size="8" fill="#333" text-anchor="middle">已知</text>
+    <text x="-45" y="100" font-family="Arial, sans-serif" font-size="8" fill="#333" text-anchor="middle">毒素</text>
+  </g>
+  
+  <!-- New chemical substances -->
+  <g transform="translate(550, 220)">
+    <!-- Shelf -->
+    <rect x="-150" y="60" width="300" height="10" fill="#d2b48c" stroke="#333" stroke-width="2"/>
+    
+    <!-- Bottles with question marks -->
+    <g transform="translate(-120, 0)">
+      <path d="M-15,60 L-15,20 C-15,10 -5,10 -5,0 C-5,-10 -15,-10 -15,0 C-15,10 -5,10 -5,20 L-5,60 Z" fill="#f1c40f" fill-opacity="0.7" stroke="#333" stroke-width="1.5"/>
+      <text x="-10" y="40" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">?</text>
+    </g>
+    
+    <g transform="translate(-60, 0)">
+      <path d="M-15,60 L-15,20 C-15,10 -5,10 -5,0 C-5,-10 -15,-10 -15,0 C-15,10 -5,10 -5,20 L-5,60 Z" fill="#3498db" fill-opacity="0.7" stroke="#333" stroke-width="1.5"/>
+      <text x="-10" y="40" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">?</text>
+    </g>
+    
+    <g transform="translate(0, 0)">
+      <path d="M-15,60 L-15,20 C-15,10 -5,10 -5,0 C-5,-10 -15,-10 -15,0 C-15,10 -5,10 -5,20 L-5,60 Z" fill="#e74c3c" fill-opacity="0.7" stroke="#333" stroke-width="1.5"/>
+      <text x="-10" y="40" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">?</text>
+    </g>
+    
+    <g transform="translate(60, 0)">
+      <path d="M-15,60 L-15,20 C-15,10 -5,10 -5,0 C-5,-10 -15,-10 -15,0 C-15,10 -5,10 -5,20 L-5,60 Z" fill="#2ecc71" fill-opacity="0.7" stroke="#333" stroke-width="1.5"/>
+      <text x="-10" y="40" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">?</text>
+    </g>
+    
+    <g transform="translate(120, 0)">
+      <path d="M-15,60 L-15,20 C-15,10 -5,10 -5,0 C-5,-10 -15,-10 -15,0 C-15,10 -5,10 -5,20 L-5,60 Z" fill="#9b59b6" fill-opacity="0.7" stroke="#333" stroke-width="1.5"/>
+      <text x="-10" y="40" font-family="Arial, sans-serif" font-size="20" fill="#333" text-anchor="middle">?</text>
+    </g>
+    
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">新的化学物质</text>
+  </g>
+  
+  <!-- Innate wisdom -->
+  <g transform="translate(400, 100)">
+    <circle cx="0" cy="0" r="40" fill="#fffde7" stroke="none"/>
+    <path d="M0,-40 L0,-30 M-40,0 L-30,0 M0,40 L0,30 M40,0 L30,0 M-28,-28 L-21,-21 M28,-28 L21,-21 M-28,28 L-21,21 M28,28 L21,21" stroke="#f39c12" stroke-width="3"/>
+    <circle cx="0" cy="0" r="25" fill="#f39c12" fill-opacity="0.3" stroke="#f39c12" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" fill="#333" text-anchor="middle">先天智慧</text>
+  </g>
+  
+  <!-- Arrows -->
+  <g stroke="#666" stroke-width="2" fill="none">
+    <!-- From doctor to new substances -->
+    <path d="M270,200 C350,150 450,150 500,220" marker-end="url(#arrowhead)"/>
+    <text x="380" y="160" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">无法确定</text>
+    
+    <!-- From innate wisdom to new substances -->
+    <path d="M420,140 C450,160 480,180 500,200" marker-end="url(#arrowhead)"/>
+    <text x="470" y="160" font-family="Arial, sans-serif" font-size="14" fill="#666" text-anchor="middle">判断</text>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom explanation -->
+  <rect x="50" y="400" width="700" height="80" rx="10" ry="10" fill="#eef7fa" stroke="#333" stroke-width="1"/>
+  <text x="400" y="430" font-family="Arial, sans-serif" font-size="14" fill="#333" text-anchor="middle" line-height="1.4">
+    <tspan x="400" dy="0">传统医学就像图书管理员，熟悉已有的"书籍"(已知毒素)，</tspan>
+    <tspan x="400" dy="20">但面对全新的"书籍"(新化学物质)时，需要等待"博学顾问"(先天智慧)的判断。</tspan>
+  </text>
+</svg>

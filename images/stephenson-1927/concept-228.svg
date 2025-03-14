@@ -1,0 +1,51 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">神经传导路径与身体功能</text>
+  
+  <!-- 中央指挥中心（智力） -->
+  <circle cx="150" cy="150" r="60" fill="#f9f0ff" stroke="#6a0dad" stroke-width="2"/>
+  <text x="150" y="145" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">智力</text>
+  <text x="150" y="165" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">(Innate Intelligence)</text>
+  <path d="M150,210 L150,240" stroke="#6a0dad" stroke-width="3" fill="none"/>
+  
+  <!-- 精神力 -->
+  <rect x="100" y="240" width="100" height="50" rx="10" ry="10" fill="#e6e6fa" stroke="#4b0082" stroke-width="2"/>
+  <text x="150" y="270" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">精神力</text>
+  <path d="M150,290 L150,320" stroke="#4b0082" stroke-width="3" fill="none"/>
+  
+  <!-- 神经 -->
+  <polygon points="120,320 180,320 165,370 135,370" fill="#d8e1ff" stroke="#3a539b" stroke-width="2"/>
+  <text x="150" y="350" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">神经</text>
+  
+  <!-- 神经连接线 -->
+  <path d="M150,370 C150,390 150,410 150,430" stroke="#3a539b" stroke-width="3" fill="none"/>
+  <path d="M150,370 C200,400 250,410 300,430" stroke="#3a539b" stroke-width="3" fill="none"/>
+  <path d="M150,370 C100,400 50,410 0,430" stroke="#3a539b" stroke-width="3" fill="none" opacity="0.6"/>
+  
+  <!-- 身体组织 -->
+  <circle cx="150" cy="460" r="30" fill="#c5e1ff" stroke="#0066cc" stroke-width="2"/>
+  <text x="150" y="465" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">身体组织</text>
+  
+  <circle cx="300" cy="460" r="30" fill="#c5e1ff" stroke="#0066cc" stroke-width="2"/>
+  <text x="300" y="465" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">身体组织</text>
+  
+  <!-- 断开的神经 -->
+  <circle cx="0" cy="460" r="30" fill="#f0f0f0" stroke="#999" stroke-width="2" opacity="0.7"/>
+  <text x="0" y="465" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#777" opacity="0.7">失活组织</text>
+  <line x1="80" y1="420" x2="100" y2="430" stroke="#cc0000" stroke-width="4" stroke-dasharray="5,3"/>
+  
+  <!-- 图例说明 -->
+  <rect x="500" y="150" width="250" height="200" rx="10" ry="10" fill="white" stroke="#ddd" stroke-width="1"/>
+  <text x="525" y="180" font-family="Arial, sans-serif" font-size="16" fill="#333">城市网络比喻:</text>
+  <text x="525" y="210" font-family="Arial, sans-serif" font-size="14" fill="#555">• 中央指挥中心 → 智力</text>
+  <text x="525" y="240" font-family="Arial, sans-serif" font-size="14" fill="#555">• 电力网络 → 精神力</text>
+  <text x="525" y="270" font-family="Arial, sans-serif" font-size="14" fill="#555">• 电缆 → 神经</text>
+  <text x="525" y="300" font-family="Arial, sans-serif" font-size="14" fill="#555">• 社区设施 → 身体组织</text>
+  <text x="525" y="330" font-family="Arial, sans-serif" font-size="14" fill="#555">• 断缆 → 功能丧失</text>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">就像城市依赖完好的电缆网络连接指挥中心与各设施，身体也需要健康的神经将大脑指令传递到各组织</text>
+</svg>

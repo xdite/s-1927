@@ -1,0 +1,84 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f7f1" rx="10" ry="10"/>
+  
+  <!-- 中央的书 -->
+  <g transform="translate(400, 300)">
+    <!-- 书的左页 -->
+    <path d="M-100,-80 L-100,80 L0,100 L0,-60 Z" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+    <!-- 书的右页 -->
+    <path d="M0,-60 L0,100 L100,80 L100,-80 Z" fill="#ffffff" stroke="#333333" stroke-width="2"/>
+    <!-- 书的中间线 -->
+    <line x1="0" y1="-60" x2="0" y2="100" stroke="#333333" stroke-width="2"/>
+    <!-- 书的标题 -->
+    <text x="0" y="-20" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333">写作原则</text>
+    <text x="0" y="10" font-family="Arial" font-size="14" text-anchor="middle" fill="#555555">Academic Writing</text>
+  </g>
+  
+  <!-- 七个原则 -->
+  <!-- 统一性 -->
+  <g transform="translate(250, 150)">
+    <circle cx="0" cy="0" r="50" fill="#e6f7ff" stroke="#4da6ff" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333333">统一性</text>
+    <path d="M-25,-15 A30,30 0 0,1 25,-15" stroke="#4da6ff" stroke-width="2" fill="none"/>
+    <path d="M-25,15 A30,30 0 0,0 25,15" stroke="#4da6ff" stroke-width="2" fill="none"/>
+    <line x1="0" y1="50" x2="0" y2="100" stroke="#4da6ff" stroke-width="2"/>
+  </g>
+  
+  <!-- 连贯性 -->
+  <g transform="translate(150, 300)">
+    <circle cx="0" cy="0" r="50" fill="#e6ffe6" stroke="#4dcc4d" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333333">连贯性</text>
+    <path d="M-30,0 L30,0" stroke="#4dcc4d" stroke-width="2" stroke-dasharray="5,3"/>
+    <line x1="50" y1="0" x2="150" y2="0" stroke="#4dcc4d" stroke-width="2"/>
+  </g>
+  
+  <!-- 过渡 -->
+  <g transform="translate(200, 450)">
+    <circle cx="0" cy="0" r="50" fill="#fff2e6" stroke="#ffa64d" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333333">过渡</text>
+    <path d="M-30,-10 Q0,20 30,-10" stroke="#ffa64d" stroke-width="2" fill="none"/>
+    <line x1="0" y1="-50" x2="0" y2="-100" stroke="#ffa64d" stroke-width="2"/>
+  </g>
+  
+  <!-- 连续性 -->
+  <g transform="translate(400, 500)">
+    <circle cx="0" cy="0" r="50" fill="#ffe6e6" stroke="#ff6666" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333333">连续性</text>
+    <path d="M-30,-10 L-10,-10 L-10,10 L10,10 L10,-10 L30,-10" stroke="#ff6666" stroke-width="2" fill="none"/>
+    <line x1="0" y1="-50" x2="0" y2="-100" stroke="#ff6666" stroke-width="2"/>
+  </g>
+  
+  <!-- 顺序 -->
+  <g transform="translate(600, 450)">
+    <circle cx="0" cy="0" r="50" fill="#e6e6ff" stroke="#6666ff" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333333">顺序</text>
+    <text x="-20" y="-10" font-family="Arial" font-size="12" text-anchor="middle" fill="#6666ff">1</text>
+    <text x="0" y="-10" font-family="Arial" font-size="12" text-anchor="middle" fill="#6666ff">2</text>
+    <text x="20" y="-10" font-family="Arial" font-size="12" text-anchor="middle" fill="#6666ff">3</text>
+    <line x1="0" y1="-50" x2="0" y2="-100" stroke="#6666ff" stroke-width="2"/>
+  </g>
+  
+  <!-- 平衡 -->
+  <g transform="translate(650, 300)">
+    <circle cx="0" cy="0" r="50" fill="#f2e6ff" stroke="#9966ff" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333333">平衡</text>
+    <path d="M-30,15 L30,15" stroke="#9966ff" stroke-width="2"/>
+    <circle cx="-15" cy="5" r="5" fill="#9966ff"/>
+    <circle cx="15" cy="5" r="5" fill="#9966ff"/>
+    <line x1="-50" y1="0" x2="-150" y2="0" stroke="#9966ff" stroke-width="2"/>
+  </g>
+  
+  <!-- 视角 -->
+  <g transform="translate(550, 150)">
+    <circle cx="0" cy="0" r="50" fill="#ffe6f2" stroke="#ff66b3" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333333">视角</text>
+    <path d="M0,-20 L-15,10 L15,10 Z" stroke="#ff66b3" stroke-width="2" fill="none"/>
+    <line x1="0" y1="50" x2="0" y2="100" stroke="#ff66b3" stroke-width="2"/>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="580" font-family="Arial" font-size="14" text-anchor="middle" fill="#555555">
+    学术写作原则如同设计精美花园：统一主题、连贯路径、自然过渡、持续体验、合理顺序、平衡布局和读者视角
+  </text>
+</svg>

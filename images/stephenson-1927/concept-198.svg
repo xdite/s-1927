@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">天赋智能的力量与限制</text>
+  
+  <!-- 中央人物：指挥家 -->
+  <circle cx="400" cy="200" r="70" fill="#f9f0ff" stroke="#6a0dad" stroke-width="2"/>
+  <g transform="translate(400, 200)">
+    <!-- 指挥家简化图形 -->
+    <circle cx="0" cy="-30" r="20" fill="#e6e6fa" stroke="#333" stroke-width="1.5"/> <!-- 头 -->
+    <line x1="0" y1="-10" x2="0" y2="20" stroke="#333" stroke-width="2"/> <!-- 身体 -->
+    <line x1="0" y1="0" x2="-25" y2="15" stroke="#333" stroke-width="2"/> <!-- 左臂 -->
+    <line x1="0" y1="0" x2="30" y2="-15" stroke="#333" stroke-width="2"/> <!-- 右臂 - 指挥棒姿势 -->
+    <line x1="30" y1="-15" x2="40" y2="-10" stroke="#333" stroke-width="1.5"/> <!-- 指挥棒 -->
+  </g>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#6a0dad">天赋智能</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">(Innate Intelligence)</text>
+  
+  <!-- 左侧：宇宙力量 -->
+  <circle cx="200" cy="200" r="60" fill="#e6f7ff" stroke="#0066cc" stroke-width="2"/>
+  <!-- 音符和宇宙元素 -->
+  <g transform="translate(200, 200)">
+    <path d="M-20,-20 L-20,-5 C-15,0 -5,0 -5,-5 L-5,-20 Z" fill="#0066cc"/>
+    <circle cx="-5" cy="-5" r="4" fill="#0066cc"/>
+    <path d="M10,10 L10,25 C15,30 25,30 25,25 L25,10 Z" fill="#0066cc"/>
+    <circle cx="25" cy="25" r="4" fill="#0066cc"/>
+    <!-- 星星装饰 -->
+    <path d="M-30,10 L-25,0 L-20,10 L-30,-5 L-20,-5 Z" fill="#0066cc" opacity="0.7"/>
+    <path d="M15,-15 L20,-25 L25,-15 L15,-20 L25,-20 Z" fill="#0066cc" opacity="0.7"/>
+  </g>
+  <text x="200" y="250" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0066cc">宇宙力量</text>
+  <text x="200" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">(Universe Forces)</text>
+  
+  <!-- 右侧：身体物质 -->
+  <circle cx="600" cy="200" r="60" fill="#f0f7e6" stroke="#5a9216" stroke-width="2"/>
+  <!-- 乐器图形 -->
+  <g transform="translate(600, 200)">
+    <!-- 小提琴简化图形 -->
+    <path d="M-25,-20 C-30,-10 -30,10 -25,20 C-15,25 -5,25 5,20 C10,10 10,-10 5,-20 C-5,-25 -15,-25 -25,-20 Z" fill="#d4e6c2" stroke="#5a9216" stroke-width="1"/>
+    <line x1="-10" y1="-30" x2="-10" y2="30" stroke="#5a9216" stroke-width="1"/>
+    
+    <!-- 钢琴键简化图形 -->
+    <rect x="10" y="-15" width="25" height="30" fill="#d4e6c2" stroke="#5a9216" stroke-width="1"/>
+    <line x1="15" y1="-15" x2="15" y2="15" stroke="#5a9216" stroke-width="0.5"/>
+    <line x1="20" y1="-15" x2="20" y2="15" stroke="#5a9216" stroke-width="0.5"/>
+    <line x1="25" y1="-15" x2="25" y2="15" stroke="#5a9216" stroke-width="0.5"/>
+    <line x1="30" y1="-15" x2="30" y2="15" stroke="#5a9216" stroke-width="0.5"/>
+  </g>
+  <text x="600" y="250" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#5a9216">身体物质</text>
+  <text x="600" y="270" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">(Body Matter)</text>
+  
+  <!-- 连接线 -->
+  <line x1="330" y1="200" x2="260" y2="200" stroke="#0066cc" stroke-width="2" stroke-dasharray="5,3"/>
+  <line x1="470" y1="200" x2="540" y2="200" stroke="#5a9216" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- 箭头 -->
+  <polygon points="260,200 275,195 275,205" fill="#0066cc"/>
+  <polygon points="540,200 525,195 525,205" fill="#5a9216"/>
+  
+  <!-- 底部比喻说明 -->
+  <rect x="100" y="320" width="600" height="150" fill="#fff" stroke="#ddd" stroke-width="1" rx="10" ry="10"/>
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">指挥家与乐团的比喻</text>
+  <foreignObject x="110" y="355" width="580" height="105">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 12px; line-height: 1.4; color: #555; text-align: justify;">
+      就像一位天才指挥家拥有无限的音乐知识和创造力，可以从整个音乐世界汲取灵感，但她创造的音乐完全取决于面前乐团的规模和乐器质量。即使她心中有最宏伟的交响乐构想，如果只有几件乐器，她的表达就会受限。同样，天赋智能虽然可以连接宇宙间的各种力量，但其在身体中的表达受限于可用的物质基础。就像巧妇难为无米之炊，没有足够的物质，天赋智能也无法充分发挥其作用。
+    </div>
+  </foreignObject>
+</svg>

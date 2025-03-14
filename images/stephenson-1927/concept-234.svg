@@ -1,0 +1,79 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f7f2" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" fill="#2c3e50" text-anchor="middle" font-weight="bold">学术原创性的旅程</text>
+  
+  <!-- 循环箭头 -->
+  <path d="M 160,300 C 160,200 640,200 640,300 C 640,400 160,400 160,300" fill="none" stroke="#95a5a6" stroke-width="3" stroke-dasharray="10,5" />
+  
+  <!-- 阅读书籍 -->
+  <g transform="translate(120,300)">
+    <rect x="-50" y="-70" width="100" height="140" fill="#ecf0f1" stroke="#34495e" stroke-width="2" rx="5" ry="5"/>
+    <line x1="-40" y1="-50" x2="40" y2="-50" stroke="#34495e" stroke-width="1"/>
+    <line x1="-40" y1="-30" x2="40" y2="-30" stroke="#34495e" stroke-width="1"/>
+    <line x1="-40" y1="-10" x2="40" y2="-10" stroke="#34495e" stroke-width="1"/>
+    <line x1="-40" y1="10" x2="40" y2="10" stroke="#34495e" stroke-width="1"/>
+    <line x1="-40" y1="30" x2="40" y2="30" stroke="#34495e" stroke-width="1"/>
+    <line x1="-40" y1="50" x2="20" y2="50" stroke="#34495e" stroke-width="1"/>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" text-anchor="middle">阅读书籍</text>
+    <path d="M 60,0 L 100,0" stroke="#3498db" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- 消化内容 -->
+  <g transform="translate(300,300)">
+    <circle cx="0" cy="0" r="60" fill="#f5eee6" stroke="#34495e" stroke-width="2"/>
+    <path d="M -25,-15 C -20,-25 20,-25 25,-15" stroke="#34495e" stroke-width="2" fill="none"/>
+    <circle cx="-15" cy="5" r="5" fill="#34495e"/>
+    <circle cx="15" cy="5" r="5" fill="#34495e"/>
+    <path d="M -20,25 C -10,35 10,35 20,25" stroke="#34495e" stroke-width="2" fill="none"/>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" text-anchor="middle">消化内容</text>
+    <path d="M 60,0 L 100,0" stroke="#3498db" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- 思考内容 -->
+  <g transform="translate(480,300)">
+    <circle cx="0" cy="0" r="70" fill="#e8f6f3" stroke="#34495e" stroke-width="2"/>
+    <ellipse cx="0" cy="-15" rx="50" ry="30" fill="#d1f2eb" stroke="#34495e" stroke-width="1"/>
+    <path d="M -30,-15 Q 0,-40 30,-15 Q 15,0 0,0 Q -15,0 -30,-15" fill="#a3e4d7" stroke="#34495e" stroke-width="1"/>
+    <circle cx="0" cy="20" r="20" fill="#a3e4d7" stroke="#34495e" stroke-width="1"/>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" text-anchor="middle">思考内容</text>
+    
+    <!-- 是路径 -->
+    <path d="M 50,50 L 100,100" stroke="#27ae60" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="90" y="70" font-family="Arial, sans-serif" font-size="14" fill="#27ae60" font-weight="bold">是</text>
+    
+    <!-- 否路径 -->
+    <path d="M -50,50 L -100,100" stroke="#e74c3c" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+    <text x="-90" y="70" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c" font-weight="bold">否</text>
+  </g>
+  
+  <!-- 用自己的语言陈述 -->
+  <g transform="translate(600,450)">
+    <rect x="-80" y="-50" width="160" height="100" fill="#d6eaf8" stroke="#34495e" stroke-width="2" rx="10" ry="10"/>
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">用自己的语言</text>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">陈述或</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">给出应用</text>
+  </g>
+  
+  <!-- 重新阅读书籍 -->
+  <g transform="translate(360,450)">
+    <rect x="-80" y="-50" width="160" height="100" fill="#fadbd8" stroke="#34495e" stroke-width="2" rx="10" ry="10"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">重新阅读书籍</text>
+    <path d="M -60,30 C -100,60 -200,0 -240,-150" stroke="#e74c3c" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="520" width="600" height="60" fill="#eaeded" rx="5" ry="5"/>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle" font-style="italic">
+    学术原创性如同烹饪：阅读食谱，消化知识，思考理解，最终用自己方式表达或创新
+  </text>
+</svg>

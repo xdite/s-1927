@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="450" viewBox="0 0 650 450">
+  <!-- 背景 -->
+  <rect width="650" height="450" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="325" y="40" font-family="Arial, sans-serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#2c3e50">脊柱神经系统关系图</text>
+  
+  <!-- 节点 A：通用表 -->
+  <rect x="100" y="100" width="120" height="60" rx="8" ry="8" fill="#3498db" opacity="0.8"/>
+  <text x="160" y="135" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">通用表</text>
+  <image x="115" y="110" width="30" height="30" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xOSAzSDVjLTEuMSAwLTIgLjktMiAydjE0YzAgMS4xLjkgMiAyIDJoMTRjMS4xIDAgMi0uOSAyLTJWNWMwLTEuMS0uOS0yLTItMnptLTUgMTRINXYtMmg5djJ6bTAtNEg1di0yaDl2MnptMC00SDV2LTJoOXYyek0xOSA5aC00VjVoNHY0eiIvPjwvc3ZnPg=="/>
+  
+  <!-- 节点 B：组织神经供应 -->
+  <rect x="270" y="100" width="150" height="60" rx="8" ry="8" fill="#2ecc71" opacity="0.8"/>
+  <text x="345" y="135" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">组织神经供应</text>
+  <image x="285" y="110" width="30" height="30" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0yMC41NyAxNC44NkwyMiAxM2wtMS40My0xLjg2TDIwIDEyLjU3IDEyIDZ2MmwxIDEgNy41NyA1Ljg2ek0xMiA0LjAxQzkuMjUgNC4wMSA3IDYuMjYgNyA5YzAgMi44LTIgNS01IDUuMDFMMiAxNGMwIDMuMzEgMi42OSA2IDYgNmg4YzIuMjEgMCA0LTEuNzkgNC00IDAtMS4yMDQtLjUzMS0yLjI1Ny0xLjM2LTNDMTcuNTMxIDEyLjI1NyAxNyAxMS4yMDQgMTcgMTBjMC0yLjIxLTEuNzktNC00LTR2LTEuOTlNMTQgMTRsLTQgMnYtNGw0IDJ6Ii8+PC9zdmc+"/>
+  
+  <!-- 节点 C：脊柱位置 -->
+  <rect x="270" y="210" width="150" height="60" rx="8" ry="8" fill="#e74c3c" opacity="0.8"/>
+  <text x="345" y="245" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">脊柱位置</text>
+  <image x="285" y="220" width="30" height="30" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem02IDEwaC01di01aDJ2M2gzdjJ6Ii8+PC9zdmc+"/>
+  
+  <!-- 节点 D：影响组织的错位 -->
+  <rect x="270" y="320" width="150" height="60" rx="8" ry="8" fill="#9b59b6" opacity="0.8"/>
+  <text x="345" y="345" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">影响组织的</text>
+  <text x="345" y="365" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">脊椎错位</text>
+  <image x="285" y="330" width="30" height="30" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0xIDE1aC0ydi0yaDJ2MnptMC00aC0yVjdoMnY2eiIvPjwvc3ZnPg=="/>
+  
+  <!-- 连接箭头 -->
+  <path d="M220 130 L270 130" stroke="#34495e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M345 160 L345 210" stroke="#34495e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M345 270 L345 320" stroke="#34495e" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#34495e"/>
+    </marker>
+  </defs>
+  
+  <!-- 城市交通网络比喻图 -->
+  <g transform="translate(480, 170)">
+    <circle cx="0" cy="0" r="80" fill="#f0f3f6" stroke="#bdc3c7" stroke-width="2"/>
+    
+    <!-- 脊柱/中央地铁线 -->
+    <path d="M-40 -50 Q 0 -20 0 0 Q 0 20 -40 50" stroke="#e74c3c" stroke-width="4" fill="none"/>
+    
+    <!-- 神经/公交线 -->
+    <path d="M-40 -30 L 30 -60" stroke="#2ecc71" stroke-width="2" fill="none"/>
+    <path d="M-20 0 L 50 -10" stroke="#2ecc71" stroke-width="2" fill="none"/>
+    <path d="M-40 30 L 30 60" stroke="#2ecc71" stroke-width="2" fill="none"/>
+    
+    <!-- 组织/城市区域 -->
+    <circle cx="30" cy="-60" r="15" fill="#3498db" opacity="0.7"/>
+    <circle cx="50" cy="-10" r="15" fill="#3498db" opacity="0.7"/>
+    <circle cx="30" cy="60" r="15" fill="#3498db" opacity="0.7"/>
+    
+    <!-- 错位/故障站点 -->
+    <circle cx="-40" cy="30" r="8" fill="#9b59b6" stroke="white" stroke-width="2"/>
+  </g>
+  
+  <!-- 比喻说明 -->
+  <rect x="50" y="400" width="550" height="40" rx="5" ry="5" fill="#ecf0f1"/>
+  <text x="325" y="425" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">
+    比喻：脊柱如同城市中央地铁线，每个脊椎节段连接特定神经（公交线），服务不同组织（城区）
+  </text>
+</svg>

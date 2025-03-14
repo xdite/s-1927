@@ -1,0 +1,84 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">组织不健全与精神错乱的关系</text>
+  
+  <!-- 左侧：组织不健全（城市基础设施） -->
+  <g transform="translate(150, 170)">
+    <circle cx="0" cy="0" r="80" fill="#e6f2ff" stroke="#4682b4" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">组织不健全</text>
+    <text x="0" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">(受损的城市基础设施)</text>
+    
+    <!-- 道路和建筑物图示 -->
+    <line x1="-50" y1="-30" x2="50" y2="-30" stroke="#aaa" stroke-width="3" stroke-dasharray="5,3"/>
+    <line x1="-40" y1="0" x2="40" y2="0" stroke="#aaa" stroke-width="3" stroke-dasharray="5,3"/>
+    <line x1="-50" y1="30" x2="50" y2="30" stroke="#aaa" stroke-width="3" stroke-dasharray="5,3"/>
+    <line x1="0" y1="-50" x2="0" y2="50" stroke="#aaa" stroke-width="3" stroke-dasharray="5,3"/>
+    
+    <rect x="-35" y="-45" width="15" height="10" fill="#b3b3cc" stroke="#666"/>
+    <rect x="20" y="-45" width="15" height="10" fill="#b3b3cc" stroke="#666"/>
+    <rect x="-35" y="35" width="15" height="10" fill="#b3b3cc" stroke="#666"/>
+    <rect x="20" y="35" width="15" height="10" fill="#b3b3cc" stroke="#666"/>
+  </g>
+  
+  <!-- 箭头 -->
+  <g>
+    <path d="M250,170 L400,170" stroke="#666" stroke-width="2" fill="none"/>
+    <polygon points="400,170 390,165 390,175" fill="#666"/>
+  </g>
+  
+  <!-- 中间：精神错乱 -->
+  <g transform="translate(450, 170)">
+    <circle cx="0" cy="0" r="70" fill="#ffe6e6" stroke="#d46a6a" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">精神错乱</text>
+    <text x="0" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">(城市功能混乱)</text>
+  </g>
+  
+  <!-- 分支箭头 -->
+  <g>
+    <path d="M450,220 L350,300" stroke="#666" stroke-width="2" fill="none"/>
+    <polygon points="350,300 358,295 362,305" fill="#666"/>
+  </g>
+  
+  <g>
+    <path d="M450,220 L550,300" stroke="#666" stroke-width="2" fill="none"/>
+    <polygon points="550,300 542,295 538,305" fill="#666"/>
+  </g>
+  
+  <!-- 下方：身体精神错乱 -->
+  <g transform="translate(350, 330)">
+    <rect x="-100" y="-30" width="200" height="80" rx="10" fill="#e6ffe6" stroke="#5cb85c" stroke-width="2"/>
+    <text x="0" y="-5" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">身体精神错乱</text>
+    <text x="0" y="20" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">(商业区功能障碍)</text>
+    
+    <!-- 商店图示 -->
+    <rect x="-70" y="-15" width="30" height="20" fill="#d9f2d9" stroke="#5cb85c"/>
+    <rect x="-30" y="-15" width="30" height="20" fill="#d9f2d9" stroke="#5cb85c"/>
+    <rect x="10" y="-15" width="30" height="20" fill="#d9f2d9" stroke="#5cb85c"/>
+    <rect x="50" y="-15" width="30" height="20" fill="#d9f2d9" stroke="#5cb85c"/>
+  </g>
+  
+  <!-- 下方：精神精神错乱 -->
+  <g transform="translate(550, 330)">
+    <rect x="-100" y="-30" width="200" height="80" rx="10" fill="#ffe6f2" stroke="#d467ab" stroke-width="2"/>
+    <text x="0" y="-5" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">精神精神错乱</text>
+    <text x="0" y="20" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">(市政中心功能障碍)</text>
+    
+    <!-- 市政中心图示 -->
+    <path d="M0,-15 L-40,10 L40,10 Z" fill="#f9d9eb" stroke="#d467ab"/>
+    <rect x="-20" y="10" width="40" height="15" fill="#f9d9eb" stroke="#d467ab"/>
+  </g>
+  
+  <!-- 脊骨神经医学图示 -->
+  <g transform="translate(400, 430)">
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">脊骨神经医学：修复基础设施，恢复城市功能</text>
+    <line x1="-200" y1="10" x2="200" y2="10" stroke="#4682b4" stroke-width="2"/>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
+    就像城市规划师修复基础设施让城市恢复运转，脊骨神经医学致力于调整组织结构解决精神错乱问题
+  </text>
+</svg>

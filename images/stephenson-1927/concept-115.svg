@@ -1,0 +1,78 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">论文写作之旅</text>
+  
+  <!-- 四个主要步骤的背景框 -->
+  <rect x="50" y="80" width="150" height="280" rx="10" ry="10" fill="#e6f2ff" stroke="#b3d7ff" stroke-width="2"/>
+  <rect x="230" y="80" width="150" height="280" rx="10" ry="10" fill="#e6f7ff" stroke="#b3e6ff" stroke-width="2"/>
+  <rect x="410" y="80" width="150" height="280" rx="10" ry="10" fill="#e6fffa" stroke="#b3ffe6" stroke-width="2"/>
+  <rect x="590" y="80" width="150" height="280" rx="10" ry="10" fill="#f0f9eb" stroke="#e1f3d8" stroke-width="2"/>
+  
+  <!-- 第一步：选择主题 -->
+  <text x="125" y="110" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">选择主题</text>
+  <!-- 山路和人物图标 -->
+  <path d="M60,180 Q90,120 120,180 Q150,240 180,180" stroke="#8b4513" stroke-width="3" fill="none"/>
+  <path d="M70,170 Q100,110 130,170 Q160,230 190,170" stroke="#a0522d" stroke-width="1" fill="none"/>
+  <circle cx="125" cy="200" r="15" fill="#ffcc99"/>
+  <line x1="125" y1="215" x2="125" y2="240" stroke="#333" stroke-width="2"/>
+  <line x1="125" y1="225" x2="110" y2="245" stroke="#333" stroke-width="2"/>
+  <line x1="125" y1="225" x2="140" y2="245" stroke="#333" stroke-width="2"/>
+  <line x1="125" y1="240" x2="125" y2="260" stroke="#333" stroke-width="2"/>
+  
+  <!-- 第二步：大纲规划 -->
+  <text x="305" y="110" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">大纲规划</text>
+  <!-- 地图和指南针图标 -->
+  <rect x="260" y="150" width="90" height="120" fill="#fff" stroke="#333" stroke-width="1"/>
+  <line x1="260" y1="180" x2="350" y2="180" stroke="#333" stroke-width="1"/>
+  <line x1="260" y1="210" x2="350" y2="210" stroke="#333" stroke-width="1"/>
+  <line x1="260" y1="240" x2="350" y2="240" stroke="#333" stroke-width="1"/>
+  <circle cx="305" cy="270" r="20" fill="#fff" stroke="#333" stroke-width="1"/>
+  <polygon points="305,255 300,270 305,285 310,270" fill="red"/>
+  <circle cx="305" cy="270" r="3" fill="#333"/>
+  
+  <!-- 第三步：收集资料 -->
+  <text x="485" y="110" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">收集资料</text>
+  <!-- 背包和装备图标 -->
+  <path d="M445,170 Q485,150 525,170 L525,250 Q485,270 445,250 Z" fill="#f0c060" stroke="#333" stroke-width="1"/>
+  <rect x="475" y="150" width="20" height="10" rx="5" ry="5" fill="#f0c060" stroke="#333" stroke-width="1"/>
+  <rect x="460" y="190" width="50" height="40" rx="5" ry="5" fill="#fff" stroke="#333" stroke-width="1"/>
+  <circle cx="465" cy="220" r="5" fill="#6495ed"/>
+  <rect x="475" y="195" width="30" height="5" fill="#333"/>
+  <rect x="475" y="205" width="20" height="5" fill="#333"/>
+  <rect x="475" y="215" width="25" height="5" fill="#333"/>
+  
+  <!-- 第四步：开始写作 -->
+  <text x="665" y="110" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">开始写作</text>
+  <!-- 登山和旗帜图标 -->
+  <path d="M600,260 Q635,160 670,200 Q705,240 740,220" fill="#a9a9a9" stroke="#696969" stroke-width="1"/>
+  <line x1="665" y1="140" x2="665" y2="200" stroke="#8b4513" stroke-width="3"/>
+  <polygon points="665,140 680,155 665,170 650,155" fill="#ff6347"/>
+  <circle cx="645" cy="230" r="15" fill="#ffcc99"/>
+  <line x1="645" y1="245" x2="645" y2="270" stroke="#333" stroke-width="2"/>
+  <line x1="645" y1="255" x2="630" y2="275" stroke="#333" stroke-width="2"/>
+  <line x1="645" y1="255" x2="660" y2="275" stroke="#333" stroke-width="2"/>
+  
+  <!-- 连接箭头 -->
+  <path d="M200,220 L230,220" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="230,220 225,217 225,223" fill="#666"/>
+  
+  <path d="M380,220 L410,220" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="410,220 405,217 405,223" fill="#666"/>
+  
+  <path d="M560,220 L590,220" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="590,220 585,217 585,223" fill="#666"/>
+  
+  <!-- 底部说明文字 -->
+  <text x="400" y="400" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">
+    "选择论文主题就像准备一次长途徒步旅行——选择适合自己能力的路线，"
+  </text>
+  <text x="400" y="420" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">
+    "规划路线图，收集装备，然后开始实际的旅程。"
+  </text>
+  <text x="400" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#777">
+    "就像不会选择超出自己能力的陡峭山路，论文主题也应该在你的知识范围和兴趣领域内。"
+  </text>
+</svg>

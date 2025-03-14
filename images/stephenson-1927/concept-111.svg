@@ -1,0 +1,89 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">
+    心智：先天智能在大脑中的活动
+  </text>
+  
+  <!-- Innate Intelligence representation -->
+  <circle cx="400" cy="150" r="60" fill="url(#innateGradient)">
+    <animate attributeName="r" values="60;65;60" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="400" y="155" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#fff" font-weight="bold">
+    先天智能
+  </text>
+  
+  <!-- Brain representation -->
+  <path d="M300,380 C250,330 270,280 330,270 C370,260 390,270 400,260 C410,270 430,260 470,270 C530,280 550,330 500,380 C520,410 520,440 480,460 C450,480 420,470 400,480 C380,470 350,480 320,460 C280,440 280,410 300,380 Z" 
+        fill="url(#brainGradient)" stroke="#6a5acd" stroke-width="2"/>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#fff" font-weight="bold">
+    大脑
+  </text>
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#fff">
+    心智
+  </text>
+  
+  <!-- Connecting energy lines -->
+  <g opacity="0.7">
+    <path d="M380,210 C360,260 350,280 350,320" stroke="url(#energyGradient)" stroke-width="3" fill="none">
+      <animate attributeName="d" 
+               values="M380,210 C360,260 350,280 350,320;
+                       M380,210 C370,250 360,270 350,320;
+                       M380,210 C360,260 350,280 350,320" 
+               dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M400,210 C400,250 400,280 400,320" stroke="url(#energyGradient)" stroke-width="3" fill="none">
+      <animate attributeName="d" 
+               values="M400,210 C400,250 400,280 400,320;
+                       M400,210 C410,240 390,290 400,320;
+                       M400,210 C400,250 400,280 400,320" 
+               dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M420,210 C440,260 450,280 450,320" stroke="url(#energyGradient)" stroke-width="3" fill="none">
+      <animate attributeName="d" 
+               values="M420,210 C440,260 450,280 450,320;
+                       M420,210 C430,250 440,270 450,320;
+                       M420,210 C440,260 450,280 450,320" 
+               dur="4.5s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Arrow -->
+  <path d="M400,230 L400,250 L410,240 L400,230 M400,250 L390,240 L400,230" fill="#6a5acd"/>
+  
+  <!-- Labels -->
+  <text x="400" y="490" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333" font-weight="bold">
+    心智 = 先天智能在大脑中的活动
+  </text>
+  
+  <!-- Explanation -->
+  <rect x="100" y="520" width="600" height="60" rx="5" ry="5" fill="#f0f0f0" stroke="#ddd"/>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" width="580">
+    就像智能家居系统在客厅显示屏上的界面，心智是那个看不见的先天智能
+  </text>
+  <text x="400" y="565" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" width="580">
+    在大脑这个"显示器"上的活动表现，真正掌控全身的是背后的先天智能。
+  </text>
+  
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="innateGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9370db"/>
+      <stop offset="100%" stop-color="#4169e1"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a7dcf"/>
+      <stop offset="100%" stop-color="#6a5acd"/>
+    </linearGradient>
+    
+    <linearGradient id="energyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9370db"/>
+      <stop offset="100%" stop-color="#6a5acd"/>
+    </linearGradient>
+  </defs>
+</svg>

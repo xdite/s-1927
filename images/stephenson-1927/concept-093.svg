@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" fill="#2c3e50" text-anchor="middle" font-weight="bold">淋巴系统：城市的废物处理网络</text>
+  
+  <!-- Lymph Vessels (Left) -->
+  <g transform="translate(100, 200)">
+    <path d="M0,0 C20,-20 40,20 60,0 C80,-20 100,20 120,0 C140,-20 160,20 180,0" stroke="#5dade2" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M0,30 C20,10 40,50 60,30 C80,10 100,50 120,30 C140,10 160,50 180,30" stroke="#5dade2" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M0,60 C20,40 40,80 60,60 C80,40 100,80 120,60 C140,40 160,80 180,60" stroke="#5dade2" stroke-width="8" fill="none" stroke-linecap="round"/>
+    
+    <!-- Small arrows indicating flow -->
+    <path d="M160,0 L170,0 L165,-5 Z" fill="#2c3e50"/>
+    <path d="M160,30 L170,30 L165,25 Z" fill="#2c3e50"/>
+    <path d="M160,60 L170,60 L165,55 Z" fill="#2c3e50"/>
+    
+    <text x="90" y="100" font-family="Arial, sans-serif" font-size="18" fill="#2c3e50" text-anchor="middle">淋巴管</text>
+    <text x="90" y="125" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d" text-anchor="middle">(城市排水管道)</text>
+  </g>
+  
+  <!-- Lymph Node (Center) -->
+  <g transform="translate(400, 200)">
+    <!-- Kidney-shaped lymph node -->
+    <path d="M-100,0 C-80,-70 80,-70 100,0 C80,70 -80,70 -100,0 Z" fill="#aed6f1" stroke="#3498db" stroke-width="2"/>
+    <path d="M-20,-20 C-10,-40 10,-40 20,-20 C10,0 -10,0 -20,-20 Z" fill="#d6eaf8"/>
+    <path d="M-20,20 C-10,40 10,40 20,20 C10,0 -10,0 -20,20 Z" fill="#d6eaf8"/>
+    
+    <!-- Hilum (concave part) indication -->
+    <path d="M-20,0 C-15,-10 15,-10 20,0 C15,10 -15,10 -20,0 Z" fill="#3498db"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" fill="white" text-anchor="middle">凹面</text>
+    
+    <!-- Processing symbols inside -->
+    <circle cx="-40" cy="-10" r="10" fill="#f39c12" opacity="0.7"/>
+    <circle cx="40" cy="10" r="10" fill="#f39c12" opacity="0.7"/>
+    <circle cx="0" cy="-30" r="8" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="-30" cy="30" r="8" fill="#e74c3c" opacity="0.7"/>
+    <circle cx="30" cy="-20" r="8" fill="#2ecc71" opacity="0.7"/>
+    
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="18" fill="#2c3e50" text-anchor="middle">淋巴结</text>
+    <text x="0" y="105" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d" text-anchor="middle">(废物处理站)</text>
+  </g>
+  
+  <!-- Veins (Right) -->
+  <g transform="translate(600, 200)">
+    <path d="M0,0 C20,-30 40,30 60,0 C80,-30 100,30 120,0" stroke="#9b59b6" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M0,50 C20,20 40,80 60,50 C80,20 100,80 120,50" stroke="#9b59b6" stroke-width="12" fill="none" stroke-linecap="round"/>
+    
+    <!-- Small arrows indicating flow -->
+    <path d="M100,0 L110,0 L105,-5 Z" fill="#2c3e50"/>
+    <path d="M100,50 L110,50 L105,45 Z" fill="#2c3e50"/>
+    
+    <text x="60" y="100" font-family="Arial, sans-serif" font-size="18" fill="#2c3e50" text-anchor="middle">静脉</text>
+    <text x="60" y="125" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d" text-anchor="middle">(城市主水系统)</text>
+  </g>
+  
+  <!-- Flow Arrows -->
+  <g>
+    <!-- From Lymph Vessels to Lymph Node -->
+    <path d="M280,200 L300,200" stroke="#2c3e50" stroke-width="3" fill="none"/>
+    <polygon points="300,195 310,200 300,205" fill="#2c3e50"/>
+    <text x="295" y="190" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">收集</text>
+    
+    <!-- From Lymph Node to Veins -->
+    <path d="M500,200 L520,200" stroke="#2c3e50" stroke-width="3" fill="none"/>
+    <polygon points="520,195 530,200 520,205" fill="#2c3e50"/>
+    <text x="515" y="190" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50" text-anchor="middle">处理后回流</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(400, 380)">
+    <rect x="-250" y="0" width="500" height="80" rx="10" ry="10" fill="#ecf0f1" stroke="#bdc3c7"/>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" text-anchor="middle">
+      淋巴系统就像城市的废物处理网络，收集组织间隙的废物，
+    </text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50" text-anchor="middle">
+      通过肾形的处理站（淋巴结）过滤和加工，然后将有用物质回流到循环系统
+    </text>
+  </g>
+</svg>

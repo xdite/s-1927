@@ -1,0 +1,58 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#f8f8f5" rx="10" ry="10"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">脊椎韧带 (Spinal Ligaments)</text>
+    
+    <!-- 健康状态区域 -->
+    <rect x="50" y="80" width="340" height="300" fill="#e6f2ff" rx="10" ry="10" stroke="#ccc" stroke-width="1"/>
+    <text x="220" y="110" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">健康韧带</text>
+    
+    <!-- 异常状态区域 -->
+    <rect x="410" y="80" width="340" height="300" fill="#fff0f0" rx="10" ry="10" stroke="#ccc" stroke-width="1"/>
+    <text x="580" y="110" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">异常韧带</text>
+    
+    <!-- 健康状态的椎骨和韧带 -->
+    <rect x="100" y="150" width="100" height="40" rx="5" ry="5" fill="#d4e6f1" stroke="#5d8aa8" stroke-width="2"/>
+    <rect x="100" y="270" width="100" height="40" rx="5" ry="5" fill="#d4e6f1" stroke="#5d8aa8" stroke-width="2"/>
+    
+    <!-- 健康韧带 -->
+    <line x1="120" y1="190" x2="120" y2="270" stroke="#5d8aa8" stroke-width="4"/>
+    <line x1="150" y1="190" x2="150" y2="270" stroke="#5d8aa8" stroke-width="4"/>
+    <line x1="180" y1="190" x2="180" y2="270" stroke="#5d8aa8" stroke-width="4"/>
+    
+    <!-- 异常状态的椎骨和韧带 -->
+    <rect x="460" y="150" width="100" height="40" rx="5" ry="5" fill="#d4e6f1" stroke="#5d8aa8" stroke-width="2"/>
+    <rect x="460" y="290" width="100" height="40" rx="5" ry="5" fill="#d4e6f1" stroke="#5d8aa8" stroke-width="2"/>
+    
+    <!-- 异常韧带（松弛） -->
+    <path d="M480 190 Q 470 230 480 290" stroke="#c0392b" stroke-width="4" fill="none"/>
+    
+    <!-- 异常韧带（僵硬） -->
+    <line x1="510" y1="190" x2="510" y2="290" stroke="#c0392b" stroke-width="6"/>
+    
+    <!-- 异常韧带（断裂） -->
+    <path d="M540 190 L 540 230" stroke="#c0392b" stroke-width="4" fill="none"/>
+    <path d="M540 250 L 540 290" stroke="#c0392b" stroke-width="4" fill="none"/>
+    
+    <!-- 标签文字 -->
+    <text x="150" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">椎骨</text>
+    <text x="150" y="290" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">椎骨</text>
+    <text x="220" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">健康韧带</text>
+    
+    <text x="510" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">椎骨</text>
+    <text x="510" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">椎骨</text>
+    <text x="580" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">松弛/僵硬/断裂</text>
+    
+    <!-- 吊桥比喻图示 -->
+    <rect x="100" y="400" width="600" height="80" fill="#f8f8f5" rx="5" ry="5" stroke="#ccc" stroke-width="1"/>
+    <text x="400" y="425" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">脊椎韧带就像吊桥的钢缆，连接椎骨并维持稳定性。</text>
+    <text x="400" y="450" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">当韧带异常时，就像吊桥钢缆松弛或过硬，会影响整体结构稳定性。</text>
+    
+    <!-- 小装饰元素 -->
+    <circle cx="50" cy="50" r="15" fill="#d4e6f1" opacity="0.5"/>
+    <circle cx="750" cy="50" r="15" fill="#d4e6f1" opacity="0.5"/>
+    <circle cx="50" cy="450" r="15" fill="#d4e6f1" opacity="0.5"/>
+    <circle cx="750" cy="450" r="15" fill="#d4e6f1" opacity="0.5"/>
+</svg>

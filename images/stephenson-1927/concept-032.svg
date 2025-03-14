@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 城市轮廓 -->
+  <path d="M50,350 L100,250 L150,300 L200,200 L250,250 L300,180 L350,230 L400,150 L450,200 L500,150 L550,220 L600,170 L650,250 L700,200 L750,300 L750,350 Z" fill="#e6e6e6" stroke="#d0d0d0" stroke-width="2"/>
+  
+  <!-- 道路 -->
+  <path d="M100,350 L100,250 M200,350 L200,200 M300,350 L300,180 M400,350 L400,150 M500,350 L500,150 M600,350 L600,170 M700,350 L700,200" stroke="#a0a0a0" stroke-width="3" stroke-dasharray="5,5"/>
+  <path d="M50,300 L750,300" stroke="#808080" stroke-width="4"/>
+  
+  <!-- 正常区域 -->
+  <circle cx="200" cy="250" r="30" fill="#a8d5ba" opacity="0.7"/>
+  <text x="200" y="250" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">正常组织</text>
+  
+  <!-- 脊椎控制中心 -->
+  <rect x="350" y="50" width="100" height="60" rx="10" ry="10" fill="#f0d0a0" stroke="#d0a080" stroke-width="2"/>
+  <text x="400" y="75" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">脊椎控制中心</text>
+  <text x="400" y="95" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">(神经传导)</text>
+  
+  <!-- 神经传导路径 -->
+  <path d="M400,110 L400,150" stroke="#8080c0" stroke-width="3" stroke-dasharray="none"/>
+  <path d="M390,110 C380,150 350,180 300,200" stroke="#8080c0" stroke-width="3" stroke-dasharray="none"/>
+  <path d="M410,110 C420,150 450,180 500,200" stroke="#8080c0" stroke-width="3" stroke-dasharray="none"/>
+  
+  <!-- 问题区域 -->
+  <circle cx="500" cy="250" r="40" fill="#e0a0a0" opacity="0.8"/>
+  <text x="500" y="245" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">异常组织</text>
+  <text x="500" y="260" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">(垃圾堆积)</text>
+  
+  <!-- 脊椎半脱位 -->
+  <g transform="translate(405, 130)">
+    <rect x="-20" y="-10" width="30" height="20" fill="#e0a0a0" stroke="#c08080" stroke-width="2"/>
+    <text x="-5" y="5" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">X</text>
+  </g>
+  <text x="430" y="130" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">脊椎半脱位</text>
+  
+  <!-- 细菌清道夫 -->
+  <g transform="translate(500, 250)">
+    <!-- 多个小细菌围绕异常组织 -->
+    <circle cx="-15" cy="-20" r="8" fill="#80a0c0" opacity="0.8"/>
+    <circle cx="20" cy="-10" r="7" fill="#80a0c0" opacity="0.8"/>
+    <circle cx="15" cy="15" r="9" fill="#80a0c0" opacity="0.8"/>
+    <circle cx="-20" cy="10" r="6" fill="#80a0c0" opacity="0.8"/>
+    <circle cx="0" cy="-5" r="10" fill="#80a0c0" opacity="0.8"/>
+  </g>
+  
+  <!-- 图例 -->
+  <rect x="600" y="50" width="150" height="120" rx="5" ry="5" fill="white" stroke="#d0d0d0" stroke-width="1"/>
+  <text x="675" y="70" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">图例</text>
+  
+  <circle cx="620" cy="90" r="8" fill="#80a0c0" opacity="0.8"/>
+  <text x="635" y="95" font-family="Arial" font-size="12" text-anchor="start" fill="#333">细菌(清道夫)</text>
+  
+  <rect x="620" y="110" width="15" height="10" fill="#e0a0a0" opacity="0.8"/>
+  <text x="645" y="120" font-family="Arial" font-size="12" text-anchor="start" fill="#333">异常组织</text>
+  
+  <rect x="620" y="135" width="15" height="10" fill="#f0d0a0" opacity="0.8"/>
+  <text x="645" y="145" font-family="Arial" font-size="12" text-anchor="start" fill="#333">脊椎控制中心</text>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="400" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333">脊骨神经医学视角：细菌是清道夫，只在异常组织上滋生</text>
+  <text x="400" y="425" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">疾病根源在于脊椎半脱位导致的神经传导障碍</text>
+  <text x="400" y="450" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">就像城市清洁工只在垃圾堆积处工作，根本问题在于交通指挥中心的故障</text>
+</svg>

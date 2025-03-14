@@ -1,0 +1,68 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">神经传导的适应性与压力反应</text>
+  
+  <!-- 左侧：正常神经 -->
+  <g transform="translate(100, 100)">
+    <!-- 神经纤维管道 -->
+    <rect x="0" y="0" width="250" height="80" rx="40" ry="40" fill="#e1f5fe" stroke="#29b6f6" stroke-width="2"/>
+    
+    <!-- 电流流动 -->
+    <circle cx="50" cy="40" r="15" fill="#64b5f6">
+      <animate attributeName="cx" from="50" to="200" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="40" r="12" fill="#64b5f6">
+      <animate attributeName="cx" from="80" to="230" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="30" cy="40" r="10" fill="#64b5f6">
+      <animate attributeName="cx" from="30" to="180" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- 标签 -->
+    <text x="125" y="-15" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">正常神经纤维</text>
+    <text x="125" y="110" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">适应性电流有额外空间</text>
+  </g>
+  
+  <!-- 右侧：受压神经 -->
+  <g transform="translate(450, 100)">
+    <!-- 神经纤维管道 -->
+    <rect x="0" y="0" width="250" height="80" rx="40" ry="40" fill="#e1f5fe" stroke="#29b6f6" stroke-width="2"/>
+    
+    <!-- 压力点 -->
+    <path d="M100,-10 Q125,30 150,-10" stroke="#f44336" stroke-width="4" fill="none"/>
+    <path d="M100,90 Q125,50 150,90" stroke="#f44336" stroke-width="4" fill="none"/>
+    
+    <!-- 热盒区域 -->
+    <ellipse cx="125" cy="40" rx="30" ry="25" fill="#ffcdd2" stroke="#ef5350" stroke-width="1" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.9;0.7" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    
+    <!-- 电流流动 -->
+    <circle cx="50" cy="40" r="15" fill="#64b5f6">
+      <animate attributeName="cx" from="50" to="90" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="160" cy="40" r="15" fill="#64b5f6">
+      <animate attributeName="cx" from="160" to="200" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- 热能表示 -->
+    <path d="M115,30 L120,20 L125,30 L130,20 L135,30" stroke="#f44336" stroke-width="1.5" fill="none"/>
+    <path d="M115,50 L120,60 L125,50 L130,60 L135,50" stroke="#f44336" stroke-width="1.5" fill="none"/>
+    
+    <!-- 标签 -->
+    <text x="125" y="-15" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">受压神经纤维</text>
+    <text x="125" y="110" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">适应性电流转化为热</text>
+    <text x="125" y="40" font-family="Arial" font-size="12" text-anchor="middle" fill="#d32f2f">热盒</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    就像高速公路上的车流遇到施工区时会产生热点区域，
+  </text>
+  <text x="400" y="470" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    神经受压时的适应性电流也会转化为热，形成"热盒"。
+  </text>
+</svg>

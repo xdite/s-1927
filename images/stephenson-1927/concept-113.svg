@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">论文的真正价值</text>
+  
+  <!-- 左侧：简单堆砌知识 -->
+  <rect x="80" y="100" width="280" height="300" fill="#f0f0f0" rx="5" ry="5" stroke="#ddd" stroke-width="2"/>
+  <text x="220" y="130" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#666">知识堆砌</text>
+  
+  <!-- 右侧：融合科学知识与独立思考 -->
+  <rect x="440" y="100" width="280" height="300" fill="#e6f7ff" rx="5" ry="5" stroke="#91d5ff" stroke-width="2"/>
+  <text x="580" y="130" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0050b3">科学知识 + 独立思考</text>
+  
+  <!-- 左侧花园：杂乱无章的植物 -->
+  <rect x="120" y="150" width="200" height="200" fill="#e8e8e8" rx="3" ry="3"/>
+  <text x="220" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">"拼贴花园"</text>
+  
+  <!-- 左侧花园的植物 -->
+  <circle cx="140" cy="200" r="15" fill="#ffcccc"/>
+  <circle cx="180" cy="190" r="12" fill="#ccffcc"/>
+  <circle cx="160" cy="230" r="18" fill="#ccccff"/>
+  <circle cx="200" cy="220" r="10" fill="#ffffcc"/>
+  <circle cx="220" cy="190" r="14" fill="#ffccff"/>
+  <circle cx="250" cy="210" r="16" fill="#ccffff"/>
+  <circle cx="270" cy="240" r="12" fill="#ffddcc"/>
+  <circle cx="230" cy="250" r="15" fill="#ddffcc"/>
+  <circle cx="190" cy="260" r="13" fill="#ccddff"/>
+  <circle cx="150" cy="270" r="11" fill="#ffffdd"/>
+  <circle cx="280" cy="270" r="14" fill="#ffccdd"/>
+  
+  <!-- 右侧花园：有序的花园设计 -->
+  <rect x="480" y="150" width="200" height="200" fill="#e6f7ff" rx="3" ry="3"/>
+  <text x="580" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#0050b3">"有机花园"</text>
+  
+  <!-- 右侧花园的布局 -->
+  <path d="M580,250 C520,200 520,300 580,250 Z" fill="#91d5ff" stroke="#1890ff" stroke-width="1"/>
+  <path d="M580,250 C640,200 640,300 580,250 Z" fill="#91d5ff" stroke="#1890ff" stroke-width="1"/>
+  <path d="M580,250 C580,190 520,250 580,250 Z" fill="#91d5ff" stroke="#1890ff" stroke-width="1"/>
+  <path d="M580,250 C580,190 640,250 580,250 Z" fill="#91d5ff" stroke="#1890ff" stroke-width="1"/>
+  <path d="M580,250 C580,310 520,250 580,250 Z" fill="#91d5ff" stroke="#1890ff" stroke-width="1"/>
+  <path d="M580,250 C580,310 640,250 580,250 Z" fill="#91d5ff" stroke="#1890ff" stroke-width="1"/>
+  
+  <!-- 园丁 -->
+  <circle cx="580" cy="250" r="15" fill="#0050b3"/>
+  <line x1="580" y1="265" x2="580" y2="290" stroke="#0050b3" stroke-width="2"/>
+  <line x1="580" y1="275" x2="560" y2="285" stroke="#0050b3" stroke-width="2"/>
+  <line x1="580" y1="275" x2="600" y2="285" stroke="#0050b3" stroke-width="2"/>
+  <line x1="580" y1="290" x2="570" y2="310" stroke="#0050b3" stroke-width="2"/>
+  <line x1="580" y1="290" x2="590" y2="310" stroke="#0050b3" stroke-width="2"/>
+  
+  <!-- 根系连接 -->
+  <path d="M580,250 C560,260 540,280 530,300" stroke="#1890ff" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+  <path d="M580,250 C600,260 620,280 630,300" stroke="#1890ff" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+  <path d="M580,250 C570,270 550,290 540,310" stroke="#1890ff" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+  <path d="M580,250 C590,270 610,290 620,310" stroke="#1890ff" stroke-width="1" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- 说明文字 -->
+  <text x="220" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">简单收集和堆砌各种知识点</text>
+  <text x="220" y="335" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">缺乏内在联系与个人见解</text>
+  
+  <text x="580" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0050b3">理解知识间的内在联系</text>
+  <text x="580" y="335" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0050b3">通过独立思考形成有机整体</text>
+  
+  <!-- 底部比喻说明 -->
+  <rect x="100" y="420" width="600" height="60" fill="#f0f0f0" rx="5" ry="5"/>
+  <text x="400" y="445" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    论文如园艺：简单堆砌知识如拼贴花园，而融合科学知识与独立思考
+  </text>
+  <text x="400" y="465" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    则如园丁精心培育的有机花园，展现真才实学而非仅是文凭
+  </text>
+</svg>

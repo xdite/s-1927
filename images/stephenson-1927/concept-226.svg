@@ -1,0 +1,63 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#f9f9f9"/>
+    
+    <!-- 宇宙智能 - 市政中心 -->
+    <circle cx="400" cy="100" r="60" fill="#f6e6fa" stroke="#6a4c93" stroke-width="3"/>
+    <text x="400" y="100" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333">宇宙智能</text>
+    <text x="400" y="120" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(市政中心)</text>
+    
+    <!-- 与生俱来的智能 - 中央指挥塔 -->
+    <polygon points="400,180 370,240 430,240" fill="#e0e8ff" stroke="#3a86ff" stroke-width="3"/>
+    <text x="400" y="210" font-family="Arial" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#333">与生俱来的智能</text>
+    <text x="400" y="230" font-family="Arial" font-size="10" text-anchor="middle" dominant-baseline="middle" fill="#555">(中央指挥塔)</text>
+    
+    <!-- 连接线 -->
+    <line x1="400" y1="160" x2="400" y2="180" stroke="#6a4c93" stroke-width="3"/>
+    
+    <!-- 适应环境 - 交通系统 -->
+    <rect x="320" y="270" width="160" height="60" rx="10" fill="#d8f3dc" stroke="#2d6a4f" stroke-width="3"/>
+    <text x="400" y="295" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333">适应环境</text>
+    <text x="400" y="315" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(交通系统)</text>
+    
+    <!-- 连接线 -->
+    <line x1="400" y1="240" x2="400" y2="270" stroke="#3a86ff" stroke-width="3"/>
+    
+    <!-- 身体 - 城市社区 -->
+    <circle cx="400" cy="400" r="70" fill="#ffedd8" stroke="#f77f00" stroke-width="3"/>
+    <text x="400" y="390" font-family="Arial" font-size="18" text-anchor="middle" dominant-baseline="middle" fill="#333">身体</text>
+    <text x="400" y="415" font-family="Arial" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#555">(城市社区)</text>
+    
+    <!-- 连接线 -->
+    <line x1="400" y1="330" x2="400" y2="330" stroke="#2d6a4f" stroke-width="3"/>
+    
+    <!-- 神经系统 - 道路网络 -->
+    <path d="M400,330 C450,340 480,360 460,400 C440,440 360,440 340,400 C320,360 350,340 400,330" fill="#e9f5db" stroke="#588157" stroke-width="3"/>
+    <text x="400" y="360" font-family="Arial" font-size="14" text-anchor="middle" dominant-baseline="middle" fill="#333">神经系统</text>
+    <text x="400" y="380" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(道路网络)</text>
+    
+    <!-- 半脱位 - 交通堵塞 -->
+    <g transform="translate(600, 300)">
+        <rect x="-80" y="-40" width="160" height="80" rx="15" fill="#ffd7ba" stroke="#d62828" stroke-width="2" stroke-dasharray="5,5"/>
+        <text x="0" y="-15" font-family="Arial" font-size="16" text-anchor="middle" dominant-baseline="middle" fill="#333">半脱位</text>
+        <text x="0" y="15" font-family="Arial" font-size="12" text-anchor="middle" dominant-baseline="middle" fill="#555">(交通堵塞)</text>
+    </g>
+    
+    <!-- 箭头指向半脱位 -->
+    <path d="M460,380 Q520,350 520,300" fill="none" stroke="#d62828" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrow)"/>
+    
+    <!-- 箭头标记 -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="#d62828"/>
+        </marker>
+    </defs>
+    
+    <!-- 图例说明 -->
+    <text x="400" y="520" font-family="Arial" font-size="14" text-anchor="middle" fill="#333" font-style="italic">
+        宇宙智能通过神经系统指导身体适应环境的过程，
+    </text>
+    <text x="400" y="540" font-family="Arial" font-size="14" text-anchor="middle" fill="#333" font-style="italic">
+        就像城市交通系统将中央指令传递到各个社区
+    </text>
+</svg>

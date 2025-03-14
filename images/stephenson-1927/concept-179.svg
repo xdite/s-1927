@@ -1,0 +1,79 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">生物周期的协同工作</text>
+  
+  <!-- 左侧：复合周期 -->
+  <rect x="100" y="100" width="250" height="300" fill="#e6f3ff" rx="10" ry="10" stroke="#aac8e4" stroke-width="2"/>
+  <text x="225" y="130" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#2c5282">复合周期</text>
+  
+  <!-- 小提琴手和大提琴手（代表周期1和周期2） -->
+  <circle cx="175" cy="200" r="40" fill="#91c7f5" stroke="#5a9bd5" stroke-width="2"/>
+  <path d="M175,170 L175,230 M165,240 L185,240 M175,230 L175,270 M160,290 L175,270 L190,290" stroke="#333" stroke-width="2" fill="none"/>
+  <line x1="155" y1="200" x2="195" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="155" y1="190" x2="155" y2="210" stroke="#333" stroke-width="2"/>
+  
+  <circle cx="275" cy="200" r="40" fill="#91c7f5" stroke="#5a9bd5" stroke-width="2"/>
+  <path d="M275,170 L275,230 M265,240 L285,240 M275,230 L275,270 M260,290 L275,270 L290,290" stroke="#333" stroke-width="2" fill="none"/>
+  <line x1="255" y1="200" x2="295" y2="200" stroke="#333" stroke-width="2"/>
+  <line x1="295" y1="190" x2="295" y2="210" stroke="#333" stroke-width="2"/>
+  
+  <!-- 连接线和双向箭头 -->
+  <path d="M195,180 C215,170 235,170 255,180" stroke="#5a9bd5" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M255,220 C235,230 215,230 195,220" stroke="#5a9bd5" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 协同工作说明 -->
+  <rect x="150" y="320" width="150" height="60" fill="#d5e8d4" rx="10" ry="10" stroke="#82b366" stroke-width="2"/>
+  <text x="225" y="345" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">协同工作</text>
+  <text x="225" y="365" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">相互依赖</text>
+  
+  <!-- 右侧：复杂周期 -->
+  <rect x="450" y="100" width="250" height="300" fill="#fff2e6" rx="10" ry="10" stroke="#d6b295" stroke-width="2"/>
+  <text x="575" y="130" font-family="Arial" font-size="20" text-anchor="middle" font-weight="bold" fill="#824a20">复杂周期</text>
+  
+  <!-- 管弦乐团（代表多个周期） -->
+  <circle cx="505" cy="200" r="25" fill="#ffcc99" stroke="#d6b295" stroke-width="2"/>
+  <path d="M505,180 L505,220 M500,225 L510,225 M505,220 L505,240 M495,250 L505,240 L515,250" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <circle cx="555" cy="180" r="25" fill="#ffcc99" stroke="#d6b295" stroke-width="2"/>
+  <path d="M555,160 L555,200 M550,205 L560,205 M555,200 L555,220 M545,230 L555,220 L565,230" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <circle cx="555" cy="230" r="25" fill="#ffcc99" stroke="#d6b295" stroke-width="2"/>
+  <path d="M555,210 L555,250 M550,255 L560,255 M555,250 L555,270 M545,280 L555,270 L565,280" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <circle cx="605" cy="190" r="25" fill="#ffcc99" stroke="#d6b295" stroke-width="2"/>
+  <path d="M605,170 L605,210 M600,215 L610,215 M605,210 L605,230 M595,240 L605,230 L615,240" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <circle cx="645" cy="210" r="25" fill="#ffcc99" stroke="#d6b295" stroke-width="2"/>
+  <path d="M645,190 L645,230 M640,235 L650,235 M645,230 L645,250 M635,260 L645,250 L655,260" stroke="#333" stroke-width="1.5" fill="none"/>
+  
+  <!-- 指挥家 -->
+  <circle cx="575" cy="260" r="30" fill="#f5d5e3" stroke="#d292bc" stroke-width="2"/>
+  <path d="M575,235 L575,285 M565,290 L585,290 M575,285 L575,310 M560,325 L575,310 L590,325" stroke="#333" stroke-width="2" fill="none"/>
+  <line x1="555" y1="260" x2="595" y2="260" stroke="#333" stroke-width="2"/>
+  <line x1="545" y1="270" x2="555" y2="260" stroke="#333" stroke-width="2"/>
+  <line x1="605" y1="270" x2="595" y2="260" stroke="#333" stroke-width="2"/>
+  
+  <!-- 连接线和循环箭头 -->
+  <path d="M520,175 C530,165 550,160 575,160 C600,160 620,165 630,175" stroke="#d6b295" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M630,225 C620,235 600,240 575,240 C550,240 530,235 520,225" stroke="#d6b295" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 协同工作说明 -->
+  <rect x="500" y="320" width="150" height="60" fill="#d5e8d4" rx="10" ry="10" stroke="#82b366" stroke-width="2"/>
+  <text x="575" y="345" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">协同工作</text>
+  <text x="575" y="365" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">相互依赖</text>
+  
+  <!-- 底部说明文字 -->
+  <text x="400" y="450" font-family="Arial" font-size="16" text-anchor="middle" fill="#555">
+    像管弦乐团一样，生物周期需要精确协调才能和谐运作
+  </text>
+  
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

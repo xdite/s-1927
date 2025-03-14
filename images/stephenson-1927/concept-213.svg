@@ -1,0 +1,80 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f4e8" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#d35400">产热 (Thermogenesis)</text>
+  
+  <!-- 中央房屋 -->
+  <g transform="translate(320, 200)">
+    <path d="M0,100 L80,40 L160,100 L160,220 L0,220 Z" fill="#f5e6ca" stroke="#d35400" stroke-width="3"/>
+    <rect x="60" y="160" width="40" height="60" fill="#e67e22" stroke="#d35400" stroke-width="2"/>
+    <rect x="20" y="120" width="30" height="30" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <rect x="110" y="120" width="30" height="30" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <path d="M80,40 L80,80 L100,80 L100,60" fill="none" stroke="#d35400" stroke-width="2"/>
+    <circle cx="80" cy="140" r="30" fill="#f39c12" opacity="0.3"/>
+  </g>
+  
+  <!-- 左侧暖气片（生热器官） -->
+  <g transform="translate(120, 250)">
+    <rect x="0" y="0" width="100" height="120" rx="5" ry="5" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <line x1="20" y1="10" x2="20" y2="110" stroke="#c0392b" stroke-width="3"/>
+    <line x1="40" y1="10" x2="40" y2="110" stroke="#c0392b" stroke-width="3"/>
+    <line x1="60" y1="10" x2="60" y2="110" stroke="#c0392b" stroke-width="3"/>
+    <line x1="80" y1="10" x2="80" y2="110" stroke="#c0392b" stroke-width="3"/>
+    <text x="50" y="140" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#c0392b">生热器官</text>
+    <!-- 热量波浪线 -->
+    <path d="M110,30 Q120,20 130,30 Q140,40 150,30" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="2"/>
+    <path d="M110,60 Q120,50 130,60 Q140,70 150,60" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="2"/>
+    <path d="M110,90 Q120,80 130,90 Q140,100 150,90" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="2"/>
+  </g>
+  
+  <!-- 右侧烤箱（副产品热量） -->
+  <g transform="translate(580, 250)">
+    <rect x="0" y="0" width="100" height="120" rx="10" ry="10" fill="#7f8c8d" stroke="#2c3e50" stroke-width="2"/>
+    <rect x="10" y="20" width="80" height="60" rx="5" ry="5" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+    <circle cx="50" cy="100" r="10" fill="#ecf0f1" stroke="#2c3e50" stroke-width="1"/>
+    <text x="50" y="140" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">副产品热量</text>
+    <!-- 热量波浪线 -->
+    <path d="M-10,30 Q-20,20 -30,30 Q-40,40 -50,30" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="2"/>
+    <path d="M-10,60 Q-20,50 -30,60 Q-40,70 -50,60" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="2"/>
+    <path d="M-10,90 Q-20,80 -30,90 Q-40,100 -50,90" fill="none" stroke="#e74c3c" stroke-width="2" stroke-dasharray="2"/>
+  </g>
+  
+  <!-- 顶部温控器（先天智能协调系统） -->
+  <g transform="translate(400, 120)">
+    <circle cx="0" cy="0" r="40" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <circle cx="0" cy="0" r="30" fill="#2980b9" stroke="#2980b9" stroke-width="1"/>
+    <path d="M-15,-15 L15,15 M-15,15 L15,-15" stroke="#ecf0f1" stroke-width="3"/>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2980b9">先天智能协调系统</text>
+  </g>
+  
+  <!-- 连接线 -->
+  <g stroke="#95a5a6" stroke-width="2" fill="none">
+    <!-- 暖气到房屋 -->
+    <path d="M220,300 C270,300 270,300 320,300" marker-end="url(#arrowhead)"/>
+    <!-- 烤箱到房屋 -->
+    <path d="M580,300 C530,300 530,300 480,300" marker-end="url(#arrowhead)"/>
+    <!-- 温控器到房屋 -->
+    <path d="M400,160 L400,200" marker-end="url(#arrowhead)"/>
+    <!-- 温控器到暖气 -->
+    <path d="M370,120 C250,120 170,120 170,250" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+    <!-- 温控器到烤箱 -->
+    <path d="M430,120 C550,120 630,120 630,250" marker-end="url(#arrowhead)" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#95a5a6"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="500" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#7f8c8d">
+    产热就像家庭供暖：专用暖气(生热器官)和烤箱副产热(副产品热量)
+  </text>
+  <text x="400" y="525" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#7f8c8d">
+    都被智能温控系统(先天智能)协调利用，共同维持家庭温暖
+  </text>
+</svg>

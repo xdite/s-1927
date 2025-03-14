@@ -1,0 +1,65 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">神经系统：精神力量的传导体</text>
+  
+  <!-- 大脑部分 -->
+  <g transform="translate(400, 180)">
+    <ellipse cx="0" cy="0" rx="100" ry="80" fill="#e6f2ff" stroke="#4682b4" stroke-width="2"/>
+    <path d="M-20,-20 C-10,-40 10,-40 20,-20 M-40,0 C-30,-20 -10,-20 0,0 C10,-20 30,-20 40,0 M-20,20 C-10,40 10,40 20,20" stroke="#4682b4" stroke-width="2" fill="none"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">大脑</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">(指挥中心)</text>
+  </g>
+  
+  <!-- 脊髓部分 -->
+  <g transform="translate(400, 320)">
+    <rect x="-50" y="0" width="100" height="150" rx="10" ry="10" fill="#fff0db" stroke="#d4a76a" stroke-width="2"/>
+    <line x1="-30" y1="20" x2="30" y2="20" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="-30" y1="40" x2="30" y2="40" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="-30" y1="60" x2="30" y2="60" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="-30" y1="80" x2="30" y2="80" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="-30" y1="100" x2="30" y2="100" stroke="#d4a76a" stroke-width="1.5"/>
+    <line x1="-30" y1="120" x2="30" y2="120" stroke="#d4a76a" stroke-width="1.5"/>
+    <text x="0" y="75" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">脊髓</text>
+    <text x="0" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">(主干道)</text>
+  </g>
+  
+  <!-- 身体组织部分 -->
+  <g transform="translate(400, 520)">
+    <rect x="-150" y="0" width="300" height="60" rx="20" ry="20" fill="#e6ffe6" stroke="#5d8c5d" stroke-width="2"/>
+    <circle cx="-100" cy="30" r="15" fill="#5d8c5d" opacity="0.7"/>
+    <circle cx="-50" cy="30" r="15" fill="#5d8c5d" opacity="0.7"/>
+    <circle cx="0" cy="30" r="15" fill="#5d8c5d" opacity="0.7"/>
+    <circle cx="50" cy="30" r="15" fill="#5d8c5d" opacity="0.7"/>
+    <circle cx="100" cy="30" r="15" fill="#5d8c5d" opacity="0.7"/>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">身体组织</text>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <!-- 大脑到脊髓 -->
+  <g>
+    <path d="M400,260 L400,320" stroke="#4682b4" stroke-width="3" fill="none"/>
+    <polygon points="400,320 395,310 405,310" fill="#4682b4"/>
+    <text x="450" y="290" font-family="Arial, sans-serif" font-size="14" fill="#333">精神力量</text>
+  </g>
+  
+  <!-- 脊髓到身体组织 -->
+  <g>
+    <path d="M400,470 L400,520" stroke="#d4a76a" stroke-width="3" fill="none"/>
+    <polygon points="400,520 395,510 405,510" fill="#d4a76a"/>
+    <text x="450" y="495" font-family="Arial, sans-serif" font-size="14" fill="#333">分配到各器官</text>
+  </g>
+  
+  <!-- 装饰元素：信号波 -->
+  <g>
+    <path d="M330,290 Q340,280 350,290 Q360,300 370,290" stroke="#4682b4" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <path d="M330,495 Q340,485 350,495 Q360,505 370,495" stroke="#d4a76a" stroke-width="1.5" fill="none" opacity="0.6"/>
+  </g>
+  
+  <!-- 图例说明 -->
+  <text x="400" y="580" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666" font-style="italic">
+    就像城市交通系统，大脑作为指挥中心通过脊髓这条主干道将信息传递到身体各处
+  </text>
+</svg>

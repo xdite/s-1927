@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">
+    Creation: Adaptation of Universal Forces
+  </text>
+  
+  <!-- Kitchen (Brain Cell) -->
+  <rect x="150" y="100" width="500" height="350" fill="#e6f7ff" stroke="#333" stroke-width="2" rx="10" ry="10"/>
+  <text x="400" y="130" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">
+    Brain Cell (Kitchen)
+  </text>
+  
+  <!-- Chef (Innate Intelligence) -->
+  <circle cx="400" cy="250" r="50" fill="#f9f" stroke="#333" stroke-width="2"/>
+  <text x="400" y="255" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    Innate
+  </text>
+  <text x="400" y="275" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    Intelligence
+  </text>
+  
+  <!-- Universal Forces (Ingredients) -->
+  <circle cx="200" cy="200" r="30" fill="#ffcc99" stroke="#333" stroke-width="1"/>
+  <text x="200" y="205" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Heat
+  </text>
+  
+  <rect x="250" cy="180" width="40" height="30" fill="#99cc99" stroke="#333" stroke-width="1"/>
+  <text x="270" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Water
+  </text>
+  
+  <polygon points="180,300 220,300 200,330" fill="#cc99cc" stroke="#333" stroke-width="1"/>
+  <text x="200" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Energy
+  </text>
+  
+  <rect x="240" y="290" width="50" height="40" rx="5" ry="5" fill="#99ccff" stroke="#333" stroke-width="1"/>
+  <text x="265" y="315" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    Matter
+  </text>
+  
+  <!-- Created Dish (Organized Function) -->
+  <ellipse cx="550" cy="250" rx="70" ry="40" fill="#ffffcc" stroke="#333" stroke-width="2"/>
+  <text x="550" y="255" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    Organized
+  </text>
+  <text x="550" y="275" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    Function
+  </text>
+  
+  <!-- Arrows -->
+  <path d="M230,200 L350,240" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M270,200 L350,245" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M220,310 L350,260" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M290,310 L350,260" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M450,250 L480,250" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Universal Forces from outside -->
+  <path d="M100,150 C120,160 130,170 150,180" stroke="#666" stroke-width="2" stroke-dasharray="5,5" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="80" y="140" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    Universal
+  </text>
+  <text x="80" y="160" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    Forces
+  </text>
+  
+  <!-- Arrow definitions -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <rect x="150" y="480" width="500" height="80" fill="#fff" stroke="#ccc" stroke-width="1" rx="5" ry="5"/>
+  <text x="400" y="500" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-style="italic" fill="#666">
+    Creation is like a chef using existing ingredients and cooking methods
+  </text>
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-style="italic" fill="#666">
+    to prepare a meal, not creating ingredients from nothing.
+  </text>
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-style="italic" fill="#666">
+    The chef adapts universal resources to maintain kitchen function.
+  </text>
+</svg>

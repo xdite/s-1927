@@ -1,0 +1,46 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 山 -->
+  <path d="M0,600 L300,250 L500,400 L800,200 L800,600 Z" fill="#e0e8e0" stroke="#c0c8c0" stroke-width="2"/>
+  
+  <!-- 宇宙智能水库 -->
+  <ellipse cx="400" cy="150" rx="180" ry="80" fill="#f9f0ff" stroke="#9966cc" stroke-width="3"/>
+  <ellipse cx="400" cy="150" rx="160" ry="70" fill="#e6ccff" stroke="#9966cc" stroke-width="1"/>
+  <path d="M250,150 Q400,180 550,150" stroke="#9966cc" stroke-width="1" fill="none"/>
+  <path d="M270,130 Q400,160 530,130" stroke="#9966cc" stroke-width="1" fill="none"/>
+  
+  <!-- 水流管道 -->
+  <path d="M400,220 C400,220 400,300 400,380" stroke="#9966cc" stroke-width="10" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- 内在智能水箱 -->
+  <rect x="300" y="380" width="200" height="120" rx="10" ry="10" fill="#e6f0ff" stroke="#6699cc" stroke-width="3"/>
+  <rect x="310" y="390" width="180" height="100" rx="5" ry="5" fill="#cce0ff" stroke="#6699cc" stroke-width="1"/>
+  <path d="M320,440 Q400,460 480,440" stroke="#6699cc" stroke-width="1" fill="none"/>
+  
+  <!-- 水流到植物 -->
+  <path d="M350,500 L350,550" stroke="#6699cc" stroke-width="3" fill="none"/>
+  <path d="M400,500 L400,550" stroke="#6699cc" stroke-width="3" fill="none"/>
+  <path d="M450,500 L450,550" stroke="#6699cc" stroke-width="3" fill="none"/>
+  
+  <!-- 植物/细胞 -->
+  <circle cx="350" cy="565" r="15" fill="#a0d6a0" stroke="#66aa66" stroke-width="1"/>
+  <circle cx="400" cy="565" r="15" fill="#a0d6a0" stroke="#66aa66" stroke-width="1"/>
+  <circle cx="450" cy="565" r="15" fill="#a0d6a0" stroke="#66aa66" stroke-width="1"/>
+  
+  <!-- 标签 -->
+  <text x="400" y="100" font-family="Arial" font-size="22" text-anchor="middle" fill="#663399" font-weight="bold">宇宙智能</text>
+  <text x="400" y="125" font-family="Arial" font-size="16" text-anchor="middle" fill="#663399">无限的能量源泉</text>
+  
+  <text x="400" y="420" font-family="Arial" font-size="22" text-anchor="middle" fill="#336699" font-weight="bold">内在智能</text>
+  <text x="400" y="445" font-family="Arial" font-size="16" text-anchor="middle" fill="#336699">受限于容器大小</text>
+  
+  <text x="400" y="590" font-family="Arial" font-size="18" text-anchor="middle" fill="#339933">组织细胞</text>
+  
+  <!-- 说明文字 -->
+  <rect x="100" y="20" width="600" height="50" rx="10" ry="10" fill="#ffffff" stroke="#cccccc" stroke-width="1"/>
+  <text x="400" y="50" font-family="Arial" font-size="14" text-anchor="middle" fill="#555555">
+    宇宙智能如同高山水库，内在智能如家庭水箱，虽容量有限但本质相同
+  </text>
+</svg>

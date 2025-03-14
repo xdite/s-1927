@@ -1,0 +1,68 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">
+    神经组织的构成 (Composition of Nervous Tissue)
+  </text>
+  
+  <!-- 饼图 -->
+  <g transform="translate(400, 280)">
+    <!-- 大脑部分 - 30% -->
+    <path d="M0,0 L0,-150 A150,150 0 0,1 129.9,75 z" fill="#6b9bd0" stroke="#fff" stroke-width="2"/>
+    <!-- 脊髓部分 - 25% -->
+    <path d="M0,0 L129.9,75 A150,150 0 0,1 -58.5,138.6 z" fill="#f4b183" stroke="#fff" stroke-width="2"/>
+    <!-- 神经部分 - 35% -->
+    <path d="M0,0 L-58.5,138.6 A150,150 0 0,1 -138.6,-58.5 z" fill="#a8d08d" stroke="#fff" stroke-width="2"/>
+    <!-- 神经节和神经丛部分 - 10% -->
+    <path d="M0,0 L-138.6,-58.5 A150,150 0 0,1 0,-150 z" fill="#c5a5cf" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <!-- 图标和图例 -->
+  <!-- 大脑图标 -->
+  <g transform="translate(560, 200)">
+    <path d="M0,0 C10,-15 25,-20 40,-15 C50,-25 65,-25 75,-15 C90,-20 105,-15 110,0 C115,15 110,30 100,40 C105,50 100,65 85,70 C80,85 65,90 50,85 C35,90 20,85 15,70 C0,65 -5,50 0,40 C-10,30 -10,15 0,0z" fill="#6b9bd0" stroke="#333" stroke-width="1.5"/>
+    <text x="55" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">大脑 (Brain)</text>
+    <text x="55" y="120" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">30%</text>
+  </g>
+  
+  <!-- 脊髓图标 -->
+  <g transform="translate(560, 350)">
+    <rect x="0" y="0" width="20" height="60" rx="5" ry="5" fill="#f4b183" stroke="#333" stroke-width="1.5"/>
+    <line x1="10" y1="0" x2="10" y2="60" stroke="#333" stroke-width="1"/>
+    <line x1="0" y1="20" x2="20" y2="20" stroke="#333" stroke-width="1"/>
+    <line x1="0" y1="40" x2="20" y2="40" stroke="#333" stroke-width="1"/>
+    <text x="55" y="35" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">脊髓 (Spinal Cord)</text>
+    <text x="55" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">25%</text>
+  </g>
+  
+  <!-- 神经图标 -->
+  <g transform="translate(240, 350)">
+    <path d="M0,0 C20,10 40,-10 60,0 C80,10 100,-10 120,0" fill="none" stroke="#a8d08d" stroke-width="4"/>
+    <path d="M0,15 C20,25 40,5 60,15 C80,25 100,5 120,15" fill="none" stroke="#a8d08d" stroke-width="4"/>
+    <path d="M0,30 C20,40 40,20 60,30 C80,40 100,20 120,30" fill="none" stroke="#a8d08d" stroke-width="4"/>
+    <text x="60" y="55" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">神经 (Nerves)</text>
+    <text x="60" y="75" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">35%</text>
+  </g>
+  
+  <!-- 神经节和神经丛图标 -->
+  <g transform="translate(240, 200)">
+    <circle cx="30" cy="10" r="10" fill="#c5a5cf" stroke="#333" stroke-width="1.5"/>
+    <circle cx="60" cy="20" r="8" fill="#c5a5cf" stroke="#333" stroke-width="1.5"/>
+    <circle cx="90" cy="10" r="12" fill="#c5a5cf" stroke="#333" stroke-width="1.5"/>
+    <line x1="40" y1="10" x2="52" y2="18" stroke="#333" stroke-width="1.5"/>
+    <line x1="68" y1="20" x2="78" y2="15" stroke="#333" stroke-width="1.5"/>
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">神经节和神经丛</text>
+    <text x="60" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">(Ganglia & Plexuses)</text>
+    <text x="60" y="85" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">10%</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#555" font-style="italic">
+    神经组织就像城市交通网络：中枢系统是指挥总部，周围神经系统是延伸的道路，
+  </text>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#555" font-style="italic">
+    共同构成连接身体各部位的信息高速公路
+  </text>
+</svg>

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Flow elements -->
+  <g stroke="#6c757d" stroke-width="2" fill="none">
+    <path d="M180,200 L280,200" marker-end="url(#arrowhead)"/>
+    <path d="M380,200 L480,200" marker-end="url(#arrowhead)"/>
+    <path d="M580,200 L680,200" marker-end="url(#arrowhead)"/>
+    <path d="M730,230 L730,280" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6c757d"/>
+    </marker>
+  </defs>
+  
+  <!-- Nodes -->
+  <g>
+    <!-- Abnormal Organ -->
+    <rect x="80" y="160" width="100" height="80" rx="15" ry="15" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    <text x="130" y="185" font-family="Arial" font-size="14" text-anchor="middle" fill="#212529">异常器官</text>
+    <text x="130" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#495057">(损坏的洗碗机)</text>
+    
+    <!-- Function Failure -->
+    <rect x="280" y="160" width="100" height="80" rx="15" ry="15" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    <text x="330" y="185" font-family="Arial" font-size="14" text-anchor="middle" fill="#212529">功能缺失</text>
+    <text x="330" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#495057">(无法清洗餐具)</text>
+    
+    <!-- Compensatory Function -->
+    <rect x="480" y="160" width="100" height="80" rx="15" ry="15" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    <text x="530" y="185" font-family="Arial" font-size="14" text-anchor="middle" fill="#212529">补偿功能</text>
+    <text x="530" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#495057">(手洗餐具)</text>
+    
+    <!-- Extra Work by Normal Organ -->
+    <rect x="680" y="160" width="100" height="80" rx="15" ry="15" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    <text x="730" y="177" font-family="Arial" font-size="14" text-anchor="middle" fill="#212529">正常器官</text>
+    <text x="730" y="195" font-family="Arial" font-size="14" text-anchor="middle" fill="#212529">额外工作</text>
+    <text x="730" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#495057">(家人增加劳动)</text>
+    
+    <!-- Adaptive Symptoms -->
+    <rect x="680" y="280" width="100" height="80" rx="15" ry="15" fill="#e9ecef" stroke="#495057" stroke-width="2"/>
+    <text x="730" y="310" font-family="Arial" font-size="14" text-anchor="middle" fill="#212529">适应性症状</text>
+    <text x="730" y="330" font-family="Arial" font-size="12" text-anchor="middle" fill="#495057">(手部干燥、疲劳)</text>
+  </g>
+  
+  <!-- Illustrations -->
+  <g>
+    <!-- Broken dishwasher -->
+    <rect x="95" y="100" width="70" height="50" fill="#adb5bd" rx="5" ry="5"/>
+    <rect x="100" y="105" width="60" height="40" fill="#ced4da" rx="3" ry="3"/>
+    <line x1="105" y1="125" x2="155" y2="125" stroke="#495057" stroke-width="1.5"/>
+    <line x1="130" y1="110" x2="130" y2="140" stroke="#495057" stroke-width="1.5"/>
+    <path d="M115,115 L125,135 M145,115 L135,135" stroke="#dc3545" stroke-width="2"/>
+  </g>
+  
+  <g>
+    <!-- Dirty dishes -->
+    <circle cx="310" y="120" r="10" fill="#e9ecef" stroke="#6c757d"/>
+    <circle cx="330" y="125" r="12" fill="#e9ecef" stroke="#6c757d"/>
+    <path d="M310,125 L345,125" stroke="#6c757d"/>
+    <path d="M315,115 L325,115 M335,115 L345,115" stroke="#6c757d"/>
+    <path d="M320,130 L340,130" stroke="#adb5bd" stroke-width="2"/>
+  </g>
+  
+  <g>
+    <!-- Hand washing -->
+    <rect x="495" y="110" width="70" height="30" fill="#adb5bd" rx="5" ry="5"/>
+    <path d="M515,110 C515,95 545,95 545,110" stroke="#6c757d" fill="none"/>
+    <circle cx="530" y="125" r="10" fill="#e9ecef"/>
+    <path d="M525,120 C525,125 535,125 535,120" stroke="#6c757d" fill="none"/>
+    <path d="M525,130 C525,135 535,135 535,130" stroke="#6c757d" fill="none"/>
+    <path d="M555,125 C565,115 575,140 565,130" stroke="#495057" fill="none" stroke-width="2"/>
+    <path d="M565,130 L575,125" stroke="#495057" stroke-width="2"/>
+  </g>
+  
+  <g>
+    <!-- Tired family member -->
+    <circle cx="730" y="110" r="15" fill="#f8f9fa" stroke="#495057"/>
+    <path d="M725,105 L735,105" stroke="#495057"/>
+    <path d="M725,115 C725,120 735,120 735,115" stroke="#495057" fill="none"/>
+    <path d="M715,95 L725,100 M735,100 L745,95" stroke="#495057"/>
+    <path d="M720,130 L740,130 L730,145 Z" fill="#f8f9fa" stroke="#495057"/>
+    <line x1="730" y1="145" x2="730" y2="160" stroke="#495057"/>
+    <line x1="730" y1="160" x2="720" y2="170" stroke="#495057"/>
+    <line x1="730" y1="160" x2="740" y2="170" stroke="#495057"/>
+    <path d="M720,105 L725,110 M740,105 L735,110" stroke="#dc3545"/>
+  </g>
+  
+  <g>
+    <!-- Dry hands -->
+    <path d="M700,320 C690,310 710,300 720,310 C730,300 750,310 740,320 C745,330 735,340 730,335 C725,340 715,330 720,320" fill="#f8f9fa" stroke="#495057"/>
+    <path d="M710,315 L715,315 M725,315 L730,315 M735,315 L740,315" stroke="#dc3545" stroke-width="0.5" stroke-dasharray="2,1"/>
+  </g>
+  
+  <!-- Title and description -->
+  <text x="400" y="40" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#212529">器官功能补偿机制</text>
+  <text x="400" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#495057">
+    就像家庭中洗碗机坏了，家人必须手洗餐具一样，身体中的正常器官会承担起异常器官的功能
+  </text>
+</svg>

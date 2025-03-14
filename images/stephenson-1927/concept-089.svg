@@ -1,0 +1,108 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f5f9fc"/>
+  
+  <!-- 城市轮廓 -->
+  <path d="M50,350 C150,300 250,330 350,310 C450,290 550,320 650,280 C750,320 800,350 800,350 L800,450 L50,450 Z" fill="#e6f0f7" stroke="#a8c4d9" stroke-width="2"/>
+  
+  <!-- 建筑物 -->
+  <rect x="100" y="250" width="80" height="100" fill="#d1e5f2" stroke="#7ba7c5" stroke-width="2"/>
+  <rect x="110" y="280" width="15" height="25" fill="#7ba7c5"/>
+  <rect x="155" y="280" width="15" height="25" fill="#7ba7c5"/>
+  <rect x="110" y="320" width="60" height="30" fill="#7ba7c5"/>
+  <path d="M100,250 L140,220 L180,250" fill="none" stroke="#7ba7c5" stroke-width="2"/>
+  
+  <rect x="230" y="270" width="70" height="80" fill="#c1dced" stroke="#7ba7c5" stroke-width="2"/>
+  <rect x="240" y="290" width="15" height="20" fill="#7ba7c5"/>
+  <rect x="275" y="290" width="15" height="20" fill="#7ba7c5"/>
+  <rect x="250" y="330" width="30" height="20" fill="#7ba7c5"/>
+  
+  <rect x="350" y="230" width="100" height="120" fill="#d1e5f2" stroke="#7ba7c5" stroke-width="2"/>
+  <rect x="370" y="260" width="20" height="30" fill="#7ba7c5"/>
+  <rect x="410" y="260" width="20" height="30" fill="#7ba7c5"/>
+  <rect x="370" y="310" width="60" height="40" fill="#7ba7c5"/>
+  
+  <rect x="500" y="260" width="90" height="90" fill="#c1dced" stroke="#7ba7c5" stroke-width="2"/>
+  <rect x="520" y="290" width="20" height="25" fill="#7ba7c5"/>
+  <rect x="550" y="290" width="20" height="25" fill="#7ba7c5"/>
+  <rect x="530" y="330" width="30" height="20" fill="#7ba7c5"/>
+  
+  <rect x="650" y="240" width="70" height="110" fill="#d1e5f2" stroke="#7ba7c5" stroke-width="2"/>
+  <rect x="660" y="270" width="15" height="25" fill="#7ba7c5"/>
+  <rect x="695" y="270" width="15" height="25" fill="#7ba7c5"/>
+  <rect x="670" y="320" width="30" height="30" fill="#7ba7c5"/>
+  
+  <!-- 道路 -->
+  <path d="M50,400 L750,400" stroke="#a8c4d9" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- 人物 -->
+  <!-- 医生 -->
+  <circle cx="150" y="380" r="15" fill="#6b9bc3"/>
+  <rect x="140" y="395" width="20" height="25" fill="#6b9bc3"/>
+  <line x1="140" y1="400" x2="130" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="160" y1="400" x2="170" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="150" y1="420" x2="145" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="150" y1="420" x2="155" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <text x="150" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c5d87">医生</text>
+  
+  <!-- 面包师 -->
+  <circle cx="270" y="380" r="15" fill="#6b9bc3"/>
+  <rect x="260" y="395" width="20" height="25" fill="#6b9bc3"/>
+  <line x1="260" y1="400" x2="250" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="280" y1="400" x2="290" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="270" y1="420" x2="265" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="270" y1="420" x2="275" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <text x="270" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c5d87">面包师</text>
+  
+  <!-- 邮递员 -->
+  <circle cx="400" y="380" r="15" fill="#6b9bc3"/>
+  <rect x="390" y="395" width="20" height="25" fill="#6b9bc3"/>
+  <line x1="390" y1="400" x2="380" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="410" y1="400" x2="420" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="400" y1="420" x2="395" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="400" y1="420" x2="405" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <text x="400" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c5d87">邮递员</text>
+  
+  <!-- 教师 -->
+  <circle cx="530" y="380" r="15" fill="#6b9bc3"/>
+  <rect x="520" y="395" width="20" height="25" fill="#6b9bc3"/>
+  <line x1="520" y1="400" x2="510" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="540" y1="400" x2="550" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="530" y1="420" x2="525" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="530" y1="420" x2="535" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <text x="530" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c5d87">教师</text>
+  
+  <!-- 修理工 -->
+  <circle cx="650" y="380" r="15" fill="#6b9bc3"/>
+  <rect x="640" y="395" width="20" height="25" fill="#6b9bc3"/>
+  <line x1="640" y1="400" x2="630" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="660" y1="400" x2="670" y2="415" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="650" y1="420" x2="645" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <line x1="650" y1="420" x2="655" y2="435" stroke="#6b9bc3" stroke-width="3"/>
+  <text x="650" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c5d87">修理工</text>
+  
+  <!-- 社区中心（代表组织细胞） -->
+  <rect x="300" y="460" width="200" height="80" rx="10" ry="10" fill="#a8c4d9" stroke="#6b9bc3" stroke-width="2"/>
+  <text x="400" y="500" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c5d87">社区中心</text>
+  <text x="400" y="520" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c5d87">(最小的基本单元)</text>
+  
+  <!-- 双向箭头连接 -->
+  <path d="M 160,390 Q 215,340 260,390" fill="none" stroke="#6b9bc3" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <path d="M 280,390 Q 340,340 390,390" fill="none" stroke="#6b9bc3" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <path d="M 410,390 Q 470,340 520,390" fill="none" stroke="#6b9bc3" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <path d="M 540,390 Q 595,340 640,390" fill="none" stroke="#6b9bc3" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6b9bc3"/>
+    </marker>
+  </defs>
+  
+  <!-- 标题 -->
+  <text x="400" y="80" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#2c5d87">身体各部分的协调服务</text>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="550" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c5d87">就像一座城市需要各种工作者相互提供服务才能正常运转，</text>
+  <text x="400" y="570" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c5d87">身体的健康也依赖于所有器官之间的协调合作。</text>
+</svg>

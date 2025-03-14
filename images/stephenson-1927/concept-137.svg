@@ -1,0 +1,70 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">脊椎状况类型</text>
+  
+  <!-- 主干道（脊柱） -->
+  <path d="M 150,150 C 400,150 400,450 650,450" stroke="#666" stroke-width="30" fill="none" stroke-linecap="round"/>
+  
+  <!-- 直接状况：神经压迫（交通堵塞） -->
+  <g transform="translate(300,150)">
+    <rect x="-80" y="-40" width="160" height="80" rx="10" fill="#ff9e9e" stroke="#d87272" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">直接状况</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">神经压迫</text>
+    
+    <!-- 交通堵塞示意 -->
+    <rect x="-50" y="-80" width="100" height="30" rx="5" fill="#e74c3c"/>
+    <circle cx="-30" cy="-65" r="5" fill="#fff"/>
+    <circle cx="-10" cy="-65" r="5" fill="#fff"/>
+    <rect x="-60" y="-100" width="30" height="15" rx="3" fill="#3498db"/>
+    <rect x="-20" y="-100" width="30" height="15" rx="3" fill="#2ecc71"/>
+    <rect x="20" y="-100" width="30" height="15" rx="3" fill="#f1c40f"/>
+  </g>
+  
+  <!-- 间接状况：内脏问题（城镇供应问题） -->
+  <g transform="translate(450,280)">
+    <rect x="-80" y="-40" width="160" height="80" rx="10" fill="#a8d8ff" stroke="#7bafd6" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">间接状况</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">内脏问题</text>
+    
+    <!-- 城镇示意 -->
+    <g transform="translate(0, -90)">
+      <rect x="-40" y="0" width="80" height="40" fill="#95a5a6"/>
+      <polygon points="-40,0 0,-20 40,0" fill="#7f8c8d"/>
+      <rect x="-30" y="15" width="15" height="25" fill="#ecf0f1"/>
+      <rect x="15" y="15" width="15" height="25" fill="#ecf0f1"/>
+      <circle cx="0" cy="-35" r="10" fill="#e74c3c" opacity="0.6"/>
+    </g>
+  </g>
+  
+  <!-- 代偿状况：姿势改变（车辆绕行） -->
+  <g transform="translate(600,450)">
+    <rect x="-80" y="-40" width="160" height="80" rx="10" fill="#c4e17f" stroke="#a5c65b" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">代偿状况</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">姿势改变</text>
+    
+    <!-- 绕行路线示意 -->
+    <path d="M -70,-70 C -40,-100 40,-100 70,-70" stroke="#666" stroke-width="8" fill="none" stroke-dasharray="5,3"/>
+    <rect x="45" y="-90" width="20" height="10" rx="2" fill="#3498db"/>
+    <rect x="15" y="-85" width="20" height="10" rx="2" fill="#2ecc71"/>
+    <rect x="-15" y="-90" width="20" height="10" rx="2" fill="#f1c40f"/>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <path d="M 300,190 L 400,240" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M 450,320 L 550,410" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    就像交通系统：主干道堵塞(直接状况)导致城镇供应中断(间接状况)，车辆只能绕行小路(代偿状况)
+  </text>
+</svg>

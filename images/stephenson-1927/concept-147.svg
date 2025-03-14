@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">身体的智能代偿机制</text>
+  
+  <!-- 三个主要部分 -->
+  <g id="section1">
+    <rect x="50" y="80" width="200" height="320" rx="10" fill="#e6f2ff" stroke="#aad4ff" stroke-width="2"/>
+    <text x="150" y="110" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">器官功能失效</text>
+    
+    <!-- 水管堵塞图示 -->
+    <rect x="80" y="140" width="140" height="30" rx="15" fill="#a0c4ff"/>
+    <rect x="80" y="170" width="140" height="30" rx="15" fill="#a0c4ff"/>
+    <circle cx="150" cy="185" r="25" fill="#ff9aa2"/>
+    <line x1="120" y1="155" x2="180" y2="155" stroke="#333" stroke-width="3"/>
+    <line x1="120" y1="185" x2="180" y2="185" stroke="#333" stroke-width="3" stroke-dasharray="5,5"/>
+    
+    <!-- 水滴 -->
+    <path d="M150,230 Q155,240 150,250 Q145,240 150,230" fill="#a0c4ff"/>
+    <path d="M130,250 Q135,260 130,270 Q125,260 130,250" fill="#a0c4ff"/>
+    <path d="M170,250 Q175,260 170,270 Q165,260 170,250" fill="#a0c4ff"/>
+    
+    <text x="150" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">如同厨房水管堵塞</text>
+    <text x="150" y="330" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">阻断了正常流动</text>
+  </g>
+  
+  <g id="section2">
+    <rect x="300" y="80" width="200" height="320" rx="10" fill="#e6ffea" stroke="#aaddaf" stroke-width="2"/>
+    <text x="400" y="110" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">先天智能介入</text>
+    
+    <!-- 家庭成员协作 -->
+    <circle cx="350" cy="180" r="20" fill="#ffd6a5"/> <!-- 头 -->
+    <rect x="340" y="200" width="20" height="40" fill="#ffd6a5"/> <!-- 身体 -->
+    <line x1="340" y1="210" x2="325" y2="230" stroke="#ffd6a5" stroke-width="6"/> <!-- 左臂 -->
+    <line x1="360" y1="210" x2="375" y2="230" stroke="#ffd6a5" stroke-width="6"/> <!-- 右臂 -->
+    <line x1="350" y1="240" x2="340" y2="270" stroke="#ffd6a5" stroke-width="6"/> <!-- 左腿 -->
+    <line x1="350" y1="240" x2="360" y2="270" stroke="#ffd6a5" stroke-width="6"/> <!-- 右腿 -->
+    
+    <circle cx="450" cy="180" r="15" fill="#caffbf"/> <!-- 头 -->
+    <rect x="442" y="195" width="16" height="30" fill="#caffbf"/> <!-- 身体 -->
+    <line x1="442" y1="205" x2="430" y2="220" stroke="#caffbf" stroke-width="4"/> <!-- 左臂 -->
+    <line x1="458" y1="205" x2="470" y2="220" stroke="#caffbf" stroke-width="4"/> <!-- 右臂 -->
+    <line x1="450" y1="225" x2="440" y2="250" stroke="#caffbf" stroke-width="4"/> <!-- 左腿 -->
+    <line x1="450" y1="225" x2="460" y2="250" stroke="#caffbf" stroke-width="4"/> <!-- 右腿 -->
+    
+    <!-- 水桶 -->
+    <rect x="375" y="230" width="30" height="25" rx="2" fill="#a0c4ff" stroke="#333" stroke-width="1"/>
+    <path d="M375,230 Q375,220 390,220 Q405,220 405,230" fill="none" stroke="#333" stroke-width="1"/>
+    
+    <text x="400" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">家人合作应对问题</text>
+    <text x="400" y="330" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">其他器官承担额外工作</text>
+  </g>
+  
+  <g id="section3">
+    <rect x="550" y="80" width="200" height="320" rx="10" fill="#fff0e6" stroke="#ffccaa" stroke-width="2"/>
+    <text x="650" y="110" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">代偿产生的症状</text>
+    
+    <!-- 混乱但有序的场景 -->
+    <circle cx="600" cy="170" r="15" fill="#caffbf"/> <!-- 孩子头 -->
+    <rect x="592" y="185" width="16" height="30" fill="#caffbf"/> <!-- 身体 -->
+    <line x1="592" y1="195" x2="580" y2="210" stroke="#caffbf" stroke-width="4"/> <!-- 左臂 -->
+    <line x1="608" y1="195" x2="620" y2="210" stroke="#caffbf" stroke-width="4"/> <!-- 右臂 -->
+    <line x1="600" y1="215" x2="585" y2="240" stroke="#caffbf" stroke-width="4"/> <!-- 左腿 -->
+    <line x1="600" y1="215" x2="615" y2="240" stroke="#caffbf" stroke-width="4"/> <!-- 右腿 -->
+    
+    <!-- 急促的脚步线 -->
+    <path d="M580,250 Q590,245 600,250 Q610,255 620,250" fill="none" stroke="#333" stroke-width="1" stroke-dasharray="3,3"/>
+    
+    <!-- 水桶 -->
+    <rect x="650" y="200" width="30" height="25" rx="2" fill="#a0c4ff" stroke="#333" stroke-width="1"/>
+    <path d="M650,200 Q650,190 665,190 Q680,190 680,200" fill="none" stroke="#333" stroke-width="1"/>
+    
+    <!-- 呼吸频率增加符号 -->
+    <path d="M630,160 Q645,140 660,160 Q675,180 690,160" fill="none" stroke="#ff9aa2" stroke-width="2"/>
+    <path d="M630,170 Q645,150 660,170 Q675,190 690,170" fill="none" stroke="#ff9aa2" stroke-width="2"/>
+    
+    <text x="650" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">看似混乱的症状</text>
+    <text x="650" y="330" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">实为解决问题的方式</text>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <path d="M250,240 L300,240" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="295,235 300,240 295,245" fill="#333"/>
+  
+  <path d="M500,240 L550,240" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="545,235 550,240 545,245" fill="#333"/>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333" font-style="italic">
+    "当厨房水管堵塞时，家庭成员会协作应对——这些临时的'症状'不是问题，而是解决方案"
+  </text>
+</svg>

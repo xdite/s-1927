@@ -1,0 +1,97 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">脊椎旋转和倾斜的影响</text>
+  
+  <!-- 正常脊椎 -->
+  <g transform="translate(150, 150)">
+    <text x="0" y="-50" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">正常位置</text>
+    
+    <!-- 书架比喻 -->
+    <rect x="-40" y="-30" width="80" height="160" fill="#e8f4f8" stroke="#5d8aa8" stroke-width="2"/>
+    
+    <!-- 书本 -->
+    <rect x="-35" y="-25" width="15" height="150" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+    <rect x="-15" y="-25" width="15" height="150" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+    <rect x="5" y="-25" width="15" height="150" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+    <rect x="25" y="-25" width="15" height="150" fill="#f1c40f" stroke="#f39c12" stroke-width="1"/>
+    
+    <!-- 神经流通正常 -->
+    <path d="M 45,50 Q 65,50 75,30 T 95,10" stroke="#27ae60" stroke-width="2" fill="none"/>
+    <path d="M 45,80 Q 65,80 75,100 T 95,120" stroke="#27ae60" stroke-width="2" fill="none"/>
+    
+    <text x="0" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">神经信号通畅</text>
+  </g>
+  
+  <!-- 旋转脊椎 -->
+  <g transform="translate(400, 150)">
+    <text x="0" y="-50" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">旋转 (绕垂直轴)</text>
+    
+    <!-- 旋转的书架 -->
+    <g transform="rotate(15)">
+      <rect x="-40" y="-30" width="80" height="160" fill="#f8e8e8" stroke="#a85d5d" stroke-width="2"/>
+      
+      <!-- 书本 -->
+      <rect x="-35" y="-25" width="15" height="150" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+      <rect x="-15" y="-25" width="15" height="150" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+      <rect x="5" y="-25" width="15" height="150" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+      <rect x="25" y="-25" width="15" height="150" fill="#f1c40f" stroke="#f39c12" stroke-width="1"/>
+    </g>
+    
+    <!-- 受阻的神经 -->
+    <path d="M 45,50 Q 55,50 65,30 T 75,10" stroke="#e74c3c" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+    <circle cx="55" cy="40" r="8" fill="#e74c3c"/>
+    <path d="M 45,80 Q 55,80 65,100 T 75,120" stroke="#e74c3c" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+    <circle cx="55" cy="90" r="8" fill="#e74c3c"/>
+    
+    <text x="0" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">神经压迫</text>
+    <text x="0" y="210" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">功能障碍</text>
+  </g>
+  
+  <!-- 倾斜脊椎 -->
+  <g transform="translate(650, 150)">
+    <text x="0" y="-50" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">倾斜 (绕水平轴)</text>
+    
+    <!-- 倾斜的书架 -->
+    <g transform="skewX(15)">
+      <rect x="-40" y="-30" width="80" height="160" fill="#f0e8f8" stroke="#7d5da8" stroke-width="2"/>
+      
+      <!-- 书本 -->
+      <rect x="-35" y="-25" width="15" height="150" fill="#3498db" stroke="#2980b9" stroke-width="1"/>
+      <rect x="-15" y="-25" width="15" height="150" fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+      <rect x="5" y="-25" width="15" height="150" fill="#2ecc71" stroke="#27ae60" stroke-width="1"/>
+      <rect x="25" y="-25" width="15" height="150" fill="#f1c40f" stroke="#f39c12" stroke-width="1"/>
+    </g>
+    
+    <!-- 受阻的神经 -->
+    <path d="M 45,50 Q 55,50 65,30 T 75,10" stroke="#e74c3c" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+    <circle cx="60" cy="30" r="8" fill="#e74c3c"/>
+    <path d="M 45,80 Q 55,80 65,100 T 75,120" stroke="#e74c3c" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+    <circle cx="60" cy="100" r="8" fill="#e74c3c"/>
+    
+    <text x="0" y="190" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">神经压迫</text>
+    <text x="0" y="210" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">功能障碍</text>
+  </g>
+  
+  <!-- 箭头 -->
+  <path d="M 220,150 L 310,150" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M 480,150 L 570,150" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 比喻说明 -->
+  <rect x="50" y="400" width="700" height="80" rx="5" ry="5" fill="#edf7ff" stroke="#b8d4e8" stroke-width="1"/>
+  <text x="400" y="425" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    比喻：正常的脊椎就像图书馆里整齐排列的书架，书籍（神经信号）可以自由取用。
+  </text>
+  <text x="400" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    当书架旋转或倾斜时，某些书籍变得难以取出，就像脊椎异常导致神经压迫和功能障碍。
+  </text>
+</svg>

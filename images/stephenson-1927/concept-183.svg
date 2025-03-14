@@ -1,0 +1,85 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 先天脑（老城区） -->
+  <g transform="translate(150, 120)">
+    <circle cx="0" cy="0" r="80" fill="#e6f7ff" stroke="#4da6ff" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">先天脑</text>
+    <text x="0" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(Innate Brain)</text>
+    
+    <!-- 老城区建筑 -->
+    <path d="M-40,-30 L-40,-60 L-30,-70 L-20,-60 L-20,-30 Z" fill="#b3d9ff" stroke="#4da6ff" stroke-width="1"/>
+    <path d="M-10,-25 L-10,-50 L0,-60 L10,-50 L10,-25 Z" fill="#b3d9ff" stroke="#4da6ff" stroke-width="1"/>
+    <path d="M30,-30 L30,-55 L40,-65 L50,-55 L50,-30 Z" fill="#b3d9ff" stroke="#4da6ff" stroke-width="1"/>
+  </g>
+  
+  <!-- 后天脑（新城区） -->
+  <g transform="translate(550, 120)">
+    <circle cx="0" cy="0" r="80" fill="#e6ffe6" stroke="#4dcc4d" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">后天脑</text>
+    <text x="0" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(Educated Brain)</text>
+    
+    <!-- 新城区建筑（现代风格） -->
+    <rect x="-50" y="-60" width="15" height="40" fill="#b3ffb3" stroke="#4dcc4d" stroke-width="1"/>
+    <rect x="-20" y="-55" width="15" height="35" fill="#b3ffb3" stroke="#4dcc4d" stroke-width="1"/>
+    <rect x="10" y="-65" width="15" height="45" fill="#b3ffb3" stroke="#4dcc4d" stroke-width="1"/>
+    <rect x="35" y="-50" width="15" height="30" fill="#b3ffb3" stroke="#4dcc4d" stroke-width="1"/>
+  </g>
+  
+  <!-- 神经组织细胞 -->
+  <g transform="translate(550, 300)">
+    <circle cx="0" cy="0" r="60" fill="#fff0e6" stroke="#ff9966" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">神经组织细胞</text>
+    
+    <!-- 细胞样结构 -->
+    <ellipse cx="-20" cy="-20" rx="15" ry="10" fill="#ffccb3" stroke="#ff9966" stroke-width="1"/>
+    <ellipse cx="20" cy="-15" rx="12" ry="8" fill="#ffccb3" stroke="#ff9966" stroke-width="1"/>
+    <ellipse cx="0" cy="20" rx="18" ry="12" fill="#ffccb3" stroke="#ff9966" stroke-width="1"/>
+  </g>
+  
+  <!-- 心理冲动（河流） -->
+  <g transform="translate(350, 220)">
+    <ellipse cx="0" cy="0" rx="70" ry="40" fill="#e6f2ff" stroke="#80b3ff" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">心理冲动</text>
+    
+    <!-- 波浪状河流 -->
+    <path d="M-50,10 C-30,0 -10,20 10,10 C30,0 50,20 70,10" fill="none" stroke="#80b3ff" stroke-width="2"/>
+    <path d="M-50,-10 C-30,-20 -10,0 10,-10 C30,-20 50,0 70,-10" fill="none" stroke="#80b3ff" stroke-width="2"/>
+  </g>
+  
+  <!-- 脑间周期（顶部标题） -->
+  <g transform="translate(350, 50)">
+    <rect x="-100" y="-30" width="200" height="60" rx="10" ry="10" fill="#f0f0f0" stroke="#666" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">脑间周期</text>
+  </g>
+  
+  <!-- 连接线 -->
+  <!-- 脑间周期到先天脑 -->
+  <path d="M300,80 C250,100 200,100 180,120" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="180,120 190,110 190,120" fill="#666"/>
+  
+  <!-- 脑间周期到后天脑 -->
+  <path d="M400,80 C450,100 500,100 520,120" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="520,120 510,110 510,120" fill="#666"/>
+  
+  <!-- 先天脑到心理冲动 -->
+  <path d="M230,120 C260,150 280,180 310,220" fill="none" stroke="#666" stroke-width="2"/>
+  <polygon points="310,220 300,210 305,220" fill="#666"/>
+  
+  <!-- 后天脑到心理冲动 -->
+  <path d="M470,120 C440,150 420,180 390,220" fill="none" stroke="#666" stroke-width="2"/>
+  <polygon points="390,220 400,210 395,220" fill="#666"/>
+  
+  <!-- 心理冲动到神经组织细胞 -->
+  <path d="M380,260 C420,270 460,280 550,300" fill="none" stroke="#666" stroke-width="2"/>
+  <polygon points="550,300 540,290 540,300" fill="#666"/>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="470" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    如同一座城市中的老城区(先天脑)和新城区(后天脑)通过生命河流(心理冲动)相互连接，
+  </text>
+  <text x="400" y="490" font-family="Arial" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    共同滋养城市的建筑(神经组织细胞)，维持整个系统的和谐运作。
+  </text>
+</svg>

@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#2c3e50">瘫痪的九种类型</text>
+  
+  <!-- 中心节点 -->
+  <circle cx="400" cy="300" r="70" fill="#3498db" opacity="0.8"/>
+  <text x="400" y="305" font-family="Arial" font-size="20" text-anchor="middle" fill="white">瘫痪</text>
+  
+  <!-- 连接线和分支节点 -->
+  <!-- 感觉性瘫痪 -->
+  <line x1="400" y1="230" x2="280" y2="150" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="250" cy="130" r="40" fill="#1abc9c" opacity="0.8"/>
+  <text x="250" y="125" font-family="Arial" font-size="12" text-anchor="middle" fill="white">感觉性</text>
+  <text x="250" y="145" font-family="Arial" font-size="12" text-anchor="middle" fill="white">瘫痪</text>
+  <path d="M230,110 Q245,100 260,110" stroke="white" stroke-width="2" fill="none"/>
+  <circle cx="230" cy="110" r="3" fill="white"/>
+  <circle cx="260" cy="110" r="3" fill="white"/>
+  
+  <!-- 挛缩性瘫痪 -->
+  <line x1="400" y1="240" x2="170" y2="220" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="130" cy="210" r="40" fill="#3498db" opacity="0.8"/>
+  <text x="130" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="white">挛缩性</text>
+  <text x="130" y="225" font-family="Arial" font-size="12" text-anchor="middle" fill="white">瘫痪</text>
+  <path d="M110,195 Q130,185 150,195" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- 脱垂性瘫痪 -->
+  <line x1="400" y1="280" x2="180" y2="300" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="130" cy="300" r="40" fill="#e74c3c" opacity="0.8"/>
+  <text x="130" y="295" font-family="Arial" font-size="12" text-anchor="middle" fill="white">脱垂性</text>
+  <text x="130" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="white">瘫痪</text>
+  <path d="M130,280 Q130,300 130,320" stroke="white" stroke-width="2" fill="none"/>
+  <path d="M130,320 L125,330 L135,330" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- 痉挛性瘫痪 -->
+  <line x1="400" y1="320" x2="190" y2="380" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="150" cy="400" r="40" fill="#9b59b6" opacity="0.8"/>
+  <text x="150" y="395" font-family="Arial" font-size="12" text-anchor="middle" fill="white">痉挛性</text>
+  <text x="150" y="415" font-family="Arial" font-size="12" text-anchor="middle" fill="white">瘫痪</text>
+  <path d="M130,385 Q150,375 170,385" stroke="white" stroke-width="2" fill="none" stroke-dasharray="2,2"/>
+  
+  <!-- 发热性瘫痪 -->
+  <line x1="400" y1="360" x2="300" y2="450" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="280" cy="480" r="40" fill="#f39c12" opacity="0.8"/>
+  <text x="280" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="white">发热性</text>
+  <text x="280" y="495" font-family="Arial" font-size="12" text-anchor="middle" fill="white">瘫痪</text>
+  <path d="M265,465 L295,465" stroke="white" stroke-width="2" fill="none"/>
+  <path d="M270,460 L290,460" stroke="white" stroke-width="2" fill="none"/>
+  <path d="M275,455 L285,455" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- 中毒性瘫痪 -->
+  <line x1="400" y1="370" x2="450" y2="460" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="470" cy="480" r="40" fill="#27ae60" opacity="0.8"/>
+  <text x="470" y="475" font-family="Arial" font-size="12" text-anchor="middle" fill="white">中毒性</text>
+  <text x="470" y="495" font-family="Arial" font-size="12" text-anchor="middle" fill="white">瘫痪</text>
+  <path d="M455,465 L485,465" stroke="white" stroke-width="2" fill="none"/>
+  <text x="470" y="460" font-family="Arial" font-size="16" text-anchor="middle" fill="white">⚠</text>
+  
+  <!-- 贫血性瘫痪 -->
+  <line x1="400" y1="340" x2="550" y2="400" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="580" cy="390" r="40" fill="#e67e22" opacity="0.8"/>
+  <text x="580" y="385" font-family="Arial" font-size="12" text-anchor="middle" fill="white">贫血性</text>
+  <text x="580" y="405" font-family="Arial" font-size="12" text-anchor="middle" fill="white">瘫痪</text>
+  <circle cx="580" cy="370" r="10" fill="none" stroke="white" stroke-width="2"/>
+  <path d="M575,370 L585,370" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- 肿瘤性瘫痪 -->
+  <line x1="400" y1="280" x2="580" y2="300" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="620" cy="300" r="40" fill="#8e44ad" opacity="0.8"/>
+  <text x="620" y="295" font-family="Arial" font-size="12" text-anchor="middle" fill="white">肿瘤性</text>
+  <text x="620" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="white">瘫痪</text>
+  <circle cx="610" cy="280" r="8" fill="white" opacity="0.6"/>
+  <circle cx="630" cy="285" r="12" fill="white" opacity="0.6"/>
+  
+  <!-- 退化性瘫痪 -->
+  <line x1="400" y1="240" x2="550" y2="200" stroke="#2c3e50" stroke-width="2"/>
+  <circle cx="590" cy="180" r="40" fill="#c0392b" opacity="0.8"/>
+  <text x="590" y="175" font-family="Arial" font-size="12" text-anchor="middle" fill="white">退化性</text>
+  <text x="590" y="195" font-family="Arial" font-size="12" text-anchor="middle" fill="white">瘫痪</text>
+  <path d="M575,165 Q590,170 605,165" stroke="white" stroke-width="2" fill="none" stroke-dasharray="3,2"/>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="530" width="600" height="50" fill="#f2f2f2" rx="5" ry="5"/>
+  <text x="400" y="550" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">
+    瘫痪类型如同花园中的不同问题：感觉缺失、枝条弯曲、支撑断裂、剧烈抽搐、温度过高、
+  </text>
+  <text x="400" y="570" font-family="Arial" font-size="12" text-anchor="middle" fill="#555">
+    毒素积累、养分不足、异常生长和组织腐烂，需要准确识别才能正确治疗。
+  </text>
+</svg>

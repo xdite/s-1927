@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 城市轮廓 -->
+  <g id="city" opacity="0.9">
+    <!-- 建筑群 - 代表细胞 -->
+    <rect x="100" y="280" width="60" height="120" fill="#a8d5e5"/>
+    <rect x="170" y="250" width="50" height="150" fill="#95c8d8"/>
+    <rect x="230" y="300" width="70" height="100" fill="#a8d5e5"/>
+    <rect x="310" y="270" width="55" height="130" fill="#95c8d8"/>
+    <rect x="375" y="290" width="65" height="110" fill="#a8d5e5"/>
+    <rect x="450" y="260" width="50" height="140" fill="#95c8d8"/>
+    <rect x="510" y="280" width="70" height="120" fill="#a8d5e5"/>
+    <rect x="590" y="250" width="55" height="150" fill="#95c8d8"/>
+    
+    <!-- 屋顶 -->
+    <polygon points="100,280 130,260 160,280" fill="#7ab8cc"/>
+    <polygon points="170,250 195,230 220,250" fill="#7ab8cc"/>
+    <polygon points="230,300 265,280 300,300" fill="#7ab8cc"/>
+    <polygon points="310,270 337,250 365,270" fill="#7ab8cc"/>
+    <polygon points="375,290 407,270 440,290" fill="#7ab8cc"/>
+    <polygon points="450,260 475,240 500,260" fill="#7ab8cc"/>
+    <polygon points="510,280 545,260 580,280" fill="#7ab8cc"/>
+    <polygon points="590,250 617,230 645,250" fill="#7ab8cc"/>
+    
+    <!-- 窗户 -->
+    <g fill="#ddf0f7">
+      <rect x="110" y="300" width="15" height="15"/>
+      <rect x="135" y="300" width="15" height="15"/>
+      <rect x="110" y="330" width="15" height="15"/>
+      <rect x="135" y="330" width="15" height="15"/>
+      <rect x="110" y="360" width="15" height="15"/>
+      <rect x="135" y="360" width="15" height="15"/>
+      
+      <rect x="180" y="270" width="12" height="12"/>
+      <rect x="200" y="270" width="12" height="12"/>
+      <rect x="180" y="295" width="12" height="12"/>
+      <rect x="200" y="295" width="12" height="12"/>
+      <rect x="180" y="320" width="12" height="12"/>
+      <rect x="200" y="320" width="12" height="12"/>
+      <rect x="180" y="345" width="12" height="12"/>
+      <rect x="200" y="345" width="12" height="12"/>
+      
+      <!-- 其他建筑的窗户 -->
+      <rect x="240" y="320" width="15" height="15"/>
+      <rect x="265" y="320" width="15" height="15"/>
+      <rect x="240" y="350" width="15" height="15"/>
+      <rect x="265" y="350" width="15" height="15"/>
+      
+      <rect x="320" y="290" width="12" height="12"/>
+      <rect x="340" y="290" width="12" height="12"/>
+      <rect x="320" y="315" width="12" height="12"/>
+      <rect x="340" y="315" width="12" height="12"/>
+      <rect x="320" y="340" width="12" height="12"/>
+      <rect x="340" y="340" width="12" height="12"/>
+      
+      <rect x="385" y="310" width="15" height="15"/>
+      <rect x="410" y="310" width="15" height="15"/>
+      <rect x="385" y="340" width="15" height="15"/>
+      <rect x="410" y="340" width="15" height="15"/>
+      <rect x="385" y="370" width="15" height="15"/>
+      <rect x="410" y="370" width="15" height="15"/>
+      
+      <rect x="460" y="280" width="12" height="12"/>
+      <rect x="480" y="280" width="12" height="12"/>
+      <rect x="460" y="305" width="12" height="12"/>
+      <rect x="480" y="305" width="12" height="12"/>
+      <rect x="460" y="330" width="12" height="12"/>
+      <rect x="480" y="330" width="12" height="12"/>
+      <rect x="460" y="355" width="12" height="12"/>
+      <rect x="480" y="355" width="12" height="12"/>
+      
+      <rect x="520" y="300" width="15" height="15"/>
+      <rect x="545" y="300" width="15" height="15"/>
+      <rect x="520" y="330" width="15" height="15"/>
+      <rect x="545" y="330" width="15" height="15"/>
+      <rect x="520" y="360" width="15" height="15"/>
+      <rect x="545" y="360" width="15" height="15"/>
+      
+      <rect x="600" y="270" width="12" height="12"/>
+      <rect x="620" y="270" width="12" height="12"/>
+      <rect x="600" y="295" width="12" height="12"/>
+      <rect x="620" y="295" width="12" height="12"/>
+      <rect x="600" y="320" width="12" height="12"/>
+      <rect x="620" y="320" width="12" height="12"/>
+      <rect x="600" y="345" width="12" height="12"/>
+      <rect x="620" y="345" width="12" height="12"/>
+    </g>
+  </g>
+  
+  <!-- 垃圾处理系统 - 代表排泄器官 -->
+  <g id="waste-system">
+    <!-- 垃圾处理中心 -->
+    <rect x="650" y="400" width="80" height="60" fill="#e8b0a2" stroke="#c98276" stroke-width="2"/>
+    <rect x="660" y="380" width="20" height="20" fill="#c98276"/>
+    <text x="690" y="430" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">排泄器官</text>
+    
+    <!-- 垃圾车和通道 - 代表排泄通道 -->
+    <g stroke="#7d7d7d" stroke-width="2" fill="none" stroke-dasharray="5,3">
+      <path d="M160,400 Q300,450 450,430 T650,430"/>
+      <path d="M265,400 Q350,420 450,410 T650,430"/>
+      <path d="M375,400 Q450,390 550,410 T650,430"/>
+      <path d="M500,400 Q550,410 600,420 T650,430"/>
+    </g>
+    
+    <!-- 垃圾车 -->
+    <g transform="translate(300, 420) scale(0.7)">
+      <rect x="0" y="0" width="40" height="20" fill="#94c47d"/>
+      <rect x="40" y="-5" width="20" height="25" fill="#7db25f"/>
+      <circle cx="10" cy="20" r="5" fill="#555"/>
+      <circle cx="30" cy="20" r="5" fill="#555"/>
+      <circle cx="50" cy="20" r="5" fill="#555"/>
+      <text x="20" y="12" font-family="Arial" font-size="8" text-anchor="middle" fill="#fff">废物</text>
+    </g>
+    
+    <g transform="translate(450, 410) scale(0.7)">
+      <rect x="0" y="0" width="40" height="20" fill="#94c47d"/>
+      <rect x="40" y="-5" width="20" height="25" fill="#7db25f"/>
+      <circle cx="10" cy="20" r="5" fill="#555"/>
+      <circle cx="30" cy="20" r="5" fill="#555"/>
+      <circle cx="50" cy="20" r="5" fill="#555"/>
+      <text x="20" y="12" font-family="Arial" font-size="8" text-anchor="middle" fill="#fff">废物</text>
+    </g>
+  </g>
+  
+  <!-- 散热系统 - 代表散热功能 -->
+  <g id="cooling-system">
+    <!-- 冷却塔 -->
+    <g transform="translate(180, 200)">
+      <path d="M0,30 L10,0 L30,0 L40,30 Z" fill="#e8b0a2" stroke="#c98276" stroke-width="1.5"/>
+      <rect x="5" y="30" width="30" height="20" fill="#c98276"/>
+      <!-- 热量波浪 -->
+      <path d="M15,0 Q20,-10 25,0" stroke="#f19483" stroke-width="1.5" fill="none"/>
+      <path d="M12,-5 Q17,-15 22,-5" stroke="#f19483" stroke-width="1.5" fill="none"/>
+      <path d="M18,-5 Q23,-15 28,-5" stroke="#f19483" stroke-width="1.5" fill="none"/>
+    </g>
+    
+    <g transform="translate(480, 180)">
+      <path d="M0,30 L10,0 L30,0 L40,30 Z" fill="#e8b0a2" stroke="#c98276" stroke-width="1.5"/>
+      <rect x="5" y="30" width="30" height="20" fill="#c98276"/>
+      <!-- 热量波浪 -->
+      <path d="M15,0 Q20,-10 25,0" stroke="#f19483" stroke-width="1.5" fill="none"/>
+      <path d="M12,-5 Q17,-15 22,-5" stroke="#f19483" stroke-width="1.5" fill="none"/>
+      <path d="M18,-5 Q23,-15 28,-5" stroke="#f19483" stroke-width="1.5" fill="none"/>
+    </g>
+    
+    <!-- 热量线 -->
+    <g stroke="#f19483" stroke-width="1.5" stroke-dasharray="3,2" fill="none">
+      <path d="M130,280 Q150,240 180,230"/>
+      <path d="M250,280 Q270,240 200,220"/>
+      <path d="M400,270 Q420,230 480,210"/>
+      <path d="M550,260 Q570,220 520,200"/>
+    </g>
+  </g>
+  
+  <!-- 标题和解释 -->
+  <g id="labels">
+    <text x="400" y="80" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">排泄功能：城市废物管理系统</text>
+    
+    <g font-family="Arial" font-size="14" fill="#333">
+      <text x="180" y="480" text-anchor="middle">细胞</text>
+      <text x="180" y="495" text-anchor="middle">(城市建筑)</text>
+      
+      <text x="400" y="480" text-anchor="middle">废物运输</text>
+      <text x="400" y="495" text-anchor="middle">(垃圾收集系统)</text>
+      
+      <text x="600" y="480" text-anchor="middle">排泄器官</text>
+      <text x="600" y="495" text-anchor="middle">(垃圾处理中心)</text>
+      
+      <text x="320" y="180" text-anchor="middle">散热功能</text>
+      <text x="320" y="195" text-anchor="middle">(城市冷却系统)</text>
+    </g>
+    
+    <!-- 底部说明 -->
+    <text x="400" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#555" font-style="italic">
+      就像城市需要垃圾处理和散热系统，人体也需要排泄器官协调清除废物和多余热量
+    </text>
+  </g>
+  
+  <!-- 图例 -->
+  <g id="legend" transform="translate(50, 110)">
+    <rect x="0" y="0" width="180" height="90" fill="#fff" stroke="#ddd" rx="5"/>
+    
+    <rect x="10" y="10" width="15" height="15" fill="#a8d5e5"/>
+    <text x="35" y="22" font-family="Arial" font-size="12" fill="#333">细胞</text>
+    
+    <line x1="10" y1="40" x2="25" y2="40" stroke="#7d7d7d" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="35" y="43" font-family="Arial" font-size="12" fill="#333">废物通道</text>
+    
+    <rect x="10" y="60" width="15" height="15" fill="#e8b0a2"/>
+    <text x="35" y="72" font-family="Arial" font-size="12" fill="#333">排泄和散热器官</text>
+  </g>
+</svg>

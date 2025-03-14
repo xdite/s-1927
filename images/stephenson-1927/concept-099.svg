@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">脊椎位置系统</text>
+  
+  <!-- 主要脊椎图示 -->
+  <g transform="translate(400, 180)">
+    <!-- 脊椎主干 -->
+    <rect x="-100" y="-50" width="200" height="80" rx="10" ry="10" fill="#3498db" stroke="#2980b9" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">脊椎位置</text>
+    
+    <!-- 连接线 -->
+    <line x1="0" y1="30" x2="0" y2="80" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- 七个区域 -->
+    <rect x="-300" y="80" width="600" height="60" rx="10" ry="10" fill="#e74c3c" stroke="#c0392b" stroke-width="2"/>
+    <text x="0" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">颈部、胸部、腹部、肠系膜、骶部、盆部、尾椎</text>
+    
+    <!-- 连接到系统的线 -->
+    <line x1="-150" y1="140" x2="-150" y2="190" stroke="#2c3e50" stroke-width="2"/>
+    <line x1="150" y1="140" x2="150" y2="190" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- 两个系统 -->
+    <rect x="-250" y="190" width="200" height="60" rx="10" ry="10" fill="#9b59b6" stroke="#8e44ad" stroke-width="2"/>
+    <text x="-150" y="225" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">浅表系统</text>
+    
+    <rect x="50" y="190" width="200" height="60" rx="10" ry="10" fill="#9b59b6" stroke="#8e44ad" stroke-width="2"/>
+    <text x="150" y="225" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">内脏系统</text>
+  </g>
+  
+  <!-- 尾椎位置放大图 -->
+  <g transform="translate(600, 400)">
+    <!-- 放大镜效果 -->
+    <circle cx="0" cy="0" r="120" fill="white" stroke="#2c3e50" stroke-width="3"/>
+    <circle cx="-90" cy="-90" r="15" fill="#e74c3c"/>
+    <text x="-90" y="-85" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">尾椎</text>
+    
+    <!-- 局部神经连接 -->
+    <path d="M-90,-75 C-80,-50 -60,-40 -40,-30" stroke="#3498db" stroke-width="2" fill="none"/>
+    <path d="M-90,-75 C-70,-60 -50,-50 -30,-50" stroke="#3498db" stroke-width="2" fill="none"/>
+    <path d="M-90,-75 C-60,-70 -40,-70 -20,-60" stroke="#3498db" stroke-width="2" fill="none"/>
+    
+    <!-- 浅表组织 -->
+    <rect x="-40" y="-40" width="100" height="50" rx="5" ry="5" fill="#1abc9c" stroke="#16a085" stroke-width="2"/>
+    <text x="10" y="-15" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">浅表组织</text>
+    
+    <!-- 放大镜标签 -->
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">尾椎位置通过局部神经</text>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#2c3e50">连接到浅表组织</text>
+  </g>
+  
+  <!-- 图例 -->
+  <g transform="translate(150, 400)">
+    <rect x="0" y="0" width="20" height="20" fill="#3498db"/>
+    <text x="30" y="15" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">主要位置</text>
+    
+    <rect x="0" y="30" width="20" height="20" fill="#e74c3c"/>
+    <text x="30" y="45" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">脊椎区域</text>
+    
+    <rect x="0" y="60" width="20" height="20" fill="#9b59b6"/>
+    <text x="30" y="75" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">系统类型</text>
+    
+    <rect x="0" y="90" width="20" height="20" fill="#1abc9c"/>
+    <text x="30" y="105" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">组织连接</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">
+    就像小区哨岗通过对讲系统直接与周边设施联系，尾椎位置通过局部神经直接连接到周围浅表组织
+  </text>
+</svg>

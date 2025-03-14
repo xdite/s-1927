@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">创伤与神经传导</text>
+  
+  <!-- 左侧：创伤事件 -->
+  <circle cx="150" cy="120" r="50" fill="#e74c3c" opacity="0.8"/>
+  <text x="150" y="125" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">创伤事件</text>
+  
+  <!-- 中间：两条路径 -->
+  <!-- 路径 1: 正常愈合 -->
+  <path d="M200 120 C 250 120, 300 80, 350 80" stroke="#3498db" stroke-width="3" fill="none"/>
+  <rect x="350" y="50" width="150" height="60" rx="10" fill="#3498db" opacity="0.8"/>
+  <text x="425" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">神经传导正常</text>
+  
+  <path d="M500 80 C 550 80, 600 80, 650 80" stroke="#3498db" stroke-width="3" fill="none"/>
+  <rect x="650" y="50" width="100" height="60" rx="10" fill="#2ecc71" opacity="0.8"/>
+  <text x="700" y="85" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">快速愈合</text>
+  
+  <!-- 路径 2: 椎骨半脱位 -->
+  <path d="M200 120 C 250 120, 300 160, 350 160" stroke="#e67e22" stroke-width="3" fill="none"/>
+  <rect x="350" y="130" width="150" height="60" rx="10" fill="#e67e22" opacity="0.8"/>
+  <text x="425" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">椎骨半脱位</text>
+  
+  <path d="M500 160 C 550 160, 600 160, 650 160" stroke="#e67e22" stroke-width="3" fill="none"/>
+  <rect x="650" y="130" width="100" height="60" rx="10" fill="#e74c3c" opacity="0.8"/>
+  <text x="700" y="155" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">神经脉冲</text>
+  <text x="700" y="175" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">传导受阻</text>
+  
+  <!-- 城市交通比喻图示 -->
+  <rect x="100" y="240" width="600" height="200" rx="10" fill="#ecf0f1" stroke="#bdc3c7" stroke-width="2"/>
+  
+  <!-- 道路 -->
+  <path d="M150 340 L 650 340" stroke="#7f8c8d" stroke-width="15" fill="none"/>
+  <path d="M150 340 L 650 340" stroke="#f1c40f" stroke-width="2" stroke-dasharray="10,10" fill="none"/>
+  
+  <!-- 交通信号灯 - 正常 -->
+  <rect x="300" y="280" width="10" height="60" fill="#7f8c8d"/>
+  <circle cx="305" cy="280" r="15" fill="#2ecc71"/>
+  <circle cx="305" cy="310" r="15" fill="#f1c40f"/>
+  <circle cx="305" cy="340" r="15" fill="#e74c3c"/>
+  
+  <!-- 交通信号灯 - 错位 -->
+  <rect x="500" y="290" width="10" height="60" fill="#7f8c8d" transform="rotate(15, 500, 290)"/>
+  <circle cx="496" cy="290" r="15" fill="#2ecc71"/>
+  <circle cx="504" cy="320" r="15" fill="#f1c40f"/>
+  <circle cx="512" cy="350" r="15" fill="#e74c3c"/>
+  
+  <!-- 车辆 -->
+  <rect x="200" y="325" width="40" height="20" rx="5" fill="#3498db"/>
+  <circle cx="210" cy="345" r="5" fill="#34495e"/>
+  <circle cx="230" cy="345" r="5" fill="#34495e"/>
+  
+  <rect x="400" y="325" width="40" height="20" rx="5" fill="#9b59b6"/>
+  <circle cx="410" cy="345" r="5" fill="#34495e"/>
+  <circle cx="430" cy="345" r="5" fill="#34495e"/>
+  
+  <!-- 脊骨神经医师 -->
+  <circle cx="550" cy="290" r="15" fill="#3498db"/>
+  <rect x="545" cy="305" width="10" height="20" fill="#3498db"/>
+  <line x1="555" y1="315" x2="565" y2="325" stroke="#3498db" stroke-width="2"/>
+  <line x1="545" y1="315" x2="535" y2="325" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- 比喻说明 -->
+  <text x="400" y="410" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">比喻：城市交通系统中，事故后的信号灯错位就像创伤后的椎骨半脱位，</text>
+  <text x="400" y="430" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">虽然道路已修复，但错位的信号灯会持续干扰交通流量，需要专业调整。</text>
+</svg>

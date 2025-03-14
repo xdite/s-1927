@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f9f7f1" />
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#3a6351">脊椎矫正术发展时间线 (1895-1924)</text>
+  
+  <!-- Tree trunk -->
+  <path d="M400,550 C400,400 380,300 380,200 C380,150 390,100 400,80" stroke="#6d4c41" stroke-width="20" fill="none" />
+  
+  <!-- Branches -->
+  <path d="M400,500 C450,480 500,470 550,480" stroke="#6d4c41" stroke-width="12" fill="none" />
+  <path d="M400,450 C350,430 300,420 250,430" stroke="#6d4c41" stroke-width="12" fill="none" />
+  <path d="M400,400 C450,380 500,370 560,380" stroke="#6d4c41" stroke-width="10" fill="none" />
+  <path d="M400,350 C350,330 300,320 240,330" stroke="#6d4c41" stroke-width="10" fill="none" />
+  <path d="M400,300 C450,280 480,270 530,280" stroke="#6d4c41" stroke-width="8" fill="none" />
+  <path d="M400,250 C350,230 320,220 270,230" stroke="#6d4c41" stroke-width="8" fill="none" />
+  <path d="M400,200 C430,180 460,170 500,180" stroke="#6d4c41" stroke-width="6" fill="none" />
+  <path d="M400,150 C370,130 340,120 300,130" stroke="#6d4c41" stroke-width="6" fill="none" />
+  
+  <!-- Timeline markers (fruits) -->
+  <!-- 1895 -->
+  <circle cx="400" cy="520" r="20" fill="#e57373" />
+  <text x="400" y="525" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">1895</text>
+  <text x="410" y="550" font-family="Arial, sans-serif" font-size="14" text-anchor="start" fill="#333">哈维·利拉德案例</text>
+  
+  <!-- 1896 -->
+  <circle cx="550" cy="480" r="20" fill="#81c784" />
+  <text x="550" y="485" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">1896</text>
+  <text x="580" y="480" font-family="Arial, sans-serif" font-size="14" text-anchor="start" fill="#333">脊椎矫正术命名</text>
+  
+  <!-- 1898-1900 -->
+  <circle cx="250" cy="430" r="20" fill="#64b5f6" />
+  <text x="250" y="435" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">1898</text>
+  <text x="220" y="430" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#333">触诊</text>
+  
+  <!-- 1905 -->
+  <circle cx="560" cy="380" r="20" fill="#ffb74d" />
+  <text x="560" y="385" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">1905</text>
+  <text x="590" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="start" fill="#333">神经追踪</text>
+  
+  <!-- 1909 -->
+  <circle cx="240" cy="330" r="20" fill="#ba68c8" />
+  <text x="240" y="335" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">1909</text>
+  <text x="210" y="330" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#333">分节系统</text>
+  
+  <!-- 1910 -->
+  <circle cx="530" cy="280" r="20" fill="#4db6ac" />
+  <text x="530" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">1910</text>
+  <text x="560" y="280" font-family="Arial, sans-serif" font-size="14" text-anchor="start" fill="#333">脊椎摄影</text>
+  
+  <!-- 1922 -->
+  <circle cx="270" cy="230" r="20" fill="#fff176" />
+  <text x="270" y="235" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">1922</text>
+  <text x="240" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#333">紧张纤维</text>
+  
+  <!-- 1924 -->
+  <circle cx="500" cy="180" r="20" fill="#f06292" />
+  <text x="500" y="185" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">1924</text>
+  <text x="530" y="180" font-family="Arial, sans-serif" font-size="14" text-anchor="start" fill="#333">神经卡计</text>
+  
+  <!-- Leaves -->
+  <ellipse cx="570" cy="470" rx="8" ry="5" fill="#81c784" transform="rotate(30 570 470)" />
+  <ellipse cx="590" cy="485" rx="8" ry="5" fill="#81c784" transform="rotate(60 590 485)" />
+  <ellipse cx="230" cy="410" rx="8" ry="5" fill="#81c784" transform="rotate(-30 230 410)" />
+  <ellipse cx="210" cy="425" rx="8" ry="5" fill="#81c784" transform="rotate(-60 210 425)" />
+  <ellipse cx="580" cy="370" rx="8" ry="5" fill="#81c784" transform="rotate(30 580 370)" />
+  <ellipse cx="600" cy="385" rx="8" ry="5" fill="#81c784" transform="rotate(60 600 385)" />
+  <ellipse cx="220" cy="310" rx="8" ry="5" fill="#81c784" transform="rotate(-30 220 310)" />
+  <ellipse cx="200" cy="325" rx="8" ry="5" fill="#81c784" transform="rotate(-60 200 325)" />
+  <ellipse cx="550" cy="270" rx="8" ry="5" fill="#81c784" transform="rotate(30 550 270)" />
+  <ellipse cx="570" cy="285" rx="8" ry="5" fill="#81c784" transform="rotate(60 570 285)" />
+  <ellipse cx="250" cy="210" rx="8" ry="5" fill="#81c784" transform="rotate(-30 250 210)" />
+  <ellipse cx="230" cy="225" rx="8" ry="5" fill="#81c784" transform="rotate(-60 230 225)" />
+  <ellipse cx="520" cy="170" rx="8" ry="5" fill="#81c784" transform="rotate(30 520 170)" />
+  <ellipse cx="540" cy="185" rx="8" ry="5" fill="#81c784" transform="rotate(60 540 185)" />
+  
+  <!-- Roots -->
+  <path d="M400,550 C380,560 360,565 330,560" stroke="#6d4c41" stroke-width="8" fill="none" />
+  <path d="M400,550 C420,560 440,565 470,560" stroke="#6d4c41" stroke-width="8" fill="none" />
+  <path d="M330,560 C320,565 310,570 300,568" stroke="#6d4c41" stroke-width="5" fill="none" />
+  <path d="M330,560 C325,570 320,580 318,590" stroke="#6d4c41" stroke-width="5" fill="none" />
+  <path d="M470,560 C480,565 490,570 500,568" stroke="#6d4c41" stroke-width="5" fill="none" />
+  <path d="M470,560 C475,570 480,580 482,590" stroke="#6d4c41" stroke-width="5" fill="none" />
+  
+  <!-- Metaphor caption -->
+  <rect x="100" y="570" width="600" height="25" rx="5" fill="rgba(58, 99, 81, 0.1)" />
+  <text x="400" y="587" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    就像园丁从发现特殊植物开始，逐渐发展出一整套园艺技术和工具，脊椎矫正术也经历了从简单到精细的发展历程
+  </text>
+</svg>

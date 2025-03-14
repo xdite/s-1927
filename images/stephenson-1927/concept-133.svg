@@ -1,0 +1,58 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#2c3e50">脊椎分析过程</text>
+  
+  <!-- 人体脊椎轮廓 -->
+  <path d="M300,120 C300,120 290,140 300,160 C310,180 290,200 300,220 C310,240 290,260 300,280 C310,300 290,320 300,340 C310,360 290,380 300,400" 
+        stroke="#3498db" fill="none" stroke-width="4"/>
+  
+  <!-- 侦探/医生形象 -->
+  <circle cx="220" cy="200" r="30" fill="#f1c40f"/> <!-- 头 -->
+  <path d="M220,230 L220,300 M220,250 L190,280 M220,250 L250,280 M220,300 L200,350 M220,300 L240,350" 
+        stroke="#34495e" stroke-width="3" fill="none"/> <!-- 身体和四肢 -->
+  <circle cx="210" cy="195" r="3" fill="#34495e"/> <!-- 眼睛 -->
+  <circle cx="230" cy="195" r="3" fill="#34495e"/> <!-- 眼睛 -->
+  <path d="M210,210 C215,215 225,215 230,210" stroke="#34495e" stroke-width="2" fill="none"/> <!-- 微笑 -->
+  <path d="M190,180 C200,170 210,175 220,170" stroke="#34495e" stroke-width="2" fill="none"/> <!-- 帽子 -->
+  
+  <!-- 放大镜 -->
+  <circle cx="350" cy="220" r="25" fill="none" stroke="#e74c3c" stroke-width="2"/>
+  <line x1="370" y1="240" x2="390" y2="260" stroke="#e74c3c" stroke-width="4"/>
+  <line x1="320" y1="170" x2="340" y2="200" stroke="#34495e" stroke-width="2"/> <!-- 放大镜手柄 -->
+  
+  <!-- 问题点标记 -->
+  <circle cx="300" cy="220" r="8" fill="#e74c3c"/>
+  <text x="300" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="white">!</text>
+  
+  <!-- 流程箭头和文字 -->
+  <path d="M450,120 L550,120 L550,150 L570,150" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M450,220 L550,220 L550,250 L570,250" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M450,320 L550,320 L550,350 L570,350" stroke="#7f8c8d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  
+  <rect x="450" y="100" width="100" height="40" rx="5" fill="#3498db" opacity="0.8"/>
+  <text x="500" y="125" font-family="Arial" font-size="14" text-anchor="middle" fill="white">脊椎分析</text>
+  
+  <rect x="450" y="200" width="100" height="40" rx="5" fill="#2ecc71" opacity="0.8"/>
+  <text x="500" y="225" font-family="Arial" font-size="14" text-anchor="middle" fill="white">评估神经系统</text>
+  
+  <rect x="450" y="300" width="100" height="40" rx="5" fill="#f39c12" opacity="0.8"/>
+  <text x="500" y="325" font-family="Arial" font-size="14" text-anchor="middle" fill="white">发现半脱位</text>
+  
+  <rect x="570" y="350" width="100" height="40" rx="5" fill="#e74c3c" opacity="0.8"/>
+  <text x="620" y="375" font-family="Arial" font-size="14" text-anchor="middle" fill="white">确定调整部位</text>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明文字 -->
+  <text x="400" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    脊椎分析就像电路侦探：检查系统、找出问题点、确定修复位置
+  </text>
+</svg>

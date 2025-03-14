@@ -1,0 +1,51 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">传入神经信息传递过程</text>
+  
+  <!-- 感觉器官 -->
+  <circle cx="150" cy="200" r="60" fill="#ffdfeb" stroke="#e91e63" stroke-width="2"/>
+  <text x="150" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">感觉器官/外周</text>
+  <text x="150" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(信息收集点)</text>
+  
+  <!-- 细胞体 -->
+  <circle cx="400" cy="200" r="60" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+  <text x="400" y="195" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">细胞体</text>
+  <text x="400" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(信息处理中心)</text>
+  
+  <!-- 中枢神经系统 -->
+  <circle cx="650" cy="200" r="60" fill="#e8f5e9" stroke="#4caf50" stroke-width="2"/>
+  <text x="650" y="195" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">中枢神经系统</text>
+  <text x="650" y="215" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">(决策中心)</text>
+  
+  <!-- 连接线和箭头 -->
+  <path d="M210 200 C250 200 310 200 340 200" fill="none" stroke="#90a4ae" stroke-width="3"/>
+  <polygon points="335,195 345,200 335,205" fill="#90a4ae"/>
+  
+  <path d="M460 200 C500 200 560 200 590 200" fill="none" stroke="#90a4ae" stroke-width="3"/>
+  <polygon points="585,195 595,200 585,205" fill="#90a4ae"/>
+  
+  <!-- 轴突标注 -->
+  <text x="275" y="180" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">神经轴突</text>
+  <path d="M275 185 L275 197" stroke="#333" stroke-width="1" stroke-dasharray="2,2"/>
+  
+  <!-- 图例说明 -->
+  <text x="400" y="340" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic" fill="#666">
+    传入神经就像购物中心的信息系统：从信息亭(感觉器官)收集信息，
+  </text>
+  <text x="400" y="360" font-family="Arial" font-size="14" text-anchor="middle" font-style="italic" fill="#666">
+    通过对讲机(轴突)传递给服务中心(细胞体)，最后送达管理办公室(中枢神经系统)
+  </text>
+  
+  <!-- 装饰元素 -->
+  <path d="M120 110 Q130 100 140 110" stroke="#e91e63" stroke-width="1" fill="none"/>
+  <path d="M160 110 Q170 100 180 110" stroke="#e91e63" stroke-width="1" fill="none"/>
+  <path d="M670 110 Q680 100 690 110" stroke="#4caf50" stroke-width="1" fill="none"/>
+  <path d="M630 110 Q640 100 650 110" stroke="#4caf50" stroke-width="1" fill="none"/>
+  
+  <!-- 脉冲波形图示 -->
+  <path d="M275 240 L290 240 L295 230 L300 250 L305 240 L320 240" stroke="#90a4ae" stroke-width="1" fill="none"/>
+  <text x="275" y="260" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">信号传递</text>
+</svg>

@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">健康与神经传导的关系</text>
+  
+  <!-- 左侧：不健康状态 -->
+  <g transform="translate(150, 150)">
+    <!-- 大脑（中央发电站） -->
+    <circle cx="0" cy="0" r="40" fill="#e63946" stroke="#333" stroke-width="2"/>
+    <path d="M-15,-5 C-12,5 -8,10 0,10 C8,10 12,5 15,-5" fill="none" stroke="#333" stroke-width="1.5"/>
+    <circle cx="-15" cy="-15" r="5" fill="#333"/>
+    <circle cx="15" cy="-15" r="5" fill="#333"/>
+    
+    <!-- 城市轮廓（不健康） -->
+    <g transform="translate(-100, 100)">
+      <!-- 建筑物（器官） - 部分黑暗 -->
+      <rect x="0" y="-80" width="20" height="80" fill="#457b9d" stroke="#333" stroke-width="1"/>
+      <rect x="30" y="-60" width="30" height="60" fill="#1d3557" stroke="#333" stroke-width="1"/>
+      <rect x="70" y="-90" width="25" height="90" fill="#1d3557" stroke="#333" stroke-width="1"/>
+      <rect x="105" y="-70" width="35" height="70" fill="#457b9d" stroke="#333" stroke-width="1"/>
+      <rect x="150" y="-100" width="40" height="100" fill="#1d3557" stroke="#333" stroke-width="1"/>
+      <rect x="200" y="-65" width="30" height="65" fill="#1d3557" stroke="#333" stroke-width="1"/>
+      
+      <!-- 窗户 - 大部分黑暗 -->
+      <g fill="#1d3557">
+        <rect x="5" y="-70" width="10" height="10"/>
+        <rect x="5" y="-50" width="10" height="10"/>
+        <rect x="5" y="-30" width="10" height="10"/>
+        
+        <rect x="40" y="-50" width="10" height="10"/>
+        <rect x="40" y="-30" width="10" height="10"/>
+        
+        <rect x="80" y="-80" width="10" height="10"/>
+        <rect x="80" y="-60" width="10" height="10"/>
+        <rect x="80" y="-40" width="10" height="10"/>
+        
+        <rect x="120" y="-60" width="10" height="10"/>
+        <rect x="120" y="-40" width="10" height="10"/>
+        
+        <rect x="165" y="-90" width="10" height="10"/>
+        <rect x="165" y="-70" width="10" height="10"/>
+        <rect x="165" y="-50" width="10" height="10"/>
+        <rect x="165" y="-30" width="10" height="10"/>
+        
+        <rect x="210" y="-55" width="10" height="10"/>
+        <rect x="210" y="-35" width="10" height="10"/>
+      </g>
+      
+      <!-- 少数亮着的窗户 -->
+      <g fill="#f1faee">
+        <rect x="5" y="-70" width="10" height="10"/>
+        <rect x="120" y="-40" width="10" height="10"/>
+        <rect x="165" y="-70" width="10" height="10"/>
+      </g>
+    </g>
+    
+    <!-- 断开的神经线路 -->
+    <path d="M0,40 C0,60 -50,80 -50,100 M-50,120 C-50,140 -70,150 -80,160" stroke="#e63946" stroke-width="3" stroke-dasharray="5,5" fill="none"/>
+    <path d="M0,40 C0,60 50,80 80,100 M100,120 C120,140 140,150 150,160" stroke="#e63946" stroke-width="3" stroke-dasharray="5,5" fill="none"/>
+    <path d="M40,0 C60,0 80,-20 100,-40 M120,-50 C140,-60 160,-60 180,-60" stroke="#e63946" stroke-width="3" stroke-dasharray="5,5" fill="none"/>
+    
+    <!-- "不健康"标签 -->
+    <text x="50" y="180" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e63946">不健康状态</text>
+    <text x="30" y="200" font-family="Arial, sans-serif" font-size="14" fill="#333">神经传导受阻</text>
+  </g>
+  
+  <!-- 右侧：健康状态 -->
+  <g transform="translate(550, 150)">
+    <!-- 大脑（中央发电站） -->
+    <circle cx="0" cy="0" r="40" fill="#2a9d8f" stroke="#333" stroke-width="2"/>
+    <path d="M-15,-5 C-12,5 -8,10 0,10 C8,10 12,5 15,-5" fill="none" stroke="#333" stroke-width="1.5"/>
+    <circle cx="-15" cy="-15" r="5" fill="#333"/>
+    <circle cx="15" cy="-15" r="5" fill="#333"/>
+    
+    <!-- 城市轮廓（健康） -->
+    <g transform="translate(-100, 100)">
+      <!-- 建筑物（器官） - 全部明亮 -->
+      <rect x="0" y="-80" width="20" height="80" fill="#457b9d" stroke="#333" stroke-width="1"/>
+      <rect x="30" y="-60" width="30" height="60" fill="#457b9d" stroke="#333" stroke-width="1"/>
+      <rect x="70" y="-90" width="25" height="90" fill="#457b9d" stroke="#333" stroke-width="1"/>
+      <rect x="105" y="-70" width="35" height="70" fill="#457b9d" stroke="#333" stroke-width="1"/>
+      <rect x="150" y="-100" width="40" height="100" fill="#457b9d" stroke="#333" stroke-width="1"/>
+      <rect x="200" y="-65" width="30" height="65" fill="#457b9d" stroke="#333" stroke-width="1"/>
+      
+      <!-- 窗户 - 全部明亮 -->
+      <g fill="#f1faee">
+        <rect x="5" y="-70" width="10" height="10"/>
+        <rect x="5" y="-50" width="10" height="10"/>
+        <rect x="5" y="-30" width="10" height="10"/>
+        
+        <rect x="40" y="-50" width="10" height="10"/>
+        <rect x="40" y="-30" width="10" height="10"/>
+        
+        <rect x="80" y="-80" width="10" height="10"/>
+        <rect x="80" y="-60" width="10" height="10"/>
+        <rect x="80" y="-40" width="10" height="10"/>
+        
+        <rect x="120" y="-60" width="10" height="10"/>
+        <rect x="120" y="-40" width="10" height="10"/>
+        
+        <rect x="165" y="-90" width="10" height="10"/>
+        <rect x="165" y="-70" width="10" height="10"/>
+        <rect x="165" y="-50" width="10" height="10"/>
+        <rect x="165" y="-30" width="10" height="10"/>
+        
+        <rect x="210" y="-55" width="10" height="10"/>
+        <rect x="210" y="-35" width="10" height="10"/>
+      </g>
+    </g>
+    
+    <!-- 通畅的神经线路 -->
+    <path d="M0,40 C0,60 -50,80 -50,100 C-50,140 -70,150 -80,160" stroke="#2a9d8f" stroke-width="3" fill="none"/>
+    <path d="M0,40 C0,60 50,80 80,100 C120,140 140,150 150,160" stroke="#2a9d8f" stroke-width="3" fill="none"/>
+    <path d="M40,0 C60,0 80,-20 100,-40 C140,-60 160,-60 180,-60" stroke="#2a9d8f" stroke-width="3" fill="none"/>
+    
+    <!-- 电流符号 -->
+    <g fill="#f4a261">
+      <circle cx="-30" cy="100" r="3"/>
+      <circle cx="50" cy="120" r="3"/>
+      <circle cx="120" cy="-40" r="3"/>
+    </g>
+    
+    <!-- "健康"标签 -->
+    <text x="50" y="180" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2a9d8f">健康状态</text>
+    <text x="30" y="200" font-family="Arial, sans-serif" font-size="14" fill="#333">神经传导正常</text>
+  </g>
+  
+  <!-- 中间转换箭头 -->
+  <g transform="translate(400, 230)">
+    <path d="M-70,0 L70,0" stroke="#333" stroke-width="2" fill="none"/>
+    <polygon points="70,0 60,-10 60,10" fill="#333"/>
+    <text x="0" y="-15" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">神经传导恢复</text>
+    
+    <!-- 修复工具符号 -->
+    <g transform="translate(0, 0) rotate(45)">
+      <rect x="-15" y="-5" width="30" height="10" fill="#f4a261" stroke="#333" stroke-width="1" rx="2"/>
+      <circle cx="0" cy="0" r="6" fill="#e9c46a" stroke="#333" stroke-width="1"/>
+    </g>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333" font-style="italic">
+    健康就像一座城市的电力网络：当神经传导（电力）畅通时，身体各器官（城市建筑）
+  </text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333" font-style="italic">
+    才能正常运作，恢复活力与秩序；神经传导受阻则导致功能障碍，就像停电的城市区域。
+  </text>
+</svg>

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">血液中毒的脊骨神经医学观点</text>
+  
+  <!-- 圆形血液循环系统 -->
+  <circle cx="400" cy="300" r="180" fill="#f8e6e6" stroke="#d66" stroke-width="3"/>
+  
+  <!-- 血管网络 -->
+  <path d="M400,120 C500,200 550,300 500,400 C450,500 350,500 300,400 C250,300 300,200 400,120" fill="none" stroke="#d66" stroke-width="4"/>
+  <path d="M400,120 C300,200 250,300 300,400 C350,500 450,500 500,400 C550,300 500,200 400,120" fill="none" stroke="#d66" stroke-width="4"/>
+  
+  <!-- 心脏 -->
+  <path d="M370,300 C360,280 340,280 330,290 C320,270 300,270 290,290 C280,310 290,330 330,360 C370,330 380,310 370,300Z" fill="#e88" stroke="#d66" stroke-width="2"/>
+  
+  <!-- 血液细胞 -->
+  <circle cx="350" cy="220" r="15" fill="#d66" opacity="0.8"/>
+  <circle cx="450" cy="250" r="15" fill="#d66" opacity="0.8"/>
+  <circle cx="470" cy="350" r="15" fill="#d66" opacity="0.8"/>
+  <circle cx="350" cy="380" r="15" fill="#d66" opacity="0.8"/>
+  
+  <!-- 毒素表示 -->
+  <polygon points="350,220 345,210 355,210" fill="#5a5" opacity="0.9"/>
+  <polygon points="450,250 445,240 455,240" fill="#5a5" opacity="0.9"/>
+  <polygon points="470,350 465,340 475,340" fill="#5a5" opacity="0.9"/>
+  <polygon points="350,380 345,370 355,370" fill="#5a5" opacity="0.9"/>
+  
+  <!-- 脊椎示意 -->
+  <rect x="650" y="200" width="40" height="200" rx="10" fill="#f0f0f0" stroke="#666" stroke-width="2"/>
+  <line x1="650" y1="225" x2="690" y2="225" stroke="#666" stroke-width="2"/>
+  <line x1="650" y1="250" x2="690" y2="250" stroke="#666" stroke-width="2"/>
+  <line x1="650" y1="275" x2="690" y2="275" stroke="#666" stroke-width="2"/>
+  <line x1="650" y1="300" x2="690" y2="300" stroke="#666" stroke-width="2"/>
+  <line x1="650" y1="325" x2="690" y2="325" stroke="#666" stroke-width="2"/>
+  <line x1="650" y1="350" x2="690" y2="350" stroke="#666" stroke-width="2"/>
+  <line x1="650" y1="375" x2="690" y2="375" stroke="#666" stroke-width="2"/>
+  
+  <!-- 连接线 -->
+  <path d="M500,300 Q575,300 650,300" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <polygon points="640,295 650,300 640,305" fill="#666"/>
+  
+  <!-- 关键概念框 -->
+  <rect x="150" y="150" width="200" height="60" rx="10" fill="white" stroke="#666" stroke-width="2"/>
+  <text x="250" y="185" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">血液本身不会生病</text>
+  
+  <rect x="150" y="390" width="200" height="60" rx="10" fill="white" stroke="#666" stroke-width="2"/>
+  <text x="250" y="425" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">血液循环携带毒素</text>
+  
+  <rect x="570" y="150" width="200" height="60" rx="10" fill="white" stroke="#666" stroke-width="2"/>
+  <text x="670" y="185" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">脊椎问题是根源</text>
+  
+  <!-- 解释性文字 -->
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle" font-style="italic">血液如同城市的巴士系统，自身不会生病，但可以运载"不良乘客"(毒素)</text>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="14" fill="#555" text-anchor="middle" font-style="italic">而脊椎问题则像城市的安全检查点失效，允许毒素自由进出</text>
+</svg>

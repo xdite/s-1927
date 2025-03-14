@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f7f2" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#3a6351">写作技巧的园艺比喻</text>
+  
+  <!-- 左侧：分纸写作 -->
+  <g transform="translate(200, 280)">
+    <!-- 花盆1 -->
+    <path d="M-100,-80 L-80,-120 L-20,-120 L0,-80 L-10,0 L-90,0 Z" fill="#d3a284"/>
+    <ellipse cx="-50" cy="-80" rx="50" ry="10" fill="#b26e63"/>
+    
+    <!-- 花盆2 -->
+    <path d="M20,-80 L40,-120 L100,-120 L120,-80 L110,0 L30,0 Z" fill="#d3a284"/>
+    <ellipse cx="70" cy="-80" rx="50" ry="10" fill="#b26e63"/>
+    
+    <!-- 植物1 -->
+    <path d="M-60,-80 C-70,-100 -90,-110 -100,-105 M-60,-80 C-50,-100 -30,-110 -20,-105" stroke="#6a994e" fill="none" stroke-width="2"/>
+    <path d="M-60,-80 C-60,-110 -50,-130 -40,-140" stroke="#6a994e" fill="none" stroke-width="2"/>
+    <circle cx="-100" cy="-105" r="8" fill="#a7c957"/>
+    <circle cx="-20" cy="-105" r="8" fill="#a7c957"/>
+    <circle cx="-40" cy="-140" r="8" fill="#a7c957"/>
+    
+    <!-- 植物2 -->
+    <path d="M60,-80 C50,-100 30,-110 20,-105 M60,-80 C70,-100 90,-110 100,-105" stroke="#6a994e" fill="none" stroke-width="2"/>
+    <path d="M60,-80 C60,-110 70,-130 80,-140" stroke="#6a994e" fill="none" stroke-width="2"/>
+    <circle cx="20" cy="-105" r="8" fill="#f2cc8f"/>
+    <circle cx="100" cy="-105" r="8" fill="#f2cc8f"/>
+    <circle cx="80" cy="-140" r="8" fill="#f2cc8f"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#3a6351">分纸写作</text>
+    <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">每个想法独立生长，随时可以重新组织</text>
+  </g>
+  
+  <!-- 右侧：隐藏框架 -->
+  <g transform="translate(600, 240)">
+    <!-- 树的骨架 -->
+    <path d="M0,40 L0,-40 M0,-40 L-30,-80 M0,-40 L30,-80 M-30,-80 L-50,-100 M-30,-80 L-20,-110 M30,-80 L50,-100 M30,-80 L20,-110" stroke="#aaa" stroke-width="2" stroke-dasharray="5,3"/>
+    
+    <!-- 树干 -->
+    <path d="M-10,40 C-15,20 -15,-20 -10,-40 C-5,-45 5,-45 10,-40 C15,-20 15,20 10,40 Z" fill="#8b6f47"/>
+    
+    <!-- 树冠 -->
+    <circle cx="-50" cy="-100" r="20" fill="#6a994e"/>
+    <circle cx="-20" cy="-110" r="25" fill="#6a994e"/>
+    <circle cx="0" cy="-70" r="30" fill="#6a994e"/>
+    <circle cx="20" cy="-110" r="25" fill="#6a994e"/>
+    <circle cx="50" cy="-100" r="20" fill="#6a994e"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#3a6351">隐藏框架</text>
+    <text x="0" y="110" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">内容覆盖结构，如同树叶覆盖树枝</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" font-style="italic" fill="#666">
+    写作就像园艺：分纸写作让不同想法各自生长，隐藏框架则如同树木，让读者看到美丽的枝叶而非支撑的骨架
+  </text>
+</svg>

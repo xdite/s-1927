@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">椎节区域组成与功能</text>
+  
+  <!-- 饼图 -->
+  <g transform="translate(250, 250)">
+    <!-- 椎骨 30% -->
+    <path d="M0,0 L0,-150 A150,150 0 0,1 129.9,75 z" fill="#3498db" stroke="#fff" stroke-width="2"/>
+    <!-- 椎间盘 20% -->
+    <path d="M0,0 L129.9,75 A150,150 0 0,1 -57.7,-138.6 z" fill="#e74c3c" stroke="#fff" stroke-width="2"/>
+    <!-- 韧带 25% -->
+    <path d="M0,0 L-57.7,-138.6 A150,150 0 0,1 -129.9,-75 z" fill="#2ecc71" stroke="#fff" stroke-width="2"/>
+    <!-- 肌肉 25% -->
+    <path d="M0,0 L-129.9,-75 A150,150 0 0,1 0,-150 z" fill="#f39c12" stroke="#fff" stroke-width="2"/>
+    
+    <!-- 标签 -->
+    <text x="75" y="-60" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">椎骨 30%</text>
+    <text x="40" y="90" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">椎间盘 20%</text>
+    <text x="-110" y="20" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">韧带 25%</text>
+    <text x="-60" y="-100" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">肌肉 25%</text>
+  </g>
+  
+  <!-- 吊桥比喻图示 -->
+  <g transform="translate(550, 250)">
+    <!-- 桥塔 -->
+    <rect x="-120" y="-70" width="20" height="150" fill="#3498db" rx="2" ry="2" stroke="#2c3e50" stroke-width="1"/>
+    <rect x="100" y="-70" width="20" height="150" fill="#3498db" rx="2" ry="2" stroke="#2c3e50" stroke-width="1"/>
+    
+    <!-- 桥面 -->
+    <path d="M-150,30 C-100,-10 100,-10 150,30" fill="none" stroke="#2c3e50" stroke-width="8"/>
+    
+    <!-- 钢缆 (韧带) -->
+    <path d="M-110,-70 L-140,30" fill="none" stroke="#2ecc71" stroke-width="3"/>
+    <path d="M-110,-70 L-100,30" fill="none" stroke="#2ecc71" stroke-width="3"/>
+    <path d="M-110,-70 L-60,30" fill="none" stroke="#2ecc71" stroke-width="3"/>
+    <path d="M-110,-70 L-20,30" fill="none" stroke="#2ecc71" stroke-width="3"/>
+    <path d="M110,-70 L20,30" fill="none" stroke="#2ecc71" stroke-width="3"/>
+    <path d="M110,-70 L60,30" fill="none" stroke="#2ecc71" stroke-width="3"/>
+    <path d="M110,-70 L100,30" fill="none" stroke="#2ecc71" stroke-width="3"/>
+    <path d="M110,-70 L140,30" fill="none" stroke="#2ecc71" stroke-width="3"/>
+    
+    <!-- 减震器 (椎间盘) -->
+    <rect x="-50" y="20" width="20" height="10" fill="#e74c3c" rx="2" ry="2"/>
+    <rect x="30" y="20" width="20" height="10" fill="#e74c3c" rx="2" ry="2"/>
+    
+    <!-- 调节系统 (肌肉) -->
+    <path d="M-80,40 C-60,60 -40,60 -20,40" fill="none" stroke="#f39c12" stroke-width="5" stroke-linecap="round"/>
+    <path d="M20,40 C40,60 60,60 80,40" fill="none" stroke="#f39c12" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- 图例 -->
+    <g transform="translate(0, 100)">
+      <rect x="-120" y="0" width="15" height="15" fill="#3498db"/>
+      <text x="-100" y="12" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">椎骨 (桥墩)</text>
+      
+      <rect x="-120" y="25" width="15" height="15" fill="#e74c3c"/>
+      <text x="-100" y="37" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">椎间盘 (减震器)</text>
+      
+      <rect x="10" y="0" width="15" height="15" fill="#2ecc71"/>
+      <text x="30" y="12" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">韧带 (钢缆)</text>
+      
+      <rect x="10" y="25" width="15" height="15" fill="#f39c12"/>
+      <text x="30" y="37" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">肌肉 (调节系统)</text>
+    </g>
+  </g>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="430" width="700" height="120" fill="#ecf0f1" rx="5" ry="5" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="400" y="455" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50" font-weight="bold">椎节区域：人体的精密吊桥</text>
+  <text x="60" y="480" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">
+    <tspan x="60" y="480">椎节区域如同精密的吊桥，椎骨是支撑的桥墩，椎间盘是减震器，韧带如钢缆维持稳定，</tspan>
+    <tspan x="60" y="500">肌肉则是动态调节系统。当某一部分出现问题（如半脱位），整个系统的稳定性和功能都会</tspan>
+    <tspan x="60" y="520">受到影响，就像桥梁结构受损会导致交通受阻一样，影响神经信号的正常传导。</tspan>
+  </text>
+</svg>

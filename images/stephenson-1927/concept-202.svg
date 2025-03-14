@@ -1,0 +1,57 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">天赋智能在精神领域中的运作</text>
+  
+  <!-- 精神领域 - 用半透明紫色区域表示 -->
+  <ellipse cx="400" cy="300" rx="350" ry="220" fill="#e6e6fa" fill-opacity="0.6" stroke="#9370db" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="160" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#6a5acd">精神领域</text>
+  <text x="400" y="185" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#6a5acd" font-style="italic">(思想的空间)</text>
+  
+  <!-- 天赋智能 - 用灯泡表示 -->
+  <circle cx="400" cy="280" r="70" fill="#fff7d6" stroke="#ffd700" stroke-width="3"/>
+  <path d="M400,230 L400,210 M380,235 L370,215 M420,235 L430,215 M365,255 L345,245 M435,255 L455,245" stroke="#ffd700" stroke-width="3" stroke-linecap="round"/>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#b8860b">天赋智能</text>
+  
+  <!-- 思想云朵 -->
+  <path d="M300,320 C280,300 260,330 270,350 C250,360 250,390 270,400 C260,420 280,440 300,430 C310,450 340,450 350,430 C370,440 390,420 380,400 C400,390 400,360 380,350 C390,330 370,300 350,310 C340,290 310,290 300,310 Z" fill="#e0e8ff" stroke="#9370db" stroke-width="2"/>
+  <text x="325" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#4b0082">思考</text>
+  
+  <path d="M450,320 C430,300 410,330 420,350 C400,360 400,390 420,400 C410,420 430,440 450,430 C460,450 490,450 500,430 C520,440 540,420 530,400 C550,390 550,360 530,350 C540,330 520,300 500,310 C490,290 460,290 450,310 Z" fill="#e0e8ff" stroke="#9370db" stroke-width="2"/>
+  <text x="475" y="370" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#4b0082">构思</text>
+  
+  <!-- 从思想到现实的箭头和元素 -->
+  <path d="M250,400 L200,450" stroke="#6a5acd" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M350,430 L350,500" stroke="#6a5acd" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M450,430 L450,500" stroke="#6a5acd" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M550,400 L600,450" stroke="#6a5acd" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6a5acd"/>
+    </marker>
+  </defs>
+  
+  <!-- 现实世界的元素 -->
+  <rect x="150" y="450" width="80" height="60" rx="5" ry="5" fill="#d1e7dd" stroke="#198754" stroke-width="2"/>
+  <text x="190" y="485" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0f5132">身体结构</text>
+  
+  <rect x="310" y="500" width="80" height="60" rx="5" ry="5" fill="#d1e7dd" stroke="#198754" stroke-width="2"/>
+  <text x="350" y="535" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0f5132">生理功能</text>
+  
+  <rect x="410" y="500" width="80" height="60" rx="5" ry="5" fill="#d1e7dd" stroke="#198754" stroke-width="2"/>
+  <text x="450" y="535" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0f5132">行为表现</text>
+  
+  <rect x="570" y="450" width="80" height="60" rx="5" ry="5" fill="#d1e7dd" stroke="#198754" stroke-width="2"/>
+  <text x="610" y="485" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#0f5132">外在创造</text>
+  
+  <!-- 比喻说明 -->
+  <rect x="100" y="520" width="600" height="60" rx="5" ry="5" fill="#f8f8f8" stroke="#cccccc" stroke-width="1"/>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">
+    <tspan x="400" dy="0">就像建筑师在工作室中先构思设计再付诸实践，</tspan>
+    <tspan x="400" dy="20">我们的天赋智能也在精神领域中先构思一切，然后才在物质世界实现。</tspan>
+  </text>
+</svg>

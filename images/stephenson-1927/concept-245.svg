@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">寰椎侧向移动与肌肉牵拉的关系</text>
+  
+  <!-- 平衡状态 - 左侧 -->
+  <g transform="translate(200, 150)">
+    <!-- 寰椎示意图 - 平衡位置 -->
+    <ellipse cx="0" cy="0" rx="60" ry="30" fill="#f5f5f5" stroke="#34495e" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">寰椎</text>
+    
+    <!-- 上斜方肌 - 左侧 -->
+    <path d="M-80,0 C-120,-50 -140,-60 -160,-40" stroke="#e74c3c" stroke-width="4" fill="none"/>
+    <text x="-130" y="-50" font-family="Arial" font-size="12" text-anchor="middle" fill="#e74c3c">上斜方肌</text>
+    <path d="M-160,-40 L-155,-35 L-165,-30 Z" fill="#e74c3c"/>
+    
+    <!-- 横突间肌 - 右侧 -->
+    <path d="M80,0 C120,-50 140,-60 160,-40" stroke="#3498db" stroke-width="4" fill="none"/>
+    <text x="130" y="-50" font-family="Arial" font-size="12" text-anchor="middle" fill="#3498db">横突间肌</text>
+    <path d="M160,-40 L155,-35 L165,-30 Z" fill="#3498db"/>
+    
+    <!-- 平衡力箭头 -->
+    <path d="M-60,0 L-70,0" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,2"/>
+    <polygon points="-70,-5 -80,0 -70,5" fill="#e74c3c"/>
+    
+    <path d="M60,0 L70,0" stroke="#3498db" stroke-width="2" stroke-dasharray="5,2"/>
+    <polygon points="70,-5 80,0 70,5" fill="#3498db"/>
+    
+    <!-- 状态标签 -->
+    <text x="0" y="60" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">平衡状态</text>
+    <text x="0" y="80" font-family="Arial" font-size="12" text-anchor="middle" fill="#7f8c8d">肌肉张力均衡，寰椎位置正常</text>
+  </g>
+  
+  <!-- 不平衡状态 - 右侧 -->
+  <g transform="translate(600, 150)">
+    <!-- 寰椎示意图 - 侧移位置 -->
+    <ellipse cx="-20" cy="0" rx="60" ry="30" fill="#f5f5f5" stroke="#34495e" stroke-width="2"/>
+    <text x="-20" y="5" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">寰椎</text>
+    
+    <!-- 上斜方肌 - 左侧（紧张） -->
+    <path d="M-100,0 C-140,-50 -160,-60 -180,-40" stroke="#e74c3c" stroke-width="6" fill="none"/>
+    <text x="-150" y="-50" font-family="Arial" font-size="12" text-anchor="middle" fill="#e74c3c" font-weight="bold">上斜方肌</text>
+    <text x="-150" y="-35" font-family="Arial" font-size="10" text-anchor="middle" fill="#e74c3c">(张力过强)</text>
+    <path d="M-180,-40 L-175,-35 L-185,-30 Z" fill="#e74c3c"/>
+    
+    <!-- 横突间肌 - 右侧（松弛） -->
+    <path d="M60,0 C100,-50 120,-60 140,-40" stroke="#3498db" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+    <text x="110" y="-50" font-family="Arial" font-size="12" text-anchor="middle" fill="#3498db" font-weight="bold">横突间肌</text>
+    <text x="110" y="-35" font-family="Arial" font-size="10" text-anchor="middle" fill="#3498db">(张力不足)</text>
+    <path d="M140,-40 L135,-35 L145,-30 Z" fill="#3498db"/>
+    
+    <!-- 不平衡力箭头 -->
+    <path d="M-80,0 L-90,0" stroke="#e74c3c" stroke-width="4"/>
+    <polygon points="-90,-7 -105,0 -90,7" fill="#e74c3c"/>
+    
+    <path d="M40,0 L50,0" stroke="#3498db" stroke-width="1" stroke-dasharray="5,3"/>
+    <polygon points="50,-4 60,0 50,4" fill="#3498db"/>
+    
+    <!-- 状态标签 -->
+    <text x="-20" y="60" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#2c3e50">不平衡状态</text>
+    <text x="-20" y="80" font-family="Arial" font-size="12" text-anchor="middle" fill="#7f8c8d">肌肉张力不均，寰椎发生侧向移动</text>
+  </g>
+  
+  <!-- 中心连接线 -->
+  <line x1="200" y1="250" x2="600" y2="250" stroke="#95a5a6" stroke-width="2" stroke-dasharray="10,5"/>
+  <polygon points="595,245 610,250 595,255" fill="#95a5a6"/>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="350" width="600" height="100" rx="10" ry="10" fill="#ecf0f1" stroke="#bdc3c7"/>
+  <text x="400" y="380" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    就像两个人平衡移动相框：当一侧用力过猛（肌肉张力过强）或另一侧力量不足（肌肉张力不足）时，
+  </text>
+  <text x="400" y="405" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    相框（寰椎）就会向一侧倾斜。这种不平衡会影响颈部功能，导致不适和活动受限。
+  </text>
+  <text x="400" y="430" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    维持肌肉张力平衡对保持寰椎正常位置至关重要。
+  </text>
+</svg>

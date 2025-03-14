@@ -1,0 +1,68 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 三个主要区域 -->
+  <rect x="50" y="80" width="200" height="300" fill="#ffe6e6" rx="10" ry="10" stroke="#d4d4d4" stroke-width="2"/>
+  <rect x="300" y="80" width="200" height="300" fill="#e6f2ff" rx="10" ry="10" stroke="#d4d4d4" stroke-width="2"/>
+  <rect x="550" y="80" width="200" height="300" fill="#e6ffe6" rx="10" ry="10" stroke="#d4d4d4" stroke-width="2"/>
+  
+  <!-- 标题 -->
+  <text x="150" y="60" font-family="Arial" font-size="20" text-anchor="middle" fill="#d63384">Efferent</text>
+  <text x="400" y="60" font-family="Arial" font-size="20" text-anchor="middle" fill="#0d6efd">Peripheral</text>
+  <text x="650" y="60" font-family="Arial" font-size="20" text-anchor="middle" fill="#198754">Afferent</text>
+  
+  <!-- Efferent 区域内容 -->
+  <circle cx="150" cy="150" r="40" fill="#ff9999" stroke="#d63384" stroke-width="2"/>
+  <path d="M150 110 L160 140 L140 140 Z" fill="#d63384"/> <!-- 心脏指示箭头 -->
+  <path d="M190 150 L250 150" stroke="#d63384" stroke-width="3" stroke-dasharray="0"/>
+  <polygon points="250,150 240,145 240,155" fill="#d63384"/>
+  
+  <!-- 配送中心和卡车 -->
+  <rect x="110" y="220" width="80" height="40" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  <text x="150" y="245" font-family="Arial" font-size="12" text-anchor="middle">配送中心</text>
+  <rect x="180" y="280" width="30" height="15" fill="#d63384" stroke="#333" stroke-width="1"/>
+  <circle cx="185" cy="295" r="5" fill="#333"/>
+  <circle cx="205" cy="295" r="5" fill="#333"/>
+  
+  <!-- Peripheral 区域内容 -->
+  <rect x="330" y="130" width="50" height="30" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  <rect x="420" y="180" width="50" height="30" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  <rect x="350" y="230" width="50" height="30" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  <rect x="400" y="280" width="50" height="30" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  
+  <!-- 快递员 -->
+  <circle cx="380" cy="200" r="8" fill="#0d6efd"/>
+  <line x1="380" y1="208" x2="380" y2="220" stroke="#0d6efd" stroke-width="2"/>
+  <line x1="380" y1="212" x2="370" y2="225" stroke="#0d6efd" stroke-width="2"/>
+  <line x1="380" y1="212" x2="390" y2="225" stroke="#0d6efd" stroke-width="2"/>
+  <path d="M380 200 L400 190 L420 210" stroke="#0d6efd" stroke-width="1" fill="none"/> <!-- 配送路线 -->
+  
+  <!-- Peripheral 到 Afferent 的箭头 -->
+  <path d="M500 150 L550 150" stroke="#198754" stroke-width="3" stroke-dasharray="0"/>
+  <polygon points="550,150 540,145 540,155" fill="#198754"/>
+  
+  <!-- Afferent 区域内容 -->
+  <circle cx="650" cy="150" r="30" fill="#99cc99" stroke="#198754" stroke-width="2"/>
+  <text x="650" y="155" font-family="Arial" font-size="14" text-anchor="middle">器官</text>
+  
+  <!-- 垃圾收集和处理 -->
+  <rect x="600" y="220" width="100" height="30" fill="#ffffff" stroke="#333" stroke-width="1"/>
+  <text x="650" y="240" font-family="Arial" font-size="12" text-anchor="middle">废物处理系统</text>
+  <path d="M630 270 L670 270 L665 290 L635 290 Z" fill="#198754" stroke="#333" stroke-width="1"/>
+  <line x1="640" y1="270" x2="640" y2="250" stroke="#198754" stroke-width="1"/>
+  <line x1="650" y1="270" x2="650" y2="250" stroke="#198754" stroke-width="1"/>
+  <line x1="660" y1="270" x2="660" y2="250" stroke="#198754" stroke-width="1"/>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="400" width="700" height="80" fill="#ffffff" rx="5" ry="5" stroke="#d4d4d4" stroke-width="1"/>
+  <text x="400" y="425" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">
+    血清循环就像城市的配送与回收系统：中央配送中心发出物资(Efferent)，
+  </text>
+  <text x="400" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">
+    快递员将物资送达各个角落(Peripheral)，最后通过垃圾收集系统
+  </text>
+  <text x="400" y="475" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">
+    将废物运送到处理厂(Afferent)。
+  </text>
+</svg>

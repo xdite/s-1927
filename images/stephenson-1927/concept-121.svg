@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <!-- 背景 -->
+  <rect width="800" height="400" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">生命的起源：精子与卵子的相遇</text>
+  
+  <!-- 精子 -->
+  <g transform="translate(150, 200)">
+    <ellipse cx="0" cy="0" rx="60" ry="40" fill="#e6f2ff" stroke="#4d94ff" stroke-width="2"/>
+    <path d="M-60,0 C-90,-15 -120,0 -150,0 C-120,15 -90,30 -60,0 Z" fill="#e6f2ff" stroke="#4d94ff" stroke-width="2"/>
+    <circle cx="10" cy="0" r="25" fill="#d9e6ff" stroke="#4d94ff" stroke-width="1.5"/>
+    <path d="M0,-10 L20,-10 M0,0 L20,0 M0,10 L20,10" stroke="#4d94ff" stroke-width="1.5" stroke-linecap="round"/>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">精子</text>
+    <!-- 蓝色基因图案 -->
+    <circle cx="-20" cy="-5" r="5" fill="#4d94ff" opacity="0.7"/>
+    <circle cx="-10" cy="15" r="4" fill="#4d94ff" opacity="0.7"/>
+    <circle cx="-25" cy="10" r="3" fill="#4d94ff" opacity="0.7"/>
+  </g>
+  
+  <!-- 卵子 -->
+  <g transform="translate(650, 200)">
+    <circle cx="0" cy="0" r="70" fill="#ffebf0" stroke="#ff99b3" stroke-width="2"/>
+    <circle cx="0" cy="0" r="40" fill="#ffd6e0" stroke="#ff99b3" stroke-width="1.5"/>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">卵子</text>
+    <!-- 粉色基因图案 -->
+    <circle cx="-20" cy="-25" r="5" fill="#ff99b3" opacity="0.7"/>
+    <circle cx="15" cy="-15" r="4" fill="#ff99b3" opacity="0.7"/>
+    <circle cx="25" cy="10" r="6" fill="#ff99b3" opacity="0.7"/>
+    <circle cx="-10" cy="20" r="5" fill="#ff99b3" opacity="0.7"/>
+  </g>
+  
+  <!-- 结合过程 -->
+  <g transform="translate(400, 200)">
+    <ellipse cx="0" cy="0" rx="50" ry="40" fill="#f0f5ff" stroke="#7f7fff" stroke-width="2"/>
+    <path d="M-20,-15 C-10,-25 10,-25 20,-15 C30,-5 30,5 20,15 C10,25 -10,25 -20,15 C-30,5 -30,-5 -20,-15 Z" fill="#e6e6ff" stroke="#7f7fff" stroke-width="1.5"/>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">结合</text>
+    <!-- 混合的基因图案 -->
+    <circle cx="-10" cy="-5" r="3" fill="#4d94ff" opacity="0.7"/>
+    <circle cx="10" cy="5" r="3" fill="#ff99b3" opacity="0.7"/>
+  </g>
+  
+  <!-- 新个体 -->
+  <g transform="translate(400, 320)">
+    <polygon points="0,-30 25,-10 15,20 -15,20 -25,-10" fill="#f5f0ff" stroke="#9966cc" stroke-width="2"/>
+    <text x="0" y="40" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">新个体</text>
+    <!-- 混合的基因图案 -->
+    <circle cx="-10" cy="-15" r="3" fill="#4d94ff" opacity="0.7"/>
+    <circle cx="10" cy="-5" r="3" fill="#ff99b3" opacity="0.7"/>
+    <circle cx="0" cy="5" r="4" fill="#9966cc" opacity="0.7"/>
+    <circle cx="-5" cy="-5" r="2" fill="#4d94ff" opacity="0.7"/>
+    <circle cx="5" cy="-15" r="2" fill="#ff99b3" opacity="0.7"/>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <g stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)">
+    <path d="M230,200 C280,200 320,200 340,200" stroke-dasharray="5,3"/>
+    <path d="M570,200 C520,200 480,200 460,200" stroke-dasharray="5,3"/>
+    <path d="M400,240 C400,260 400,280 400,280"/>
+  </g>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="12" fill="#666" text-anchor="middle" font-style="italic">
+    精子与卵子就像两个宝箱，结合后创造出既继承父母特质又完全独特的新生命
+  </text>
+</svg>

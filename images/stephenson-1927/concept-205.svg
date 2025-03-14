@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">
+    大脑细胞：天赋智能的力量组装与协调中心
+  </text>
+  
+  <!-- Brain outline -->
+  <path d="M400,150 C500,120 550,200 550,250 C550,330 500,380 450,400 C380,430 320,430 250,400 C200,380 150,330 150,250 C150,200 200,120 300,150 C350,120 350,120 400,150" 
+        fill="#e6f7ff" stroke="#666" stroke-width="2"/>
+  
+  <!-- Brain cells with branches -->
+  <g id="brain-cell-1">
+    <circle cx="300" cy="250" r="25" fill="#f9f" stroke="#333" stroke-width="2"/>
+    <!-- Dendrites -->
+    <path d="M300,225 C310,215 320,210 335,212" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M300,225 C290,210 280,205 270,208" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M300,225 C295,210 295,200 297,190" stroke="#333" stroke-width="1.5" fill="none"/>
+    <!-- Axon -->
+    <path d="M300,275 C305,295 310,320 315,350" stroke="#333" stroke-width="2" fill="none"/>
+    <path d="M315,350 C320,370 330,380 345,385" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M315,350 C310,375 300,385 285,390" stroke="#333" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <g id="brain-cell-2">
+    <circle cx="400" cy="280" r="25" fill="#f9f" stroke="#333" stroke-width="2"/>
+    <!-- Dendrites -->
+    <path d="M400,255 C410,245 425,240 435,242" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M400,255 C390,240 375,235 365,238" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M400,255 C395,240 395,230 397,220" stroke="#333" stroke-width="1.5" fill="none"/>
+    <!-- Axon -->
+    <path d="M400,305 C405,325 410,350 415,380" stroke="#333" stroke-width="2" fill="none"/>
+    <path d="M415,380 C420,400 430,410 445,415" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M415,380 C410,405 400,415 385,420" stroke="#333" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Innate Intelligence -->
+  <circle cx="400" cy="120" r="40" fill="#ffeb99" stroke="#333" stroke-width="2"/>
+  <text x="400" y="125" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">
+    Innate
+  </text>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">
+    Intelligence
+  </text>
+  
+  <!-- Arrows from Innate Intelligence to Brain Cells -->
+  <path d="M385,155 C370,180 350,210 325,230" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M415,155 C430,180 425,210 410,255" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Force Assembly Area -->
+  <rect x="200" y="450" width="150" height="80" rx="10" ry="10" fill="#d1e7dd" stroke="#333" stroke-width="2"/>
+  <text x="275" y="490" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">
+    Assembling
+  </text>
+  <text x="275" y="510" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">
+    Forces
+  </text>
+  
+  <!-- Coordination Area -->
+  <rect x="450" y="450" width="150" height="80" rx="10" ry="10" fill="#cfe2ff" stroke="#333" stroke-width="2"/>
+  <text x="525" y="490" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">
+    Coordination
+  </text>
+  <text x="525" y="510" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">
+    Center
+  </text>
+  
+  <!-- Arrows from Brain Cells to Functions -->
+  <path d="M290,380 C285,400 280,420 275,450" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M415,420 C450,430 480,440 500,450" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Connection between Brain Cells -->
+  <path d="M325,260 C345,265 365,270 375,270" stroke="#666" stroke-width="1.5" stroke-dasharray="5,3" fill="none"/>
+  
+  <!-- Arrowhead definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- Caption -->
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">
+    就像交通指挥中心，大脑细胞是天赋智能用来组装力量和协调身体活动的特殊器官
+  </text>
+</svg>

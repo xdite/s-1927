@@ -1,0 +1,66 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">过度功能 (Excess Function)</text>
+  
+  <!-- 主图：交响乐团比喻 -->
+  <g transform="translate(400, 280)">
+    <!-- 中心圆：过度活跃的乐手/细胞 -->
+    <circle cx="0" cy="0" r="70" fill="#ff9e80" stroke="#e57373" stroke-width="2"/>
+    <text x="0" y="5" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">过度活跃的细胞</text>
+    
+    <!-- 周围的乐手/细胞 -->
+    <circle cx="-120" cy="-60" r="40" fill="#b2dfdb" stroke="#4db6ac" stroke-width="2"/>
+    <circle cx="120" cy="-60" r="40" fill="#b2dfdb" stroke="#4db6ac" stroke-width="2"/>
+    <circle cx="-120" cy="60" r="40" fill="#b2dfdb" stroke="#4db6ac" stroke-width="2"/>
+    <circle cx="120" cy="60" r="40" fill="#b2dfdb" stroke="#4db6ac" stroke-width="2"/>
+    
+    <!-- 连接线：表示混乱的协调 -->
+    <line x1="-10" y1="-30" x2="-90" y2="-50" stroke="#757575" stroke-width="2" stroke-dasharray="5,3"/>
+    <line x1="10" y1="-30" x2="90" y2="-50" stroke="#757575" stroke-width="2" stroke-dasharray="5,3"/>
+    <line x1="-10" y1="30" x2="-90" y2="50" stroke="#757575" stroke-width="2" stroke-dasharray="5,3"/>
+    <line x1="10" y1="30" x2="90" y2="50" stroke="#757575" stroke-width="2" stroke-dasharray="5,3"/>
+  </g>
+  
+  <!-- 流程图 -->
+  <g transform="translate(150, 460)">
+    <!-- 框和箭头 -->
+    <rect x="0" y="0" width="120" height="50" rx="10" fill="#bbdefb" stroke="#64b5f6" stroke-width="2"/>
+    <text x="60" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">普遍力量</text>
+    
+    <path d="M120,25 L150,25" stroke="#757575" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="150" y="0" width="120" height="50" rx="10" fill="#bbdefb" stroke="#64b5f6" stroke-width="2"/>
+    <text x="210" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">过度功能</text>
+    
+    <path d="M270,25 L300,25" stroke="#757575" stroke-width="2" marker-end="url(#arrowhead)"/>
+    
+    <rect x="300" y="0" width="120" height="50" rx="10" fill="#bbdefb" stroke="#64b5f6" stroke-width="2"/>
+    <text x="360" y="22" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">非协调</text>
+    <text x="360" y="38" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">服务</text>
+  </g>
+  
+  <!-- 例子框 -->
+  <g transform="translate(600, 150)">
+    <rect x="0" y="0" width="150" height="100" rx="10" fill="#e1bee7" stroke="#ba68c8" stroke-width="2"/>
+    <text x="75" y="30" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">例子</text>
+    <text x="75" y="55" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">• 关节强直</text>
+    <text x="75" y="80" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">• 急促呼吸</text>
+    
+    <path d="M0,50 L-50,150" stroke="#757575" stroke-width="2" stroke-dasharray="5,3"/>
+  </g>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#757575"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="560" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">
+    就像不协调的乐团，过度功能是细胞"自行其是"而非遵循整体协调的结果
+  </text>
+</svg>

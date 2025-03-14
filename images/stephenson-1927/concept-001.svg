@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">毒素：先天智慧无法代谢的物质</text>
+  
+  <!-- 工厂主体 -->
+  <rect x="150" y="100" width="500" height="300" fill="#e6f2ff" stroke="#333" stroke-width="2" rx="10"/>
+  <rect x="250" y="80" width="300" height="40" fill="#d1e6ff" stroke="#333" stroke-width="2"/>
+  <rect x="370" y="60" width="60" height="40" fill="#b8daff" stroke="#333" stroke-width="2"/>
+  
+  <!-- 总工程师(先天智慧) -->
+  <circle cx="400" cy="150" r="30" fill="#ffcc80" stroke="#333" stroke-width="2"/>
+  <text x="400" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">先天智慧</text>
+  
+  <!-- 外部毒素 -->
+  <path d="M100,200 L150,200" stroke="#ff6b6b" stroke-width="3" stroke-dasharray="5,5"/>
+  <polygon points="145,195 155,200 145,205" fill="#ff6b6b"/>
+  <circle cx="80" cy="200" r="20" fill="#ff6b6b" opacity="0.7"/>
+  <text x="80" y="205" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">外部</text>
+  
+  <!-- 内部毒素 -->
+  <circle cx="300" cy="250" r="20" fill="#ff9f69" opacity="0.7"/>
+  <text x="300" y="255" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">内部</text>
+  
+  <!-- 过滤/排斥过程 -->
+  <path d="M400,180 L400,220 L500,220 L500,280" stroke="#333" stroke-width="2" fill="none"/>
+  <path d="M300,250 L350,250 L350,280" stroke="#333" stroke-width="2" fill="none"/>
+  <rect x="300" y="280" width="250" height="80" fill="#ffd699" stroke="#333" stroke-width="2" rx="5"/>
+  <text x="425" y="320" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">无法代谢的物质</text>
+  <text x="425" y="340" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">(积累导致功能障碍)</text>
+  
+  <!-- 箭头和流程 -->
+  <path d="M425,360 L425,400" stroke="#333" stroke-width="2" fill="none"/>
+  <polygon points="420,395 425,405 430,395" fill="#333"/>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="420" width="600" height="120" fill="#f0f0f0" stroke="#ccc" stroke-width="1" rx="5"/>
+  <text x="400" y="445" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">身体如同一座工厂，先天智慧是总工程师</text>
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">毒素是那些工程师无法处理的物质：</text>
+  <text x="400" y="495" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">可能来自外部环境，或在体内产生</text>
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">即使是有用物质，若位置错误或数量过多，也成为毒素</text>
+  
+  <!-- 图例 -->
+  <circle cx="680" cy="150" r="10" fill="#ffcc80" stroke="#333" stroke-width="1"/>
+  <text x="700" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">先天智慧</text>
+  
+  <circle cx="680" cy="180" r="10" fill="#ff6b6b" opacity="0.7"/>
+  <text x="700" y="185" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">外部毒素</text>
+  
+  <circle cx="680" cy="210" r="10" fill="#ff9f69" opacity="0.7"/>
+  <text x="700" y="215" font-family="Arial, sans-serif" font-size="12" text-anchor="start" fill="#333">内部毒素</text>
+</svg>

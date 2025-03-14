@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">人体四种主要组织</text>
+  <text x="400" y="80" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">如同一座协同运作的城市</text>
+  
+  <!-- 饼图 -->
+  <g transform="translate(300, 300)">
+    <!-- 结缔组织 35% -->
+    <path d="M0,0 L150,0 A150,150 0 0,1 43.6,143.6 z" fill="#8bc34a" stroke="#fff" stroke-width="2"/>
+    <!-- 肌肉组织 30% -->
+    <path d="M0,0 L43.6,143.6 A150,150 0 0,1 -75,129.9 z" fill="#f44336" stroke="#fff" stroke-width="2"/>
+    <!-- 上皮组织 25% -->
+    <path d="M0,0 L-75,129.9 A150,150 0 0,1 -150,0 z" fill="#2196f3" stroke="#fff" stroke-width="2"/>
+    <!-- 神经组织 10% -->
+    <path d="M0,0 L-150,0 A150,150 0 0,1 -75,-129.9 L0,0 z" fill="#9c27b0" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <!-- 图例 -->
+  <g transform="translate(550, 220)">
+    <!-- 上皮组织 -->
+    <rect x="0" y="0" width="20" height="20" fill="#2196f3"/>
+    <text x="30" y="15" font-family="Arial, sans-serif" font-size="14">上皮组织 (25%)</text>
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="12" fill="#555">城市的外墙与边界</text>
+    
+    <!-- 肌肉组织 -->
+    <rect x="0" y="60" width="20" height="20" fill="#f44336"/>
+    <text x="30" y="75" font-family="Arial, sans-serif" font-size="14">肌肉组织 (30%)</text>
+    <text x="30" y="95" font-family="Arial, sans-serif" font-size="12" fill="#555">城市的运输系统</text>
+    
+    <!-- 结缔组织 -->
+    <rect x="0" y="120" width="20" height="20" fill="#8bc34a"/>
+    <text x="30" y="135" font-family="Arial, sans-serif" font-size="14">结缔组织 (35%)</text>
+    <text x="30" y="155" font-family="Arial, sans-serif" font-size="12" fill="#555">城市的支撑框架</text>
+    
+    <!-- 神经组织 -->
+    <rect x="0" y="180" width="20" height="20" fill="#9c27b0"/>
+    <text x="30" y="195" font-family="Arial, sans-serif" font-size="14">神经组织 (10%)</text>
+    <text x="30" y="215" font-family="Arial, sans-serif" font-size="12" fill="#555">城市的通信系统</text>
+  </g>
+  
+  <!-- 城市图标 -->
+  <!-- 上皮组织/城墙 -->
+  <g transform="translate(100, 180)">
+    <rect x="0" y="0" width="120" height="80" fill="#2196f3" opacity="0.2" rx="5"/>
+    <rect x="0" y="0" width="120" height="10" fill="#2196f3" rx="5"/>
+    <rect x="0" y="70" width="120" height="10" fill="#2196f3" rx="5"/>
+    <rect x="0" y="0" width="10" height="80" fill="#2196f3" rx="5"/>
+    <rect x="110" y="0" width="10" height="80" fill="#2196f3" rx="5"/>
+    <text x="60" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">上皮组织</text>
+  </g>
+  
+  <!-- 肌肉组织/运输 -->
+  <g transform="translate(100, 300)">
+    <circle cx="30" cy="30" r="25" fill="#f44336" opacity="0.2"/>
+    <circle cx="30" cy="30" r="15" fill="#f44336" opacity="0.4"/>
+    <line x1="55" y1="30" x2="90" y2="30" stroke="#f44336" stroke-width="4"/>
+    <polygon points="85,25 95,30 85,35" fill="#f44336"/>
+    <text x="60" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">肌肉组织</text>
+  </g>
+  
+  <!-- 结缔组织/框架 -->
+  <g transform="translate(100, 380)">
+    <line x1="10" y1="10" x2="110" y2="10" stroke="#8bc34a" stroke-width="3"/>
+    <line x1="10" y1="10" x2="10" y2="60" stroke="#8bc34a" stroke-width="3"/>
+    <line x1="110" y1="10" x2="110" y2="60" stroke="#8bc34a" stroke-width="3"/>
+    <line x1="10" y1="60" x2="110" y2="60" stroke="#8bc34a" stroke-width="3"/>
+    <line x1="10" y1="10" x2="110" y2="60" stroke="#8bc34a" stroke-width="1" stroke-dasharray="5,3"/>
+    <line x1="110" y1="10" x2="10" y2="60" stroke="#8bc34a" stroke-width="1" stroke-dasharray="5,3"/>
+    <text x="60" y="80" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">结缔组织</text>
+  </g>
+  
+  <!-- 神经组织/通信 -->
+  <g transform="translate(100, 460)">
+    <circle cx="20" cy="20" r="15" fill="#9c27b0" opacity="0.6"/>
+    <line x1="35" y1="20" x2="100" y2="20" stroke="#9c27b0" stroke-width="2" stroke-dasharray="2,2"/>
+    <circle cx="100" cy="20" r="10" fill="#9c27b0" opacity="0.4"/>
+    <text x="60" y="50" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">神经组织</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-style="italic">
+    人体的四种主要组织如同一座城市的基础设施系统，各司其职，协同运作
+  </text>
+</svg>

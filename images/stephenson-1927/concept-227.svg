@@ -1,0 +1,83 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">脊椎错位与神经传导的关系</text>
+  
+  <!-- 左侧 - 正常状态 -->
+  <g transform="translate(180, 130)">
+    <!-- 正常脊椎 -->
+    <rect x="0" y="0" width="80" height="50" rx="5" ry="5" fill="#a8d5ff" stroke="#3377cc" stroke-width="2"/>
+    <rect x="0" y="70" width="80" height="50" rx="5" ry="5" fill="#a8d5ff" stroke="#3377cc" stroke-width="2"/>
+    <rect x="0" y="140" width="80" height="50" rx="5" ry="5" fill="#a8d5ff" stroke="#3377cc" stroke-width="2"/>
+    
+    <!-- 椎间孔和神经 -->
+    <circle cx="80" cy="60" r="8" fill="#f8f9fa" stroke="#3377cc" stroke-width="2"/>
+    <circle cx="80" cy="130" r="8" fill="#f8f9fa" stroke="#3377cc" stroke-width="2"/>
+    
+    <!-- 神经通路 -->
+    <path d="M 80,60 Q 120,60 150,90" stroke="#66cc99" stroke-width="4" fill="none"/>
+    <path d="M 80,130 Q 120,130 150,160" stroke="#66cc99" stroke-width="4" fill="none"/>
+    
+    <!-- 身体器官 -->
+    <circle cx="170" cy="90" r="20" fill="#f9d5a7" stroke="#e67700" stroke-width="2"/>
+    <circle cx="170" cy="160" r="20" fill="#f9d5a7" stroke="#e67700" stroke-width="2"/>
+    
+    <!-- 神经信号 -->
+    <circle cx="110" cy="60" r="5" fill="#66cc99">
+      <animate attributeName="cx" from="80" to="150" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="60" to="90" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="110" cy="130" r="5" fill="#66cc99">
+      <animate attributeName="cx" from="80" to="150" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="cy" from="130" to="160" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- 标签 -->
+    <text x="40" y="-20" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">正常脊椎关系</text>
+    <text x="170" cy="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">神经信号正常传递</text>
+  </g>
+  
+  <!-- 右侧 - 错位状态 -->
+  <g transform="translate(480, 130)">
+    <!-- 错位脊椎 -->
+    <rect x="0" y="0" width="80" height="50" rx="5" ry="5" fill="#a8d5ff" stroke="#3377cc" stroke-width="2"/>
+    <rect x="10" y="70" width="80" height="50" rx="5" ry="5" fill="#ffb8b8" stroke="#cc3333" stroke-width="2"/>
+    <rect x="0" y="140" width="80" height="50" rx="5" ry="5" fill="#a8d5ff" stroke="#3377cc" stroke-width="2"/>
+    
+    <!-- 受压的椎间孔和神经 -->
+    <ellipse cx="85" cy="60" rx="5" ry="8" fill="#ffb8b8" stroke="#cc3333" stroke-width="2"/>
+    <ellipse cx="85" cy="130" rx="5" ry="8" fill="#ffb8b8" stroke="#cc3333" stroke-width="2"/>
+    
+    <!-- 受阻的神经通路 -->
+    <path d="M 85,60 Q 125,60 155,90" stroke="#cc6666" stroke-width="3" stroke-dasharray="5,3" fill="none"/>
+    <path d="M 85,130 Q 125,130 155,160" stroke="#cc6666" stroke-width="3" stroke-dasharray="5,3" fill="none"/>
+    
+    <!-- 受影响的身体器官 -->
+    <circle cx="170" cy="90" r="20" fill="#ffcccc" stroke="#cc3333" stroke-width="2"/>
+    <circle cx="170" cy="160" r="20" fill="#ffcccc" stroke="#cc3333" stroke-width="2"/>
+    
+    <!-- 受阻的神经信号 -->
+    <circle cx="100" cy="60" r="5" fill="#cc6666">
+      <animate attributeName="cx" from="85" to="100" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="1" to="0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="100" cy="130" r="5" fill="#cc6666">
+      <animate attributeName="cx" from="85" to="100" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" from="1" to="0" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- 标签 -->
+    <text x="40" y="-20" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">脊椎错位</text>
+    <text x="170" cy="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">神经信号传递受阻</text>
+  </g>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" width="700">
+    就像城市交通系统中的道路错位会阻碍车辆通行，脊椎错位会压迫神经通道，
+  </text>
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" width="700">
+    导致身体各部位无法接收到完整的神经信号，影响正常功能。
+  </text>
+</svg>

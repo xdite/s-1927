@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480">
+  <!-- 背景 -->
+  <rect width="720" height="480" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="360" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">脊骨神经医学评分标准</text>
+  
+  <!-- 树干 -->
+  <path d="M360,380 C360,380 350,280 360,220 C370,160 360,120 360,120" stroke="#8B4513" stroke-width="20" fill="none"/>
+  
+  <!-- 树根 -->
+  <path d="M360,380 C360,380 320,400 300,420" stroke="#8B4513" stroke-width="10" fill="none"/>
+  <path d="M360,380 C360,380 400,400 420,420" stroke="#8B4513" stroke-width="10" fill="none"/>
+  <path d="M360,380 C360,380 340,410 360,430" stroke="#8B4513" stroke-width="10" fill="none"/>
+  <path d="M360,380 C360,380 380,410 360,430" stroke="#8B4513" stroke-width="10" fill="none"/>
+  
+  <!-- 树冠 -->
+  <ellipse cx="300" cy="160" rx="60" ry="50" fill="#a8d5ba" stroke="#2e8b57" stroke-width="2"/>
+  <ellipse cx="420" cy="160" rx="60" ry="50" fill="#a8d5ba" stroke="#2e8b57" stroke-width="2"/>
+  <ellipse cx="250" cy="220" rx="60" ry="50" fill="#a8d5ba" stroke="#2e8b57" stroke-width="2"/>
+  <ellipse cx="470" cy="220" rx="60" ry="50" fill="#a8d5ba" stroke="#2e8b57" stroke-width="2"/>
+  <ellipse cx="360" cy="120" rx="70" ry="60" fill="#a8d5ba" stroke="#2e8b57" stroke-width="2"/>
+  
+  <!-- 中心根基标签 -->
+  <circle cx="360" cy="380" r="50" fill="#f9e79f" stroke="#d4ac0d" stroke-width="2"/>
+  <text x="360" y="375" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">脊骨神经</text>
+  <text x="360" y="390" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">医学知识</text>
+  
+  <!-- 评分要素 -->
+  <text x="300" y="160" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">真实性</text>
+  <text x="420" y="160" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">知识水平</text>
+  <text x="250" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">写作原则</text>
+  <text x="470" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">主题坚持</text>
+  
+  <!-- 通过标志 -->
+  <circle cx="360" cy="120" r="30" fill="#f9a7b0" stroke="#e74c3c" stroke-width="2"/>
+  <text x="360" y="125" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">通过?</text>
+  
+  <!-- 箭头 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  <line x1="320" y1="180" x2="360" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="180" x2="360" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="280" y1="200" x2="340" y2="140" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="440" y1="200" x2="380" y2="140" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="440" width="520" height="30" rx="5" ry="5" fill="#e8e8e8" stroke="#ccc"/>
+  <text x="360" y="460" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    评分标准如同园丁评估果树：根基稳固、树干挺直、枝叶茂盛、修剪得当、果实符合预期
+  </text>
+</svg>

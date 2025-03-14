@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- Sun (Universal Intelligence) -->
+  <circle cx="400" cy="120" r="60" fill="#ffdb58" />
+  <g>
+    <!-- Sun rays (Force) -->
+    <path d="M400 190 L400 250" stroke="#ffdb58" stroke-width="4" />
+    <path d="M360 180 L330 230" stroke="#ffdb58" stroke-width="4" />
+    <path d="M440 180 L470 230" stroke="#ffdb58" stroke-width="4" />
+    <path d="M330 150 L270 170" stroke="#ffdb58" stroke-width="4" />
+    <path d="M470 150 L530 170" stroke="#ffdb58" stroke-width="4" />
+  </g>
+  
+  <!-- Tree (Interference) -->
+  <rect x="280" y="300" width="30" height="200" fill="#8b4513" />
+  <circle cx="295" cy="250" r="70" fill="#228b22" />
+  <!-- Tree shadow -->
+  <path d="M295 320 L295 500 L230 500 Z" fill="#22222233" />
+  
+  <!-- Lead plate (Interference) -->
+  <rect x="450" y="300" width="100" height="20" fill="#708090" />
+  <text x="500" y="315" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Lead Plate</text>
+  
+  <!-- X-rays (blocked) -->
+  <path d="M500 250 L500 300" stroke="#ffdb58" stroke-width="4" />
+  <path d="M500 320 L500 330" stroke="#ffdb58" stroke-width="4" stroke-dasharray="5,5" />
+  <path d="M500 350 L500 400" stroke="#ffdb5833" stroke-width="4" stroke-dasharray="2,8" />
+  
+  <!-- Matter below -->
+  <rect x="200" y="500" width="400" height="20" fill="#d3d3d3" rx="5" ry="5" />
+  <text x="400" y="515" font-family="Arial" font-size="14" text-anchor="middle">Matter (Expressing Force)</text>
+  
+  <!-- Labels -->
+  <text x="400" y="120" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Universal</text>
+  <text x="400" y="140" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Intelligence</text>
+  
+  <text x="400" y="220" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Creates Force (100%)</text>
+  
+  <text x="295" y="240" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Interference</text>
+  <text x="295" y="260" font-family="Arial" font-size="14" text-anchor="middle" fill="white">(Blocks Sunlight)</text>
+  
+  <text x="500" y="280" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">X-Rays</text>
+  <text x="500" y="370" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">Blocked</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="50" width="160" height="180" fill="white" stroke="#d3d3d3" rx="5" ry="5" />
+  <text x="680" y="80" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle">Legend</text>
+  
+  <circle cx="620" cy="110" r="10" fill="#ffdb58" />
+  <text x="640" y="115" font-family="Arial" font-size="12" text-anchor="start">Universal Intelligence</text>
+  
+  <line x1="610" y1="140" x2="630" y2="140" stroke="#ffdb58" stroke-width="4" />
+  <text x="640" y="145" font-family="Arial" font-size="12" text-anchor="start">Force</text>
+  
+  <rect x="610" y="160" width="20" height="10" fill="#708090" />
+  <text x="640" y="170" font-family="Arial" font-size="12" text-anchor="start">Interference</text>
+  
+  <rect x="610" y="190" width="20" height="5" fill="#d3d3d3" />
+  <text x="640" y="195" font-family="Arial" font-size="12" text-anchor="start">Matter</text>
+  
+  <!-- Caption -->
+  <rect x="100" y="540" width="600" height="50" fill="white" stroke="#d3d3d3" rx="5" ry="5" />
+  <text x="400" y="565" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">
+    就像太阳（普遍智能）发出阳光（力量）照耀万物，但树木可以阻挡阳光，铅板可以阻挡X射线，
+  </text>
+  <text x="400" y="585" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">
+    宇宙力量虽然遵循不变的规律，但可以被干扰或调节。
+  </text>
+</svg>

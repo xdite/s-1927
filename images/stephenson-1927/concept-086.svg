@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">身体协调与健康的交响乐比喻</text>
+  
+  <!-- 左侧：健康状态（协调的乐团） -->
+  <g transform="translate(200, 150)">
+    <circle cx="0" cy="0" r="120" fill="#e1f5fe" stroke="#4fc3f7" stroke-width="2"/>
+    <text x="0" y="-140" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#0288d1">健康状态</text>
+    
+    <!-- 指挥 -->
+    <circle cx="0" cy="-40" r="15" fill="#4fc3f7"/>
+    <line x1="0" y1="-25" x2="0" y2="10" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="10" x2="-15" y2="40" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="10" x2="15" y2="40" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="-15" x2="-20" y2="0" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="-15" x2="20" y2="0" stroke="#333" stroke-width="2"/>
+    <text x="0" y="-60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">神经系统</text>
+    
+    <!-- 乐手们 -->
+    <circle cx="-60" cy="30" r="12" fill="#81c784"/>
+    <text x="-60" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">心脏</text>
+    <path d="M-60,42 L-60,60 M-70,50 L-50,50" stroke="#333" stroke-width="1"/>
+    
+    <circle cx="0" cy="60" r="12" fill="#ffb74d"/>
+    <text x="0" y="85" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">肺部</text>
+    <path d="M0,72 L0,90 M-10,80 L10,80" stroke="#333" stroke-width="1"/>
+    
+    <circle cx="60" cy="30" r="12" fill="#9575cd"/>
+    <text x="60" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">肝脏</text>
+    <path d="M60,42 L60,60 M50,50 L70,50" stroke="#333" stroke-width="1"/>
+    
+    <!-- 音符表示和谐 -->
+    <path d="M-40,-10 Q-30,-30 -20,-10" stroke="#333" stroke-width="1" fill="none"/>
+    <circle cx="-40" cy="-10" r="3" fill="#333"/>
+    
+    <path d="M20,0 Q30,-20 40,0" stroke="#333" stroke-width="1" fill="none"/>
+    <circle cx="20" cy="0" r="3" fill="#333"/>
+    
+    <path d="M-20,20 Q-10,0 0,20" stroke="#333" stroke-width="1" fill="none"/>
+    <circle cx="-20" cy="20" r="3" fill="#333"/>
+    
+    <!-- 协作箭头 -->
+    <path d="M-45,20 Q0,-20 45,20" stroke="#4caf50" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+    <polygon points="45,20 35,15 40,25" fill="#4caf50"/>
+  </g>
+  
+  <!-- 右侧：疾病状态（不协调的乐团） -->
+  <g transform="translate(600, 150)">
+    <circle cx="0" cy="0" r="120" fill="#ffebee" stroke="#ef9a9a" stroke-width="2"/>
+    <text x="0" y="-140" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#d32f2f">疾病状态</text>
+    
+    <!-- 指挥（困惑） -->
+    <circle cx="0" cy="-40" r="15" fill="#ef9a9a"/>
+    <line x1="0" y1="-25" x2="0" y2="10" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="10" x2="-10" y2="30" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="10" x2="20" y2="35" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="-15" x2="-25" y2="-5" stroke="#333" stroke-width="2"/>
+    <line x1="0" y1="-15" x2="15" y2="5" stroke="#333" stroke-width="2"/>
+    <text x="0" y="-60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">神经系统</text>
+    
+    <!-- 乐手们（不协调） -->
+    <circle cx="-60" cy="30" r="12" fill="#e57373"/>
+    <text x="-60" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">心脏</text>
+    <path d="M-60,42 L-65,65 M-70,50 L-55,55" stroke="#333" stroke-width="1"/>
+    
+    <circle cx="0" cy="60" r="12" fill="#ffb74d" opacity="0.6"/>
+    <text x="0" y="85" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">肺部</text>
+    <path d="M0,72 L-5,90 M-10,80 L5,85" stroke="#333" stroke-width="1"/>
+    
+    <circle cx="60" cy="30" r="12" fill="#9575cd" opacity="0.6"/>
+    <text x="60" y="55" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#333">肝脏</text>
+    <path d="M60,42 L70,65 M50,50 L75,45" stroke="#333" stroke-width="1"/>
+    
+    <!-- 不和谐符号 -->
+    <line x1="-50" y1="-20" x2="-30" y2="0" stroke="#d32f2f" stroke-width="2"/>
+    <line x1="-50" y1="0" x2="-30" y2="-20" stroke="#d32f2f" stroke-width="2"/>
+    
+    <line x1="20" y1="-10" x2="40" y2="10" stroke="#d32f2f" stroke-width="2"/>
+    <line x1="20" y1="10" x2="40" y2="-10" stroke="#d32f2f" stroke-width="2"/>
+    
+    <line x1="-20" y1="20" x2="0" y2="40" stroke="#d32f2f" stroke-width="2"/>
+    <line x1="-20" y1="40" x2="0" y2="20" stroke="#d32f2f" stroke-width="2"/>
+    
+    <!-- 破裂的协作 -->
+    <path d="M-45,20 Q-20,0 -10,10 Q0,20 10,10 Q20,0 45,20" stroke="#d32f2f" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  </g>
+  
+  <!-- 中间连接 -->
+  <line x1="325" y1="150" x2="475" y2="150" stroke="#666" stroke-width="2" stroke-dasharray="6,3"/>
+  <polygon points="475,150 465,145 465,155" fill="#666"/>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="350" width="600" height="100" rx="10" ry="10" fill="#f5f5f5" stroke="#ddd"/>
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    <tspan x="400" y="375">就像交响乐团中的乐手们需要相互配合才能演奏出美妙音乐，</tspan>
+    <tspan x="400" y="395">身体的各个器官也需要完美协调才能维持健康。</tspan>
+    <tspan x="400" y="415">当某个部分失去协调，整体和谐被打破，疾病就会出现，</tspan>
+    <tspan x="400" y="435">就像乐手演奏不合拍会破坏整首乐曲一样。</tspan>
+  </text>
+</svg>

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">血清循环与废物处理</text>
+  
+  <!-- Cell -->
+  <rect x="100" y="120" width="150" height="150" fill="#e6f7ff" stroke="#4dabf7" stroke-width="2" rx="15" ry="15"/>
+  <text x="175" y="145" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">组织细胞</text>
+  <circle cx="140" cy="185" r="20" fill="#a5d8ff"/>
+  <text x="140" cy="190" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">有用物质</text>
+  <path d="M190,185 L220,185" stroke="#f08c00" stroke-width="3" stroke-dasharray="5,2"/>
+  <polygon points="220,185 213,182 213,188" fill="#f08c00"/>
+  <text x="175" y="220" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">产生废物</text>
+  
+  <!-- Serum Circulation -->
+  <path d="M250,185 C300,185 300,250 350,250 C400,250 400,185 450,185 C500,185 500,250 550,250" 
+        fill="none" stroke="#4dabf7" stroke-width="6"/>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">血清循环</text>
+  
+  <!-- Small arrows along the circulation -->
+  <polygon points="300,250 307,247 307,253" fill="#4dabf7"/>
+  <polygon points="400,185 407,182 407,188" fill="#4dabf7"/>
+  <polygon points="500,250 507,247 507,253" fill="#4dabf7"/>
+  
+  <!-- Retention/Poison -->
+  <path d="M550,250 L600,250" stroke="#f03e3e" stroke-width="3"/>
+  <polygon points="600,250 593,247 593,253" fill="#f03e3e"/>
+  <rect x="600" y="220" width="120" height="60" fill="#ffc9c9" stroke="#f03e3e" stroke-width="2" rx="10" ry="10"/>
+  <text x="660" y="255" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">毒素</text>
+  <text x="660" y="275" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">滞留产生毒素</text>
+  
+  <!-- Wet Man and Dry Man -->
+  <circle cx="400" y="350" r="70" fill="#e7f5ff" stroke="#4dabf7" stroke-width="2"/>
+  <path d="M370,330 Q400,380 430,330" fill="none" stroke="#4dabf7" stroke-width="2"/>
+  <circle cx="380" y="320" r="5" fill="#333"/>
+  <circle cx="420" y="320" r="5" fill="#333"/>
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">血清状态</text>
+  
+  <!-- Wet Man -->
+  <circle cx="320" y="350" r="40" fill="#d0ebff" stroke="#4dabf7" stroke-width="2"/>
+  <path d="M300,340 Q320,360 340,340" fill="none" stroke="#4dabf7" stroke-width="2"/>
+  <circle cx="310" y="330" r="3" fill="#333"/>
+  <circle cx="330" y="330" r="3" fill="#333"/>
+  <text x="320" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">湿人</text>
+  <path d="M320,350 L320,340 L316,345 L320,340 L324,345" fill="none" stroke="#4dabf7" stroke-width="1"/>
+  <path d="M310,360 L315,365 L305,365" fill="none" stroke="#4dabf7" stroke-width="1"/>
+  <path d="M330,360 L335,365 L325,365" fill="none" stroke="#4dabf7" stroke-width="1"/>
+  
+  <!-- Dry Man -->
+  <circle cx="480" y="350" r="40" fill="#fff4e6" stroke="#ffa94d" stroke-width="2"/>
+  <path d="M460,340 Q480,360 500,340" fill="none" stroke="#ffa94d" stroke-width="2"/>
+  <circle cx="470" y="330" r="3" fill="#333"/>
+  <circle cx="490" y="330" r="3" fill="#333"/>
+  <text x="480" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">干人</text>
+  <path d="M475,350 L485,350" fill="none" stroke="#ffa94d" stroke-width="1"/>
+  <path d="M465,360 L475,360" fill="none" stroke="#ffa94d" stroke-width="1"/>
+  <path d="M485,360 L495,360" fill="none" stroke="#ffa94d" stroke-width="1"/>
+  
+  <!-- Kidneys and Skin -->
+  <path d="M550,250 C600,250 600,450 650,450" fill="none" stroke="#4dabf7" stroke-width="4" stroke-dasharray="5,3"/>
+  <path d="M610,380 Q625,350 640,380 Q655,410 670,380" fill="#faa2c1" stroke="#f06595" stroke-width="2"/>
+  <text x="640" y="410" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">肾脏</text>
+  
+  <rect x="700" y="430" width="60" height="40" rx="5" ry="5" fill="#ffe8cc" stroke="#fd7e14" stroke-width="2"/>
+  <text x="730" y="455" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">皮肤</text>
+  <path d="M670,380 L700,430" fill="none" stroke="#4dabf7" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="700,430 695,423 703,425" fill="#4dabf7"/>
+  
+  <!-- Legend -->
+  <rect x="50" y="430" width="250" height="60" fill="white" stroke="#ddd" stroke-width="1" rx="5" ry="5"/>
+  <text x="175" y="450" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">
+    比喻：城市垃圾处理系统
+  </text>
+  <text x="175" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">
+    细胞如同家庭，血清循环如同垃圾收集网络
+  </text>
+  <text x="175" y="490" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#666">
+    肾脏和皮肤如同城市的垃圾处理厂和焚烧站
+  </text>
+</svg>

@@ -1,0 +1,81 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">身体的先天力量系统</text>
+  
+  <!-- 中央指挥塔（先天力量） -->
+  <g transform="translate(150, 150)">
+    <rect x="-60" y="-60" width="120" height="120" rx="10" fill="#e6f2ff" stroke="#4d94ff" stroke-width="2"/>
+    <path d="M-30,-20 L30,-20 L0,-60 Z" fill="#4d94ff"/>
+    <text x="0" y="20" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">先天力量</text>
+    <text x="0" y="40" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">Innate Forces</text>
+  </g>
+  
+  <!-- 适应性力量 -->
+  <g transform="translate(400, 100)">
+    <rect x="-80" y="-40" width="160" height="80" rx="10" fill="#e6ffe6" stroke="#66cc66" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">适应性力量</text>
+    <text x="0" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">调节与平衡</text>
+    <!-- 维修人员图标 -->
+    <circle cx="50" cy="0" r="15" fill="#66cc66"/>
+    <path d="M50,-10 L50,10 M40,0 L60,0 M45,-15 L55,-15" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <!-- 抵抗性力量 -->
+  <g transform="translate(400, 230)">
+    <rect x="-80" y="-40" width="160" height="80" rx="10" fill="#ffe6e6" stroke="#ff8080" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">抵抗性力量</text>
+    <text x="0" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">对抗外部入侵</text>
+    <!-- 盾牌图标 -->
+    <path d="M50,-15 L65,0 L50,15 L35,0 Z" fill="#ff8080" stroke="#fff" stroke-width="1"/>
+  </g>
+  
+  <!-- 机械力 -->
+  <g transform="translate(650, 180)">
+    <rect x="-80" y="-40" width="160" height="80" rx="10" fill="#e6e6ff" stroke="#8080ff" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">机械力</text>
+    <text x="0" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">physical</text>
+    <!-- 齿轮图标 -->
+    <circle cx="-40" cy="0" r="15" fill="#8080ff"/>
+    <path d="M-40,-20 L-40,-10 M-40,10 L-40,20 M-60,0 L-50,0 M-30,0 L-20,0 M-55,-15 L-48,-8 M-32,-8 L-25,-15 M-55,15 L-48,8 M-32,8 L-25,15" stroke="#fff" stroke-width="2"/>
+  </g>
+  
+  <!-- 化学物质 -->
+  <g transform="translate(650, 300)">
+    <rect x="-80" y="-40" width="160" height="80" rx="10" fill="#fff2e6" stroke="#ffb366" stroke-width="2"/>
+    <text x="0" y="0" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">化学物质</text>
+    <text x="0" y="25" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">chemical</text>
+    <!-- 试管图标 -->
+    <path d="M-40,-15 L-35,5 L-45,5 Z" fill="#ffb366" stroke="#fff" stroke-width="1"/>
+    <rect x="-45" y="5" width="10" height="10" fill="#ffb366" stroke="#fff" stroke-width="1"/>
+  </g>
+  
+  <!-- 连接线 -->
+  <g stroke="#999" stroke-width="2" fill="none">
+    <!-- 先天力量到适应性力量 -->
+    <path d="M210,150 C250,150 280,100 320,100" marker-end="url(#arrowhead)"/>
+    <!-- 先天力量到抵抗性力量 -->
+    <path d="M210,150 C250,150 280,230 320,230" marker-end="url(#arrowhead)"/>
+    <!-- 抵抗性力量到机械力 -->
+    <path d="M480,230 C520,230 540,180 570,180" marker-end="url(#arrowhead)"/>
+    <!-- 抵抗性力量到化学物质 -->
+    <path d="M480,230 C520,230 540,300 570,300" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#999"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部解释文字 -->
+  <rect x="50" y="400" width="700" height="80" rx="5" fill="#f0f0f0" stroke="#ccc" stroke-width="1"/>
+  <text x="400" y="425" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">
+    <tspan x="400" dy="0">就像城市的防御系统，身体的先天力量分为两部分：</tspan>
+    <tspan x="400" dy="20">基础设施管理团队(适应性力量)维持平衡，安保力量(抵抗性力量)抵御外部威胁。</tspan>
+    <tspan x="400" dy="20">当这些力量协调工作时，身体健康；不协调则可能导致自身损伤。</tspan>
+  </text>
+</svg>

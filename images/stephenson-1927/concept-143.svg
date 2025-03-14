@@ -1,0 +1,67 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333333">神经信息传递过程</text>
+  
+  <!-- 脑细胞区域 -->
+  <circle cx="150" cy="150" r="70" fill="#e6f2ff" stroke="#4d94ff" stroke-width="2"/>
+  <text x="150" y="155" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333333">脑细胞</text>
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">(信息发送者)</text>
+  
+  <!-- 邮局建筑内部细节 -->
+  <rect x="120" y="120" width="20" height="15" fill="#b3d9ff" stroke="#4d94ff" stroke-width="1"/>
+  <rect x="150" y="120" width="20" height="15" fill="#b3d9ff" stroke="#4d94ff" stroke-width="1"/>
+  <rect x="120" y="145" width="15" height="10" fill="#b3d9ff" stroke="#4d94ff" stroke-width="1"/>
+  
+  <!-- 神经区域 -->
+  <rect x="300" y="200" width="200" height="60" rx="30" ry="30" fill="#ffe6cc" stroke="#ffab66" stroke-width="2"/>
+  <text x="400" y="235" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333333">神经</text>
+  <text x="400" y="255" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">(信息传递者)</text>
+  
+  <!-- 组织细胞区域 -->
+  <circle cx="650" cy="350" r="70" fill="#e6ffe6" stroke="#66cc66" stroke-width="2"/>
+  <text x="650" y="355" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333333">组织细胞</text>
+  <text x="650" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666666">(信息接收者)</text>
+  
+  <!-- 组织细胞内部细节 -->
+  <rect x="625" y="330" width="15" height="15" fill="#ccffcc" stroke="#66cc66" stroke-width="1"/>
+  <rect x="650" y="330" width="15" height="15" fill="#ccffcc" stroke="#66cc66" stroke-width="1"/>
+  <rect x="635" y="355" width="10" height="10" fill="#ccffcc" stroke="#66cc66" stroke-width="1"/>
+  
+  <!-- 传递路径1 -->
+  <path d="M 210 180 Q 300 200 320 200" fill="none" stroke="#4d94ff" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="315,195 325,200 315,205" fill="#4d94ff"/>
+  
+  <!-- 传递路径2 -->
+  <path d="M 480 230 Q 550 280 590 320" fill="none" stroke="#ffab66" stroke-width="2" stroke-dasharray="5,3"/>
+  <polygon points="585,315 595,325 580,320" fill="#ffab66"/>
+  
+  <!-- 信息包图标1 -->
+  <g transform="translate(250,180)">
+    <rect x="0" y="0" width="20" height="15" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+    <line x1="5" y1="5" x2="15" y2="5" stroke="#333333" stroke-width="1"/>
+    <line x1="5" y1="10" x2="12" y2="10" stroke="#333333" stroke-width="1"/>
+  </g>
+  
+  <!-- 信息包图标2 -->
+  <g transform="translate(520,280)">
+    <rect x="0" y="0" width="20" height="15" fill="#ffffff" stroke="#333333" stroke-width="1"/>
+    <line x1="5" y1="5" x2="15" y2="5" stroke="#333333" stroke-width="1"/>
+    <line x1="5" y1="10" x2="12" y2="10" stroke="#333333" stroke-width="1"/>
+  </g>
+  
+  <!-- 说明标签 -->
+  <text x="180" y="110" font-family="Arial, sans-serif" font-size="14" fill="#4d94ff">推进: 发送心智冲动</text>
+  <text x="510" y="190" font-family="Arial, sans-serif" font-size="14" fill="#ffab66">传输: 传递心智冲动</text>
+  
+  <!-- 图例说明 -->
+  <rect x="50" y="420" width="700" height="60" rx="5" ry="5" fill="#f0f0f0" stroke="#cccccc" stroke-width="1"/>
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555555">
+    就像城市邮政系统：脑细胞(邮局总部)发送信件，通过神经(邮递员)将信息传递到组织细胞(收件人)
+  </text>
+  <text x="400" y="470" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555555">
+    整个身体的正常运转依赖于这种高效的信息传递系统
+  </text>
+</svg>

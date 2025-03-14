@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="15" ry="15"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">组织细胞的组成与功能</text>
+  
+  <!-- 饼图 -->
+  <g transform="translate(400, 280)">
+    <!-- 细胞45% -->
+    <path d="M0,0 L0,-150 A150,150 0 0,1 135.32,65.47 z" fill="#6a8caf" stroke="#fff" stroke-width="2"/>
+    <!-- 纤维30% -->
+    <path d="M0,0 L135.32,65.47 A150,150 0 0,1 -75,129.90 z" fill="#9cb6d7" stroke="#fff" stroke-width="2"/>
+    <!-- 细胞产物25% -->
+    <path d="M0,0 L-75,129.90 A150,150 0 0,1 0,-150 z" fill="#d7e3f4" stroke="#fff" stroke-width="2"/>
+    
+    <!-- 图例标签 -->
+    <text x="70" y="-70" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">细胞 45%</text>
+    <text x="70" y="70" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">纤维 30%</text>
+    <text x="-70" y="30" font-family="Arial, sans-serif" font-size="16" fill="#333" text-anchor="middle">细胞产物 25%</text>
+  </g>
+  
+  <!-- 乐队比喻元素 -->
+  <!-- 指挥(心智冲动) -->
+  <g transform="translate(150, 140)">
+    <circle cx="0" cy="0" r="40" fill="#f0f0f0" stroke="#333" stroke-width="1"/>
+    <path d="M-10,-15 Q0,-5 10,-15 M-15,0 Q0,10 15,0" stroke="#333" stroke-width="1.5" fill="none"/>
+    <line x1="0" y1="10" x2="0" y2="25" stroke="#333" stroke-width="1.5"/>
+    <line x1="-15" y1="25" x2="15" y2="25" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="25" x2="0" y2="40" stroke="#333" stroke-width="1.5"/>
+    <line x1="-10" y1="40" x2="10" y2="40" stroke="#333" stroke-width="1.5"/>
+    <line x1="-10" y1="40" x2="-20" y2="60" stroke="#333" stroke-width="1.5"/>
+    <line x1="10" y1="40" x2="20" y2="60" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="25" x2="30" y2="35" stroke="#333" stroke-width="1.5"/>
+    <circle cx="30" cy="35" r="5" fill="#333"/>
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">心智冲动</text>
+  </g>
+  
+  <!-- 乐手1(细胞) -->
+  <g transform="translate(600, 180)">
+    <circle cx="0" cy="0" r="30" fill="#6a8caf" stroke="#333" stroke-width="1"/>
+    <path d="M-8,-8 Q0,-2 8,-8 M-10,5 Q0,12 10,5" stroke="#333" stroke-width="1.5" fill="none"/>
+    <line x1="0" y1="15" x2="0" y2="40" stroke="#333" stroke-width="1.5"/>
+    <line x1="-20" y1="25" x2="0" y2="15" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="40" x2="-15" y2="70" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="40" x2="15" y2="70" stroke="#333" stroke-width="1.5"/>
+    <rect x="-25" y="0" width="15" height="40" rx="2" ry="2" fill="#d7e3f4" stroke="#333" stroke-width="1"/>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">细胞</text>
+  </g>
+  
+  <!-- 乐手2(纤维) -->
+  <g transform="translate(650, 400)">
+    <circle cx="0" cy="0" r="25" fill="#9cb6d7" stroke="#333" stroke-width="1"/>
+    <path d="M-6,-6 Q0,-2 6,-6 M-8,4 Q0,8 8,4" stroke="#333" stroke-width="1.5" fill="none"/>
+    <line x1="0" y1="12" x2="0" y2="35" stroke="#333" stroke-width="1.5"/>
+    <line x1="-15" y1="20" x2="0" y2="12" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="35" x2="-12" y2="60" stroke="#333" stroke-width="1.5"/>
+    <line x1="0" y1="35" x2="12" y2="60" stroke="#333" stroke-width="1.5"/>
+    <rect x="-20" y="15" width="10" height="30" rx="2" ry="2" fill="#d7e3f4" stroke="#333" stroke-width="1"/>
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">纤维</text>
+  </g>
+  
+  <!-- 设备(细胞产物) -->
+  <g transform="translate(200, 420)">
+    <rect x="-25" y="-25" width="50" height="50" rx="5" ry="5" fill="#d7e3f4" stroke="#333" stroke-width="1"/>
+    <circle cx="-10" cy="-10" r="5" fill="#6a8caf" stroke="#333" stroke-width="1"/>
+    <circle cx="10" cy="-10" r="5" fill="#6a8caf" stroke="#333" stroke-width="1"/>
+    <rect x="-15" y="5" width="30" height="5" rx="2" ry="2" fill="#6a8caf" stroke="#333" stroke-width="1"/>
+    <line x1="-20" y1="25" x2="-20" y2="40" stroke="#333" stroke-width="1"/>
+    <line x1="20" y1="25" x2="20" y2="40" stroke="#333" stroke-width="1"/>
+    <line x1="-20" y1="40" x2="20" y2="40" stroke="#333" stroke-width="1"/>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">细胞产物</text>
+  </g>
+  
+  <!-- 连接线 -->
+  <g stroke="#777" stroke-width="1.5" stroke-dasharray="5,3" fill="none">
+    <path d="M190,180 C250,200 350,220 400,280"/>
+    <path d="M570,200 C520,220 450,250 400,280"/>
+    <path d="M620,380 C550,350 450,320 400,280"/>
+    <path d="M230,400 C280,360 350,320 400,280"/>
+  </g>
+  
+  <!-- 生命体征 -->
+  <g transform="translate(400, 500)">
+    <rect x="-200" y="-30" width="400" height="60" rx="10" ry="10" fill="#f0f0f0" stroke="#333" stroke-width="1"/>
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
+      如同乐队在指挥的引导下协同工作，
+    </text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">
+      生物组织在心智冲动的驱动下执行生命功能
+    </text>
+  </g>
+</svg>

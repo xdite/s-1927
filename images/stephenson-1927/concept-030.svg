@@ -1,0 +1,92 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">Innate 的关注度分配</text>
+  
+  <!-- 园丁和植物的插图 -->
+  <g transform="translate(120, 150)">
+    <!-- 园丁 -->
+    <g>
+      <circle cx="80" cy="70" r="20" fill="#e0c9a6"/>  <!-- 头 -->
+      <path d="M80,90 L80,150 M80,110 L60,140 M80,110 L100,140 M80,150 L70,200 M80,150 L90,200" stroke="#333" stroke-width="2.5" fill="none"/> <!-- 身体和四肢 -->
+      <path d="M70,65 Q80,55 90,65" stroke="#333" stroke-width="1.5" fill="none"/> <!-- 微笑 -->
+      <circle cx="75" cy="62" r="2" fill="#333"/> <!-- 左眼 -->
+      <circle cx="85" cy="62" r="2" fill="#333"/> <!-- 右眼 -->
+      <path d="M60,50 Q80,30 100,50" stroke="#333" stroke-width="2" fill="none"/> <!-- 帽子 -->
+      <rect x="55" y="50" width="50" height="5" fill="#333"/> <!-- 帽檐 -->
+    </g>
+    
+    <!-- 浇水壶 -->
+    <path d="M100,140 L120,130 L150,145 L140,160 Z" fill="#a0c4de" stroke="#333" stroke-width="1.5"/>
+    <path d="M150,145 L170,120" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M170,120 Q175,118 180,122" stroke="#333" stroke-width="1.5" fill="none"/>
+    <path d="M180,122 L185,125" stroke="#333" stroke-width="1.5" fill="none"/>
+    
+    <!-- 三种植物 -->
+    <!-- 植物A (25%) -->
+    <g transform="translate(180, 180)">
+      <path d="M0,0 C-5,-10 -15,-15 -20,-25 C-15,-20 -5,-20 0,-15 C5,-20 15,-20 20,-25 C15,-15 5,-10 0,0" fill="#e57373" stroke="#333" stroke-width="1"/>
+      <path d="M0,0 L0,30" stroke="#2e7d32" stroke-width="2"/>
+      <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">组织细胞 A (25%)</text>
+    </g>
+    
+    <!-- 植物B (30%) -->
+    <g transform="translate(300, 170)">
+      <path d="M0,0 C-8,-5 -12,-15 -8,-25 C-4,-20 -2,-15 0,-10 C2,-15 4,-20 8,-25 C12,-15 8,-5 0,0" fill="#81c784" stroke="#333" stroke-width="1"/>
+      <path d="M0,0 C-8,5 -12,15 -8,25 C-4,20 -2,15 0,10 C2,15 4,20 8,25 C12,15 8,5 0,0" fill="#81c784" stroke="#333" stroke-width="1"/>
+      <path d="M0,0 L0,40" stroke="#2e7d32" stroke-width="2"/>
+      <text x="0" y="60" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">组织细胞 B (30%)</text>
+    </g>
+    
+    <!-- 植物C (45%) -->
+    <g transform="translate(420, 160)">
+      <path d="M-15,0 C-20,-5 -20,-15 -15,-20 C-10,-15 -5,-10 0,-5 C5,-10 10,-15 15,-20 C20,-15 20,-5 15,0" fill="#9575cd" stroke="#333" stroke-width="1"/>
+      <path d="M-10,0 C-15,5 -15,15 -10,20 C-5,15 0,10 0,5 C0,10 5,15 10,20 C15,15 15,5 10,0" fill="#9575cd" stroke="#333" stroke-width="1"/>
+      <path d="M0,-5 L0,50" stroke="#2e7d32" stroke-width="2"/>
+      <text x="0" y="70" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">组织细胞 C (45%)</text>
+    </g>
+    
+    <!-- 连接线 -->
+    <path d="M100,140 Q140,120 180,180" stroke="#88c" stroke-width="1" stroke-dasharray="4 2" fill="none"/>
+    <path d="M100,140 Q200,100 300,170" stroke="#4a4" stroke-width="1" stroke-dasharray="4 2" fill="none"/>
+    <path d="M100,140 Q260,80 420,160" stroke="#a4a" stroke-width="1" stroke-dasharray="4 2" fill="none"/>
+  </g>
+  
+  <!-- 饼图 -->
+  <g transform="translate(560, 250)">
+    <!-- 饼图背景圆 -->
+    <circle cx="0" cy="0" r="100" fill="white" stroke="#ddd" stroke-width="1"/>
+    
+    <!-- 饼图扇区 -->
+    <!-- 25% 部分 (90度) -->
+    <path d="M0,0 L100,0 A100,100 0 0,1 70.7,70.7 Z" fill="#e57373" stroke="#fff" stroke-width="1"/>
+    
+    <!-- 30% 部分 (108度) -->
+    <path d="M0,0 L70.7,70.7 A100,100 0 0,1 -50,86.6 Z" fill="#81c784" stroke="#fff" stroke-width="1"/>
+    
+    <!-- 45% 部分 (162度) -->
+    <path d="M0,0 L-50,86.6 A100,100 0 0,1 -100,0 L0,0 Z" fill="#9575cd" stroke="#fff" stroke-width="1"/>
+    
+    <!-- 图例 -->
+    <g transform="translate(-80, 140)">
+      <rect x="0" y="0" width="15" height="15" fill="#e57373"/>
+      <text x="25" y="12" font-family="Arial, sans-serif" font-size="12" fill="#333">组织细胞 A (25%)</text>
+      
+      <rect x="0" y="25" width="15" height="15" fill="#81c784"/>
+      <text x="25" y="37" font-family="Arial, sans-serif" font-size="12" fill="#333">组织细胞 B (30%)</text>
+      
+      <rect x="0" y="50" width="15" height="15" fill="#9575cd"/>
+      <text x="25" y="62" font-family="Arial, sans-serif" font-size="12" fill="#333">组织细胞 C (45%)</text>
+    </g>
+    
+    <!-- 标题 -->
+    <text x="0" y="-120" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">Innate 的关注度</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    如同园丁完美分配资源给不同植物，Innate Intelligence也根据每个组织细胞的需求调整关注度
+  </text>
+</svg>

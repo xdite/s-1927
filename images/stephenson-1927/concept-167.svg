@@ -1,0 +1,73 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">身体功能异常与脊椎干扰的关系</text>
+  
+  <!-- 工厂主体 -->
+  <rect x="100" y="100" width="600" height="300" rx="10" fill="#e6f2ff" stroke="#4d79ff" stroke-width="2"/>
+  
+  <!-- 车间1：正常功能 -->
+  <rect x="150" y="150" width="120" height="80" rx="5" fill="#b3d9ff" stroke="#3366ff" stroke-width="1"/>
+  <text x="210" y="195" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">正常车间</text>
+  <circle cx="210" cy="170" r="10" fill="#66cc66"/>
+  
+  <!-- 车间2：功能异常 -->
+  <rect x="350" y="150" width="120" height="80" rx="5" fill="#ffcccc" stroke="#ff6666" stroke-width="1"/>
+  <text x="410" y="195" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">异常车间</text>
+  <circle cx="410" cy="170" r="10" fill="#ff6666"/>
+  
+  <!-- 车间3：另一个正常功能 -->
+  <rect x="550" y="150" width="120" height="80" rx="5" fill="#b3d9ff" stroke="#3366ff" stroke-width="1"/>
+  <text x="610" y="195" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">正常车间</text>
+  <circle cx="610" cy="170" r="10" fill="#66cc66"/>
+  
+  <!-- 监控中心(先天智能) -->
+  <rect x="350" y="300" width="120" height="60" rx="5" fill="#d9d9f2" stroke="#6666cc" stroke-width="2"/>
+  <text x="410" y="335" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">监控中心</text>
+  
+  <!-- 通信线路 -->
+  <line x1="210" y1="230" x2="350" y2="300" stroke="#66cc66" stroke-width="3" stroke-dasharray="5,3"/>
+  <line x1="410" y1="230" x2="410" y2="300" stroke="#ff6666" stroke-width="3"/>
+  <line x1="610" y1="230" x2="470" y2="300" stroke="#66cc66" stroke-width="3" stroke-dasharray="5,3"/>
+  
+  <!-- 脊椎干扰示意 -->
+  <circle cx="410" cy="265" r="15" fill="#ff9900" stroke="#cc6600" stroke-width="2"/>
+  <text x="445" y="270" font-family="Arial" font-size="12" fill="#cc6600">脊椎干扰</text>
+  
+  <!-- 诊断流程 -->
+  <rect x="100" y="420" width="600" height="120" rx="10" fill="#f2f2f2" stroke="#999999" stroke-width="1"/>
+  
+  <!-- 流程箭头 -->
+  <path d="M 150,480 L 200,480 L 210,480 L 230,480" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 330,480 L 350,480 L 360,480 L 380,480" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 480,480 L 500,480 L 510,480 L 530,480" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- 流程节点 -->
+  <rect x="130" y="460" width="100" height="40" rx="5" fill="#d9ebd3" stroke="#69b076" stroke-width="1"/>
+  <text x="180" y="485" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">异常功能</text>
+  
+  <rect x="230" y="460" width="100" height="40" rx="5" fill="#d9ebd3" stroke="#69b076" stroke-width="1"/>
+  <text x="280" y="485" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">活动量变化</text>
+  
+  <rect x="380" y="460" width="100" height="40" rx="5" fill="#d9ebd3" stroke="#69b076" stroke-width="1"/>
+  <text x="430" y="478" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">与其他功能</text>
+  <text x="430" y="492" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">进行比较</text>
+  
+  <rect x="530" y="460" width="100" height="40" rx="5" fill="#ffcccc" stroke="#ff6666" stroke-width="1"/>
+  <text x="580" y="478" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">脊椎神经</text>
+  <text x="580" y="492" font-family="Arial" font-size="11" text-anchor="middle" fill="#333">干扰</text>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 图例说明 -->
+  <text x="400" y="570" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">
+    身体如同工厂，通用感觉监控各部分功能，异常报告给先天智能，脊椎干扰导致功能失调
+  </text>
+</svg>

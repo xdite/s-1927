@@ -1,0 +1,76 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">运动功能：身体的交响乐团</text>
+  
+  <!-- 指挥家（代表大脑/中枢控制） -->
+  <circle cx="400" cy="250" r="50" fill="#e6f2ff" stroke="#4682b4" stroke-width="2"/>
+  <ellipse cx="400" cy="220" rx="15" ry="15" fill="#4682b4"/> <!-- 头 -->
+  <line x1="400" y1="235" x2="400" y2="270" stroke="#4682b4" stroke-width="3"/> <!-- 身体 -->
+  <line x1="400" y1="245" x2="380" y2="260" stroke="#4682b4" stroke-width="2"/> <!-- 左手 -->
+  <line x1="380" y1="260" x2="370" y2="250" stroke="#4682b4" stroke-width="2"/> <!-- 左手肘 -->
+  <line x1="400" y1="245" x2="440" y2="230" stroke="#4682b4" stroke-width="2"/> <!-- 右手 -->
+  <line x1="440" y1="230" x2="450" y2="210" stroke="#4682b4" stroke-width="2"/> <!-- 指挥棒 -->
+  <text x="400" y="300" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">大脑（指挥家）</text>
+  
+  <!-- 乐团成员（代表肌肉组织） -->
+  <!-- 左上方乐手 -->
+  <circle cx="250" cy="180" r="30" fill="#ffe6e6" stroke="#d46a6a" stroke-width="2"/>
+  <circle cx="250" cy="170" r="8" fill="#d46a6a"/> <!-- 头 -->
+  <line x1="250" y1="178" x2="250" y2="190" stroke="#d46a6a" stroke-width="2"/> <!-- 身体 -->
+  <line x1="250" y1="185" x2="270" y2="190" stroke="#d46a6a" stroke-width="2"/> <!-- 右手 -->
+  <line x1="250" y1="185" x2="230" y2="190" stroke="#d46a6a" stroke-width="2"/> <!-- 左手 -->
+  <text x="250" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">肌肉细胞A</text>
+  
+  <!-- 右上方乐手 -->
+  <circle cx="550" cy="180" r="30" fill="#e6ffe6" stroke="#6aaa6a" stroke-width="2"/>
+  <circle cx="550" cy="170" r="8" fill="#6aaa6a"/> <!-- 头 -->
+  <line x1="550" y1="178" x2="550" y2="190" stroke="#6aaa6a" stroke-width="2"/> <!-- 身体 -->
+  <line x1="550" y1="185" x2="570" y2="190" stroke="#6aaa6a" stroke-width="2"/> <!-- 右手 -->
+  <line x1="550" y1="185" x2="530" y2="190" stroke="#6aaa6a" stroke-width="2"/> <!-- 左手 -->
+  <text x="550" y="220" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">肌肉细胞B</text>
+  
+  <!-- 左下方乐手 -->
+  <circle cx="250" cy="320" r="30" fill="#e6e6ff" stroke="#6a6aaa" stroke-width="2"/>
+  <circle cx="250" cy="310" r="8" fill="#6a6aaa"/> <!-- 头 -->
+  <line x1="250" y1="318" x2="250" y2="330" stroke="#6a6aaa" stroke-width="2"/> <!-- 身体 -->
+  <line x1="250" y1="325" x2="270" y2="330" stroke="#6a6aaa" stroke-width="2"/> <!-- 右手 -->
+  <line x1="250" y1="325" x2="230" y2="330" stroke="#6a6aaa" stroke-width="2"/> <!-- 左手 -->
+  <text x="250" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">肌肉细胞C</text>
+  
+  <!-- 右下方乐手 -->
+  <circle cx="550" cy="320" r="30" fill="#fff2e6" stroke="#d4aa6a" stroke-width="2"/>
+  <circle cx="550" cy="310" r="8" fill="#d4aa6a"/> <!-- 头 -->
+  <line x1="550" y1="318" x2="550" y2="330" stroke="#d4aa6a" stroke-width="2"/> <!-- 身体 -->
+  <line x1="550" y1="325" x2="570" y2="330" stroke="#d4aa6a" stroke-width="2"/> <!-- 右手 -->
+  <line x1="550" y1="325" x2="530" y2="330" stroke="#d4aa6a" stroke-width="2"/> <!-- 左手 -->
+  <text x="550" y="360" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">肌肉细胞D</text>
+  
+  <!-- 连接线（代表协调信号） -->
+  <line x1="400" y1="250" x2="250" y2="180" stroke="#888" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="400" y1="250" x2="550" y2="180" stroke="#888" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="400" y1="250" x2="250" y2="320" stroke="#888" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="400" y1="250" x2="550" y2="320" stroke="#888" stroke-width="1.5" stroke-dasharray="5,3"/>
+  
+  <!-- 音符（代表协调运动） -->
+  <path d="M290,170 C295,165 300,160 305,165" fill="none" stroke="#555" stroke-width="1.5"/>
+  <ellipse cx="305" cy="165" rx="5" ry="3" fill="#555" transform="rotate(-10,305,165)"/>
+  
+  <path d="M510,170 C515,165 520,160 525,165" fill="none" stroke="#555" stroke-width="1.5"/>
+  <ellipse cx="525" cy="165" rx="5" ry="3" fill="#555" transform="rotate(-10,525,165)"/>
+  
+  <path d="M290,310 C295,305 300,300 305,305" fill="none" stroke="#555" stroke-width="1.5"/>
+  <ellipse cx="305" cy="305" rx="5" ry="3" fill="#555" transform="rotate(-10,305,305)"/>
+  
+  <path d="M510,310 C515,305 520,300 525,305" fill="none" stroke="#555" stroke-width="1.5"/>
+  <ellipse cx="525" cy="305" rx="5" ry="3" fill="#555" transform="rotate(-10,525,305)"/>
+  
+  <!-- 底部说明框 -->
+  <rect x="100" y="400" width="600" height="150" rx="10" ry="10" fill="#f0f0f0" stroke="#888" stroke-width="1"/>
+  <text x="400" y="430" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">运动功能如同一场交响乐演出</text>
+  <text x="120" y="460" font-family="Arial" font-size="14" fill="#333">• 指挥家（大脑）通过指挥棒（神经信号）指导乐团（肌肉组织）</text>
+  <text x="120" y="490" font-family="Arial" font-size="14" fill="#333">• 乐团成员（肌肉细胞）协调一致地移动，产生优美旋律（机械运动）</text>
+  <text x="120" y="520" font-family="Arial" font-size="14" fill="#333">• 只有在中枢管理下，各部分才能协同工作，完成复杂的动作</text>
+</svg>

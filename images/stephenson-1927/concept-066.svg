@@ -1,0 +1,67 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">大脑：人体的控制中心</text>
+  
+  <!-- 大脑指挥塔 -->
+  <circle cx="400" cy="200" r="70" fill="#f9e4ff" stroke="#6a4c93" stroke-width="3"/>
+  <path d="M400,130 L400,90 L420,70 L380,70 Z" fill="#6a4c93"/>
+  <ellipse cx="400" cy="200" rx="45" ry="55" fill="#e3c1f0" stroke="#6a4c93" stroke-width="1"/>
+  <path d="M380,180 C385,175 395,175 400,180" stroke="#6a4c93" stroke-width="2" fill="none"/>
+  <path d="M370,210 C380,220 420,220 430,210" stroke="#6a4c93" stroke-width="2" fill="none"/>
+  <text x="400" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="#333">大脑</text>
+  
+  <!-- 放射状神经连接 -->
+  <g stroke="#6a4c93" stroke-width="2" fill="none">
+    <!-- 左上 -->
+    <path d="M350,150 C300,100 200,130 150,100" stroke-dasharray="5,3"/>
+    <circle cx="150" cy="100" r="20" fill="#c1e3f0"/>
+    <text x="150" y="105" font-family="Arial" font-size="10" text-anchor="middle">眼睛</text>
+    
+    <!-- 右上 -->
+    <path d="M450,150 C500,100 600,130 650,100" stroke-dasharray="5,3"/>
+    <circle cx="650" cy="100" r="20" fill="#c1e3f0"/>
+    <text x="650" y="105" font-family="Arial" font-size="10" text-anchor="middle">耳朵</text>
+    
+    <!-- 左中 -->
+    <path d="M330,200 C250,200 200,230 150,200" stroke-dasharray="5,3"/>
+    <circle cx="150" cy="200" r="20" fill="#c1e3f0"/>
+    <text x="150" y="205" font-family="Arial" font-size="10" text-anchor="middle">手臂</text>
+    
+    <!-- 右中 -->
+    <path d="M470,200 C550,200 600,230 650,200" stroke-dasharray="5,3"/>
+    <circle cx="650" cy="200" r="20" fill="#c1e3f0"/>
+    <text x="650" y="205" font-family="Arial" font-size="10" text-anchor="middle">腿部</text>
+    
+    <!-- 左下 -->
+    <path d="M350,250 C300,300 200,280 150,300" stroke-dasharray="5,3"/>
+    <circle cx="150" cy="300" r="20" fill="#c1e3f0"/>
+    <text x="150" y="305" font-family="Arial" font-size="10" text-anchor="middle">心脏</text>
+    
+    <!-- 右下 -->
+    <path d="M450,250 C500,300 600,280 650,300" stroke-dasharray="5,3"/>
+    <circle cx="650" cy="300" r="20" fill="#c1e3f0"/>
+    <text x="650" y="305" font-family="Arial" font-size="10" text-anchor="middle">肺部</text>
+    
+    <!-- 中下 -->
+    <path d="M400,270 C400,320 400,350 400,380" stroke-dasharray="5,3"/>
+    <circle cx="400" cy="380" r="20" fill="#c1e3f0"/>
+    <text x="400" y="385" font-family="Arial" font-size="10" text-anchor="middle">胃部</text>
+  </g>
+  
+  <!-- 装饰性信号波动 -->
+  <g stroke="#6a4c93" stroke-width="1.5" fill="none">
+    <path d="M330,150 C335,145 340,155 345,150" />
+    <path d="M450,170 C455,165 460,175 465,170" />
+    <path d="M370,250 C375,245 380,255 385,250" />
+    <path d="M420,230 C425,225 430,235 435,230" />
+  </g>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="450" width="600" height="100" fill="#f0f0f0" rx="10" ry="10"/>
+  <text x="400" y="475" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">就像城市中央的指挥塔控制着整座城市的运行，</text>
+  <text x="400" y="500" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">大脑作为人体的控制中心，通过神经网络向全身各处发送指令，</text>
+  <text x="400" y="525" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">协调和控制着从基本生命功能到复杂行为的一切活动。</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 流程图连接线 -->
+  <path d="M200,250 L350,250" stroke="#6c8ebf" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M450,250 L600,250" stroke="#6c8ebf" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M400,300 L400,350" stroke="#6c8ebf" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6c8ebf"/>
+    </marker>
+  </defs>
+  
+  <!-- 节点 -->
+  <rect x="100" y="220" width="100" height="60" rx="10" ry="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <rect x="350" y="220" width="100" height="60" rx="10" ry="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <rect x="600" y="220" width="100" height="60" rx="10" ry="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  <rect x="350" y="350" width="100" height="60" rx="10" ry="10" fill="#dae8fc" stroke="#6c8ebf" stroke-width="2"/>
+  
+  <!-- 节点文本 -->
+  <text x="150" y="255" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">分泌功能</text>
+  <text x="400" y="255" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">产生化学组合</text>
+  <text x="650" y="255" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">身体使用</text>
+  <text x="400" y="385" text-anchor="middle" font-family="Arial" font-size="14" fill="#333">腺体组织</text>
+  
+  <!-- 厨房场景插图 -->
+  <!-- 厨房轮廓 -->
+  <rect x="150" y="80" width="500" height="120" rx="5" ry="5" fill="#f5f5f5" stroke="#d3d3d3" stroke-width="2"/>
+  
+  <!-- 厨师（妈妈）-->
+  <circle cx="250" cy="130" r="20" fill="#ffccaa"/>
+  <path d="M240,120 Q250,110 260,120" stroke="#333" stroke-width="1.5" fill="none"/> <!-- 微笑 -->
+  <rect x="235" y="150" width="30" height="40" fill="#e6b3cc"/> <!-- 身体 -->
+  <path d="M250,150 L240,180 M250,150 L260,180" stroke="#e6b3cc" stroke-width="8"/> <!-- 手臂 -->
+  
+  <!-- 烹饪锅 -->
+  <circle cx="300" cy="140" r="15" fill="#d3d3d3" stroke="#999" stroke-width="1.5"/>
+  <rect x="285" y="125" width="30" height="5" fill="#999"/>
+  <path d="M290,140 Q300,150 310,140" stroke="#ff6666" stroke-width="2"/> <!-- 食物 -->
+  
+  <!-- 食物/分泌物 -->
+  <circle cx="400" cy="130" r="12" fill="#99cc99"/>
+  <circle cx="420" cy="140" r="8" fill="#ffcc99"/>
+  <circle cx="380" cy="145" r="10" fill="#cc99cc"/>
+  
+  <!-- 家庭成员（使用分泌物） -->
+  <circle cx="500" cy="120" r="15" fill="#ffccaa"/>
+  <circle cx="540" cy="120" r="12" fill="#ffccaa"/>
+  <circle cx="520" cy="150" r="10" fill="#ffccaa"/>
+  
+  <!-- 腺体区域表示 -->
+  <rect x="270" y="110" width="60" height="60" rx="5" ry="5" fill="none" stroke="#6c8ebf" stroke-width="1.5" stroke-dasharray="5,3"/>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="440" text-anchor="middle" font-family="Arial" font-size="14" fill="#555">
+    细胞分泌就像家庭厨房：妈妈（专门细胞）制作食物（分泌物），
+  </text>
+  <text x="400" y="460" text-anchor="middle" font-family="Arial" font-size="14" fill="#555">
+    全家人（身体）享用，有些食材边角料还能被巧妙再利用。
+  </text>
+</svg>

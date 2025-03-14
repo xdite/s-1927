@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">头部区域组织层次结构</text>
+  
+  <!-- 建筑比喻图 -->
+  <g transform="translate(100, 120)">
+    <!-- 屋顶 - Dermamere -->
+    <path d="M300,0 L600,0 L500,80 L200,80 Z" fill="#e6b89c" stroke="#333" stroke-width="2"/>
+    <text x="400" y="40" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Dermamere (屋顶)</text>
+    <text x="400" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">头皮、上耳、前额皮肤</text>
+    
+    <!-- 住户层 - Myomere -->
+    <rect x="200" y="80" width="300" height="70" fill="#b5d6d6" stroke="#333" stroke-width="2"/>
+    <text x="350" y="115" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Myomere (住户)</text>
+    <text x="350" y="135" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Dermamere下的所有肌肉</text>
+    
+    <!-- 建筑框架 - Osseomere -->
+    <rect x="200" y="150" width="300" height="70" fill="#a2c5ac" stroke="#333" stroke-width="2"/>
+    <text x="350" y="185" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Osseomere (建筑框架)</text>
+    <text x="350" y="205" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">头骨、寰椎、耳小骨</text>
+    
+    <!-- 支柱 - Vertemere -->
+    <rect x="250" y="220" width="60" height="120" fill="#f0c987" stroke="#333" stroke-width="2"/>
+    <rect x="390" y="220" width="60" height="120" fill="#f0c987" stroke="#333" stroke-width="2"/>
+    <text x="350" y="280" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Vertemere (支柱)</text>
+    <text x="350" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">寰椎 (Atlas)</text>
+    
+    <!-- 核心设施 - Viscemere -->
+    <rect x="200" y="340" width="300" height="70" fill="#d1b3c4" stroke="#333" stroke-width="2"/>
+    <text x="350" y="375" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">Viscemere (核心设施)</text>
+    <text x="350" y="395" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">大脑</text>
+    
+    <!-- 地基 -->
+    <rect x="180" y="410" width="340" height="20" fill="#888" stroke="#333" stroke-width="2"/>
+  </g>
+  
+  <!-- 图例 -->
+  <g transform="translate(620, 150)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#333">图例:</text>
+    
+    <rect x="0" y="20" width="20" height="20" fill="#e6b89c" stroke="#333" stroke-width="1"/>
+    <text x="30" y="35" font-family="Arial, sans-serif" font-size="12" fill="#333">Dermamere</text>
+    
+    <rect x="0" y="50" width="20" height="20" fill="#b5d6d6" stroke="#333" stroke-width="1"/>
+    <text x="30" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">Myomere</text>
+    
+    <rect x="0" y="80" width="20" height="20" fill="#a2c5ac" stroke="#333" stroke-width="1"/>
+    <text x="30" y="95" font-family="Arial, sans-serif" font-size="12" fill="#333">Osseomere</text>
+    
+    <rect x="0" y="110" width="20" height="20" fill="#f0c987" stroke="#333" stroke-width="1"/>
+    <text x="30" y="125" font-family="Arial, sans-serif" font-size="12" fill="#333">Vertemere</text>
+    
+    <rect x="0" y="140" width="20" height="20" fill="#d1b3c4" stroke="#333" stroke-width="1"/>
+    <text x="30" y="155" font-family="Arial, sans-serif" font-size="12" fill="#333">Viscemere</text>
+  </g>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="560" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">人体头部区域的组织层次就像一座多层公寓大楼，每层具有特定功能但彼此相互支持</text>
+</svg>

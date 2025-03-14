@@ -1,0 +1,99 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#2c3e50">脊椎健康：从普遍智慧到身体自愈的旅程</text>
+  
+  <!-- 中央发电站（普遍智慧） -->
+  <circle cx="400" cy="120" r="40" fill="#a8dadc" stroke="#457b9d" stroke-width="2"/>
+  <text x="400" y="125" font-family="Arial" font-size="14" text-anchor="middle" fill="#1d3557">普遍智慧</text>
+  
+  <!-- 电线网络和流程 -->
+  <path d="M400,160 L400,200" stroke="#457b9d" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="420" y="185" font-family="Arial" font-size="12" fill="#1d3557">表达</text>
+  
+  <!-- 生命 -->
+  <rect x="350" y="200" width="100" height="40" rx="5" ry="5" fill="#bde0fe" stroke="#457b9d" stroke-width="2"/>
+  <text x="400" y="225" font-family="Arial" font-size="14" text-anchor="middle" fill="#1d3557">生命</text>
+  
+  <path d="M400,240 L400,280" stroke="#457b9d" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="420" y="265" font-family="Arial" font-size="12" fill="#1d3557">通过</text>
+  
+  <!-- 物质 -->
+  <rect x="350" y="280" width="100" height="40" rx="5" ry="5" fill="#bde0fe" stroke="#457b9d" stroke-width="2"/>
+  <text x="400" y="305" font-family="Arial" font-size="14" text-anchor="middle" fill="#1d3557">物质</text>
+  
+  <path d="M400,320 L400,360" stroke="#457b9d" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="420" y="345" font-family="Arial" font-size="12" fill="#1d3557">干扰</text>
+  
+  <!-- 半脱位 -->
+  <rect x="350" y="360" width="100" height="40" rx="5" ry="5" fill="#ffadad" stroke="#457b9d" stroke-width="2"/>
+  <text x="400" y="385" font-family="Arial" font-size="14" text-anchor="middle" fill="#1d3557">半脱位</text>
+  
+  <path d="M400,400 L400,440" stroke="#457b9d" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="420" y="425" font-family="Arial" font-size="12" fill="#1d3557">导致</text>
+  
+  <!-- 功能紊乱 -->
+  <rect x="350" y="440" width="100" height="40" rx="5" ry="5" fill="#ffadad" stroke="#457b9d" stroke-width="2"/>
+  <text x="400" y="465" font-family="Arial" font-size="14" text-anchor="middle" fill="#1d3557">功能紊乱</text>
+  
+  <!-- 调整路径 -->
+  <path d="M450,460 C500,460 500,500 450,500" stroke="#457b9d" stroke-width="3" marker-end="url(#arrowhead)" fill="none"/>
+  <text x="500" y="480" font-family="Arial" font-size="12" fill="#1d3557">移除</text>
+  
+  <!-- 调整 -->
+  <rect x="350" y="500" width="100" height="40" rx="5" ry="5" fill="#a7c957" stroke="#457b9d" stroke-width="2"/>
+  <text x="400" y="525" font-family="Arial" font-size="14" text-anchor="middle" fill="#1d3557">调整</text>
+  
+  <!-- 恢复路径 -->
+  <path d="M350,520 C300,520 300,480 350,480" stroke="#457b9d" stroke-width="3" marker-end="url(#arrowhead)" fill="none"/>
+  <text x="300" y="480" font-family="Arial" font-size="12" fill="#1d3557">神经系统功能</text>
+  
+  <!-- 恢复 -->
+  <rect x="250" y="440" width="80" height="40" rx="5" ry="5" fill="#a7c957" stroke="#457b9d" stroke-width="2"/>
+  <text x="290" y="465" font-family="Arial" font-size="14" text-anchor="middle" fill="#1d3557">恢复</text>
+  
+  <!-- 自愈路径 -->
+  <path d="M250,440 C200,440 200,400 250,400" stroke="#457b9d" stroke-width="3" marker-end="url(#arrowhead)" fill="none"/>
+  <text x="200" y="400" font-family="Arial" font-size="12" fill="#1d3557">促进</text>
+  
+  <!-- 自愈 -->
+  <rect x="250" y="360" width="80" height="40" rx="5" ry="5" fill="#a7c957" stroke="#457b9d" stroke-width="2"/>
+  <text x="290" y="385" font-family="Arial" font-size="14" text-anchor="middle" fill="#1d3557">自愈</text>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#457b9d"/>
+    </marker>
+  </defs>
+  
+  <!-- 脊椎图示 -->
+  <g transform="translate(600, 250)">
+    <!-- 健康脊椎 -->
+    <rect x="0" y="0" width="40" height="15" rx="2" ry="2" fill="#a7c957" stroke="#457b9d" stroke-width="1"/>
+    <rect x="0" y="20" width="40" height="15" rx="2" ry="2" fill="#a7c957" stroke="#457b9d" stroke-width="1"/>
+    <rect x="0" y="40" width="40" height="15" rx="2" ry="2" fill="#a7c957" stroke="#457b9d" stroke-width="1"/>
+    <rect x="0" y="60" width="40" height="15" rx="2" ry="2" fill="#a7c957" stroke="#457b9d" stroke-width="1"/>
+    <rect x="0" y="80" width="40" height="15" rx="2" ry="2" fill="#a7c957" stroke="#457b9d" stroke-width="1"/>
+    
+    <text x="60" y="50" font-family="Arial" font-size="12" fill="#1d3557">健康脊椎</text>
+    <text x="60" y="65" font-family="Arial" font-size="12" fill="#1d3557">神经系统畅通</text>
+    
+    <!-- 问题脊椎 -->
+    <rect x="0" y="120" width="40" height="15" rx="2" ry="2" fill="#a7c957" stroke="#457b9d" stroke-width="1"/>
+    <rect x="5" y="140" width="40" height="15" rx="2" ry="2" fill="#ffadad" stroke="#457b9d" stroke-width="1" transform="rotate(10)"/>
+    <rect x="0" y="160" width="40" height="15" rx="2" ry="2" fill="#a7c957" stroke="#457b9d" stroke-width="1"/>
+    <rect x="0" y="180" width="40" height="15" rx="2" ry="2" fill="#a7c957" stroke="#457b9d" stroke-width="1"/>
+    <rect x="0" y="200" width="40" height="15" rx="2" ry="2" fill="#a7c957" stroke="#457b9d" stroke-width="1"/>
+    
+    <text x="60" y="170" font-family="Arial" font-size="12" fill="#1d3557">半脱位脊椎</text>
+    <text x="60" y="185" font-family="Arial" font-size="12" fill="#1d3557">神经受干扰</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="580" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    就像城市电力系统需要畅通的电线传输能量，身体需要健康的脊椎保证生命能量流动
+  </text>
+</svg>

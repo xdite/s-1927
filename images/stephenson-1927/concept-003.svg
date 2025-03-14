@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">湿人 (Wet Man) 概念图解</text>
+  
+  <!-- 房子轮廓 -->
+  <g transform="translate(300, 150)">
+    <!-- 房子主体 -->
+    <rect x="0" y="100" width="200" height="150" fill="#e8eaed" stroke="#2c3e50" stroke-width="2"/>
+    <!-- 屋顶 -->
+    <polygon points="0,100 100,30 200,100" fill="#d1d8e0" stroke="#2c3e50" stroke-width="2"/>
+    <!-- 门 -->
+    <rect x="80" y="180" width="40" height="70" fill="#a5b1c2" stroke="#2c3e50" stroke-width="2"/>
+    <!-- 窗户 -->
+    <rect x="30" y="130" width="40" height="40" fill="#c8d6e5" stroke="#2c3e50" stroke-width="2"/>
+    <rect x="130" y="130" width="40" height="40" fill="#c8d6e5" stroke="#2c3e50" stroke-width="2"/>
+    
+    <!-- 水分线 - 外部 -->
+    <path d="M-50,250 H250" stroke="#3498db" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="-40" y="245" font-family="Arial, sans-serif" font-size="12" fill="#3498db">血清异常潮湿</text>
+    
+    <!-- 水分渗透 - 内部 -->
+    <rect x="0" y="200" width="200" height="50" fill="url(#waterPattern)" opacity="0.5"/>
+    
+    <!-- 三种不同类型的水肿 -->
+    <g transform="translate(0, 320)">
+      <!-- 普通水肿 -->
+      <circle cx="50" cy="0" r="30" fill="#3498db" opacity="0.7"/>
+      <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">水肿</text>
+      
+      <!-- Seredema -->
+      <circle cx="100" cy="0" r="30" fill="#9b59b6" opacity="0.7"/>
+      <text x="100" y="5" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Seredema</text>
+      
+      <!-- Uredema -->
+      <circle cx="150" cy="0" r="30" fill="#2ecc71" opacity="0.7"/>
+      <text x="150" y="5" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Uredema</text>
+    </g>
+    
+    <!-- 连接线 -->
+    <line x1="50" y1="270" x2="50" y2="290" stroke="#2c3e50" stroke-width="1"/>
+    <line x1="100" y1="270" x2="100" y2="290" stroke="#2c3e50" stroke-width="1"/>
+    <line x1="150" y1="270" x2="150" y2="290" stroke="#2c3e50" stroke-width="1"/>
+    
+    <!-- 雨滴 -->
+    <g>
+      <path d="M30,10 Q32,5 34,10 T38,10" fill="#3498db"/>
+      <path d="M60,15 Q62,10 64,15 T68,15" fill="#3498db"/>
+      <path d="M90,5 Q92,0 94,5 T98,5" fill="#3498db"/>
+      <path d="M120,12 Q122,7 124,12 T128,12" fill="#3498db"/>
+      <path d="M150,8 Q152,3 154,8 T158,8" fill="#3498db"/>
+      <path d="M180,14 Q182,9 184,14 T188,14" fill="#3498db"/>
+    </g>
+  </g>
+  
+  <!-- 图例 -->
+  <g transform="translate(50, 150)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">湿人状态说明:</text>
+    <text x="0" y="30" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">• 血清异常潮湿</text>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">• 导致组织不健康</text>
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">• 表现为不同类型水肿</text>
+    
+    <text x="0" y="130" font-family="Arial, sans-serif" font-size="14" fill="#3498db">• 水肿: 组织中水分积聚</text>
+    <text x="0" y="160" font-family="Arial, sans-serif" font-size="14" fill="#9b59b6">• Seredema: 尿素滞留导致水肿</text>
+    <text x="0" y="190" font-family="Arial, sans-serif" font-size="14" fill="#2ecc71">• Uredema: 尿毒症性水肿</text>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    比喻: 就像房屋被雨水淹没导致不同类型的水渍，"湿人"状态是血清异常潮湿导致的组织不健康
+  </text>
+  
+  <!-- 水纹图案 -->
+  <defs>
+    <pattern id="waterPattern" patternUnits="userSpaceOnUse" width="20" height="10" patternTransform="rotate(0)">
+      <path d="M0,5 Q5,0 10,5 T20,5" fill="none" stroke="#3498db" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+</svg>

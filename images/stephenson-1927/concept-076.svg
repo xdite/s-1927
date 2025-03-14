@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 中心"文章类型"盒子 -->
+  <rect x="350" y="200" width="120" height="60" rx="5" ry="5" fill="#4a6fa5" stroke="#2c3e50" stroke-width="2"/>
+  <text x="410" y="235" font-family="Arial" font-size="16" fill="white" text-anchor="middle">文章类型</text>
+  
+  <!-- 四种文章类型的卡片盒 -->
+  <g id="recipe-box">
+    <rect x="100" y="100" width="600" height="300" rx="10" ry="10" fill="#e8e8e8" stroke="#555" stroke-width="2"/>
+    <rect x="120" y="120" width="560" height="260" rx="5" ry="5" fill="#d0d0d0" stroke="#555" stroke-width="1"/>
+    
+    <!-- 叙述卡片 -->
+    <rect x="150" y="140" width="100" height="70" rx="3" ry="3" fill="#92c5de" stroke="#2c3e50" stroke-width="1"/>
+    <text x="200" y="180" font-family="Arial" font-size="16" fill="#2c3e50" text-anchor="middle">叙述</text>
+    
+    <!-- 描述卡片 -->
+    <rect x="270" y="140" width="100" height="70" rx="3" ry="3" fill="#a1d99b" stroke="#2c3e50" stroke-width="1"/>
+    <text x="320" y="180" font-family="Arial" font-size="16" fill="#2c3e50" text-anchor="middle">描述</text>
+    
+    <!-- 论证卡片 -->
+    <rect x="390" y="140" width="100" height="70" rx="3" ry="3" fill="#fdae61" stroke="#2c3e50" stroke-width="1"/>
+    <text x="440" y="180" font-family="Arial" font-size="16" fill="#2c3e50" text-anchor="middle">论证</text>
+    
+    <!-- 说明卡片 (高亮) -->
+    <rect x="510" y="140" width="130" height="200" rx="3" ry="3" fill="#fc8d59" stroke="#7a3b2e" stroke-width="2"/>
+    <text x="575" y="165" font-family="Arial" font-size="16" font-weight="bold" fill="#2c3e50" text-anchor="middle">说明</text>
+    <text x="575" y="190" font-family="Arial" font-size="12" fill="#2c3e50" text-anchor="middle">解释"为什么"和"如何"</text>
+    <text x="575" y="210" font-family="Arial" font-size="12" fill="#2c3e50" text-anchor="middle">精确、逻辑和正式</text>
+    <text x="575" y="230" font-family="Arial" font-size="12" fill="#2c3e50" text-anchor="middle">适合论文写作</text>
+    
+    <!-- 说明卡片上的例子 -->
+    <g id="examples">
+      <rect x="525" y="250" width="100" height="20" rx="2" ry="2" fill="#fff" stroke="#7a3b2e" stroke-width="1"/>
+      <text x="575" y="265" font-family="Arial" font-size="10" fill="#2c3e50" text-anchor="middle">菜谱</text>
+      
+      <rect x="525" y="275" width="100" height="20" rx="2" ry="2" fill="#fff" stroke="#7a3b2e" stroke-width="1"/>
+      <text x="575" y="290" font-family="Arial" font-size="10" fill="#2c3e50" text-anchor="middle">风筝制作方法</text>
+      
+      <rect x="525" y="300" width="100" height="20" rx="2" ry="2" fill="#fff" stroke="#7a3b2e" stroke-width="1"/>
+      <text x="575" y="315" font-family="Arial" font-size="10" fill="#2c3e50" text-anchor="middle">生理学</text>
+    </g>
+  </g>
+  
+  <!-- 连接线 -->
+  <line x1="410" y1="200" x2="200" y2="175" stroke="#555" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="410" y1="200" x2="320" y2="175" stroke="#555" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="410" y1="200" x2="440" y2="175" stroke="#555" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="410" y1="200" x2="575" y2="175" stroke="#555" stroke-width="2"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" font-weight="bold" fill="#2c3e50" text-anchor="middle">文章类型与说明文体</text>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="450" font-family="Arial" font-size="14" fill="#555" text-anchor="middle" font-style="italic">
+    就像厨房里的食谱卡片盒，不同颜色的卡片代表不同的写作方式，
+  </text>
+  <text x="400" y="470" font-family="Arial" font-size="14" fill="#555" text-anchor="middle" font-style="italic">
+    而红色的"说明"卡片专门用来解释"为什么"和"如何"，精确而有序。
+  </text>
+</svg>

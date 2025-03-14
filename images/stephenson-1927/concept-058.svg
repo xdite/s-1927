@@ -1,0 +1,139 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#f8f9fa"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Innate智能的神经补偿周期</text>
+    
+    <!-- 城市轮廓 -->
+    <g transform="translate(50, 80)">
+        <!-- 阶段1：正常状态 -->
+        <rect x="10" y="20" width="140" height="320" rx="5" fill="#e6f2ff" stroke="#aaa" stroke-width="1"/>
+        <text x="80" y="45" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">正常状态</text>
+        
+        <!-- 建筑物 -->
+        <rect x="30" y="60" width="30" height="60" fill="#b3d9ff" stroke="#999"/>
+        <rect x="70" y="70" width="40" height="80" fill="#80bfff" stroke="#999"/>
+        <rect x="40" y="150" width="35" height="70" fill="#b3d9ff" stroke="#999"/>
+        <rect x="90" y="170" width="30" height="50" fill="#80bfff" stroke="#999"/>
+        
+        <!-- 大脑/控制中心 -->
+        <circle cx="80" y="270" r="30" fill="#4da6ff" stroke="#0066cc" stroke-width="2"/>
+        <text x="80" y="275" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Innate</text>
+        
+        <!-- 道路 -->
+        <line x1="80" y1="240" x2="80" y2="140" stroke="#333" stroke-width="6"/>
+        <line x1="80" y1="140" x2="40" y2="140" stroke="#333" stroke-width="6"/>
+        <line x1="80" y1="140" x2="120" y2="140" stroke="#333" stroke-width="6"/>
+        
+        <!-- 流畅的信号 -->
+        <circle cx="80" cy="200" r="8" fill="#4CAF50">
+            <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="80" y="330" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">神经传导正常</text>
+        
+        <!-- 阶段2：补偿周期 -->
+        <rect x="180" y="20" width="140" height="320" rx="5" fill="#fff2e6" stroke="#aaa" stroke-width="1"/>
+        <text x="250" y="45" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">补偿周期</text>
+        
+        <!-- 建筑物 -->
+        <rect x="200" y="60" width="30" height="60" fill="#ffd9b3" stroke="#999"/>
+        <rect x="240" y="70" width="40" height="80" fill="#ffbf80" stroke="#999"/>
+        <rect x="210" y="150" width="35" height="70" fill="#ffd9b3" stroke="#999"/>
+        <rect x="260" y="170" width="30" height="50" fill="#ffbf80" stroke="#999"/>
+        
+        <!-- 大脑/控制中心 -->
+        <circle cx="250" y="270" r="30" fill="#ff9933" stroke="#cc6600" stroke-width="2"/>
+        <text x="250" y="275" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Innate</text>
+        
+        <!-- 道路阻塞 -->
+        <line x1="250" y1="240" x2="250" y2="180" stroke="#333" stroke-width="6"/>
+        <line x1="250" y1="180" x2="250" y2="140" stroke="#999" stroke-width="6" stroke-dasharray="5,5"/>
+        <line x1="250" y1="140" x2="210" y2="140" stroke="#333" stroke-width="6"/>
+        <line x1="250" y1="140" x2="290" y2="140" stroke="#333" stroke-width="6"/>
+        
+        <!-- 施工标志 -->
+        <rect x="240" y="160" width="20" height="20" fill="#FF5722" stroke="#333"/>
+        <text x="250" y="175" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">!</text>
+        
+        <!-- 替代路线 -->
+        <path d="M250,240 C280,220 280,160 250,140" stroke="#333" stroke-width="3" fill="none" stroke-dasharray="5,3"/>
+        <circle cx="265" cy="190" r="6" fill="#FFC107">
+            <animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <text x="250" y="330" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">减弱的精神冲动</text>
+        
+        <!-- 阶段3：慢性状态 -->
+        <rect x="350" y="20" width="140" height="320" rx="5" fill="#f2e6ff" stroke="#aaa" stroke-width="1"/>
+        <text x="420" y="45" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">慢性状态</text>
+        
+        <!-- 建筑物 -->
+        <rect x="370" y="60" width="30" height="60" fill="#d9b3ff" stroke="#999"/>
+        <rect x="410" y="70" width="40" height="80" fill="#bf80ff" stroke="#999"/>
+        <rect x="380" y="150" width="35" height="70" fill="#d9b3ff" stroke="#999"/>
+        <rect x="430" y="170" width="30" height="50" fill="#bf80ff" stroke="#999"/>
+        
+        <!-- 大脑/控制中心 -->
+        <circle cx="420" y="270" r="30" fill="#9933ff" stroke="#6600cc" stroke-width="2"/>
+        <text x="420" y="275" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Innate</text>
+        
+        <!-- 持续阻塞的道路 -->
+        <line x1="420" y1="240" x2="420" y2="180" stroke="#333" stroke-width="6"/>
+        <line x1="420" y1="180" x2="420" y2="140" stroke="#999" stroke-width="6" stroke-dasharray="5,5"/>
+        <line x1="420" y1="140" x2="380" y2="140" stroke="#333" stroke-width="6"/>
+        <line x1="420" y1="140" x2="460" y2="140" stroke="#333" stroke-width="6"/>
+        
+        <!-- 施工标志 -->
+        <rect x="410" y="160" width="20" height="20" fill="#FF5722" stroke="#333"/>
+        <text x="420" y="175" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="white">!</text>
+        
+        <!-- 固定的替代路线 -->
+        <path d="M420,240 C450,220 450,160 420,140" stroke="#333" stroke-width="4" fill="none"/>
+        <circle cx="435" cy="190" r="6" fill="#9C27B0">
+            <animate attributeName="opacity" values="1;0.5;1" dur="5s" repeatCount="indefinite"/>
+        </circle>
+        <text x="420" y="330" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">适应新路线</text>
+        
+        <!-- 阶段4：调整与恢复 -->
+        <rect x="520" y="20" width="140" height="320" rx="5" fill="#e6ffe6" stroke="#aaa" stroke-width="1"/>
+        <text x="590" y="45" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">恢复状态</text>
+        
+        <!-- 建筑物 -->
+        <rect x="540" y="60" width="30" height="60" fill="#b3ffb3" stroke="#999"/>
+        <rect x="580" y="70" width="40" height="80" fill="#80ff80" stroke="#999"/>
+        <rect x="550" y="150" width="35" height="70" fill="#b3ffb3" stroke="#999"/>
+        <rect x="600" y="170" width="30" height="50" fill="#80ff80" stroke="#999"/>
+        
+        <!-- 大脑/控制中心 -->
+        <circle cx="590" y="270" r="30" fill="#33cc33" stroke="#009900" stroke-width="2"/>
+        <text x="590" y="275" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Innate</text>
+        
+        <!-- 修复的道路 -->
+        <line x1="590" y1="240" x2="590" y2="140" stroke="#333" stroke-width="6"/>
+        <line x1="590" y1="140" x2="550" y2="140" stroke="#333" stroke-width="6"/>
+        <line x1="590" y1="140" x2="630" y2="140" stroke="#333" stroke-width="6"/>
+        
+        <!-- 流畅的信号 -->
+        <circle cx="590" cy="200" r="8" fill="#4CAF50">
+            <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <text x="590" y="330" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">补偿周期消失</text>
+        
+        <!-- 阶段之间的箭头 -->
+        <path d="M155,170 L175,170" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+        <path d="M325,170 L345,170" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+        <path d="M495,170 L515,170" stroke="#666" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    </g>
+    
+    <!-- 箭头标记定义 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    
+    <!-- 底部解释文字 -->
+    <text x="400" y="460" font-family="Arial" font-size="14" text-anchor="middle" fill="#333" font-style="italic">
+        就像城市交通管理中心在道路阻塞时建立临时绕行路线，Innate智能在神经传导受阻时也会建立补偿机制
+    </text>
+</svg>

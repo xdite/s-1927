@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2c3e50" font-weight="bold">脊骨神经医学的三个平衡研究阶段</text>
+  
+  <!-- River/Gap -->
+  <path d="M0,400 C200,380 600,420 800,400" fill="#a8d5e5" opacity="0.7"/>
+  <path d="M0,410 C300,450 500,370 800,410" fill="#7cbee0" opacity="0.6"/>
+  
+  <!-- Left shore (Mind) -->
+  <path d="M0,400 L200,400 Q220,380 200,360 L0,360 Z" fill="#d1e8df"/>
+  <text x="100" y="385" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#2c3e50">精神/Mind</text>
+  
+  <!-- Right shore (Matter) -->
+  <path d="M600,400 L800,400 L800,360 L600,360 Q580,380 600,400 Z" fill="#e6d7c3"/>
+  <text x="700" y="385" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#2c3e50">物质/Matter</text>
+  
+  <!-- Bridge structure -->
+  <path d="M200,380 C300,300 500,300 600,380" stroke="#5d6d7e" stroke-width="5" fill="none"/>
+  <path d="M200,370 C300,290 500,290 600,370" stroke="#5d6d7e" stroke-width="5" fill="none"/>
+  
+  <!-- Bridge supports -->
+  <line x1="300" y1="295" x2="300" y2="400" stroke="#5d6d7e" stroke-width="4"/>
+  <line x1="500" y1="295" x2="500" y2="400" stroke="#5d6d7e" stroke-width="4"/>
+  
+  <!-- Three equal segments of the bridge -->
+  <path d="M200,380 C233,340 267,320 300,295" stroke="#4a90e2" stroke-width="8" fill="none"/>
+  <path d="M300,295 C367,260 433,260 500,295" stroke="#50c878" stroke-width="8" fill="none"/>
+  <path d="M500,295 C533,320 567,340 600,380" stroke="#e67e22" stroke-width="8" fill="none"/>
+  
+  <!-- Segment labels with icons -->
+  <!-- Non-material research -->
+  <circle cx="250" y="320" r="35" fill="#4a90e2" opacity="0.2"/>
+  <text x="250" y="315" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">非物质研究</text>
+  <text x="250" y="335" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">33.33%</text>
+  
+  <!-- Material research -->
+  <circle cx="400" y="270" r="35" fill="#50c878" opacity="0.2"/>
+  <text x="400" y="265" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">物质研究</text>
+  <text x="400" y="285" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">33.33%</text>
+  
+  <!-- Art research -->
+  <circle cx="550" y="320" r="35" fill="#e67e22" opacity="0.2"/>
+  <text x="550" y="315" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#2c3e50">艺术研究</text>
+  <text x="550" y="335" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#2c3e50">33.33%</text>
+  
+  <!-- Icons -->
+  <!-- Brain icon for non-material -->
+  <path d="M235,300 Q250,290 265,300 Q270,290 260,285 Q267,282 270,287 Q280,280 275,290 Q285,295 275,300 Q280,310 265,305 Q260,315 250,305 Q240,315 235,305 Q220,310 225,300 Q215,295 225,290 Q225,280 230,287 Q223,282 230,285 Q220,290 235,300 Z" fill="#4a90e2" opacity="0.8"/>
+  
+  <!-- Microscope icon for material -->
+  <path d="M395,245 L405,245 L405,250 L400,255 L395,250 Z" fill="#50c878"/>
+  <rect x="397" y="255" width="6" height="10" fill="#50c878"/>
+  <path d="M390,265 L410,265 L415,270 L385,270 Z" fill="#50c878"/>
+  
+  <!-- Hand icon for art -->
+  <path d="M545,300 Q550,295 555,300 L555,310 Q552,312 550,310 L550,305 Q547,307 545,305 L545,300 Z" fill="#e67e22"/>
+  <path d="M540,302 Q545,297 550,302 L550,312 Q547,314 545,312 L545,307 Q542,309 540,307 Z" fill="#e67e22" opacity="0.8"/>
+  
+  <!-- Legend -->
+  <rect x="100" y="480" width="600" height="80" rx="5" ry="5" fill="white" stroke="#ddd"/>
+  <text x="400" y="505" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">脊骨神经医学如同建造桥梁：需要理解物质结构（桥梁材料），</text>
+  <text x="400" y="525" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">研究非物质因素（环境影响），以及掌握艺术技巧（建造手艺）。</text>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">只有三者平衡发展，才能成功连接精神与物质两岸。</text>
+</svg>

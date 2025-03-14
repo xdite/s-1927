@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="28" text-anchor="middle" fill="#333">刺激的两种类型</text>
+  
+  <!-- 左侧区域 - 直接刺激 -->
+  <rect x="80" y="100" width="280" height="300" fill="#e6f2ff" rx="10" ry="10" stroke="#a0c8e0" stroke-width="2"/>
+  <text x="220" y="130" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" font-weight="bold" fill="#3070b3">直接刺激</text>
+  
+  <!-- 右侧区域 - 间接刺激 -->
+  <rect x="440" y="100" width="280" height="300" fill="#fff2e6" rx="10" ry="10" stroke="#e0c8a0" stroke-width="2"/>
+  <text x="580" y="130" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" font-weight="bold" fill="#b37030">间接刺激</text>
+  
+  <!-- 左侧内容 - 堵塞道路和信号灯 -->
+  <rect x="120" y="150" width="200" height="120" fill="#d0e0f0" rx="5" ry="5"/>
+  
+  <!-- 堵塞的道路 -->
+  <rect x="140" y="170" width="160" height="20" fill="#888"/>
+  <rect x="140" y="200" width="160" height="20" fill="#888"/>
+  <rect x="140" y="230" width="160" height="20" fill="#888"/>
+  
+  <!-- 车辆 -->
+  <rect x="150" y="172" width="15" height="10" fill="#cc3333" rx="2" ry="2"/>
+  <rect x="175" y="177" width="15" height="10" fill="#3366cc" rx="2" ry="2"/>
+  <rect x="200" y="172" width="15" height="10" fill="#339933" rx="2" ry="2"/>
+  <rect x="225" y="177" width="15" height="10" fill="#ffcc00" rx="2" ry="2"/>
+  
+  <rect x="160" y="202" width="15" height="10" fill="#cc3333" rx="2" ry="2"/>
+  <rect x="185" y="207" width="15" height="10" fill="#3366cc" rx="2" ry="2"/>
+  <rect x="210" y="202" width="15" height="10" fill="#339933" rx="2" ry="2"/>
+  <rect x="235" y="207" width="15" height="10" fill="#ffcc00" rx="2" ry="2"/>
+  
+  <rect x="145" y="232" width="15" height="10" fill="#cc3333" rx="2" ry="2"/>
+  <rect x="170" y="237" width="15" height="10" fill="#3366cc" rx="2" ry="2"/>
+  <rect x="195" y="232" width="15" height="10" fill="#339933" rx="2" ry="2"/>
+  <rect x="220" y="237" width="15" height="10" fill="#ffcc00" rx="2" ry="2"/>
+  
+  <!-- 信号灯 -->
+  <rect x="210" y="140" width="10" height="30" fill="#555"/>
+  <circle cx="215" cy="150" r="7" fill="#ff3333"/>
+  <circle cx="215" cy="165" r="7" fill="#33ff33"/>
+  
+  <!-- 死亡组织标签 -->
+  <text x="220" y="290" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#555">死亡组织</text>
+  <text x="220" y="315" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">无适应性反应</text>
+  
+  <!-- 右侧内容 - 施工和绕行 -->
+  <rect x="480" y="150" width="200" height="120" fill="#f0e0d0" rx="5" ry="5"/>
+  
+  <!-- 正常道路 -->
+  <rect x="500" y="170" width="160" height="20" fill="#aaa"/>
+  <rect x="500" y="200" width="160" height="20" fill="#aaa"/>
+  <rect x="500" y="230" width="160" height="20" fill="#aaa"/>
+  
+  <!-- 施工区域 -->
+  <rect x="550" y="170" width="30" height="20" fill="#ff9900" stroke="#cc6600" stroke-width="1"/>
+  <rect x="550" y="200" width="30" height="20" fill="#ff9900" stroke="#cc6600" stroke-width="1"/>
+  <rect x="550" y="230" width="30" height="20" fill="#ff9900" stroke="#cc6600" stroke-width="1"/>
+  
+  <!-- 绕行车辆 -->
+  <path d="M 510,175 C 530,155 570,155 590,175" stroke="#3366cc" stroke-width="2" fill="none"/>
+  <rect x="590" y="172" width="15" height="10" fill="#3366cc" rx="2" ry="2"/>
+  
+  <path d="M 510,205 C 530,185 570,185 590,205" stroke="#cc3333" stroke-width="2" fill="none"/>
+  <rect x="590" y="202" width="15" height="10" fill="#cc3333" rx="2" ry="2"/>
+  
+  <path d="M 510,235 C 530,215 570,215 590,235" stroke="#339933" stroke-width="2" fill="none"/>
+  <rect x="590" y="232" width="15" height="10" fill="#339933" rx="2" ry="2"/>
+  
+  <!-- 活体组织标签 -->
+  <text x="580" y="290" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#555">活体组织</text>
+  <text x="580" y="315" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">适应性反应</text>
+  
+  <!-- 连接中心 -->
+  <circle cx="400" y="250" r="50" fill="#f0f0f0" stroke="#ccc" stroke-width="2"/>
+  <text x="400" y="245" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="bold" fill="#555">刺激</text>
+  <text x="400" y="270" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#666">Stimulation</text>
+  
+  <!-- 连接线 -->
+  <line x1="350" y1="250" x2="280" y2="250" stroke="#3070b3" stroke-width="3"/>
+  <line x1="450" y1="250" x2="520" y2="250" stroke="#b37030" stroke-width="3"/>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="420" width="600" height="60" fill="#f0f0f0" rx="5" ry="5"/>
+  <text x="400" y="445" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">
+    直接刺激如同在堵死的道路上安装信号灯，只能产生机械性反应；
+  </text>
+  <text x="400" y="465" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">
+    间接刺激则像健康道路系统遇到施工时，能够自动调整和适应。
+  </text>
+</svg>

@@ -1,0 +1,90 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="450" fill="#f9f9f9" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">身体功能状态符号系统</text>
+  
+  <!-- 主图表 -->
+  <g transform="translate(50, 80)">
+    <!-- 节点 -->
+    <g>
+      <!-- 正常功能 -->
+      <rect x="0" y="100" width="120" height="60" rx="8" ry="8" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+      <text x="60" y="135" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">正常功能</text>
+      
+      <!-- 符号 -->
+      <rect x="170" y="100" width="120" height="60" rx="8" ry="8" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+      <text x="230" y="135" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">符号</text>
+      
+      <!-- 原发性功能 -->
+      <rect x="340" y="100" width="120" height="60" rx="8" ry="8" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+      <text x="400" y="135" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">原发性功能</text>
+      
+      <!-- 功能类型 -->
+      <rect x="510" y="100" width="120" height="60" rx="8" ry="8" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+      <text x="570" y="120" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">运动：M</text>
+      <text x="570" y="140" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">热量：C</text>
+      <text x="570" y="160" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">感觉：S 等</text>
+      
+      <!-- 状态 -->
+      <rect x="680" y="100" width="120" height="60" rx="8" ry="8" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+      <text x="740" y="125" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">过剩：+</text>
+      <text x="740" y="145" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">不足：-</text>
+    </g>
+    
+    <!-- 连接线 -->
+    <g stroke="#91d5ff" stroke-width="2">
+      <line x1="120" y1="130" x2="170" y2="130" marker-end="url(#arrowhead)"/>
+      <line x1="290" y1="130" x2="340" y2="130" marker-end="url(#arrowhead)"/>
+      <line x1="460" y1="130" x2="510" y2="130" marker-end="url(#arrowhead)"/>
+      <line x1="630" y1="130" x2="680" y2="130" marker-end="url(#arrowhead)"/>
+    </g>
+    
+    <!-- 箭头标记 -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#91d5ff"/>
+      </marker>
+    </defs>
+  </g>
+  
+  <!-- 城市交通系统比喻图解 -->
+  <g transform="translate(150, 250)">
+    <!-- 城市背景 -->
+    <rect x="0" y="0" width="500" height="150" rx="10" ry="10" fill="#f0f5ff" stroke="#adc6ff" stroke-width="2"/>
+    
+    <!-- 标题 -->
+    <text x="250" y="25" font-family="Arial" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">城市交通系统比喻</text>
+    
+    <!-- 图标和说明 -->
+    <g transform="translate(30, 50)">
+      <!-- 公交车 - 运动功能 -->
+      <circle cx="25" cy="25" r="20" fill="#ffd591" stroke="#fa8c16" stroke-width="2"/>
+      <text x="25" y="30" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">M</text>
+      <text x="100" y="30" font-family="Arial" font-size="14" fill="#333">公交车 (运动功能)</text>
+      
+      <!-- 暖气 - 热量功能 -->
+      <circle cx="25" cy="75" r="20" fill="#ffd591" stroke="#fa8c16" stroke-width="2"/>
+      <text x="25" y="80" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">C</text>
+      <text x="100" y="80" font-family="Arial" font-size="14" fill="#333">暖气 (热量功能)</text>
+    </g>
+    
+    <g transform="translate(250, 50)">
+      <!-- 正常状态 -->
+      <circle cx="25" cy="25" r="20" fill="#b7eb8f" stroke="#52c41a" stroke-width="2"/>
+      <text x="25" y="30" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">✓</text>
+      <text x="100" y="30" font-family="Arial" font-size="14" fill="#333">正常运行</text>
+      
+      <!-- 异常状态 -->
+      <circle cx="25" cy="75" r="20" fill="#ffccc7" stroke="#ff4d4f" stroke-width="2"/>
+      <text x="25" y="80" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">C+</text>
+      <text x="100" y="80" font-family="Arial" font-size="14" fill="#333">暖气过热 (功能过剩)</text>
+    </g>
+  </g>
+  
+  <!-- 底部说明 -->
+  <text x="400" y="430" font-family="Arial" font-size="12" fill="#666" text-anchor="middle" font-style="italic">
+    就像城市管理者用符号记录交通和设施状况，医学上也用简单符号表示身体功能的正常与异常状态
+  </text>
+</svg>

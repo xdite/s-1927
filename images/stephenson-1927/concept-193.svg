@@ -1,0 +1,43 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="450" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 上方椎骨 -->
+  <rect x="150" y="80" width="300" height="70" rx="5" ry="5" fill="#b3cde0" stroke="#6497b1" stroke-width="2"/>
+  <text x="300" y="120" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">上方椎骨</text>
+  
+  <!-- 椎间盘 -->
+  <ellipse cx="300" cy="200" rx="120" ry="30" fill="#b5e3a5" stroke="#7eb36a" stroke-width="2"/>
+  <text x="300" y="205" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">椎间盘</text>
+  
+  <!-- 下方椎骨 -->
+  <rect x="150" y="270" width="300" height="70" rx="5" ry="5" fill="#b3cde0" stroke="#6497b1" stroke-width="2"/>
+  <text x="300" y="310" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">下方椎骨</text>
+  
+  <!-- 压力箭头 -->
+  <path d="M300,60 L300,80" stroke="#e74c3c" stroke-width="3" fill="none"/>
+  <polygon points="300,80 295,70 305,70" fill="#e74c3c"/>
+  <text x="320" y="70" font-family="Arial" font-size="14" fill="#e74c3c">压力</text>
+  
+  <!-- 缓冲震荡箭头 -->
+  <path d="M300,230 L300,270" stroke="#3498db" stroke-width="3" fill="none"/>
+  <polygon points="300,270 295,260 305,260" fill="#3498db"/>
+  <text x="350" y="250" font-family="Arial" font-size="14" fill="#3498db">缓冲震荡</text>
+  
+  <!-- 弹性恢复箭头 -->
+  <path d="M330,180 C360,160 360,140 330,150" stroke="#9b59b6" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <polygon points="330,150 335,158 325,160" fill="#9b59b6"/>
+  <text x="370" y="160" font-family="Arial" font-size="14" fill="#9b59b6">弹性恢复</text>
+  
+  <!-- 椎间盘内部结构示意 -->
+  <ellipse cx="300" cy="200" rx="80" ry="20" fill="#d5f5c7" stroke="#7eb36a" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <!-- 比喻说明 -->
+  <rect x="50" y="360" width="500" height="70" rx="5" ry="5" fill="#f0f0f0" stroke="#ddd" stroke-width="1"/>
+  <text x="300" y="385" font-family="Arial" font-size="12" text-anchor="middle" fill="#555" width="480">
+    椎间盘就像建筑物之间的减震器，吸收上方传来的压力，
+  </text>
+  <text x="300" y="405" font-family="Arial" font-size="12" text-anchor="middle" fill="#555" width="480">
+    防止直接传递给下方结构，并通过弹性形变恢复原状。
+  </text>
+</svg>

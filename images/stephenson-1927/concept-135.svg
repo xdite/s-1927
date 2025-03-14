@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 城市轮廓 -->
+  <g transform="translate(50, 380)">
+    <rect x="0" y="-60" width="40" height="60" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="50" y="-100" width="50" height="100" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="110" y="-80" width="35" height="80" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="155" y="-120" width="45" height="120" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="210" y="-70" width="30" height="70" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="250" y="-90" width="40" height="90" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="300" y="-110" width="35" height="110" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="345" y="-60" width="25" height="60" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="380" y="-130" width="45" height="130" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="435" y="-80" width="30" height="80" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="475" y="-100" width="50" height="100" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="535" y="-70" width="40" height="70" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="585" y="-120" width="45" height="120" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="640" y="-90" width="35" height="90" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    <rect x="685" y="-60" width="30" height="60" fill="#a0c4e0" stroke="#5d8aa8" stroke-width="1"/>
+    
+    <!-- 地面 -->
+    <rect x="0" y="0" width="715" height="10" fill="#8a9e78" rx="2" ry="2"/>
+  </g>
+  
+  <!-- 中央控制塔（脊柱） -->
+  <g transform="translate(400, 150)">
+    <rect x="-30" y="-100" width="60" height="200" fill="#e0c4a0" stroke="#8a7e6a" stroke-width="2" rx="5" ry="5"/>
+    <circle cx="0" cy="-120" r="30" fill="#f0d4b0" stroke="#8a7e6a" stroke-width="2"/>
+    
+    <!-- 故障的主控开关 -->
+    <g id="switch-before" transform="translate(0, -20)">
+      <rect x="-15" y="-15" width="30" height="30" fill="#e77" stroke="#933" stroke-width="2" rx="3" ry="3"/>
+      <line x1="-8" y1="0" x2="8" y2="0" stroke="#933" stroke-width="3"/>
+      <text x="0" y="5" font-family="Arial" font-size="10" text-anchor="middle" fill="#fff">故障</text>
+    </g>
+    
+    <!-- 修复后的主控开关 -->
+    <g id="switch-after" transform="translate(0, -20)" opacity="0">
+      <rect x="-15" y="-15" width="30" height="30" fill="#7d7" stroke="#393" stroke-width="2" rx="3" ry="3"/>
+      <line x1="-8" y1="0" x2="8" y2="0" stroke="#393" stroke-width="3"/>
+      <text x="0" y="5" font-family="Arial" font-size="10" text-anchor="middle" fill="#fff">正常</text>
+    </g>
+    
+    <!-- 动画：开关修复 -->
+    <animate xlink:href="#switch-before" attributeName="opacity" from="1" to="0" begin="2s" dur="1s" fill="freeze"/>
+    <animate xlink:href="#switch-after" attributeName="opacity" from="0" to="1" begin="3s" dur="1s" fill="freeze"/>
+  </g>
+  
+  <!-- 信号灯（神经系统） -->
+  <g>
+    <!-- 故障的信号灯 -->
+    <g class="traffic-light-before">
+      <g transform="translate(150, 300)">
+        <rect x="-10" y="-30" width="20" height="60" fill="#888" stroke="#666" stroke-width="1" rx="2" ry="2"/>
+        <circle cx="0" cy="-20" r="7" fill="#e77" stroke="#933" stroke-width="1"/>
+        <circle cx="0" cy="0" r="7" fill="#ee7" stroke="#993" stroke-width="1"/>
+        <circle cx="0" cy="20" r="7" fill="#7e7" stroke="#393" stroke-width="1" opacity="0.3"/>
+        <line x1="0" y1="30" x2="0" y2="80" stroke="#888" stroke-width="3"/>
+      </g>
+      
+      <g transform="translate(250, 320)">
+        <rect x="-10" y="-30" width="20" height="60" fill="#888" stroke="#666" stroke-width="1" rx="2" ry="2"/>
+        <circle cx="0" cy="-20" r="7" fill="#e77" stroke="#933" stroke-width="1"/>
+        <circle cx="0" cy="0" r="7" fill="#ee7" stroke="#993" stroke-width="1" opacity="0.3"/>
+        <circle cx="0" cy="20" r="7" fill="#7e7" stroke="#393" stroke-width="1"/>
+        <line x1="0" y1="30" x2="0" y2="60" stroke="#888" stroke-width="3"/>
+      </g>
+      
+      <g transform="translate(550, 310)">
+        <rect x="-10" y="-30" width="20" height="60" fill="#888" stroke="#666" stroke-width="1" rx="2" ry="2"/>
+        <circle cx="0" cy="-20" r="7" fill="#e77" stroke="#933" stroke-width="1" opacity="0.3"/>
+        <circle cx="0" cy="0" r="7" fill="#ee7" stroke="#993" stroke-width="1"/>
+        <circle cx="0" cy="20" r="7" fill="#7e7" stroke="#393" stroke-width="1"/>
+        <line x1="0" y1="30" x2="0" y2="70" stroke="#888" stroke-width="3"/>
+      </g>
+      
+      <g transform="translate(650, 330)">
+        <rect x="-10" y="-30" width="20" height="60" fill="#888" stroke="#666" stroke-width="1" rx="2" ry="2"/>
+        <circle cx="0" cy="-20" r="7" fill="#e77" stroke="#933" stroke-width="1"/>
+        <circle cx="0" cy="0" r="7" fill="#ee7" stroke="#993" stroke-width="1"/>
+        <circle cx="0" cy="20" r="7" fill="#7e7" stroke="#393" stroke-width="1" opacity="0.3"/>
+        <line x1="0" y1="30" x2="0" y2="50" stroke="#888" stroke-width="3"/>
+      </g>
+    </g>
+    
+    <!-- 修复后的信号灯 -->
+    <g class="traffic-light-after" opacity="0">
+      <g transform="translate(150, 300)">
+        <rect x="-10" y="-30" width="20" height="60" fill="#888" stroke="#666" stroke-width="1" rx="2" ry="2"/>
+        <circle cx="0" cy="-20" r="7" fill="#e77" stroke="#933" stroke-width="1"/>
+        <circle cx="0" cy="0" r="7" fill="#ee7" stroke="#993" stroke-width="1"/>
+        <circle cx="0" cy="20" r="7" fill="#7e7" stroke="#393" stroke-width="1"/>
+        <line x1="0" y1="30" x2="0" y2="80" stroke="#888" stroke-width="3"/>
+      </g>
+      
+      <g transform="translate(250, 320)">
+        <rect x="-10" y="-30" width="20" height="60" fill="#888" stroke="#666" stroke-width="1" rx="2" ry="2"/>
+        <circle cx="0" cy="-20" r="7" fill="#e77" stroke="#933" stroke-width="1"/>
+        <circle cx="0" cy="0" r="7" fill="#ee7" stroke="#993" stroke-width="1"/>
+        <circle cx="0" cy="20" r="7" fill="#7e7" stroke="#393" stroke-width="1"/>
+        <line x1="0" y1="30" x2="0" y2="60" stroke="#888" stroke-width="3"/>
+      </g>
+      
+      <g transform="translate(550, 310)">
+        <rect x="-10" y="-30" width="20" height="60" fill="#888" stroke="#666" stroke-width="1" rx="2" ry="2"/>
+        <circle cx="0" cy="-20" r="7" fill="#e77" stroke="#933" stroke-width="1"/>
+        <circle cx="0" cy="0" r="7" fill="#ee7" stroke="#993" stroke-width="1"/>
+        <circle cx="0" cy="20" r="7" fill="#7e7" stroke="#393" stroke-width="1"/>
+        <line x1="0" y1="30" x2="0" y2="70" stroke="#888" stroke-width="3"/>
+      </g>
+      
+      <g transform="translate(650, 330)">
+        <rect x="-10" y="-30" width="20" height="60" fill="#888" stroke="#666" stroke-width="1" rx="2" ry="2"/>
+        <circle cx="0" cy="-20" r="7" fill="#e77" stroke="#933" stroke-width="1"/>
+        <circle cx="0" cy="0" r="7" fill="#ee7" stroke="#993" stroke-width="1"/>
+        <circle cx="0" cy="20" r="7" fill="#7e7" stroke="#393" stroke-width="1"/>
+        <line x1="0" y1="30" x2="0" y2="50" stroke="#888" stroke-width="3"/>
+      </g>
+    </g>
+    
+    <!-- 动画：信号灯修复 -->
+    <animate xlink:href=".traffic-light-before" attributeName="opacity" from="1" to="0" begin="4s" dur="1s" fill="freeze"/>
+    <animate xlink:href=".traffic-light-after" attributeName="opacity" from="0" to="1" begin="4s" dur="1s" fill="freeze"/>
+  </g>
+  
+  <!-- 工程师（整脊师） -->
+  <g transform="translate(300, 150)">
+    <!-- 身体 -->
+    <circle cx="0" cy="-50" r="15" fill="#f0d4b0" stroke="#8a7e6a" stroke-width="1"/>
+    <path d="M0,-35 L0,10 M0,10 L-15,40 M0,10 L15,40 M-15,-10 L15,-10" stroke="#5d8aa8" stroke-width="3" stroke-linecap="round" fill="none"/>
+    
+    <!-- 工具 -->
+    <path d="M15,-10 L40,-20" stroke="#888" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M40,-20 L45,-15 L40,-10 L35,-15 Z" fill="#888" stroke="#666" stroke-width="1"/>
+    
+    <!-- 动画：修复动作 -->
+    <animateTransform attributeName="transform" type="translate" from="300,150" to="330,150" begin="1s" dur="1s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" from="330,150" to="300,150" begin="3s" dur="1s" fill="freeze"/>
+  </g>
+  
+  <!-- 连接线（神经系统） -->
+  <g stroke="#aaa" stroke-width="1.5" stroke-dasharray="5,3" fill="none">
+    <path d="M400,150 L150,300" opacity="0.5"/>
+    <path d="M400,150 L250,320" opacity="0.5"/>
+    <path d="M400,150 L550,310" opacity="0.5"/>
+    <path d="M400,150 L650,330" opacity="0.5"/>
+  </g>
+  
+  <!-- 标题和解释 -->
+  <g transform="translate(400, 40)">
+    <text x="0" y="0" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#5d8aa8">脊椎整复的主要工作哲学</text>
+  </g>
+  
+  <g transform="translate(400, 450)">
+    <text x="0" y="0" font-family="Arial" font-size="14" text-anchor="middle" fill="#666" font-style="italic">
+      就像修复中央控制塔可以让整个城市交通系统恢复正常，
+    </text>
+    <text x="0" y="20" font-family="Arial" font-size="14" text-anchor="middle" fill="#666" font-style="italic">
+      纠正主要脊椎半脱位能让身体自我修复，次要问题也会随之改善。
+    </text>
+  </g>
+  
+  <!-- 图例 -->
+  <g transform="translate(50, 80)">
+    <rect x="0" y="0" width="200" height="120" fill="#f0f0f0" stroke="#ddd" stroke-width="1" rx="5" ry="5"/>
+    <text x="10" y="20" font-family="Arial" font-size="12" font-weight="bold" fill="#555">图例说明：</text>
+    
+    <circle cx="20" cy="40" r="7" fill="#e77" stroke="#933" stroke-width="1"/>
+    <text x="35" y="44" font-family="Arial" font-size="12" fill="#555">故障信号</text>
+    
+    <rect x="10" y="55" width="20" height="20" fill="#e77" stroke="#933" stroke-width="1" rx="2" ry="2"/>
+    <text x="35" y="69" font-family="Arial" font-size="12" fill="#555">主要脊椎半脱位</text>
+    
+    <path d="M10,90 L30,90" stroke="#aaa" stroke-width="1.5" stroke-dasharray="5,3"/>
+    <text x="35" y="94" font-family="Arial" font-size="12" fill="#555">神经系统</text>
+  </g>
+  
+  <!-- 步骤说明 -->
+  <g transform="translate(650, 80)">
+    <rect x="0" y="0" width="120" height="120" fill="#f0f0f0" stroke="#ddd" stroke-width="1" rx="5" ry="5"/>
+    <text x="10" y="20" font-family="Arial" font-size="12" font-weight="bold" fill="#555">工作流程：</text>
+    
+    <text x="10" y="40" font-family="Arial" font-size="11" fill="#555">1. 识别主要问题</text>
+    <text x="10" y="60" font-family="Arial" font-size="11" fill="#555">2. 纠正脊椎半脱位</text>
+    <text x="10" y="80" font-family="Arial" font-size="11" fill="#555">3. 身体自我修复</text>
+    <text x="10" y="100" font-family="Arial" font-size="11" fill="#555">4. 次要问题改善</text>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">细胞扩张功能</text>
+  
+  <!-- 中央控制中心 -->
+  <rect x="320" y="120" width="160" height="100" rx="10" fill="#e6f2ff" stroke="#4d94ff" stroke-width="2"/>
+  <text x="400" y="160" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">先天智能</text>
+  <text x="400" y="185" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">控制中心</text>
+  
+  <!-- 控制线 -->
+  <path d="M 400 220 L 400 260" stroke="#4d94ff" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- 功能分支 -->
+  <rect x="200" y="260" width="120" height="60" rx="8" fill="#ffe6e6" stroke="#ff8080" stroke-width="2"/>
+  <text x="260" y="290" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">繁殖新细胞</text>
+  
+  <rect x="340" y="260" width="120" height="60" rx="8" fill="#e6ffe6" stroke="#80cc80" stroke-width="2"/>
+  <text x="400" y="290" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">生长</text>
+  
+  <rect x="480" y="260" width="120" height="60" rx="8" fill="#e6e6ff" stroke="#8080ff" stroke-width="2"/>
+  <text x="540" y="290" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">修复</text>
+  
+  <!-- 连接线 -->
+  <path d="M 400 220 L 260 260" stroke="#4d94ff" stroke-width="2" stroke-dasharray="5,3"/>
+  <path d="M 400 220 L 540 260" stroke="#4d94ff" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- 控制参数 -->
+  <rect x="200" y="360" width="400" height="60" rx="8" fill="#fff2e6" stroke="#ffaa80" stroke-width="2"/>
+  <text x="400" y="395" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">控制数量、形状和范围</text>
+  
+  <path d="M 260 320 L 260 360" stroke="#ff8080" stroke-width="2"/>
+  <path d="M 400 320 L 400 360" stroke="#80cc80" stroke-width="2"/>
+  <path d="M 540 320 L 540 360" stroke="#8080ff" stroke-width="2"/>
+  
+  <!-- 蜂巢装饰元素 -->
+  <g transform="translate(100,450)">
+    <path d="M 0,0 L 15,26 L 45,26 L 60,0 L 45,-26 L 15,-26 Z" fill="none" stroke="#ddd" stroke-width="1"/>
+    <path d="M 60,0 L 75,26 L 105,26 L 120,0 L 105,-26 L 75,-26 Z" fill="none" stroke="#ddd" stroke-width="1"/>
+    <path d="M 30,52 L 45,78 L 75,78 L 90,52 L 75,26 L 45,26 Z" fill="none" stroke="#ddd" stroke-width="1"/>
+  </g>
+  
+  <g transform="translate(600,450)">
+    <path d="M 0,0 L 15,26 L 45,26 L 60,0 L 45,-26 L 15,-26 Z" fill="none" stroke="#ddd" stroke-width="1"/>
+    <path d="M 60,0 L 75,26 L 105,26 L 120,0 L 105,-26 L 75,-26 Z" fill="none" stroke="#ddd" stroke-width="1"/>
+    <path d="M 30,52 L 45,78 L 75,78 L 90,52 L 75,26 L 45,26 Z" fill="none" stroke="#ddd" stroke-width="1"/>
+  </g>
+  
+  <!-- 比喻说明 -->
+  <rect x="100" y="520" width="600" height="60" rx="5" fill="#f0f0f0" stroke="#ccc" stroke-width="1"/>
+  <text x="400" y="550" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    就像城市规划办公室控制建筑工人的建设活动，确保城市按照预定的形状和规模发展，
+  </text>
+  <text x="400" y="570" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">
+    先天智能也严格控制细胞繁殖，维持身体的组织性和功能完整。
+  </text>
+</svg>

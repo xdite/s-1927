@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 箭头样式定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#5d8aa8"/>
+    </marker>
+  </defs>
+  
+  <!-- 时间轴 -->
+  <line x1="100" y1="400" x2="700" y2="400" stroke="#5d8aa8" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="710" y="405" font-family="Arial" font-size="16" fill="#333">时间</text>
+  
+  <!-- 第一阶段：受精卵 -->
+  <circle cx="150" cy="320" r="30" fill="#e6f2ff" stroke="#5d8aa8" stroke-width="2"/>
+  <text x="150" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">受精卵</text>
+  <text x="150" y="470" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">(新开发的土地)</text>
+  
+  <!-- 第二阶段：细胞分裂 -->
+  <circle cx="300" cy="330" r="15" fill="#e6f2ff" stroke="#5d8aa8" stroke-width="2"/>
+  <circle cx="330" cy="310" r="15" fill="#e6f2ff" stroke="#5d8aa8" stroke-width="2"/>
+  <circle cx="280" cy="290" r="15" fill="#e6f2ff" stroke="#5d8aa8" stroke-width="2"/>
+  <circle cx="310" cy="270" r="15" fill="#e6f2ff" stroke="#5d8aa8" stroke-width="2"/>
+  <text x="300" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">细胞分裂</text>
+  <text x="300" y="470" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">(增加建筑数量)</text>
+  
+  <!-- 第三阶段：细胞扩张 -->
+  <rect x="430" y="330" width="25" height="25" fill="#d4e6f1" stroke="#5d8aa8" stroke-width="2"/>
+  <rect x="470" y="300" width="35" height="35" fill="#a9cce3" stroke="#5d8aa8" stroke-width="2"/>
+  <circle cx="440" cy="270" r="20" fill="#d4e6f1" stroke="#5d8aa8" stroke-width="2"/>
+  <polygon points="490,260 510,280 490,300 470,280" fill="#a9cce3" stroke="#5d8aa8" stroke-width="2"/>
+  <text x="470" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">细胞扩张</text>
+  <text x="470" y="470" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">(建筑变大并专业化)</text>
+  
+  <!-- 第四阶段：组织细胞 -->
+  <rect x="610" y="340" width="30" height="30" fill="#d4e6f1" stroke="#5d8aa8" stroke-width="2"/>
+  <rect x="650" y="320" width="40" height="40" fill="#a9cce3" stroke="#5d8aa8" stroke-width="2"/>
+  <circle cx="620" cy="280" r="25" fill="#d4e6f1" stroke="#5d8aa8" stroke-width="2"/>
+  <polygon points="660,250 685,275 660,300 635,275" fill="#a9cce3" stroke="#5d8aa8" stroke-width="2"/>
+  <text x="640" y="450" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">组织细胞</text>
+  <text x="640" y="470" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">(完整城市)</text>
+  
+  <!-- 连接箭头 -->
+  <line x1="180" y1="320" x2="250" y2="300" stroke="#5d8aa8" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <line x1="350" y1="300" x2="410" y2="300" stroke="#5d8aa8" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  <line x1="520" y1="300" x2="580" y2="300" stroke="#5d8aa8" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowhead)"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="80" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2c3e50">细胞繁殖与细胞扩张过程</text>
+  
+  <!-- 先天智能指引 -->
+  <path d="M400,110 Q400,150 350,180 T300,220" stroke="#8e44ad" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <path d="M400,110 Q400,150 450,180 T500,220" stroke="#8e44ad" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <path d="M400,110 Q400,130 500,150 T600,220" stroke="#8e44ad" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <text x="400" y="110" font-family="Arial" font-size="16" text-anchor="middle" fill="#8e44ad">先天智能(城市规划蓝图)</text>
+  
+  <!-- 底部说明 -->
+  <rect x="50" y="490" width="700" height="2" fill="#ddd"/>
+  <text x="400" y="515" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">
+    细胞发育如同城市建设：从单一土地(受精卵)开始，不仅增加建筑数量(细胞分裂)，还使建筑扩大并专业化(细胞扩张)，最终形成功能完善的城市(组织)
+  </text>
+</svg>

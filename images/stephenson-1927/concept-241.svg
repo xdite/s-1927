@@ -1,0 +1,95 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">人体的双重基础：物质与能量</text>
+  
+  <!-- 中央人体轮廓 -->
+  <g transform="translate(400, 300)">
+    <!-- 人体轮廓 -->
+    <path d="M0,-150 C30,-150 40,-120 40,-100 C40,-80 30,-70 30,-50 C30,-30 40,-20 40,0 
+             C40,20 30,50 20,80 C10,110 10,130 0,150 
+             C-10,130 -10,110 -20,80 C-30,50 -40,20 -40,0 
+             C-40,-20 -30,-30 -30,-50 C-30,-70 -40,-80 -40,-100 
+             C-40,-120 -30,-150 0,-150" 
+          fill="#e0f0ff" stroke="#6699cc" stroke-width="2"/>
+    
+    <!-- 头部 -->
+    <circle cx="0" cy="-120" r="30" fill="#e0f0ff" stroke="#6699cc" stroke-width="2"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="0" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">人体</text>
+  </g>
+  
+  <!-- 左侧：物质基础（城市建筑） -->
+  <g transform="translate(150, 300)">
+    <!-- 大型建筑 -->
+    <rect x="-80" y="-120" width="60" height="140" fill="#d9e8f5" stroke="#6699cc" stroke-width="2" rx="2"/>
+    <rect x="-60" y="-150" width="20" height="30" fill="#d9e8f5" stroke="#6699cc" stroke-width="2"/>
+    
+    <!-- 中型建筑 -->
+    <rect x="-10" y="-100" width="50" height="120" fill="#d9e8f5" stroke="#6699cc" stroke-width="2" rx="2"/>
+    <rect x="0" y="-120" width="30" height="20" fill="#d9e8f5" stroke="#6699cc" stroke-width="2"/>
+    
+    <!-- 小型建筑 -->
+    <rect x="50" y="-80" width="30" height="100" fill="#d9e8f5" stroke="#6699cc" stroke-width="2" rx="2"/>
+    <rect x="60" y="-90" width="10" height="10" fill="#d9e8f5" stroke="#6699cc" stroke-width="2"/>
+    
+    <!-- 基础设施 -->
+    <line x1="-90" y1="30" x2="90" y2="30" stroke="#888" stroke-width="6"/>
+    <line x1="-50" y1="30" x2="-50" y2="-10" stroke="#888" stroke-width="3"/>
+    <line x1="20" y1="30" x2="20" y2="-10" stroke="#888" stroke-width="3"/>
+    <line x1="70" y1="30" x2="70" y2="-10" stroke="#888" stroke-width="3"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="70" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">物质基础</text>
+    <text x="0" y="95" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">(骨骼、肌肉、器官)</text>
+  </g>
+  
+  <!-- 右侧：能量供应（电力系统） -->
+  <g transform="translate(650, 300)">
+    <!-- 大脑/主控电站 -->
+    <circle cx="0" cy="-120" r="40" fill="#f5e9d9" stroke="#cc9966" stroke-width="2"/>
+    <path d="M-15,-130 L15,-130 M-20,-120 L20,-120 M-15,-110 L15,-110" stroke="#cc9966" stroke-width="2" fill="none"/>
+    <circle cx="-10" cy="-140" r="5" fill="#ffcc99" stroke="#cc9966" stroke-width="1"/>
+    <circle cx="10" cy="-140" r="5" fill="#ffcc99" stroke="#cc9966" stroke-width="1"/>
+    
+    <!-- 神经系统/电网 -->
+    <path d="M0,-80 C0,-60 -20,-50 -40,-30 C-60,-10 -70,10 -80,40" stroke="#cc9966" stroke-width="3" fill="none" stroke-dasharray="5,3"/>
+    <path d="M0,-80 C0,-60 20,-50 40,-30 C60,-10 70,10 80,40" stroke="#cc9966" stroke-width="3" fill="none" stroke-dasharray="5,3"/>
+    <path d="M0,-80 C0,-60 0,-40 0,-20 C0,0 0,20 0,50" stroke="#cc9966" stroke-width="3" fill="none" stroke-dasharray="5,3"/>
+    
+    <!-- 能量符号 -->
+    <path d="M-40,0 L-30,-15 L-20,0 L-10,-15 L0,0 L10,-15 L20,0 L30,-15 L40,0" stroke="#cc9966" stroke-width="2" fill="none"/>
+    
+    <!-- 标签 -->
+    <text x="0" y="70" font-family="Arial" font-size="18" text-anchor="middle" fill="#333">能量供应</text>
+    <text x="0" y="95" font-family="Arial" font-size="14" text-anchor="middle" fill="#666">(大脑控制与神经传导)</text>
+  </g>
+  
+  <!-- 连接箭头 -->
+  <g>
+    <!-- 物质基础到人体 -->
+    <path d="M230,300 C280,300 320,300 350,300" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    
+    <!-- 能量供应到人体 -->
+    <path d="M570,300 C520,300 480,300 450,300" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="480" width="600" height="80" fill="#f0f0f0" rx="10" ry="10"/>
+  <text x="400" y="510" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">
+    就像城市需要建筑物和电力系统才能运作，
+  </text>
+  <text x="400" y="535" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">
+    人体也需要物质结构和大脑产生的能量指令才能正常运转。
+  </text>
+</svg>

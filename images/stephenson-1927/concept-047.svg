@@ -1,0 +1,55 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">感知过程 (Perception)</text>
+  
+  <!-- 环境 -->
+  <circle cx="150" cy="200" r="70" fill="#e6f7ff" stroke="#4dabf7" stroke-width="2"/>
+  <text x="150" y="205" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">环境</text>
+  <text x="150" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">(Environment)</text>
+  
+  <!-- 访客图标 -->
+  <circle cx="150" cy="170" r="15" fill="#4dabf7"/>
+  <rect x="135" y="185" width="30" height="35" rx="5" fill="#4dabf7"/>
+  
+  <!-- 特殊感官 -->
+  <circle cx="400" cy="200" r="70" fill="#fff3bf" stroke="#fcc419" stroke-width="2"/>
+  <text x="400" y="190" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">特殊感官</text>
+  <text x="400" y="215" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">(Special Sense)</text>
+  
+  <!-- 门铃图标 -->
+  <rect x="380" y="160" width="40" height="30" rx="5" fill="#fcc419"/>
+  <circle cx="400" cy="175" r="8" fill="#f9f9f9" stroke="#f9f9f9" stroke-width="2"/>
+  
+  <!-- 大脑 -->
+  <circle cx="650" cy="200" r="70" fill="#d3f9d8" stroke="#40c057" stroke-width="2"/>
+  <text x="650" y="205" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">大脑</text>
+  <text x="650" y="230" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">(Brain)</text>
+  
+  <!-- 大脑图标 -->
+  <path d="M630,170 C640,155 660,155 670,170 C680,160 690,170 685,180 C695,190 685,200 675,195 C680,210 660,215 650,205 C640,215 620,210 625,195 C615,200 605,190 615,180 C610,170 620,160 630,170" fill="#40c057"/>
+  
+  <!-- 箭头1：环境到特殊感官 -->
+  <line x1="220" y1="200" x2="310" y2="200" stroke="#666" stroke-width="2"/>
+  <polygon points="310,200 300,195 300,205" fill="#666"/>
+  <text x="265" y="185" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">接收信息</text>
+  
+  <!-- 箭头2：特殊感官到大脑 -->
+  <line x1="470" y1="200" x2="560" y2="200" stroke="#666" stroke-width="2"/>
+  <polygon points="560,200 550,195 550,205" fill="#666"/>
+  <text x="515" y="185" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">传递信息</text>
+  
+  <!-- 箭头3：大脑自循环 -->
+  <path d="M650,130 C680,130 680,160 650,160 C620,160 620,130 650,130" fill="none" stroke="#666" stroke-width="2"/>
+  <polygon points="640,130 635,140 645,140" fill="#666"/>
+  <text x="650" y="110" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">解释并做出适应性反应</text>
+  
+  <!-- 比喻说明 -->
+  <rect x="100" y="320" width="600" height="120" rx="10" fill="#f1f3f5" stroke="#adb5bd" stroke-width="1"/>
+  <text x="400" y="345" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">感知过程如同家庭门铃系统</text>
+  <text x="400" y="375" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">访客（环境信息）按下门铃（感官），信号通过电线（神经）</text>
+  <text x="400" y="395" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">传递到接收器（大脑），家人（大脑）解读信号并决定如何回应。</text>
+  <text x="400" y="415" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">如电线故障（神经受损）会导致信号传递异常，影响正常反应。</text>
+</svg>

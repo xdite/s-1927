@@ -1,0 +1,94 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f7" />
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#2c3e50" font-weight="bold">脊骨神经医学的三大支柱</text>
+  
+  <!-- 中央图形：脊骨神经医学 -->
+  <circle cx="400" cy="170" r="60" fill="#a8d5ba" stroke="#2c3e50" stroke-width="2" />
+  <text x="400" y="170" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">脊骨神经医学</text>
+  <text x="400" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">整体健康的艺术与科学</text>
+  
+  <!-- 左侧：哲学 -->
+  <circle cx="200" cy="300" r="50" fill="#b8d8e3" stroke="#2c3e50" stroke-width="2" />
+  <text x="200" y="300" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">哲学</text>
+  <text x="200" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">探究原因与规律</text>
+  
+  <!-- 左侧场景：园丁观察植物（哲学） -->
+  <ellipse cx="200" cy="420" rx="80" ry="60" fill="#e8f4ea" stroke="#2c3e50" stroke-width="1" />
+  <!-- 人物 -->
+  <circle cx="180" cy="410" r="10" fill="#a8d5ba" stroke="#2c3e50" stroke-width="1" /> <!-- 头 -->
+  <line x1="180" y1="420" x2="180" y2="440" stroke="#2c3e50" stroke-width="2" /> <!-- 身体 -->
+  <line x1="180" y1="425" x2="165" y2="435" stroke="#2c3e50" stroke-width="2" /> <!-- 左臂 -->
+  <line x1="180" y1="425" x2="195" y2="435" stroke="#2c3e50" stroke-width="2" /> <!-- 右臂 -->
+  <line x1="180" y1="440" x2="170" y2="455" stroke="#2c3e50" stroke-width="2" /> <!-- 左腿 -->
+  <line x1="180" y1="440" x2="190" y2="455" stroke="#2c3e50" stroke-width="2" /> <!-- 右腿 -->
+  <!-- 植物 -->
+  <path d="M210,450 Q215,430 220,450 Q225,430 230,450" fill="none" stroke="#2c3e50" stroke-width="1" />
+  <path d="M220,450 L220,420" stroke="#2c3e50" stroke-width="1" />
+  <path d="M220,435 Q215,425 210,435" stroke="#2c3e50" stroke-width="1" />
+  <path d="M220,435 Q225,425 230,435" stroke="#2c3e50" stroke-width="1" />
+  <circle cx="220" cy="420" r="5" fill="#a8d5ba" />
+  
+  <!-- 中间：科学 -->
+  <circle cx="400" cy="300" r="50" fill="#b8d8e3" stroke="#2c3e50" stroke-width="2" />
+  <text x="400" y="300" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">科学</text>
+  <text x="400" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">系统化知识</text>
+  
+  <!-- 中间场景：园丁研究图鉴（科学） -->
+  <ellipse cx="400" cy="420" rx="80" ry="60" fill="#e8f4ea" stroke="#2c3e50" stroke-width="1" />
+  <!-- 人物 -->
+  <circle cx="380" cy="410" r="10" fill="#a8d5ba" stroke="#2c3e50" stroke-width="1" /> <!-- 头 -->
+  <line x1="380" y1="420" x2="380" y2="440" stroke="#2c3e50" stroke-width="2" /> <!-- 身体 -->
+  <line x1="380" y1="425" x2="365" y2="435" stroke="#2c3e50" stroke-width="2" /> <!-- 左臂 -->
+  <line x1="380" y1="425" x2="395" y2="435" stroke="#2c3e50" stroke-width="2" /> <!-- 右臂 -->
+  <line x1="380" y1="440" x2="370" y2="455" stroke="#2c3e50" stroke-width="2" /> <!-- 左腿 -->
+  <line x1="380" y1="440" x2="390" y2="455" stroke="#2c3e50" stroke-width="2" /> <!-- 右腿 -->
+  <!-- 书本 -->
+  <rect x="405" y="410" width="30" height="25" fill="#b8d8e3" stroke="#2c3e50" stroke-width="1" />
+  <line x1="420" y1="410" x2="420" y2="435" stroke="#2c3e50" stroke-width="1" />
+  <line x1="410" y1="420" x2="430" y2="420" stroke="#2c3e50" stroke-width="0.5" />
+  <line x1="410" y1="425" x2="430" y2="425" stroke="#2c3e50" stroke-width="0.5" />
+  <line x1="410" y1="430" x2="430" y2="430" stroke="#2c3e50" stroke-width="0.5" />
+  
+  <!-- 右侧：艺术 -->
+  <circle cx="600" cy="300" r="50" fill="#b8d8e3" stroke="#2c3e50" stroke-width="2" />
+  <text x="600" y="300" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50" font-weight="bold">艺术</text>
+  <text x="600" y="320" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">经验与技巧</text>
+  
+  <!-- 右侧场景：园丁修剪植物（艺术） -->
+  <ellipse cx="600" cy="420" rx="80" ry="60" fill="#e8f4ea" stroke="#2c3e50" stroke-width="1" />
+  <!-- 人物 -->
+  <circle cx="580" cy="410" r="10" fill="#a8d5ba" stroke="#2c3e50" stroke-width="1" /> <!-- 头 -->
+  <line x1="580" y1="420" x2="580" y2="440" stroke="#2c3e50" stroke-width="2" /> <!-- 身体 -->
+  <line x1="580" y1="425" x2="565" y2="435" stroke="#2c3e50" stroke-width="2" /> <!-- 左臂 -->
+  <line x1="580" y1="425" x2="595" y2="435" stroke="#2c3e50" stroke-width="2" /> <!-- 右臂 -->
+  <line x1="580" y1="440" x2="570" y2="455" stroke="#2c3e50" stroke-width="2" /> <!-- 左腿 -->
+  <line x1="580" y1="440" x2="590" y2="455" stroke="#2c3e50" stroke-width="2" /> <!-- 右腿 -->
+  <!-- 剪刀 -->
+  <path d="M595,435 L605,425 L610,430 L600,440 Z" fill="none" stroke="#2c3e50" stroke-width="1" />
+  <!-- 修剪的植物 -->
+  <path d="M620,450 Q625,430 630,450" fill="none" stroke="#2c3e50" stroke-width="1" />
+  <path d="M625,430 L625,410" stroke="#2c3e50" stroke-width="1" />
+  <path d="M625,420 Q620,410 615,420" stroke="#2c3e50" stroke-width="1" />
+  <path d="M625,420 Q630,410 635,420" stroke="#2c3e50" stroke-width="1" />
+  <circle cx="625" cy="410" r="5" fill="#a8d5ba" />
+  
+  <!-- 连接线 -->
+  <line x1="400" y1="230" x2="200" y2="250" stroke="#2c3e50" stroke-width="2" />
+  <line x1="400" y1="230" x2="400" y2="250" stroke="#2c3e50" stroke-width="2" />
+  <line x1="400" y1="230" x2="600" y2="250" stroke="#2c3e50" stroke-width="2" />
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="500" width="600" height="80" rx="10" ry="10" fill="#e8f4ea" stroke="#2c3e50" stroke-width="1" />
+  <text x="400" y="520" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    "脊骨神经医学如同园艺：需要理解自然规律（哲学）、掌握系统知识（科学）
+  </text>
+  <text x="400" y="540" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    和运用熟练技巧（艺术）。医生如园丁，不强行改变生长方向，
+  </text>
+  <text x="400" y="560" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50" font-style="italic">
+    而是创造有利环境，让身体自然愈合，发挥自我修复能力。"
+  </text>
+</svg>

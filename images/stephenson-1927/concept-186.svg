@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" />
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">宇宙力量与入侵力量</text>
+  
+  <!-- 上半部分：宇宙力量 -->
+  <rect x="100" y="80" width="600" height="220" rx="10" ry="10" fill="#e6f2ff" stroke="#aac" stroke-width="2" />
+  <text x="400" y="110" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#336">宇宙力量 (Universal Forces)</text>
+  
+  <!-- 太阳、云和雨 -->
+  <circle cx="180" cy="160" r="30" fill="#ffdd55" />
+  <path d="M180 120 L180 100 M160 130 L145 115 M200 130 L215 115 M150 160 L130 160 M210 160 L230 160" stroke="#ffbb33" stroke-width="3" />
+  
+  <path d="M300 150 Q320 130 340 150 Q360 130 380 150 Q400 130 420 150 Q435 140 450 150 Q450 180 420 180 Q420 200 390 190 Q380 210 350 190 Q340 200 320 185 Q300 190 300 170 Q285 170 290 150 Z" fill="white" stroke="#aabbcc" stroke-width="2" />
+  
+  <path d="M380 190 L380 220 M400 190 L400 230 M420 190 L420 225" stroke="#6699cc" stroke-width="2" />
+  
+  <!-- 城市和适应系统 -->
+  <rect x="500" y="140" width="150" height="80" rx="5" ry="5" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2" />
+  <path d="M520 220 L520 180 L540 160 L560 180 L560 220 Z" fill="#81c784" stroke="#2e7d32" stroke-width="1" />
+  <path d="M580 220 L580 170 L600 150 L620 170 L620 220 Z" fill="#81c784" stroke="#2e7d32" stroke-width="1" />
+  <rect x="530" y="190" width="10" height="15" fill="#5d4037" />
+  <rect x="590" y="190" width="10" height="15" fill="#5d4037" />
+  
+  <!-- 适应箭头 -->
+  <path d="M450 170 L490 170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="470" y="160" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">适应</text>
+  
+  <!-- 下半部分：入侵力量 -->
+  <rect x="100" y="330" width="600" height="220" rx="10" ry="10" fill="#ffebee" stroke="#d88" stroke-width="2" />
+  <text x="400" y="360" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#c33">入侵力量 (Invasive Forces)</text>
+  
+  <!-- 城市道路 -->
+  <rect x="150" y="390" width="500" height="60" fill="#90a4ae" />
+  <path d="M150 420 L650 420" stroke="white" stroke-width="4" stroke-dasharray="20,20" />
+  
+  <!-- 交通灯 -->
+  <rect x="200" y="370" width="10" height="30" fill="#37474f" />
+  <circle cx="205" cy="380" r="8" fill="#f44336" />
+  
+  <!-- 正常车辆 -->
+  <rect x="250" y="400" width="40" height="20" rx="5" ry="5" fill="#4fc3f7" />
+  <circle cx="260" cy="420" r="5" fill="#333" />
+  <circle cx="280" cy="420" r="5" fill="#333" />
+  
+  <rect x="320" y="400" width="40" height="20" rx="5" ry="5" fill="#4fc3f7" />
+  <circle cx="330" cy="420" r="5" fill="#333" />
+  <circle cx="350" cy="420" r="5" fill="#333" />
+  
+  <!-- 入侵车辆 -->
+  <rect x="450" y="390" width="50" height="25" rx="5" ry="5" fill="#ef5350" />
+  <circle cx="460" cy="415" r="6" fill="#333" />
+  <circle cx="490" cy="415" r="6" fill="#333" />
+  <text x="475" y="408" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">!</text>
+  
+  <!-- 箭头和符号 -->
+  <path d="M450 410 L420 410" stroke="#ef5350" stroke-width="3" stroke-dasharray="5,3" marker-start="url(#arrowhead-red)" />
+  <text x="520" y="380" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#d32f2f">强行影响</text>
+  <text x="520" y="400" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#d32f2f">不顾规则</text>
+  
+  <!-- 解释文字 -->
+  <text x="400" y="520" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">
+    宇宙力量如同自然环境，可以被城市（身体）适应和利用；
+  </text>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555">
+    而入侵力量如同闯红灯的车辆，强行干扰城市正常运作。
+  </text>
+  
+  <!-- 箭头定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="10 0, 0 3.5, 10 7" fill="#ef5350" />
+    </marker>
+  </defs>
+</svg>

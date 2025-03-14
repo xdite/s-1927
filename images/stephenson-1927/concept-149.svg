@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f9f9f9"/>
+  
+  <!-- 城市轮廓 -->
+  <g transform="translate(50, 100)">
+    <!-- 城市天际线 -->
+    <rect x="50" y="200" width="40" height="100" fill="#a0c4e0"/>
+    <rect x="100" y="150" width="30" height="150" fill="#93b8d7"/>
+    <rect x="140" y="180" width="50" height="120" fill="#86abcd"/>
+    <rect x="200" y="120" width="35" height="180" fill="#7a9fc4"/>
+    <rect x="245" y="170" width="45" height="130" fill="#6e93ba"/>
+    <rect x="300" y="100" width="25" height="200" fill="#6287b1"/>
+    <rect x="335" y="140" width="55" height="160" fill="#567ba7"/>
+    <rect x="400" y="160" width="30" height="140" fill="#4a6f9e"/>
+    <path d="M50,300 L430,300" stroke="#333" stroke-width="3"/>
+    
+    <!-- 宇宙力量（磁场线和天气符号） -->
+    <g transform="translate(0, 50)">
+      <path d="M10,50 Q40,10 70,50 Q100,90 130,50 Q160,10 190,50" fill="none" stroke="#6287b1" stroke-width="2"/>
+      <path d="M10,80 Q40,40 70,80 Q100,120 130,80 Q160,40 190,80" fill="none" stroke="#6287b1" stroke-width="2"/>
+      <path d="M10,110 Q40,70 70,110 Q100,150 130,110 Q160,70 190,110" fill="none" stroke="#6287b1" stroke-width="2"/>
+      
+      <!-- 云和闪电 -->
+      <path d="M30,20 Q40,10 50,15 Q60,5 70,15 Q80,10 90,20 Q95,30 85,35 Q90,40 80,45 Q65,50 50,45 Q35,50 40,40 Q30,35 30,20" fill="#ddd" stroke="#aaa"/>
+      <path d="M60,35 L55,50 L65,48 L60,65" fill="none" stroke="#f9d71c" stroke-width="2"/>
+      
+      <text x="10" y="150" font-family="Arial" font-size="14" fill="#333">宇宙力量</text>
+    </g>
+    
+    <!-- 缺乏精神冲动（低迷的市民） -->
+    <g transform="translate(150, 250)">
+      <circle cx="10" cy="10" r="8" fill="#aaa"/>
+      <path d="M10,18 L10,35 M0,25 L20,25 M10,35 L5,50 M10,35 L15,50" stroke="#aaa" stroke-width="2"/>
+      <text x="25" y="30" font-family="Arial" font-size="14" fill="#333">缺乏精神冲动</text>
+    </g>
+    
+    <!-- 箭头指向功能异常 -->
+    <path d="M230,240 L300,200" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+  </g>
+  
+  <!-- 右侧：九个功能部门 -->
+  <g transform="translate(450, 100)">
+    <rect x="0" y="0" width="300" height="400" rx="10" fill="#f0f0f0" stroke="#ddd"/>
+    <text x="60" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#333">城市部门功能麻痹</text>
+    
+    <!-- 九个部门图标 -->
+    <g transform="translate(20, 50)">
+      <!-- 运动 - 交通 -->
+      <circle cx="30" cy="30" r="25" fill="#e1f0fa" stroke="#aaa"/>
+      <path d="M20,30 L40,30 M30,20 L30,40" stroke="#666" stroke-width="2"/>
+      <path d="M15,35 Q30,15 45,35" stroke="#666" stroke-width="2" fill="none" stroke-dasharray="2"/>
+      <text x="65" y="35" font-family="Arial" font-size="14" fill="#333">运动 (交通堵塞)</text>
+      
+      <!-- 热量 - 能源 -->
+      <circle cx="30" cy="90" r="25" fill="#fae1e1" stroke="#aaa"/>
+      <path d="M30,75 L30,85 L25,90 L35,95 L25,100 L35,105 L30,110" stroke="#666" stroke-width="2" fill="none"/>
+      <text x="65" y="95" font-family="Arial" font-size="14" fill="#333">热量 (能源短缺)</text>
+      
+      <!-- 感觉 - 通信 -->
+      <circle cx="30" cy="150" r="25" fill="#e1fae1" stroke="#aaa"/>
+      <path d="M20,150 C25,140 35,140 40,150" stroke="#666" stroke-width="2" fill="none"/>
+      <path d="M25,150 L35,150" stroke="#666" stroke-width="2"/>
+      <path d="M30,140 L30,160" stroke="#666" stroke-width="2" stroke-dasharray="2"/>
+      <text x="65" y="155" font-family="Arial" font-size="14" fill="#333">感觉 (通信中断)</text>
+      
+      <!-- 分泌 - 供水 -->
+      <circle cx="30" cy="210" r="25" fill="#e1e1fa" stroke="#aaa"/>
+      <path d="M20,205 L40,205" stroke="#666" stroke-width="2"/>
+      <path d="M25,210 L35,210" stroke="#666" stroke-width="2"/>
+      <path d="M30,215 L30,225" stroke="#666" stroke-width="2"/>
+      <path d="M25,225 L35,225" stroke="#666" stroke-width="2"/>
+      <text x="65" y="215" font-family="Arial" font-size="14" fill="#333">分泌 (供水不足)</text>
+      
+      <!-- 排泄 - 垃圾处理 -->
+      <circle cx="30" cy="270" r="25" fill="#faf0e1" stroke="#aaa"/>
+      <rect x="20" y="260" width="20" height="15" fill="none" stroke="#666" stroke-width="2"/>
+      <path d="M20,275 L40,275" stroke="#666" stroke-width="2"/>
+      <path d="M25,275 L25,285" stroke="#666" stroke-width="2"/>
+      <path d="M35,275 L35,285" stroke="#666" stroke-width="2"/>
+      <text x="65" y="275" font-family="Arial" font-size="14" fill="#333">排泄 (垃圾堆积)</text>
+      
+      <!-- 第二列 -->
+      <!-- 营养 - 食品供应 -->
+      <circle cx="30" cy="330" r="25" fill="#f0e1fa" stroke="#aaa"/>
+      <circle cx="30" cy="325" r="5" fill="none" stroke="#666" stroke-width="2"/>
+      <path d="M25,335 L35,335" stroke="#666" stroke-width="2"/>
+      <path d="M30,340 L30,345" stroke="#666" stroke-width="2"/>
+      <text x="65" y="335" font-family="Arial" font-size="14" fill="#333">营养 (食品短缺)</text>
+      
+      <!-- 修复 - 维修 -->
+      <circle cx="170" cy="30" r="25" fill="#e1faf0" stroke="#aaa"/>
+      <path d="M165,25 L175,35 M175,25 L165,35" stroke="#666" stroke-width="2"/>
+      <circle cx="170" cy="30" r="10" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="2"/>
+      <text x="205" y="35" font-family="Arial" font-size="14" fill="#333">修复 (维修延迟)</text>
+      
+      <!-- 扩张 - 城市规划 -->
+      <circle cx="170" cy="90" r="25" fill="#fae1fa" stroke="#aaa"/>
+      <rect x="160" y="80" width="20" height="20" fill="none" stroke="#666" stroke-width="2"/>
+      <path d="M155,75 L185,75 M155,105 L185,105" stroke="#666" stroke-width="2" stroke-dasharray="2"/>
+      <text x="205" y="95" font-family="Arial" font-size="14" fill="#333">扩张 (规划停滞)</text>
+      
+      <!-- 生殖 - 人口 -->
+      <circle cx="170" cy="150" r="25" fill="#fafae1" stroke="#aaa"/>
+      <circle cx="165" cy="145" r="5" fill="none" stroke="#666" stroke-width="1"/>
+      <circle cx="175" cy="145" r="5" fill="none" stroke="#666" stroke-width="1"/>
+      <path d="M160,155 L180,155" stroke="#666" stroke-width="1"/>
+      <text x="205" y="155" font-family="Arial" font-size="14" fill="#333">生殖 (人口减少)</text>
+    </g>
+  </g>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" 
+      markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+    </marker>
+  </defs>
+  
+  <!-- 说明文字 -->
+  <text x="400" y="550" text-anchor="middle" font-family="Arial" font-size="14" fill="#555">
+    当宇宙力量（如磁暴）影响城市，缺乏市民精神使得城市各部门陷入"麻痹"状态，
+  </text>
+  <text x="400" y="570" text-anchor="middle" font-family="Arial" font-size="14" fill="#555">
+    就像细胞在缺乏精神冲动时无法适应宇宙力量导致的功能异常。
+  </text>
+</svg>

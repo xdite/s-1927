@@ -1,0 +1,83 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2c3e50">身体的智能供需系统</text>
+  
+  <!-- 四个主要组件 -->
+  <!-- 组织细胞 (居民区) -->
+  <circle cx="150" cy="180" r="70" fill="#e8f4f8" stroke="#5d9cec" stroke-width="2"/>
+  <text x="150" y="180" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">组织细胞</text>
+  <text x="150" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">(需求方)</text>
+  <!-- 小房子图标 -->
+  <path d="M130,150 L150,130 L170,150 L170,170 L130,170 Z" fill="#5d9cec" opacity="0.7"/>
+  <rect x="140" y="155" width="20" height="15" fill="#e8f4f8"/>
+  
+  <!-- 传入神经 (服务热线) -->
+  <circle cx="350" cy="180" r="70" fill="#e8f8f0" stroke="#5ecba1" stroke-width="2"/>
+  <text x="350" y="180" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">传入神经</text>
+  <text x="350" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">(信息传递)</text>
+  <!-- 电话图标 -->
+  <circle cx="350" cy="150" r="15" fill="#5ecba1" opacity="0.7"/>
+  <path d="M340,155 C340,145 360,145 360,155" stroke="#e8f8f0" stroke-width="2" fill="none"/>
+  
+  <!-- 先天智能 (市政指挥中心) -->
+  <circle cx="550" cy="180" r="70" fill="#f0e8f8" stroke="#9b59b6" stroke-width="2"/>
+  <text x="550" y="180" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">先天智能</text>
+  <text x="550" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">(协调中心)</text>
+  <!-- 大脑图标 -->
+  <path d="M535,150 Q550,130 565,150 Q580,160 565,170 Q550,180 535,170 Q520,160 535,150" fill="#9b59b6" opacity="0.7"/>
+  
+  <!-- 供给细胞 (供应站) -->
+  <circle cx="350" cy="400" r="70" fill="#fcf3e8" stroke="#f39c12" stroke-width="2"/>
+  <text x="350" y="400" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#2c3e50">供给细胞</text>
+  <text x="350" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">(供应方)</text>
+  <!-- 工厂图标 -->
+  <rect x="330" y="370" width="40" height="20" fill="#f39c12" opacity="0.7"/>
+  <rect x="340" y="350" width="20" height="20" fill="#f39c12" opacity="0.7"/>
+  <rect x="345" y="340" width="10" height="10" fill="#fcf3e8"/>
+  
+  <!-- 连接箭头 -->
+  <!-- 组织细胞 -> 传入神经 (需求信号) -->
+  <path d="M220,180 L280,180" stroke="#5d9cec" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="250" y="170" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">需求信号</text>
+  
+  <!-- 传入神经 -> 先天智能 (传递需求) -->
+  <path d="M420,180 L480,180" stroke="#5ecba1" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="450" y="170" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">传递需求</text>
+  
+  <!-- 先天智能 -> 供给细胞 (供给指令) -->
+  <path d="M520,240 Q450,300 400,350" stroke="#9b59b6" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="470" y="300" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">供给指令</text>
+  
+  <!-- 供给细胞 -> 组织细胞 (物质/能量) -->
+  <path d="M300,350 Q200,300 180,250" stroke="#f39c12" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="220" y="320" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#7f8c8d">提供物质/能量</text>
+  
+  <!-- 物质通过血清循环 -->
+  <path d="M280,380 Q220,420 180,380" stroke="#e74c3c" stroke-width="2" stroke-dasharray="5,3" fill="none"/>
+  <text x="230" y="430" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e74c3c">物质通过血清循环</text>
+  
+  <!-- 能量直接传递 -->
+  <path d="M290,360 Q240,370 200,360" stroke="#3498db" stroke-width="2" stroke-dasharray="2,2" fill="none"/>
+  <text x="240" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#3498db">能量直接传递</text>
+  
+  <!-- 失调警告 -->
+  <path d="M410,450 L470,450 L440,490 Z" fill="#e74c3c" opacity="0.7"/>
+  <text x="440" y="470" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">!</text>
+  <text x="440" y="510" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#e74c3c">供给不足导致失调</text>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+  
+  <!-- 底部说明 -->
+  <rect x="100" y="530" width="600" height="50" rx="5" ry="5" fill="#ecf0f1" opacity="0.8"/>
+  <text x="400" y="555" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#34495e">
+    就像城市指挥中心协调居民需求与供应站提供的资源，先天智能在身体内部精确协调细胞间的供需关系
+  </text>
+</svg>

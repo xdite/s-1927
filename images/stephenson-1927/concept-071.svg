@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">区域(Zone)与组织组分(Mere)</text>
+  
+  <!-- 购物中心外观 -->
+  <rect x="100" y="100" width="600" height="350" fill="#fff" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  
+  <!-- 大脑/总部 -->
+  <ellipse cx="400" cy="140" rx="80" ry="40" fill="#f9f" stroke="#333" stroke-width="2"/>
+  <text x="400" y="145" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">大脑(控制中心)</text>
+  
+  <!-- 区域划分 -->
+  <rect x="150" y="220" width="150" height="200" fill="#e6f7ff" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="325" y="220" width="150" height="200" fill="#e6f7ff" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="500" y="220" width="150" height="200" fill="#e6f7ff" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  
+  <text x="225" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">区域 A</text>
+  <text x="400" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">区域 B</text>
+  <text x="575" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">区域 C</text>
+  
+  <!-- 组织组分 -->
+  <rect x="170" y="260" width="110" height="40" fill="#ccf" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="170" y="310" width="110" height="40" fill="#ccf" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="170" y="360" width="110" height="40" fill="#ccf" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  
+  <rect x="345" y="260" width="110" height="40" fill="#ccf" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="345" y="310" width="110" height="40" fill="#ccf" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="345" y="360" width="110" height="40" fill="#ccf" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  
+  <rect x="520" y="260" width="110" height="40" fill="#ccf" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="520" y="310" width="110" height="40" fill="#ccf" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <rect x="520" y="360" width="110" height="40" fill="#ccf" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  
+  <text x="225" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">骨组织组分</text>
+  <text x="225" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">肌肉组织组分</text>
+  <text x="225" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">神经组织组分</text>
+  
+  <text x="400" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">骨组织组分</text>
+  <text x="400" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">肌肉组织组分</text>
+  <text x="400" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">神经组织组分</text>
+  
+  <text x="575" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">骨组织组分</text>
+  <text x="575" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">肌肉组织组分</text>
+  <text x="575" y="380" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">神经组织组分</text>
+  
+  <!-- 神经连接 -->
+  <path d="M 400 180 L 400 200 L 225 220" stroke="#333" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <path d="M 400 180 L 400 200 L 400 220" stroke="#333" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  <path d="M 400 180 L 400 200 L 575 220" stroke="#333" stroke-width="1.5" fill="none" stroke-dasharray="5,3"/>
+  
+  <!-- 比喻说明 -->
+  <rect x="100" y="480" width="600" height="80" fill="#fff" stroke="#333" stroke-width="1" rx="5" ry="5"/>
+  <text x="400" y="505" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    身体就像一个大型购物中心，区域(Zone)如同不同功能区，每个区域由一对脊神经管理。
+  </text>
+  <text x="400" y="525" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    各区域内有不同的组织组分(Mere)，如骨骼、肌肉和神经，分别对应购物中心内的
+  </text>
+  <text x="400" y="545" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">
+    结构支持、活动功能和信息处理。大脑作为总部，直接向各区域发出指令。
+  </text>
+</svg>

@@ -1,0 +1,61 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" fill="#2c3e50">先天智慧对毒素的认知</text>
+  
+  <!-- 大脑中央控制台（先天智慧） -->
+  <ellipse cx="400" cy="150" rx="120" ry="70" fill="#a8d5e5" stroke="#2c3e50" stroke-width="2"/>
+  <path d="M340 120 Q400 90 460 120 Q400 170 340 120" fill="#7fb9d4" stroke="#2c3e50" stroke-width="1"/>
+  <text x="400" y="155" font-family="Arial" font-size="18" text-anchor="middle" fill="#2c3e50">先天智慧</text>
+  
+  <!-- 细胞振动监测 -->
+  <circle cx="200" cy="250" r="60" fill="#b8e0d2" stroke="#2c3e50" stroke-width="2"/>
+  <text x="200" y="240" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">解读</text>
+  <text x="200" y="260" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">细胞振动</text>
+  
+  <!-- 振动波形 -->
+  <path d="M150 250 Q170 230 180 250 Q190 270 200 250 Q210 230 220 250 Q230 270 250 250" fill="none" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- 毒素识别 -->
+  <circle cx="400" cy="250" r="60" fill="#d1c1e0" stroke="#2c3e50" stroke-width="2"/>
+  <text x="400" y="255" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">识别毒素</text>
+  
+  <!-- 毒素图标 -->
+  <polygon points="380,230 390,220 410,220 420,230 420,240 410,250 390,250 380,240" fill="#e57373" stroke="#2c3e50" stroke-width="1"/>
+  <circle cx="400" cy="235" r="5" fill="#2c3e50"/>
+  
+  <!-- 启动消除过程 -->
+  <circle cx="600" cy="250" r="60" fill="#f5cda7" stroke="#2c3e50" stroke-width="2"/>
+  <text x="600" y="240" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">启动</text>
+  <text x="600" y="260" font-family="Arial" font-size="16" text-anchor="middle" fill="#2c3e50">消除过程</text>
+  
+  <!-- 免疫细胞图标 -->
+  <circle cx="580" cy="230" r="10" fill="#a5d6a7" stroke="#2c3e50" stroke-width="1"/>
+  <circle cx="620" cy="230" r="10" fill="#a5d6a7" stroke="#2c3e50" stroke-width="1"/>
+  
+  <!-- 连接箭头 -->
+  <path d="M330 170 L240 210" fill="none" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M260 250 L340 250" fill="none" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M460 250 L540 250" fill="none" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- 箭头标记定义 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+  </defs>
+  
+  <!-- 人体轮廓背景 -->
+  <path d="M150 400 Q400 320 650 400" fill="none" stroke="#2c3e50" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- 比喻说明 -->
+  <rect x="100" y="420" width="600" height="60" rx="5" ry="5" fill="#e8f4f8" stroke="#2c3e50" stroke-width="1"/>
+  <text x="400" y="445" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    如同购物中心的安保总监通过监控系统识别可疑人物并指挥安保人员将其请出，
+  </text>
+  <text x="400" y="465" font-family="Arial" font-size="14" text-anchor="middle" fill="#2c3e50">
+    先天智慧通过解读细胞振动识别毒素并启动免疫系统将其清除。
+  </text>
+</svg>

@@ -1,0 +1,76 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+    
+    <!-- 标题 -->
+    <text x="400" y="50" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">Palmer理论：脊椎调整优先级</text>
+    
+    <!-- 房屋比喻图 -->
+    <g transform="translate(100, 150)">
+        <!-- 房屋 -->
+        <rect x="50" y="100" width="200" height="200" fill="#e6f2ff" stroke="#333" stroke-width="2"/>
+        <polygon points="50,100 150,20 250,100" fill="#b3d9ff" stroke="#333" stroke-width="2"/>
+        
+        <!-- 基础（主要病症） -->
+        <rect x="30" y="300" width="240" height="30" fill="#ff99cc" stroke="#333" stroke-width="2"/>
+        <text x="150" y="320" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">主要病症（基础问题）</text>
+        
+        <!-- 墙面裂缝（次要病症） -->
+        <path d="M120,150 Q125,155 120,160 Q115,165 120,170 Q125,175 120,180" stroke="#999" stroke-width="2" fill="none"/>
+        <path d="M180,200 Q185,205 180,210 Q175,215 180,220" stroke="#999" stroke-width="2" fill="none"/>
+        <text x="150" y="240" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">次要病症（墙面裂缝）</text>
+    </g>
+    
+    <!-- 脊椎调整图 -->
+    <g transform="translate(450, 150)">
+        <!-- 医生 -->
+        <circle cx="100" cy="100" r="30" fill="#b3e6cc" stroke="#333" stroke-width="2"/>
+        <path d="M100,130 L100,200 M70,150 L130,150 M100,200 L70,250 M100,200 L130,250" stroke="#333" stroke-width="2" fill="none"/>
+        
+        <!-- 患者 -->
+        <rect x="150" y="120" width="120" height="40" rx="10" ry="10" fill="#ffcc99" stroke="#333" stroke-width="2"/>
+        <path d="M210,160 L210,250" stroke="#333" stroke-width="2" fill="none"/>
+        
+        <!-- 脊椎 -->
+        <g transform="translate(200, 170)">
+            <rect x="0" y="0" width="20" height="10" rx="2" ry="2" fill="#ff99cc" stroke="#333" stroke-width="1"/>
+            <rect x="0" y="15" width="20" height="10" rx="2" ry="2" fill="#ff99cc" stroke="#333" stroke-width="1"/>
+            <rect x="0" y="30" width="20" height="10" rx="2" ry="2" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+            <rect x="0" y="45" width="20" height="10" rx="2" ry="2" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+            <rect x="0" y="60" width="20" height="10" rx="2" ry="2" fill="#f2f2f2" stroke="#333" stroke-width="1"/>
+        </g>
+        
+        <!-- 标签 -->
+        <text x="230" y="175" font-family="Arial" font-size="12" fill="#333">主要椎体半脱位</text>
+        <text x="230" y="230" font-family="Arial" font-size="12" fill="#333">次要椎体半脱位</text>
+        <path d="M220,175 L260,175" stroke="#ff99cc" stroke-width="2" fill="none"/>
+        <path d="M220,230 L260,230" stroke="#f2f2f2" stroke-width="2" fill="none"/>
+    </g>
+    
+    <!-- 流程图 -->
+    <g transform="translate(150, 450)">
+        <rect x="0" y="0" width="150" height="40" rx="5" ry="5" fill="#ff99cc" stroke="#333" stroke-width="2"/>
+        <text x="75" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">先处理主要病症</text>
+        
+        <rect x="250" y="0" width="150" height="40" rx="5" ry="5" fill="#f2f2f2" stroke="#333" stroke-width="2"/>
+        <text x="325" y="25" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">再处理次要病症</text>
+        
+        <path d="M150,20 L250,20" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+    </g>
+    
+    <!-- 箭头标记 -->
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+        </marker>
+    </defs>
+    
+    <!-- 比喻说明 -->
+    <rect x="100" y="520" width="600" height="60" rx="5" ry="5" fill="#e6f2ff" stroke="#333" stroke-width="1"/>
+    <text x="400" y="545" font-family="Arial" font-size="14" text-anchor="middle" fill="#333" width="580">
+        就像修理房屋，先修复基础问题（主要病症），再处理墙面裂缝（次要病症），
+    </text>
+    <text x="400" y="565" font-family="Arial" font-size="14" text-anchor="middle" fill="#333" width="580">
+        确保整体结构稳定，避免过度或同时干预导致的不良后果。
+    </text>
+</svg>

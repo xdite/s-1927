@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f9f9f9"/>
+  
+  <!-- 标题 -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#333">身体内的信息传递系统</text>
+  
+  <!-- 组织细胞（房间） -->
+  <rect x="50" y="100" width="120" height="100" rx="10" fill="#e6f7ff" stroke="#4dabf7" stroke-width="2"/>
+  <text x="110" y="150" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">组织细胞</text>
+  <path d="M80,130 L140,130 M80,140 L140,140 M80,150 L140,150 M80,160 L140,160" stroke="#4dabf7" stroke-width="1"/>
+  
+  <!-- 传入神经（对讲系统） -->
+  <rect x="220" y="100" width="120" height="100" rx="10" fill="#fff3bf" stroke="#fcc419" stroke-width="2"/>
+  <text x="280" y="150" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">传入神经</text>
+  <circle cx="280" cy="130" r="15" fill="#fcc419" stroke="#333" stroke-width="1"/>
+  <line x1="270" y1="130" x2="290" y2="130" stroke="#333" stroke-width="2"/>
+  <path d="M265,140 C275,135 285,135 295,140" stroke="#333" stroke-width="1" fill="none"/>
+  
+  <!-- 先天智能（管家） -->
+  <rect x="390" y="100" width="120" height="100" rx="10" fill="#d3f9d8" stroke="#40c057" stroke-width="2"/>
+  <text x="450" y="150" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">先天智能</text>
+  <circle cx="450" cy="130" r="15" fill="none" stroke="#333" stroke-width="1"/>
+  <path d="M440,125 L460,125" stroke="#333" stroke-width="1"/>
+  <path d="M445,130 L455,130" stroke="#333" stroke-width="1"/>
+  <path d="M440,135 L460,135" stroke="#333" stroke-width="1"/>
+  
+  <!-- 妻子：一般感觉 -->
+  <rect x="560" y="100" width="120" height="100" rx="10" fill="#ffd8e8" stroke="#f06595" stroke-width="2"/>
+  <text x="620" y="135" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">妻子：</text>
+  <text x="620" y="155" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">一般感觉</text>
+  <circle cx="620" cy="180" r="10" fill="none" stroke="#f06595" stroke-width="1"/>
+  <path d="M615,175 C620,170 625,170 630,175" stroke="#f06595" stroke-width="1" fill="none"/>
+  
+  <!-- 感觉功能（维修工） -->
+  <rect x="390" y="250" width="120" height="100" rx="10" fill="#e5dbff" stroke="#7950f2" stroke-width="2"/>
+  <text x="450" y="300" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">感觉功能</text>
+  <circle cx="450" cy="280" r="15" fill="none" stroke="#333" stroke-width="1"/>
+  <rect x="440" y="270" width="20" height="5" fill="#333"/>
+  <path d="M435,285 L465,285" stroke="#333" stroke-width="1"/>
+  
+  <!-- 连接箭头 -->
+  <path d="M170,150 L220,150" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="215,145 220,150 215,155" fill="#666"/>
+  
+  <path d="M340,150 L390,150" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="385,145 390,150 385,155" fill="#666"/>
+  
+  <path d="M510,150 L560,150" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="555,145 560,150 555,155" fill="#666"/>
+  
+  <path d="M620,200 L620,230 L450,230 L450,250" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="445,245 450,250 455,245" fill="#666"/>
+  
+  <!-- 图例说明 -->
+  <text x="400" y="400" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    就像家庭中的对讲系统将各个房间的需求传递给管家夫妇，再安排专门的维修工解决问题，
+  </text>
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#555" font-style="italic">
+    身体内的传入神经也将组织细胞的需求传递给先天智能和一般感觉，再由感觉功能进行处理。
+  </text>
+</svg>

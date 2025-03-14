@@ -1,0 +1,74 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景 -->
+    <rect width="800" height="500" fill="#f9f9f9"/>
+    
+    <!-- 流程图主体 -->
+    <g transform="translate(50, 50)">
+        <!-- 选择主题 -->
+        <rect x="20" y="60" width="100" height="60" rx="8" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+        <text x="70" y="90" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">选择主题</text>
+        <image x="45" y="100" width="50" height="50" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjNjk5MTc2IiBkPSJNNjQgOTZIMCBjMCA1My4wMiA0Mi45OCA5NiA5NiA5NlY0NDhjMCAzNS4zNSAyOC42NSA2NCA2NCA2NGgxOTJjMzUuMzUgMCA2NC0yOC42NSA2NC02NFYzODRoOTZjNTMuMDIgMCA5Ni00Mi45OCA5Ni05NlYxNjBIMTI4VjkxLjQzQzEyOCA3My45OSAxMTMuNCAxNjAgOTYgMTYwSDY0Vjk2ek0zOTIgMzUySDM1MnYtMzJoNDBjNy45NCAwIDE1LjItNC42MDkgMTguNDQtMTEuNzVjMy4yMzQtNy4xNDEgMS45MjItMTUuNTItMy4zNDQtMjEuMTlsLTgwLTg2LjM4QzMyMi4zIDE5My44IDMxMy4xIDE5MiAzMDQgMTkycy0xOC4zIDEuODUyLTIzLjEgNy42ODRsLTgwIDg2LjM4Yy01LjI2NiA1LjY3Mi02LjU3OCAxNC4wNS0zLjM0NCAyMS4xOUMyMDAuOCAzMTUuNCAyMDguMSAzMjAgMjE2IDMyMGg0MHYzMkgyMTZDMTk4LjMgMzUyIDE4NCAzMzcuNyAxODQgMzIwYzAtNS42OTUgMS41MzEtMTEuMzEgNC40MjItMTYuMjRjMy4wMDgtNS4xMDkgNy4zOTgtOS4zNzUgMTIuNTktMTIuNWw3OS45OS04Ni4zOEMyOTAuMSAxOTUuMiAzMDMuOCAxOTIgMzA0IDE5MmMxOS4xOSAwIDM3LjAzIDcuNTMxIDUwLjQgMjAuODhsNzkuOTkgODYuMzhjNS4xODggMy4xMjUgOS41NzggNy4zOTEgMTIuNTkgMTIuNUM0NTAuNSAzMDguNyA0NTIgMzE0LjMgNDUyIDMyMEM0NTIgMzM3LjcgNDM3LjcgMzUyIDQyMCAzNTJIMzkyeiIvPjwvc3ZnPg=="/>
+        
+        <!-- 头脑风暴 -->
+        <rect x="170" y="60" width="100" height="60" rx="8" fill="#f0f5ff" stroke="#adc6ff" stroke-width="2"/>
+        <text x="220" y="90" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">头脑风暴</text>
+        <image x="195" y="100" width="50" height="50" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZmZiNzM0IiBkPSJNMTg0IDI0LjJDMTE4LjMgMjQuMiA2NCA3OC41IDY0IDE0NC4yYzAgMjIuMSA2LjI1IDQzLjQ5IDE4LjEyIDYyLjQ5TDY4Ljc1IDIzNmMtMS42MjUgMy45NzUtLjgzNTkgOC41MzEgMi4wOTggMTEuNDZMMTA1LjQgMjgyYzIuOTM4IDIuOTM4IDcuNDY5IDMuNzE5IDExLjQ2IDIuMDk4bDI5LjMtMTMuMzVDMTY1LjEgMjgyLjYgMTg2LjUgMjg4LjggMjA4LjYgMjg4LjhjNjUuNjkgMCAxMTkuOC01NC4zMSAxMTkuOC0xMjAuNlMyNzQuMyAyNC4yIDIwOC42IDI0LjJ6TTIwOC4xIDI1MS4zYy0xNy4zOCAwLTM0LjI3LTQuNTMxLTQ5LjA4LTEzLjA2Yy0zLjM3NS0xLjk2OS03LjU2Mi0yLjE1Ni0xMS4wNi0uNTMxM0wxMjMuNyAyNDkuMWwtMjUuMTItMjUuMTJsMTEuMzYtMjQuMjVjMS42MjUtMy41IDEuNDM4LTcuNjg4LS41MzEzLTExLjA2QzEwMC43IDEzMy44IDk2LjIgMTE2LjkgOTYuMiA5OS41MmMwLTU0LjAzIDQzLjk0LTk3Ljk3IDk3Ljk3LTk3Ljk3czk3Ljk3IDQzLjk0IDk3Ljk3IDk3Ljk3UzI2Mi4xIDI1MS4zIDIwOC4xIDI1MS4zek0zODQgMTQ0LjJjMC0xNy4zOC00LjUzMS0zNC4yNy0xMy4wNi00OS4wOGMtMS45NjktMy4zNzUtMi4xNTYtNy41NjItLjUzMTMtMTEuMDZsMTEuMzYtMjQuMjVsLTI1LjEyLTI1LjEybC0yNC4yNSAxMS4zNmMtMy41IDEuNjI1LTcuNjg4IDEuNDM4LTExLjA2LS41MzEzQzMwNi41IDM2LjA1IDI4OS42IDMxLjUyIDI3Mi4yIDMxLjUyYy0xMi44MSAwLTI1LjA1IDIuNTk0LTM2LjIxIDcuMjgxQzI1Ny44IDY1LjA0IDI3MiA5Ni4wNiAyNzIgMTI5LjFjMCAzMy4wOS0xNC4yIDY0LjExLTM2LjAyIDkwLjM2YzExLjE3IDQuNjg4IDIzLjQxIDcuMjgxIDM2LjIxIDcuMjgxYzU0LjAzIDAgOTcuOTctNDMuOTQgOTcuOTctOTcuOTdDMzY5LjkgMTI2LjggMzc1LjMgMTM0LjEgMzg0IDE0NC4yeiIvPjwvc3ZnPg=="/>
+        
+        <!-- 列出所有相关内容 -->
+        <rect x="320" y="60" width="140" height="60" rx="8" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+        <text x="390" y="90" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">列出所有相关内容</text>
+        <image x="365" y="100" width="50" height="50" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjMzQ5OGRiIiBkPSJNMTYwIDQxNmgtNTZjLTQuNDIgMC04LTMuNTgtOC04di01NmMwLTQuNDIgMy41OC04IDgtOGg1NmM0LjQyIDAgOCAzLjU4IDggOHY1NkMxNjggNDEyLjQgMTY0LjQgNDE2IDE2MCA0MTZ6TTE2MCAyODhoLTU2Yy00LjQyIDAtOC0zLjU4LTgtOHYtNTZjMC00LjQyIDMuNTgtOCA4LThoNTZjNC40MiAwIDggMy41OCA4IDh2NTZDMTY4IDI4NC40IDE2NC40IDI4OCAxNjAgMjg4ek0xNjAgMTYwaC01NmMtNC40MiAwLTgtMy41OC04LTh2LTU2YzAtNC40MiAzLjU4LTggOC04aDU2YzQuNDIgMCA4IDMuNTggOCA4djU2QzE2OCAxNTYuNCAxNjQuNCAxNjAgMTYwIDE2MHpNNDQ4IDQxNmgtMjI0Yy00LjQyIDAtOC0zLjU4LTgtOHYtNTZjMC00LjQyIDMuNTgtOCA4LThoMjI0YzQuNDIgMCA4IDMuNTggOCA4djU2QzQ1NiA0MTIuNCA0NTIuNCA0MTYgNDQ4IDQxNnpNNDQ4IDI4OGgtMjI0Yy00LjQyIDAtOC0zLjU4LTgtOHYtNTZjMC00LjQyIDMuNTgtOCA4LThoMjI0YzQuNDIgMCA4IDMuNTggOCA4djU2QzQ1NiAyODQuNCA0NTIuNCAyODggNDQ4IDI4OHpNNDQ4IDE2MGgtMjI0Yy00LjQyIDAtOC0zLjU4LTgtOHYtNTZjMC00LjQyIDMuNTgtOCA4LThoMjI0YzQuNDIgMCA4IDMuNTggOCA4djU2QzQ1NiAxNTYuNCA0NTIuNCAxNjAgNDQ4IDE2MHoiLz48L3N2Zz4="/>
+        
+        <!-- 筛选主题 -->
+        <rect x="320" y="170" width="140" height="60" rx="8" fill="#f0f5ff" stroke="#adc6ff" stroke-width="2"/>
+        <text x="390" y="200" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">筛选主题</text>
+        <image x="365" y="210" width="50" height="50" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjOGU0NGFkIiBkPSJNMzIgMTc2aDE4NHYzMkgzMnYtMzJ6bTAgNjRoMTg0djMySDMydi0zMnptMCA2NGgxODR2MzJIMzJ2LTMyem00MTYgMGgzMnYzMmgtMzJ2LTMyek0zMiAzMmgxODR2MzJIMzJWMzJ6bTQxNiAwaDE2MHYzMkg0NDhWMzJ6bTAtNjRoMzJ2MzJoLTMyVi0zMnpNMzIgOTZoMTg0djMySDMyVjk2em00MTYgMGgxNjB2MzJINDQ4Vjk2em0wIDY0aDMydjMyaC0zMnYtMzJ6bTAgNjRoMzJ2MzJoLTMydi0zMnptMTYwIDk2di0zMmgtMTYwdjMyaDE2MHpNMjQ4IDQwMGMwIDEzLjI1LTEwLjc1IDI0LTI0IDI0cy0yNC0xMC43NS0yNC0yNHMxMC43NS0yNCAyNC0yNFMyNDggMzg2LjggMjQ4IDQwMHptMTI4IDBjMCAxMy4yNS0xMC43NSAyNC0yNCAyNHMtMjQtMTAuNzUtMjQtMjRzMTAuNzUtMjQgMjQtMjRTMzc2IDM4Ni44IDM3NiA0MDB6bS0zMDQtMTQ0YzAgMTMuMjUtMTAuNzUgMjQtMjQgMjRzLTI0LTEwLjc1LTI0LTI0czEwLjc1LTI0IDI0LTI0UzcyIDI0Mi44IDcyIDI1NnptMTI4IDBjMCAxMy4yNS0xMC43NSAyNC0yNCAyNHMtMjQtMTAuNzUtMjQtMjRzMTAuNzUtMjQgMjQtMjRTMjAwIDI0Mi44IDIwMCAyNTZ6bS0xMjgtOTZjMCAxMy4yNS0xMC43NSAyNC0yNCAyNHMtMjQtMTAuNzUtMjQtMjRzMTAuNzUtMjQgMjQtMjRTNzIgMTQ2LjggNzIgMTYwem0xMjggMGMwIDEzLjI1LTEwLjc1IDI0LTI0IDI0cy0yNC0xMC43NS0yNC0yNHMxMC43NS0yNCAyNC0yNFMyMDAgMTQ2LjggMjAwIDE2MHptLTEyOC05NmMwIDEzLjI1LTEwLjc1IDI0LTI0IDI0cy0yNC0xMC43NS0yNC0yNHMxMC43NS0yNCAyNC0yNFM3MiA1MC43NSA3MiA2NHptMTI4IDBjMCAxMy4yNS0xMC43NSAyNC0yNCAyNHMtMjQtMTAuNzUtMjQtMjRzMTAuNzUtMjQgMjQtMjRTMjAwIDUwLjc1IDIwMCA2NHoiLz48L3N2Zz4="/>
+        
+        <!-- 保留主题 -->
+        <rect x="230" y="280" width="100" height="60" rx="8" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+        <text x="280" y="310" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">保留主题</text>
+        <image x="255" y="320" width="50" height="50" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjMmVjYzcxIiBkPSJNMjQzLjggMzM5LjhDMjMyLjkgMzUwLjcgMjE3LjEgMzU2LjcgMjAyLjIgMzU2LjdDMTg3LjMgMzU2LjcgMTcxLjUgMzUwLjcgMTYwLjcgMzM5LjhMMTYuMTUgMTk1LjJDNC4yODUgMTgzLjQgLTEuNzAzIDE2Ny42IC0xLjcwMyAxNTIuN2MwLTE0Ljg1IDUuOTg4LTMwLjY4IDE3Ljg3LTQyLjU2bDQxLjY0LTQxLjY0QzcwLjY4IDU1LjYzIDg2LjUxIDQ5LjU3IDEwMS40IDQ5LjU3YzE0Ljg5IDAgMzAuNzEgNi4wNjMgNDIuNTkgMTcuOTNsMTAwLjcgMTAwLjdjMjMuNTcgMjMuNTcgMjMuNTcgNjEuNzkgMCw4NS4zN0wyNDMuOCAzMzkuOHpNNDk1LjkgMzk1LjJjMTIuNzUgMTIuNzUgMTIuNzUgMzMuNDQgMCA0Ni4xOWMtMTIuNzUgMTIuNzUtMzMuNDQgMTIuNzUtNDYuMTkgMEwyOTMuOSAyODUuNWMtMjMuNS0yMy41LTIzLjUtNjEuNSAwLTg1LjA0bDEwMC4yLTEwMC4yYzIzLjUtMjMuNSA2MS41LTIzLjUgODUgMGwxNi42OSAxNi42OWMxMi43NSAxMi43NSAxMi43NSAzMy40NCAwIDQ2LjE5cy0zMy40NCAxMi43NS00Ni4xOSAwTDQzMi41IDE0Ni4xTDM1MS4xIDIyNy41TDQ5NS45IDM5NS4yeiIvPjwvc3ZnPg=="/>
+        
+        <!-- 删除主题 -->
+        <rect x="450" y="280" width="100" height="60" rx="8" fill="#fff1f0" stroke="#ffa39e" stroke-width="2"/>
+        <text x="500" y="310" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">删除主题</text>
+        <image x="475" y="320" width="50" height="50" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZTc0YzNjIiBkPSJNMTc1IDEwMGMtOS45NDEgMC0xOCA4LjA1OS0xOCAxOGgtMjdjLTI0LjgxIDAtNDUgMjAuMTktNDUgNDVjMCAyNC44MSAyMC4xOSA0NSA0NSA0NWgzNjBjMjQuODEgMCA0NS0yMC4xOSA0NS00NWMwLTI0LjgxLTIwLjE5LTQ1LTQ1LTQ1aC0yN2MwLTkuOTQxLTguMDU5LTE4LTE4LTE4SDMxMFY4MWMwLTEzLjIzLTEwLjc3LTI0LTI0LTI0aC04MGMtMTMuMjMgMC0yNCAxMC43Ny0yNCAyNHYxOUgxNzV6TTEyOCAyNDRoMzI4bC0yNSAyMThjLTMuMDIzIDI2LjE4LTI1LjA5IDQ2LTUxLjM4IDQ2SDE5OC4zOGMtMjYuMjkgMC00OC4zNi0xOS44NC01MS4zOC00NkwxMjIgMjQ0SDEyOHoiLz48L3N2Zz4="/>
+        
+        <!-- 组织主题 -->
+        <rect x="320" y="390" width="140" height="60" rx="8" fill="#e6f7ff" stroke="#91d5ff" stroke-width="2"/>
+        <text x="390" y="420" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">组织主题</text>
+        <image x="365" y="430" width="50" height="50" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjMmM4MGI5IiBkPSJNMCA2NGMwLTE3LjY3IDE0LjMzLTMyIDMyLTMyaDQ0OGMxNy42NyAwIDMyIDE0LjMzIDMyIDMycy0xNC4zMyAzMi0zMiAzMkg0MDBWMjI0aDgwYzE3LjY3IDAgMzIgMTQuMzMgMzIgMzJzLTE0LjMzIDMyLTMyIDMyaC04MHYxMjhoNDhjMTcuNjcgMCAzMiAxNC4zMyAzMiAzMnMtMTQuMzMgMzItMzIgMzJIMzJjLTE3LjY3IDAtMzItMTQuMzMtMzItMzJzMTQuMzMtMzIgMzItMzJoNDhWMjg4SDMyYy0xNy42NyAwLTMyLTE0LjMzLTMyLTMyczE0LjMzLTMyIDMyLTMyaDQ4Vjk2SDMyQzE0LjMzIDk2IDAgODEuNjcgMCA2NHptMTI4IDY0VjI4OGgxOTJWMTI4SDEyOHptMTkyIDE5MkgxMjh2MTI4aDE5MlYzMjB6Ii8+PC9zdmc+"/>
+        
+        <!-- 排序主题 -->
+        <rect x="320" y="500" width="140" height="60" rx="8" fill="#f0f5ff" stroke="#adc6ff" stroke-width="2"/>
+        <text x="390" y="530" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">排序主题</text>
+        <image x="365" y="540" width="50" height="50" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjMzQ5OGRiIiBkPSJNMTI4IDMyaDE5MnY2NEgxMjhWMzJ6TTM4NCAzMmg2NHYzODRoLTY0VjMyem0tMTI4IDk2aDE5MnY2NEgyNTZWMTI4em0tMTI4IDk2aDE5MnY2NEgxMjhWMjI0em0xMjggOTZoMTkydjY0SDI1NlYzMjB6bS0xMjggOTZoMTkydjY0SDEyOFY0MTZ6Ii8+PC9zdmc+"/>
+        
+        <!-- 连接线 -->
+        <path d="M120 90 L170 90" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M270 90 L320 90" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M390 120 L390 170" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M320 200 L280 200 L280 280" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M460 200 L500 200 L500 280" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M280 340 L280 420 L320 420" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M500 340 L500 420 L460 420" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        <path d="M390 450 L390 500" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)"/>
+        
+        <!-- 箭头标记 -->
+        <defs>
+            <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+                    refX="9" refY="3.5" orient="auto">
+                <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+            </marker>
+        </defs>
+        
+        <!-- 添加标签 -->
+        <text x="290" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">是</text>
+        <text x="490" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#666">否</text>
+    </g>
+    
+    <!-- 底部比喻说明 -->
+    <text x="400" y="480" font-family="Arial" font-size="12" text-anchor="middle" fill="#555" font-style="italic">
+        就像园丁规划花园，先收集各种植物种子，筛选适合的，然后按特性组织排列
+    </text>
+</svg>

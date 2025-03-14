@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">脊骨神经医学的三大支柱</text>
+  
+  <!-- Tree trunk (spine) -->
+  <path d="M400,500 C405,400 395,350 400,250 C405,150 395,100 400,80" stroke="#8B4513" stroke-width="25" fill="none"/>
+  
+  <!-- Roots -->
+  <path d="M400,500 C350,520 300,510 250,530" stroke="#8B4513" stroke-width="10" fill="none"/>
+  <path d="M400,500 C450,520 500,510 550,530" stroke="#8B4513" stroke-width="10" fill="none"/>
+  <path d="M400,500 C380,530 370,540 350,560" stroke="#8B4513" stroke-width="8" fill="none"/>
+  <path d="M400,500 C420,530 430,540 450,560" stroke="#8B4513" stroke-width="8" fill="none"/>
+  
+  <!-- Branches (nervous system) -->
+  <path d="M400,350 C350,320 300,330 250,300" stroke="#8B4513" stroke-width="8" fill="none"/>
+  <path d="M400,350 C450,320 500,330 550,300" stroke="#8B4513" stroke-width="8" fill="none"/>
+  <path d="M400,250 C360,230 330,240 300,200" stroke="#8B4513" stroke-width="6" fill="none"/>
+  <path d="M400,250 C440,230 470,240 500,200" stroke="#8B4513" stroke-width="6" fill="none"/>
+  <path d="M400,150 C380,130 370,120 350,100" stroke="#8B4513" stroke-width="4" fill="none"/>
+  <path d="M400,150 C420,130 430,120 450,100" stroke="#8B4513" stroke-width="4" fill="none"/>
+  
+  <!-- Leaves and fruits (health) -->
+  <circle cx="250" cy="300" r="40" fill="#a8d5ba" opacity="0.9"/>
+  <circle cx="550" cy="300" r="40" fill="#a8d5ba" opacity="0.9"/>
+  <circle cx="300" cy="200" r="35" fill="#a8d5ba" opacity="0.9"/>
+  <circle cx="500" cy="200" r="35" fill="#a8d5ba" opacity="0.9"/>
+  <circle cx="350" cy="100" r="30" fill="#a8d5ba" opacity="0.9"/>
+  <circle cx="450" cy="100" r="30" fill="#a8d5ba" opacity="0.9"/>
+  <circle cx="400" cy="80" r="35" fill="#a8d5ba" opacity="0.9"/>
+  
+  <!-- Three pillars -->
+  <rect x="150" y="520" width="120" height="60" rx="5" ry="5" fill="#e6f2ff" stroke="#4d94ff" stroke-width="2"/>
+  <rect x="340" y="520" width="120" height="60" rx="5" ry="5" fill="#e6f2ff" stroke="#4d94ff" stroke-width="2"/>
+  <rect x="530" y="520" width="120" height="60" rx="5" ry="5" fill="#e6f2ff" stroke="#4d94ff" stroke-width="2"/>
+  
+  <text x="210" y="555" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">哲学</text>
+  <text x="400" y="555" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">科学</text>
+  <text x="590" y="555" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#333">艺术</text>
+  
+  <!-- Adjustment hands -->
+  <path d="M320,350 C310,340 300,345 290,350 C280,355 270,360 280,370 C290,380 310,375 320,365 Z" fill="#f9d6c5" stroke="#333" stroke-width="1"/>
+  <path d="M480,350 C490,340 500,345 510,350 C520,355 530,360 520,370 C510,380 490,375 480,365 Z" fill="#f9d6c5" stroke="#333" stroke-width="1"/>
+  
+  <!-- Caption -->
+  <rect x="100" y="420" width="600" height="60" rx="5" ry="5" fill="white" stroke="#ddd" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="445" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">
+    <tspan x="400" dy="0">脊骨神经医学如同园丁照料生命之树，</tspan>
+    <tspan x="400" dy="20">通过调整树干（脊柱）来促进枝叶（身体各部分）的健康生长。</tspan>
+  </text>
+</svg>

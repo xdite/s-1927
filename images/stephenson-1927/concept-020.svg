@@ -1,0 +1,56 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="600" height="400" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- 中央控制塔（脊髓） -->
+  <rect x="50" y="150" width="80" height="100" fill="#f9d5e5" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <text x="90" y="205" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">脊髓</text>
+  <text x="90" y="225" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">(中央控制塔)</text>
+  
+  <!-- 主干道（神经） -->
+  <path d="M 130 200 L 220 200" stroke="#6a8caf" stroke-width="8" fill="none"/>
+  <text x="175" y="185" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">神经</text>
+  <text x="175" y="165" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">(主干道)</text>
+  
+  <!-- 交叉路口（神经丛） -->
+  <circle cx="300" cy="200" r="60" fill="#a8d5ba" stroke="#333" stroke-width="2"/>
+  <text x="300" y="195" font-family="Arial" font-size="14" text-anchor="middle" fill="#333">神经丛</text>
+  <text x="300" y="215" font-family="Arial" font-size="10" text-anchor="middle" fill="#555">(交通枢纽)</text>
+  
+  <!-- 从交叉路口发出的道路（分布到组织） -->
+  <path d="M 350 170 Q 420 120, 500 100" stroke="#6a8caf" stroke-width="5" fill="none"/>
+  <path d="M 350 200 L 500 200" stroke="#6a8caf" stroke-width="5" fill="none"/>
+  <path d="M 350 230 Q 420 280, 500 300" stroke="#6a8caf" stroke-width="5" fill="none"/>
+  
+  <!-- 组织终点 -->
+  <rect x="500" y="80" width="70" height="40" fill="#ffd78c" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <text x="535" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">上肢</text>
+  
+  <rect x="500" y="180" width="70" height="40" fill="#ffd78c" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <text x="535" y="205" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">躯干</text>
+  
+  <rect x="500" y="280" width="70" height="40" fill="#ffd78c" stroke="#333" stroke-width="2" rx="5" ry="5"/>
+  <text x="535" y="305" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">下肢</text>
+  
+  <!-- 装饰性元素：小信号图标 -->
+  <circle cx="155" cy="200" r="3" fill="#e74c3c">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="260" cy="200" r="3" fill="#e74c3c">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  
+  <!-- 在神经丛内部添加交叉线条 -->
+  <path d="M 270 180 L 330 220" stroke="#4a6c8f" stroke-width="2" fill="none"/>
+  <path d="M 270 220 L 330 180" stroke="#4a6c8f" stroke-width="2" fill="none"/>
+  <path d="M 280 160 L 320 240" stroke="#4a6c8f" stroke-width="2" fill="none"/>
+  <path d="M 280 240 L 320 160" stroke="#4a6c8f" stroke-width="2" fill="none"/>
+  
+  <!-- 标题 -->
+  <text x="300" y="40" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#333">神经丛：神经系统的交通枢纽</text>
+  
+  <!-- 解释文本 -->
+  <text x="300" y="370" font-family="Arial" font-size="12" text-anchor="middle" fill="#555" font-style="italic">
+    神经丛就像城市中的交通枢纽，将单一来源的信号重新组织并分配到多个目的地
+  </text>
+</svg>
